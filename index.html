@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wiki Leerapp</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
       --bg:      #0f0f0f;
@@ -192,7 +192,7 @@
 
     #les-voortgang {
       display: none;
-      height: 3px;
+      height: 4px;
       background: var(--border);
     }
 
@@ -574,57 +574,61 @@
       text-align: center;
     }
 
+    /* ════════════════════════════════════════
+       LES SCHERM — READER STYLE (Image 2)
+    ════════════════════════════════════════ */
+
     #les-scherm {
       display: none;
       max-width: 680px;
       margin: 0 auto;
-      padding: 2.5rem 1.5rem 5rem;
+      padding: 0 0 5rem;
       width: 100%;
     }
 
     #les-scherm.zichtbaar { display: block; }
 
-    .sectie-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.1em;
+    /* Centered reader header like Image 2 */
+    .reader-header {
+      text-align: center;
+      padding: 2.5rem 2rem 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .reader-artikel-naam {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .reader-sectie-naam {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
       color: var(--les-kleur);
       margin-bottom: 0.4rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      transition: color 0.4s ease;
     }
 
-    .sectie-nummer { color: var(--muted); }
-
-    .sectie-label-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--les-kleur);
-      flex-shrink: 0;
-      display: none;
-    }
-
-    .sectie-label-dot.zichtbaar { display: block; }
-
-    .sectie-titel {
-      font-family: 'Lora', serif;
-      font-size: clamp(1.4rem, 4vw, 2rem);
-      font-weight: 600;
-      line-height: 1.25;
-      margin-bottom: 2rem;
+    .reader-pagina {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text);
     }
 
     .sectie-tekst {
       font-family: 'Lora', serif;
-      font-size: 1.05rem;
-      line-height: 1.9;
+      font-size: 1.1rem;
+      line-height: 1.95;
       color: var(--text);
-      margin-bottom: 2rem;
+      padding: 0 2rem 2rem;
     }
 
-    .sectie-tekst p { margin-bottom: 1.1rem; }
+    .sectie-tekst p { margin-bottom: 1.25rem; }
     .sectie-tekst p:last-child { margin-bottom: 0; }
 
     .tijdlijn-wrap {
@@ -632,7 +636,7 @@
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 1.25rem 1.5rem;
-      margin-bottom: 2rem;
+      margin: 0 2rem 2rem;
     }
 
     .tijdlijn-kop {
@@ -661,92 +665,148 @@
       flex-shrink: 0;
     }
 
-    .vragen-scheiding {
-      border: none;
+    /* ════════════════════════════════════════
+       GELEZEN KNOP — bottom bar style
+    ════════════════════════════════════════ */
+
+    #knop-gelezen-wrap {
+      display: none;
+      padding: 1.5rem 2rem;
       border-top: 1px solid var(--border);
-      margin: 2.5rem 0;
+      margin-top: 1rem;
     }
+
+    .knop-gelezen {
+      width: 100%;
+      background: var(--les-kleur);
+      color: rgba(0,0,0,0.85);
+      border: none;
+      padding: 1rem 2rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      letter-spacing: 0.01em;
+    }
+
+    .knop-gelezen:hover { opacity: 0.88; transform: translateY(-1px); }
+    .knop-gelezen:active { transform: translateY(0); opacity: 1; }
+
+    /* ════════════════════════════════════════
+       VRAGEN SECTIE — Duolingo style (Image 1)
+    ════════════════════════════════════════ */
+
+    #vragen-sectie {
+      padding: 0 0 1rem;
+    }
+
+    .vragen-scheiding { display: none; }
 
     .vragen-kop {
       font-size: 0.72rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 1.5rem;
+      padding: 0 2rem;
+      margin-bottom: 1rem;
     }
 
+    /* The big colored question card */
     .vraag-blok {
-      margin-bottom: 1.5rem;
-      padding: 1.1rem 1.2rem;
-      background: rgba(var(--les-kleur-rgb), 0.05);
-      border: 1px solid rgba(var(--les-kleur-rgb), 0.15);
-      border-radius: 8px;
-      transition: background 0.4s ease, border-color 0.4s ease;
+      margin: 0 0 1rem;
+      padding: 2rem 1.75rem;
+      background: var(--les-kleur) !important;
+      border: none !important;
+      border-radius: 0;
+      position: relative;
+    }
+
+    .vraag-blok:first-of-type {
+      border-radius: 0;
+    }
+
+    /* Within SR review, keep subtle style */
+    .sr-vragen-inhoud .vraag-blok {
+      background: rgba(var(--les-kleur-rgb), 0.05) !important;
+      border: 1px solid rgba(var(--les-kleur-rgb), 0.15) !important;
+      border-radius: 8px !important;
     }
 
     .vraag-tekst {
       font-size: 1rem;
-      font-weight: 500;
-      line-height: 1.5;
-      margin-bottom: 1rem;
-      color: var(--text);
+      font-weight: 600;
+      line-height: 1.55;
+      margin-bottom: 1.25rem;
+      color: rgba(0,0,0,0.88);
     }
 
+    /* White rounded option buttons like Image 1 */
     .opties-grid {
       display: flex;
       flex-direction: column;
-      gap: 0.6rem;
+      gap: 0.75rem;
     }
 
     .optie-knop {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 0.85rem 1.1rem;
-      border-radius: 6px;
+      background: #fff !important;
+      border: none !important;
+      border-bottom: 3px solid rgba(0,0,0,0.15) !important;
+      color: #2a2424 !important;
+      padding: 1.1rem 1.25rem !important;
+      border-radius: 14px !important;
       cursor: pointer;
       text-align: left;
       font-family: 'DM Sans', sans-serif;
-      font-size: 0.95rem;
-      transition: border-color 0.15s, background 0.15s;
+      font-size: 1rem !important;
+      font-weight: 600 !important;
+      transition: transform 0.1s, opacity 0.15s;
       line-height: 1.4;
     }
 
     .optie-knop:hover:not(:disabled) {
-      border-color: var(--les-kleur);
-      background: var(--bg3);
+      transform: translateY(-1px);
+      opacity: 0.92;
     }
 
-    .optie-knop.goed {
-      border-color: var(--goed);
-      background: rgba(90, 158, 122, 0.12);
-      color: var(--goed);
-    }
-
-    .optie-knop.fout {
-      border-color: var(--fout);
-      background: rgba(196, 106, 90, 0.1);
-      color: var(--fout);
-    }
-
-    .optie-knop.gemist {
-      border-color: var(--goed);
-      color: var(--goed);
-      opacity: 0.6;
+    .optie-knop:active:not(:disabled) {
+      transform: translateY(1px);
+      border-bottom-width: 1px !important;
     }
 
     .optie-knop:disabled { cursor: default; }
 
+    .optie-knop.goed {
+      background: #3c9e6a !important;
+      color: #fff !important;
+      border-bottom-color: rgba(0,0,0,0.2) !important;
+    }
+
+    .optie-knop.fout {
+      background: #cc5844 !important;
+      color: #fff !important;
+      border-bottom-color: rgba(0,0,0,0.2) !important;
+    }
+
+    .optie-knop.gemist {
+      background: rgba(255,255,255,0.55) !important;
+      color: #3c9e6a !important;
+      outline: 2px solid #3c9e6a;
+      outline-offset: -2px;
+    }
+
     .feedback {
-      margin-top: 0.6rem;
-      font-size: 0.85rem;
-      font-weight: 500;
+      margin-top: 0.85rem;
+      font-size: 0.9rem;
+      font-weight: 700;
       min-height: 1.2rem;
     }
 
-    .feedback.goed { color: var(--goed); }
-    .feedback.fout { color: var(--fout); }
+    .feedback.goed { color: rgba(0,0,0,0.75); }
+    .feedback.fout { color: rgba(0,0,0,0.75); }
 
+    /* Open question input inside colored card */
     .open-invoer-wrap {
       display: flex;
       gap: 0.6rem;
@@ -756,42 +816,169 @@
     .open-invoer {
       flex: 1;
       min-width: 200px;
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 0.8rem 1rem;
-      border-radius: 6px;
+      background: rgba(255,255,255,0.92);
+      border: none;
+      border-bottom: 3px solid rgba(0,0,0,0.15);
+      color: #2a2424;
+      padding: 0.9rem 1rem;
+      border-radius: 12px;
       font-family: 'DM Sans', sans-serif;
       font-size: 1rem;
+      font-weight: 600;
       outline: none;
-      transition: border-color 0.15s;
+      transition: box-shadow 0.15s;
     }
 
-    .open-invoer:focus { border-color: var(--les-kleur); }
-    .open-invoer:disabled { opacity: 0.5; }
-    .open-invoer.goed { border-color: var(--goed); }
-    .open-invoer.fout { border-color: var(--fout); }
+    .open-invoer:focus {
+      box-shadow: 0 0 0 2px rgba(0,0,0,0.25);
+    }
+
+    .open-invoer:disabled { opacity: 0.6; }
+
+    .open-invoer.goed {
+      background: #3c9e6a !important;
+      color: white;
+    }
+
+    .open-invoer.fout {
+      background: #cc5844 !important;
+      color: white;
+    }
 
     .open-invoer-knop {
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 0.8rem 1.2rem;
-      border-radius: 6px;
+      background: rgba(0,0,0,0.18);
+      border: none;
+      color: rgba(0,0,0,0.75);
+      padding: 0.9rem 1.2rem;
+      border-radius: 12px;
       cursor: pointer;
       font-family: 'DM Sans', sans-serif;
       font-size: 0.9rem;
-      transition: border-color 0.15s;
+      font-weight: 700;
+      transition: background 0.15s;
       white-space: nowrap;
     }
 
-    .open-invoer-knop:hover:not(:disabled) { border-color: var(--les-kleur); }
+    .open-invoer-knop:hover:not(:disabled) {
+      background: rgba(0,0,0,0.28);
+    }
+
     .open-invoer-knop:disabled { opacity: 0.4; cursor: default; }
 
+    /* SR review — keep open invoer fields dark */
+    #sr-vragen-inhoud .open-invoer {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    #sr-vragen-inhoud .open-invoer:focus {
+      border-color: var(--les-kleur);
+      box-shadow: none;
+    }
+
+    #sr-vragen-inhoud .open-invoer-knop {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+    }
+
+    #sr-vragen-inhoud .open-invoer-knop:hover:not(:disabled) {
+      border-color: var(--les-kleur);
+    }
+
+    #sr-vragen-inhoud .vraag-tekst {
+      color: var(--text);
+    }
+
+    #sr-vragen-inhoud .optie-knop {
+      background: var(--bg2) !important;
+      border: 1px solid var(--border) !important;
+      border-bottom: 1px solid var(--border) !important;
+      color: var(--text) !important;
+      border-radius: 6px !important;
+      font-weight: 400 !important;
+    }
+
+    #sr-vragen-inhoud .optie-knop:hover:not(:disabled) {
+      border-color: var(--les-kleur) !important;
+      background: var(--bg3) !important;
+    }
+
+    #sr-vragen-inhoud .optie-knop.goed {
+      border-color: var(--goed) !important;
+      background: rgba(90, 158, 122, 0.12) !important;
+      color: var(--goed) !important;
+    }
+
+    #sr-vragen-inhoud .optie-knop.fout {
+      border-color: var(--fout) !important;
+      background: rgba(196, 106, 90, 0.1) !important;
+      color: var(--fout) !important;
+    }
+
+    #sr-vragen-inhoud .optie-knop.gemist {
+      border-color: var(--goed) !important;
+      color: var(--goed) !important;
+      background: none !important;
+      outline: none;
+      opacity: 0.6;
+    }
+
+    #sr-vragen-inhoud .feedback.goed { color: var(--goed); }
+    #sr-vragen-inhoud .feedback.fout { color: var(--fout); }
+
+    /* ════════════════════════════════════════
+       SECTIE NAV — bottom pill buttons (Image 1 style)
+    ════════════════════════════════════════ */
+
     .sectie-nav {
-      margin-top: 2.5rem;
       display: flex;
-      justify-content: flex-end;
+      gap: 0.75rem;
+      padding: 1.25rem 2rem 0.5rem;
+      align-items: stretch;
+    }
+
+    .knop-weetniets {
+      flex: 1;
+      background: var(--bg2);
+      border: 2px solid var(--border);
+      color: var(--muted);
+      padding: 1rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .knop-weetniets:hover { border-color: var(--fout); color: var(--fout); }
+
+    #knop-volgende {
+      flex: 1.5;
+      background: var(--les-kleur);
+      color: rgba(0,0,0,0.85);
+      border: none;
+      padding: 1rem 1.5rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s, background 0.4s ease;
+      letter-spacing: 0.01em;
+    }
+
+    #knop-volgende:hover:not(:disabled) { opacity: 0.88; transform: translateY(-1px); }
+    #knop-volgende:active:not(:disabled) { transform: translateY(0); }
+    #knop-volgende:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+      transform: none;
     }
 
     #klaar-scherm {
@@ -895,16 +1082,26 @@
       .key-kaart { padding: 1.75rem 1.25rem; }
       .sr-review-wrap { padding: 1.25rem; }
       .knop-primair { padding: 0.85rem 1.5rem; font-size: 0.95rem; }
-      .optie-knop { padding: 0.9rem 1rem; font-size: 0.9rem; }
       .layout-toggle { display: none; }
+      .reader-header { padding: 2rem 1.25rem 1.75rem; }
+      .sectie-tekst { padding: 0 1.25rem 2rem; }
+      .tijdlijn-wrap { margin: 0 1.25rem 2rem; }
+      .knop-gelezen { padding: 0.9rem; }
+      #knop-gelezen-wrap { padding: 1.25rem; }
+      .sectie-nav { padding: 1rem 0 0.5rem; }
+      .vraag-blok { padding: 1.5rem 1.25rem; }
     }
 
-    body.layout-telefoon .sectie-titel { font-size: 1.4rem; }
-    body.layout-telefoon .sectie-tekst { font-size: 1rem; line-height: 1.75; }
-    body.layout-telefoon #les-scherm { padding: 2rem 1.25rem 5rem; }
+    body.layout-telefoon .sectie-tekst { font-size: 1.05rem; line-height: 1.85; }
+    body.layout-telefoon #les-scherm { padding: 0 0 5rem; }
     body.layout-telefoon header { padding-left: 1.25rem; padding-right: 1.25rem; }
     body.layout-telefoon .datum { display: none; }
     body.layout-telefoon #homescreen { padding: 2rem 1.25rem; }
+    body.layout-telefoon .reader-header { padding: 2rem 1.25rem 1.5rem; }
+    body.layout-telefoon .sectie-tekst { padding: 0 1.25rem 2rem; }
+    body.layout-telefoon .tijdlijn-wrap { margin: 0 1.25rem 2rem; }
+    body.layout-telefoon #knop-gelezen-wrap { padding: 1.25rem; }
+    body.layout-telefoon .sectie-nav { padding: 1rem 0 0.5rem; }
 
     .layout-indicator { display: none; }
 
@@ -941,6 +1138,35 @@
     #toast.zichtbaar {
       opacity: 1;
       transform: translateX(-50%) translateY(0);
+    }
+
+    /* Herhaling header styling */
+    .herhaling-header {
+      text-align: center;
+      padding: 2.5rem 2rem 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+
+    .herhaling-label {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .herhaling-titel {
+      font-family: 'Lora', serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+
+    .herhaling-sub {
+      font-size: 0.85rem;
+      color: var(--muted);
     }
   </style>
 </head>
@@ -1050,7 +1276,7 @@
           <div class="sr-review-sub" id="sr-review-sub">Laden...</div>
         </div>
       </div>
-      <div id="sr-vragen-inhoud"></div>
+      <div id="sr-vragen-inhoud" class="sr-vragen-inhoud"></div>
       <div id="sr-klaar-balk" class="sr-klaar-balk" style="display:none">
         <div class="sr-score-tekst" id="sr-score-tekst"></div>
         <button class="knop-primair" onclick="afrondSRReview()">Doorgaan naar les →</button>
@@ -1081,33 +1307,42 @@
 
   <!-- ═══ LES SCHERM ═══ -->
   <div id="les-scherm">
-    <div class="sectie-label">
-      <span class="sectie-label-dot" id="sectie-label-dot"></span>
-      <span id="sectie-label-tekst">Sectie</span>
-      <span class="sectie-nummer" id="sectie-nummer-tekst"></span>
+
+    <!-- Reader header — Image 2 style: centered 3-line header -->
+    <div class="reader-header">
+      <div class="reader-artikel-naam" id="sectie-label-tekst"></div>
+      <div class="reader-sectie-naam" id="sectie-titel"></div>
+      <div class="reader-pagina" id="sectie-nummer-tekst"></div>
+      <!-- Hidden dot kept for JS compat -->
+      <span id="sectie-label-dot" style="display:none"></span>
     </div>
-    <div class="sectie-titel" id="sectie-titel"></div>
+
     <div class="sectie-tekst" id="sectie-tekst"></div>
+
     <div id="tijdlijn-wrap" class="tijdlijn-wrap" style="display:none">
       <div class="tijdlijn-kop">Tijdlijn</div>
       <div id="tijdlijn-inhoud"></div>
     </div>
 
+    <!-- "Ik heb dit gelezen" bottom bar -->
+    <div id="knop-gelezen-wrap" style="display:none">
+      <button class="knop-gelezen" onclick="toonVragen()">
+        Ik heb dit gelezen →
+      </button>
+    </div>
+
+    <!-- Questions section — Duolingo style -->
     <div id="vragen-sectie" style="display:none">
-      <hr class="vragen-scheiding"/>
       <div class="vragen-kop">Test jezelf</div>
       <div id="vragen-inhoud"></div>
       <div class="sectie-nav">
-        <button class="knop-primair" id="knop-volgende" onclick="volgendeSectie()" disabled>
+        <button class="knop-weetniets" id="knop-weetniets" onclick="markeerAllesFout()" style="display:none">
+          Ik weet het niet
+        </button>
+        <button id="knop-volgende" onclick="volgendeSectie()" disabled>
           Volgende →
         </button>
       </div>
-    </div>
-
-    <div class="sectie-nav" id="knop-gelezen-wrap">
-      <button class="knop-secundair" onclick="toonVragen()">
-        Ik heb dit gelezen →
-      </button>
     </div>
   </div>
 
@@ -1128,7 +1363,7 @@
   const LS_KEY          = 'wikileer_api_key';
   const LS_SR           = 'wikileer_sr';
   const LS_LAST_SESSION = 'wikileer_last_session';
-  const LS_LAYOUT       = 'wikileer_layout';   // ← blijft in localStorage (sync UI)
+  const LS_LAYOUT       = 'wikileer_layout';
   const LS_CATS         = 'wikileer_categories';
   const MAX_TEKST       = 6000;
 
@@ -1142,7 +1377,6 @@
   const STORE_KV  = 'kv';
   let db = null;
 
-  /** Open (of maak) de database aan. */
   function openDB() {
     return new Promise((resolve, reject) => {
       const req = indexedDB.open(DB_NAAM, DB_VERSIE);
@@ -1190,11 +1424,6 @@
     });
   }
 
-  /**
-   * Eenmalige migratie: verplaats alle wikileer_*-sleutels
-   * van localStorage naar IndexedDB.
-   * Layout-voorkeur blijft in localStorage (synchrone UI-behoefte).
-   */
   async function migreerVanLocalStorage() {
     const alGedaan = await dbGet('_migratie_gedaan');
     if (alGedaan) return;
@@ -1223,7 +1452,7 @@
   }
 
   // ════════════════════════════════════════
-  // OPSLAG HELPERS  (lezen → await vereist; schrijven → fire-and-forget ok)
+  // OPSLAG HELPERS
   // ════════════════════════════════════════
 
   async function haalKey() {
@@ -1243,7 +1472,6 @@
 
   async function slaLesOp(lesObj) {
     try {
-      // Verwijder verouderde les-caches om ruimte te sparen
       const sleutels = await dbGetAllKeys();
       for (const k of sleutels) {
         if (typeof k === 'string' && k.startsWith('wikileer_les_') && k !== vandaagSleutel()) {
@@ -1265,7 +1493,6 @@
     try { await dbSet(LS_SR, JSON.stringify(data)); } catch {}
   }
 
-  // ── Voortgang per dag ──
   function vandaagProgSleutel() {
     return 'wikileer_prog_' + new Date().toISOString().slice(0, 10);
   }
@@ -1291,7 +1518,6 @@
     await slaSRDataOp(sr);
   }
 
-  // ── Categorieën ──
   async function haalCategorieën() {
     try {
       const raw = await dbGet(LS_CATS);
@@ -1336,7 +1562,7 @@
   let huidigeCategorieNaam  = '';
 
   // ════════════════════════════════════════
-  // LAYOUT TOGGLE  (layout blijft in localStorage — sync UI-behoefte bij start)
+  // LAYOUT TOGGLE
   // ════════════════════════════════════════
   function setLayout(modus) {
     localStorage.setItem(LS_LAYOUT, modus);
@@ -1384,7 +1610,7 @@
   }
 
   // ════════════════════════════════════════
-  // MEMORY SHIELD — SR ALGORITME
+  // SR ALGORITME
   // ════════════════════════════════════════
   function getMaxStep(strength) {
     if (strength < 20) return 0;
@@ -1418,10 +1644,6 @@
       });
   }
 
-  /**
-   * Registreer een antwoord in het SR-systeem.
-   * Async — mag fire-and-forget worden aangeroepen vanuit event handlers.
-   */
   async function registreerAntwoord({ id, vraag, type, antwoordData, goed }) {
     const sr  = await haalSRData();
     const idx = sr.findIndex(v => v.id === id);
@@ -1543,7 +1765,7 @@
       melding.textContent   = `✓ Klaar met "${cache.titel}"`;
       melding.style.display = 'block';
     } else if (voortgang && !voortgang.voltooid) {
-      const sectieTekst     = `deel ${voortgang.sectieIndex + 1} van ${cache.secties.length}`;
+      const sectieTekst     = `pagina ${voortgang.sectieIndex + 1} van ${cache.secties.length}`;
       knopLes.innerHTML     = `Les hervatten <span class="hervatten-badge">bij ${sectieTekst}</span>`;
       knopLes.onclick       = maakLes;
       knopLes.style.display = '';
@@ -1567,7 +1789,7 @@
   }
 
   // ════════════════════════════════════════
-  // SR REVIEW  (registreerAntwoord = fire-and-forget in event handlers)
+  // SR REVIEW
   // ════════════════════════════════════════
   function toonSRReview(dueItems) {
     const wrap = document.getElementById('sr-review-wrap');
@@ -1628,7 +1850,7 @@
       if (item.type === 'meerkeuze') {
         blok.innerHTML = `
           ${sterkteMeter}
-          <div class="vraag-tekst">${hi + 1}. ${item.vraag}</div>
+          <div class="vraag-tekst" style="color:var(--text)">${hi + 1}. ${item.vraag}</div>
           <div class="opties-grid" id="sr-opties-${hi}">
             ${item.opties.map((opt, oi) =>
               `<button class="optie-knop" data-oi="${oi}">${opt}</button>`
@@ -1652,12 +1874,12 @@
             const fb = document.getElementById(`sr-feedback-${hi}`);
             fb.textContent = goed ? '✓ Correct!' : `✗ Het juiste antwoord is: ${item.goed}`;
             fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
+            fb.style.color = goed ? 'var(--goed)' : 'var(--fout)';
 
-            // Tijdelijk categoriecontext instellen voor registreerAntwoord
             const voorheen = [huidigeCategorieKleur, huidigeCategorieNaam];
             huidigeCategorieKleur = itemKleur;
             huidigeCategorieNaam  = item.categorieNaam || '';
-            registreerAntwoord({   // fire-and-forget
+            registreerAntwoord({
               id: item.id, vraag: item.vraag, type: 'meerkeuze',
               antwoordData: { opties: item.opties, goed: item.goed }, goed
             });
@@ -1671,7 +1893,7 @@
       } else {
         blok.innerHTML = `
           ${sterkteMeter}
-          <div class="vraag-tekst">${hi + 1}. ${item.vraag}</div>
+          <div class="vraag-tekst" style="color:var(--text)">${hi + 1}. ${item.vraag}</div>
           <div class="open-invoer-wrap">
             <input type="text" class="open-invoer" id="sr-open-${hi}" placeholder="Jouw antwoord..."/>
             <button class="open-invoer-knop" id="sr-knop-${hi}">Controleer</button>
@@ -1697,11 +1919,12 @@
           const fb = document.getElementById(`sr-feedback-${hi}`);
           fb.textContent = goed ? '✓ Correct!' : `✗ Het antwoord was: ${item.antwoord}`;
           fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
+          fb.style.color = goed ? 'var(--goed)' : 'var(--fout)';
 
           const voorheen = [huidigeCategorieKleur, huidigeCategorieNaam];
           huidigeCategorieKleur = itemKleur;
           huidigeCategorieNaam  = item.categorieNaam || '';
-          registreerAntwoord({   // fire-and-forget
+          registreerAntwoord({
             id: item.id, vraag: item.vraag, type: 'open',
             antwoordData: { antwoord: item.antwoord }, goed
           });
@@ -1745,7 +1968,7 @@
       melding.textContent = `✓ Klaar met "${cache.titel}"`;
       melding.style.display = 'block';
     } else if (voortgang && !voortgang.voltooid) {
-      const sectieTekst   = `deel ${voortgang.sectieIndex + 1} van ${cache.secties.length}`;
+      const sectieTekst   = `pagina ${voortgang.sectieIndex + 1} van ${cache.secties.length}`;
       knopLes.innerHTML   = `Les hervatten <span class="hervatten-badge">bij ${sectieTekst}</span>`;
       knopLes.onclick     = maakLes;
       melding.textContent = `Bezig met "${cache.titel}"`;
@@ -2013,7 +2236,6 @@ ${ingekorte}`;
       throw new Error('Kon JSON niet verwerken. Eerste 300 tekens: ' + ruwe.slice(0, 300));
     }
 
-    // Registreer de nieuwe/bestaande categorie in IndexedDB
     if (lesObj.categorie && lesObj.categorieKleur) {
       await registreerCategorie(lesObj.categorie, lesObj.categorieKleur);
     }
@@ -2087,6 +2309,7 @@ ${ingekorte}`;
   // ════════════════════════════════════════
   let huidigeSectie    = 0;
   let sessieAntwoorden = [];
+  let huidigeVraagState = [];
 
   function updateVoortgangsbalk() {
     const pct = Math.round((huidigeSectie / lesData.secties.length) * 100);
@@ -2114,24 +2337,21 @@ ${ingekorte}`;
   function toonSectie(index) {
     const sectie = lesData.secties[index];
     const totaal = lesData.secties.length;
+    huidigeVraagState = [];
 
     updateVoortgangsbalk();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    slaVoortgangOp({ sectieIndex: index, voltooid: false, titel: artikelTitel }); // fire-and-forget
+    slaVoortgangOp({ sectieIndex: index, voltooid: false, titel: artikelTitel });
 
+    // Reader header — Image 2 style
     document.getElementById('sectie-label-tekst').textContent  = artikelTitel;
-    document.getElementById('sectie-nummer-tekst').textContent = ` — deel ${index + 1} van ${totaal}`;
     document.getElementById('sectie-titel').textContent        = sectie.titel;
+    document.getElementById('sectie-nummer-tekst').textContent = `Pagina ${index + 1} van ${totaal}`;
 
+    // Sync category color dot (hidden, for JS compat only)
     const dot = document.getElementById('sectie-label-dot');
-    if (huidigeCategorieKleur) {
-      dot.style.background = huidigeCategorieKleur;
-      dot.classList.add('zichtbaar');
-      dot.title = huidigeCategorieNaam || '';
-    } else {
-      dot.classList.remove('zichtbaar');
-    }
+    if (huidigeCategorieKleur) dot.style.background = huidigeCategorieKleur;
 
     const tekstEl = document.getElementById('sectie-tekst');
     tekstEl.innerHTML = '';
@@ -2155,23 +2375,27 @@ ${ingekorte}`;
     }
 
     document.getElementById('vragen-sectie').style.display     = 'none';
-    document.getElementById('knop-gelezen-wrap').style.display = 'flex';
+    document.getElementById('knop-gelezen-wrap').style.display = 'block';
     document.getElementById('knop-volgende').disabled          = true;
+    document.getElementById('knop-volgende').textContent       = index === totaal - 1 ? 'Afronden →' : 'Volgende →';
   }
 
   function toonVragen() {
     document.getElementById('knop-gelezen-wrap').style.display = 'none';
     document.getElementById('vragen-sectie').style.display     = 'block';
+    document.getElementById('knop-weetniets').style.display    = 'inline-block';
 
     const sectie = lesData.secties[huidigeSectie];
     const inhoud = document.getElementById('vragen-inhoud');
     inhoud.innerHTML = '';
 
-    const vraagState = sectie.vragen.map(() => ({ beantwoord: false }));
+    huidigeVraagState = sectie.vragen.map(() => ({ beantwoord: false }));
 
     function checkAlles() {
-      if (vraagState.every(v => v.beantwoord))
-        document.getElementById('knop-volgende').disabled = false;
+      if (huidigeVraagState.every(v => v.beantwoord)) {
+        document.getElementById('knop-volgende').disabled      = false;
+        document.getElementById('knop-weetniets').style.display = 'none';
+      }
     }
 
     sectie.vragen.forEach((vraag, vi) => {
@@ -2191,7 +2415,7 @@ ${ingekorte}`;
         `;
         blok.querySelectorAll('.optie-knop').forEach(knop => {
           knop.addEventListener('click', function () {
-            if (vraagState[vi].beantwoord) return;
+            if (huidigeVraagState[vi].beantwoord) return;
             const gekozen = vraag.opties[parseInt(this.dataset.oi)];
             const goed    = gekozen === vraag.goed;
 
@@ -2207,12 +2431,12 @@ ${ingekorte}`;
             fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
 
             sessieAntwoorden.push({ sectieIndex: huidigeSectie, vraagIndex: vi, id: vraagId, goed });
-            registreerAntwoord({   // fire-and-forget
+            registreerAntwoord({
               id: vraagId, vraag: vraag.vraag, type: 'meerkeuze',
               antwoordData: { opties: vraag.opties, goed: vraag.goed }, goed
             });
 
-            vraagState[vi].beantwoord = true;
+            huidigeVraagState[vi].beantwoord = true;
             checkAlles();
           });
         });
@@ -2230,7 +2454,7 @@ ${ingekorte}`;
         const knopEl   = blok.querySelector(`#open-knop-${vi}`);
 
         const controleer = () => {
-          if (vraagState[vi].beantwoord) return;
+          if (huidigeVraagState[vi].beantwoord) return;
           const invoer = invoerEl.value.trim();
           if (!invoer) return;
 
@@ -2244,12 +2468,12 @@ ${ingekorte}`;
           fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
 
           sessieAntwoorden.push({ sectieIndex: huidigeSectie, vraagIndex: vi, id: vraagId, goed });
-          registreerAntwoord({   // fire-and-forget
+          registreerAntwoord({
             id: vraagId, vraag: vraag.vraag, type: 'open',
             antwoordData: { antwoord: vraag.antwoord }, goed
           });
 
-          vraagState[vi].beantwoord = true;
+          huidigeVraagState[vi].beantwoord = true;
           checkAlles();
         };
 
@@ -2261,6 +2485,49 @@ ${ingekorte}`;
     });
 
     window.scrollTo({ top: document.getElementById('vragen-sectie').offsetTop - 80, behavior: 'smooth' });
+  }
+
+  // "Ik weet het niet" — marks all unanswered questions as wrong
+  function markeerAllesFout() {
+    const sectie = lesData.secties[huidigeSectie];
+    sectie.vragen.forEach((vraag, vi) => {
+      if (huidigeVraagState[vi].beantwoord) return;
+
+      const vraagId = maakVraagId(artikelTitel, huidigeSectie, vi);
+
+      if (vraag.type === 'meerkeuze') {
+        const opties = document.querySelectorAll(`#opties-${vi} .optie-knop`);
+        opties.forEach(k => {
+          k.disabled = true;
+          if (k.textContent === vraag.goed) k.classList.add('goed');
+        });
+        const fb = document.getElementById(`feedback-${vi}`);
+        fb.textContent = `✗ Het juiste antwoord is: ${vraag.goed}`;
+        fb.className = 'feedback fout';
+      } else {
+        const invoerEl = document.getElementById(`open-invoer-${vi}`);
+        const knopEl   = document.getElementById(`open-knop-${vi}`);
+        if (invoerEl) { invoerEl.disabled = true; invoerEl.classList.add('fout'); }
+        if (knopEl) knopEl.disabled = true;
+        const fb = document.getElementById(`feedback-${vi}`);
+        fb.textContent = `✗ Het antwoord was: ${vraag.antwoord}`;
+        fb.className = 'feedback fout';
+      }
+
+      sessieAntwoorden.push({ sectieIndex: huidigeSectie, vraagIndex: vi, id: vraagId, goed: false });
+      registreerAntwoord({
+        id: vraagId, vraag: vraag.vraag, type: vraag.type,
+        antwoordData: vraag.type === 'meerkeuze'
+          ? { opties: vraag.opties, goed: vraag.goed }
+          : { antwoord: vraag.antwoord },
+        goed: false
+      });
+
+      huidigeVraagState[vi].beantwoord = true;
+    });
+
+    document.getElementById('knop-volgende').disabled      = false;
+    document.getElementById('knop-weetniets').style.display = 'none';
   }
 
   // ── Fuzzy matching ──
@@ -2305,8 +2572,6 @@ ${ingekorte}`;
       startHerhaling();
     } else {
       toonSectie(huidigeSectie);
-      if (huidigeSectie === lesData.secties.length - 1)
-        document.getElementById('knop-volgende').textContent = 'Afronden →';
     }
   }
 
@@ -2333,10 +2598,11 @@ ${ingekorte}`;
   function toonHerhalingsRonde() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    document.getElementById('sectie-label-tekst').textContent  = 'Herhaling';
+    // Use the reader-header format for the repeat round too
+    document.getElementById('sectie-label-tekst').textContent  = artikelTitel;
+    document.getElementById('sectie-titel').textContent        = 'Nog niet helemaal...';
     document.getElementById('sectie-nummer-tekst').textContent =
-      ` — ${herhalingsWachtrij.length} vraag${herhalingsWachtrij.length !== 1 ? 'en' : ''} opnieuw`;
-    document.getElementById('sectie-titel').textContent = 'Nog niet helemaal...';
+      `${herhalingsWachtrij.length} vraag${herhalingsWachtrij.length !== 1 ? 'en' : ''} opnieuw`;
 
     const tekstEl = document.getElementById('sectie-tekst');
     tekstEl.innerHTML = '';
@@ -2345,9 +2611,10 @@ ${ingekorte}`;
     uitleg.textContent = 'De vragen die je net fout had komen hieronder terug. Ga door totdat alles goed is.';
     tekstEl.appendChild(uitleg);
 
-    document.getElementById('tijdlijn-wrap').style.display     = 'none';
-    document.getElementById('knop-gelezen-wrap').style.display = 'none';
-    document.getElementById('vragen-sectie').style.display     = 'block';
+    document.getElementById('tijdlijn-wrap').style.display      = 'none';
+    document.getElementById('knop-gelezen-wrap').style.display  = 'none';
+    document.getElementById('vragen-sectie').style.display      = 'block';
+    document.getElementById('knop-weetniets').style.display     = 'none';
 
     const knopVolgende       = document.getElementById('knop-volgende');
     knopVolgende.disabled    = true;
@@ -2477,8 +2744,8 @@ ${ingekorte}`;
     document.getElementById('klaar-scherm').classList.add('zichtbaar');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel }); // fire-and-forget
-    markSessionDone(); // fire-and-forget
+    slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
+    markSessionDone();
   }
 
   // ════════════════════════════════════════
@@ -2490,7 +2757,6 @@ ${ingekorte}`;
       await migreerVanLocalStorage();
     } catch (e) {
       console.warn('IndexedDB niet beschikbaar:', e);
-      // Fallback: minimale stub zodat de app niet crasht
       db = null;
       const _mem = {};
       window.dbGet        = k     => Promise.resolve(_mem[k] ?? null);
