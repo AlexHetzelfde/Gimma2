@@ -19,7 +19,6 @@
       --goed:    #5a9e7a;
       --fout:    #c46a5a;
 
-      /* ── Categorie-kleur (dynamisch ingesteld per les) ── */
       --les-kleur:     #c8a96e;
       --les-kleur-rgb: 200, 169, 110;
     }
@@ -36,9 +35,6 @@
       transition: background 0.3s;
     }
 
-    /* ════════════════════════════════════════
-       LAYOUT MODES
-    ════════════════════════════════════════ */
     body.layout-telefoon {
       background: #080808;
       align-items: center;
@@ -79,7 +75,6 @@
       flex-direction: column;
     }
 
-    /* ── Header ── */
     header {
       padding: 1.25rem 2rem;
       border-bottom: 1px solid var(--border);
@@ -118,7 +113,6 @@
       text-transform: uppercase;
     }
 
-    /* ── Layout Toggle ── */
     .layout-toggle {
       display: flex;
       align-items: center;
@@ -196,7 +190,6 @@
       color: var(--accent);
     }
 
-    /* ── Voortgangsbalk ── */
     #les-voortgang {
       display: none;
       height: 3px;
@@ -207,14 +200,11 @@
 
     #les-voortgang-balk {
       height: 100%;
-      background: var(--les-kleur);   /* ← was: --accent */
+      background: var(--les-kleur);
       transition: width 0.5s ease;
       width: 0%;
     }
 
-    /* ════════════════════════════════════════
-       KEY SCHERM
-    ════════════════════════════════════════ */
     #key-scherm {
       display: none;
       flex: 1;
@@ -291,9 +281,6 @@
       transition: opacity 0.4s;
     }
 
-    /* ════════════════════════════════════════
-       KEY MODAL
-    ════════════════════════════════════════ */
     #key-modal {
       display: none;
       position: fixed;
@@ -336,7 +323,6 @@
       margin-top: 1rem;
     }
 
-    /* ── Homescreen ── */
     #homescreen {
       flex: 1;
       display: none;
@@ -377,7 +363,6 @@
       max-width: 400px;
     }
 
-    /* ── Categorie chip (homescreen) ── */
     .categorie-chip {
       display: inline-flex;
       align-items: center;
@@ -397,10 +382,8 @@
       height: 8px;
       border-radius: 50%;
       flex-shrink: 0;
-      /* background set inline via JS */
     }
 
-    /* ── Categorie tag in SR kaarten ── */
     .sr-cat-tag {
       font-size: 0.68rem;
       padding: 0.15rem 0.55rem;
@@ -410,7 +393,6 @@
       letter-spacing: 0.03em;
     }
 
-    /* ── Laadbalk ── */
     #status-wrap {
       display: none;
       flex-direction: column;
@@ -439,7 +421,7 @@
 
     .laadbalk-voortgang {
       height: 100%;
-      background: var(--les-kleur);  /* ← was: --accent */
+      background: var(--les-kleur);
       border-radius: 2px;
       width: 0%;
       transition: width 0.6s ease;
@@ -459,9 +441,6 @@
       100% { left: 110%; }
     }
 
-    /* ════════════════════════════════════════
-       SR REVIEW
-    ════════════════════════════════════════ */
     .sr-review-wrap {
       background: var(--bg2);
       border: 1px solid var(--border);
@@ -548,7 +527,6 @@
 
     .sr-score-tekst strong { color: var(--accent2); }
 
-    /* ── Knoppen ── */
     .knop-primair {
       background: var(--accent);
       color: #0f0f0f;
@@ -566,7 +544,6 @@
     .knop-primair:active { transform: translateY(0); }
     .knop-primair:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
 
-    /* Les-knop gebruikt de categoriekleur */
     #knop-les {
       background: var(--les-kleur);
       transition: opacity 0.2s, transform 0.15s, background 0.4s ease;
@@ -586,7 +563,6 @@
 
     .knop-secundair:hover { border-color: var(--accent); color: var(--accent); }
 
-    /* ── Fout ── */
     .fout-melding {
       background: rgba(196, 106, 90, 0.1);
       border: 1px solid var(--error);
@@ -598,9 +574,6 @@
       text-align: center;
     }
 
-    /* ════════════════════════════════════════
-       LES SCHERM
-    ════════════════════════════════════════ */
     #les-scherm {
       display: none;
       max-width: 680px;
@@ -615,7 +588,7 @@
       font-size: 0.72rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: var(--les-kleur);   /* ← was: --accent */
+      color: var(--les-kleur);
       margin-bottom: 0.4rem;
       display: flex;
       align-items: center;
@@ -624,7 +597,6 @@
 
     .sectie-nummer { color: var(--muted); }
 
-    /* Klein categorie-bolletje naast sectielabel */
     .sectie-label-dot {
       width: 6px;
       height: 6px;
@@ -655,7 +627,6 @@
     .sectie-tekst p { margin-bottom: 1.1rem; }
     .sectie-tekst p:last-child { margin-bottom: 0; }
 
-    /* Tijdlijn */
     .tijdlijn-wrap {
       background: var(--bg2);
       border: 1px solid var(--border);
@@ -684,7 +655,7 @@
     .tijdlijn-rij:last-child { border-bottom: none; }
 
     .tijdlijn-jaar {
-      color: var(--les-kleur);   /* ← was: --accent */
+      color: var(--les-kleur);
       font-weight: 500;
       min-width: 65px;
       flex-shrink: 0;
@@ -704,7 +675,6 @@
       margin-bottom: 1.5rem;
     }
 
-    /* ── Vraagblokken: subtiele categoriegekleurde achtergrond ── */
     .vraag-blok {
       margin-bottom: 1.5rem;
       padding: 1.1rem 1.2rem;
@@ -824,7 +794,6 @@
       justify-content: flex-end;
     }
 
-    /* ── Klaar scherm ── */
     #klaar-scherm {
       display: none;
       flex: 1;
@@ -854,11 +823,9 @@
 
     .klaar-stats strong { color: var(--les-kleur); }
 
-    /* ── Voortgangsbalk fade-out ── */
     #les-voortgang { transition: opacity 0.6s ease; }
     #les-voortgang.vervaag { opacity: 0; }
 
-    /* ── Hervatten badge ── */
     .hervatten-badge {
       display: inline-block;
       background: rgba(200, 169, 110, 0.12);
@@ -873,7 +840,6 @@
       letter-spacing: 0.02em;
     }
 
-    /* ── Al gemaakt modal ── */
     #algemaakt-modal {
       display: none;
       position: fixed;
@@ -919,12 +885,10 @@
       line-height: 1.5;
     }
 
-    /* ── Scrollbar ── */
     ::-webkit-scrollbar { width: 5px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
-    /* ── Mobiel ── */
     @media (max-width: 480px) {
       header { padding: 1rem 1.25rem; }
       .datum { display: none; }
@@ -935,7 +899,6 @@
       .layout-toggle { display: none; }
     }
 
-    /* ── Telefoon modus tweaks ── */
     body.layout-telefoon .sectie-titel { font-size: 1.4rem; }
     body.layout-telefoon .sectie-tekst { font-size: 1rem; line-height: 1.75; }
     body.layout-telefoon #les-scherm { padding: 2rem 1.25rem 5rem; }
@@ -957,7 +920,6 @@
       transform: translateX(-50%);
     }
 
-    /* Toast */
     #toast {
       position: fixed;
       bottom: 2rem;
@@ -984,7 +946,6 @@
 </head>
 <body>
 
-<!-- Toast -->
 <div id="toast"></div>
 
 <div id="app-shell">
@@ -1081,7 +1042,6 @@
       <p>Het uitgelichte artikel van de Nederlandse Wikipedia, omgezet naar een les met vragen en dagelijkse herhaling.</p>
     </div>
 
-    <!-- SR Review sectie -->
     <div id="sr-review-wrap" class="sr-review-wrap" style="display:none">
       <div class="sr-review-header">
         <div class="sr-review-icoon">🔁</div>
@@ -1099,7 +1059,6 @@
 
     <div id="cache-melding" class="cache-melding" style="display:none"></div>
 
-    <!-- Categorie-chip: zichtbaar zodra les een categorie heeft -->
     <div id="categorie-chip" style="display:none" class="categorie-chip">
       <span class="categorie-dot" id="categorie-dot"></span>
       <span id="categorie-naam-tekst"></span>
@@ -1169,38 +1128,194 @@
   const LS_KEY          = 'wikileer_api_key';
   const LS_SR           = 'wikileer_sr';
   const LS_LAST_SESSION = 'wikileer_last_session';
-  const LS_LAYOUT       = 'wikileer_layout';
-  const LS_CATS         = 'wikileer_categories';  // ← NIEUW
+  const LS_LAYOUT       = 'wikileer_layout';   // ← blijft in localStorage (sync UI)
+  const LS_CATS         = 'wikileer_categories';
   const MAX_TEKST       = 6000;
 
   const INTERVALS = [1, 2, 4, 7, 14, 30];
 
   // ════════════════════════════════════════
-  // CATEGORIE & KLEUR SYSTEEM
+  // INDEXEDDB LAAG
+  // ════════════════════════════════════════
+  const DB_NAAM   = 'wikileer_db';
+  const DB_VERSIE = 1;
+  const STORE_KV  = 'kv';
+  let db = null;
+
+  /** Open (of maak) de database aan. */
+  function openDB() {
+    return new Promise((resolve, reject) => {
+      const req = indexedDB.open(DB_NAAM, DB_VERSIE);
+      req.onupgradeneeded = e => {
+        e.target.result.createObjectStore(STORE_KV);
+      };
+      req.onsuccess = e => resolve(e.target.result);
+      req.onerror   = () => reject(req.error);
+    });
+  }
+
+  function dbGet(sleutel) {
+    return new Promise((resolve, reject) => {
+      const tx  = db.transaction(STORE_KV, 'readonly');
+      const req = tx.objectStore(STORE_KV).get(sleutel);
+      req.onsuccess = () => resolve(req.result ?? null);
+      req.onerror   = () => reject(req.error);
+    });
+  }
+
+  function dbSet(sleutel, waarde) {
+    return new Promise((resolve, reject) => {
+      const tx  = db.transaction(STORE_KV, 'readwrite');
+      const req = tx.objectStore(STORE_KV).put(waarde, sleutel);
+      req.onsuccess = () => resolve();
+      req.onerror   = () => reject(req.error);
+    });
+  }
+
+  function dbDelete(sleutel) {
+    return new Promise((resolve, reject) => {
+      const tx  = db.transaction(STORE_KV, 'readwrite');
+      const req = tx.objectStore(STORE_KV).delete(sleutel);
+      req.onsuccess = () => resolve();
+      req.onerror   = () => reject(req.error);
+    });
+  }
+
+  function dbGetAllKeys() {
+    return new Promise((resolve, reject) => {
+      const tx  = db.transaction(STORE_KV, 'readonly');
+      const req = tx.objectStore(STORE_KV).getAllKeys();
+      req.onsuccess = () => resolve(req.result);
+      req.onerror   = () => reject(req.error);
+    });
+  }
+
+  /**
+   * Eenmalige migratie: verplaats alle wikileer_*-sleutels
+   * van localStorage naar IndexedDB.
+   * Layout-voorkeur blijft in localStorage (synchrone UI-behoefte).
+   */
+  async function migreerVanLocalStorage() {
+    const alGedaan = await dbGet('_migratie_gedaan');
+    if (alGedaan) return;
+
+    const statischeSleutels = [LS_KEY, LS_SR, LS_LAST_SESSION, LS_CATS];
+    const prefixen          = ['wikileer_les_', 'wikileer_prog_'];
+
+    const teVerhuizen = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (!k) continue;
+      if (statischeSleutels.includes(k) || prefixen.some(p => k.startsWith(p))) {
+        teVerhuizen.push(k);
+      }
+    }
+
+    for (const k of teVerhuizen) {
+      const waarde = localStorage.getItem(k);
+      if (waarde !== null) {
+        await dbSet(k, waarde);
+        localStorage.removeItem(k);
+      }
+    }
+
+    await dbSet('_migratie_gedaan', '1');
+  }
+
+  // ════════════════════════════════════════
+  // OPSLAG HELPERS  (lezen → await vereist; schrijven → fire-and-forget ok)
   // ════════════════════════════════════════
 
-  /** Haal alle bekende categorieën op uit localStorage */
-  function haalCategorieën() {
-    try { return JSON.parse(localStorage.getItem(LS_CATS) || '[]'); }
-    catch { return []; }
+  async function haalKey() {
+    return (await dbGet(LS_KEY)) || '';
   }
 
-  /** Sla de volledige categorielijst op */
-  function slaCategoriënOp(cats) {
-    try { localStorage.setItem(LS_CATS, JSON.stringify(cats)); } catch {}
+  async function slaKeyOp(k) {
+    await dbSet(LS_KEY, k.trim());
   }
 
-  /** Voeg een nieuwe categorie toe (als ze nog niet bestaat) */
-  function registreerCategorie(naam, kleur) {
+  async function haalGecachedeLes() {
+    try {
+      const raw = await dbGet(vandaagSleutel());
+      return raw ? JSON.parse(raw) : null;
+    } catch { return null; }
+  }
+
+  async function slaLesOp(lesObj) {
+    try {
+      // Verwijder verouderde les-caches om ruimte te sparen
+      const sleutels = await dbGetAllKeys();
+      for (const k of sleutels) {
+        if (typeof k === 'string' && k.startsWith('wikileer_les_') && k !== vandaagSleutel()) {
+          await dbDelete(k);
+        }
+      }
+      await dbSet(vandaagSleutel(), JSON.stringify(lesObj));
+    } catch {}
+  }
+
+  async function haalSRData() {
+    try {
+      const raw = await dbGet(LS_SR);
+      return raw ? JSON.parse(raw) : [];
+    } catch { return []; }
+  }
+
+  async function slaSRDataOp(data) {
+    try { await dbSet(LS_SR, JSON.stringify(data)); } catch {}
+  }
+
+  // ── Voortgang per dag ──
+  function vandaagProgSleutel() {
+    return 'wikileer_prog_' + new Date().toISOString().slice(0, 10);
+  }
+
+  async function haalVoortgang() {
+    try {
+      const raw = await dbGet(vandaagProgSleutel());
+      return raw ? JSON.parse(raw) : null;
+    } catch { return null; }
+  }
+
+  async function slaVoortgangOp(obj) {
+    try { await dbSet(vandaagProgSleutel(), JSON.stringify(obj)); } catch {}
+  }
+
+  async function verwijderVoortgang() {
+    try { await dbDelete(vandaagProgSleutel()); } catch {}
+  }
+
+  async function verwijderLesUitSR(artikelTitelStr) {
+    const basis = artikelTitelStr.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 40);
+    const sr    = (await haalSRData()).filter(item => !item.id.startsWith(basis));
+    await slaSRDataOp(sr);
+  }
+
+  // ── Categorieën ──
+  async function haalCategorieën() {
+    try {
+      const raw = await dbGet(LS_CATS);
+      return raw ? JSON.parse(raw) : [];
+    } catch { return []; }
+  }
+
+  async function slaCategoriënOp(cats) {
+    try { await dbSet(LS_CATS, JSON.stringify(cats)); } catch {}
+  }
+
+  async function registreerCategorie(naam, kleur) {
     if (!naam || !kleur) return;
-    const cats = haalCategorieën();
+    const cats = await haalCategorieën();
     if (!cats.find(c => c.naam === naam)) {
       cats.push({ naam, kleur });
-      slaCategoriënOp(cats);
+      await slaCategoriënOp(cats);
     }
   }
 
-  /** Converteer #rrggbb naar "r, g, b" voor gebruik in rgba() */
+  // ════════════════════════════════════════
+  // CATEGORIE & KLEUR SYSTEEM
+  // ════════════════════════════════════════
+
   function hexNaarRgb(hex) {
     const clean = (hex || '').replace('#', '');
     if (!/^[0-9a-fA-F]{6}$/.test(clean)) return '200, 169, 110';
@@ -1211,46 +1326,17 @@
     ].join(', ');
   }
 
-  /**
-   * Pas de CSS-variabelen --les-kleur en --les-kleur-rgb aan
-   * zodat alle gekleurde elementen direct meespringen.
-   */
   function pasCategorieKleurToe(kleur) {
     if (!kleur || !/^#[0-9a-fA-F]{6}$/i.test(kleur)) kleur = '#c8a96e';
     document.documentElement.style.setProperty('--les-kleur', kleur);
     document.documentElement.style.setProperty('--les-kleur-rgb', hexNaarRgb(kleur));
   }
 
-  // Globale staat van de actieve les-categorie
   let huidigeCategorieKleur = '#c8a96e';
   let huidigeCategorieNaam  = '';
 
-  // ── Voortgang helpers (per dag) ──
-  function vandaagProgSleutel() {
-    return 'wikileer_prog_' + new Date().toISOString().slice(0, 10);
-  }
-
-  function haalVoortgang() {
-    try { return JSON.parse(localStorage.getItem(vandaagProgSleutel()) || 'null'); }
-    catch { return null; }
-  }
-
-  function slaVoortgangOp(obj) {
-    try { localStorage.setItem(vandaagProgSleutel(), JSON.stringify(obj)); } catch {}
-  }
-
-  function verwijderVoortgang() {
-    localStorage.removeItem(vandaagProgSleutel());
-  }
-
-  function verwijderLesUitSR(artikelTitelStr) {
-    const basis = artikelTitelStr.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 40);
-    const sr    = haalSRData().filter(item => !item.id.startsWith(basis));
-    slaSRDataOp(sr);
-  }
-
   // ════════════════════════════════════════
-  // LAYOUT TOGGLE
+  // LAYOUT TOGGLE  (layout blijft in localStorage — sync UI-behoefte bij start)
   // ════════════════════════════════════════
   function setLayout(modus) {
     localStorage.setItem(LS_LAYOUT, modus);
@@ -1297,50 +1383,6 @@
     return d.getTime();
   }
 
-  function lastSessionToday() {
-    return localStorage.getItem(LS_LAST_SESSION) === new Date().toISOString().slice(0, 10);
-  }
-
-  function markSessionDone() {
-    localStorage.setItem(LS_LAST_SESSION, new Date().toISOString().slice(0, 10));
-  }
-
-  // ════════════════════════════════════════
-  // LOCALSTORAGE HELPERS
-  // ════════════════════════════════════════
-  function haalKey()   { return localStorage.getItem(LS_KEY) || ''; }
-  function slaKeyOp(k) { localStorage.setItem(LS_KEY, k.trim()); }
-
-  function haalGecachedeLes() {
-    try {
-      const raw = localStorage.getItem(vandaagSleutel());
-      return raw ? JSON.parse(raw) : null;
-    } catch { return null; }
-  }
-
-  /** Sla les op inclusief categorie-informatie */
-  function slaLesOp(lesObj) {
-    try {
-      localStorage.setItem(vandaagSleutel(), JSON.stringify(lesObj));
-    } catch {
-      for (const key of Object.keys(localStorage)) {
-        if (key.startsWith('wikileer_les_') && key !== vandaagSleutel()) {
-          localStorage.removeItem(key);
-        }
-      }
-      try { localStorage.setItem(vandaagSleutel(), JSON.stringify(lesObj)); } catch {}
-    }
-  }
-
-  function haalSRData() {
-    try { return JSON.parse(localStorage.getItem(LS_SR) || '[]'); }
-    catch { return []; }
-  }
-
-  function slaSRDataOp(data) {
-    localStorage.setItem(LS_SR, JSON.stringify(data));
-  }
-
   // ════════════════════════════════════════
   // MEMORY SHIELD — SR ALGORITME
   // ════════════════════════════════════════
@@ -1353,9 +1395,19 @@
     return 5;
   }
 
-  function getDueItems() {
-    const sr = haalSRData();
-    const threshold = lastSessionToday() ? Date.now() : getEndOfDay();
+  async function lastSessionToday() {
+    const val = await dbGet(LS_LAST_SESSION);
+    return val === new Date().toISOString().slice(0, 10);
+  }
+
+  async function markSessionDone() {
+    try { await dbSet(LS_LAST_SESSION, new Date().toISOString().slice(0, 10)); } catch {}
+  }
+
+  async function getDueItems() {
+    const sr      = await haalSRData();
+    const vandaag = await lastSessionToday();
+    const threshold = vandaag ? Date.now() : getEndOfDay();
     return sr
       .filter(item => item.next_due && item.next_due <= threshold)
       .sort((a, b) => {
@@ -1368,11 +1420,10 @@
 
   /**
    * Registreer een antwoord in het SR-systeem.
-   * Slaat ook de categorieKleur en categorieNaam op,
-   * zodat SR-herhalingskaarten de juiste kleur krijgen.
+   * Async — mag fire-and-forget worden aangeroepen vanuit event handlers.
    */
-  function registreerAntwoord({ id, vraag, type, antwoordData, goed }) {
-    const sr  = haalSRData();
+  async function registreerAntwoord({ id, vraag, type, antwoordData, goed }) {
+    const sr  = await haalSRData();
     const idx = sr.findIndex(v => v.id === id);
     const now    = Date.now();
     const morgen = getTomorrow();
@@ -1391,8 +1442,8 @@
       sr.push({
         id, vraag, type,
         ...antwoordData,
-        categorieKleur: huidigeCategorieKleur,   // ← NIEUW
-        categorieNaam:  huidigeCategorieNaam,     // ← NIEUW
+        categorieKleur: huidigeCategorieKleur,
+        categorieNaam:  huidigeCategorieNaam,
         strength, interval_step, next_due,
         streak:    goed ? 1 : 0,
         last_seen: now
@@ -1403,7 +1454,6 @@
       Object.assign(item, antwoordData);
       item.last_seen = now;
 
-      // Sla categorieinfo op als die nog niet bekend was
       if (!item.categorieKleur && huidigeCategorieKleur) {
         item.categorieKleur = huidigeCategorieKleur;
         item.categorieNaam  = huidigeCategorieNaam;
@@ -1423,7 +1473,7 @@
       }
     }
 
-    slaSRDataOp(sr);
+    await slaSRDataOp(sr);
   }
 
   function maakVraagId(artikelTitel, sectieIndex, vraagIndex) {
@@ -1438,45 +1488,43 @@
   }
 
   // ════════════════════════════════════════
-  // INIT
+  // DATUM IN HEADER
   // ════════════════════════════════════════
   document.getElementById('header-datum').textContent =
     new Date().toLocaleDateString('nl-NL', {
       weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
     });
 
-  herstelLayout();
-
-  function init() {
-    const key = haalKey();
+  // ════════════════════════════════════════
+  // INIT
+  // ════════════════════════════════════════
+  async function init() {
+    const key = await haalKey();
     if (!key) {
       document.getElementById('key-scherm').classList.add('zichtbaar');
     } else {
-      toonHomescreen();
+      await toonHomescreen();
     }
   }
 
   // ════════════════════════════════════════
   // HOMESCREEN
   // ════════════════════════════════════════
-  function toonHomescreen() {
+  async function toonHomescreen() {
     document.getElementById('key-scherm').classList.remove('zichtbaar');
     document.getElementById('key-knop-header').style.display = 'flex';
     document.getElementById('homescreen').classList.add('zichtbaar');
 
-    const cache      = haalGecachedeLes();
-    const voortgang  = haalVoortgang();
-    const knopLes    = document.getElementById('knop-les');
-    const melding    = document.getElementById('cache-melding');
-    const chip       = document.getElementById('categorie-chip');
+    const cache     = await haalGecachedeLes();
+    const voortgang = await haalVoortgang();
+    const knopLes   = document.getElementById('knop-les');
+    const melding   = document.getElementById('cache-melding');
+    const chip      = document.getElementById('categorie-chip');
 
-    // ── Herstel categoriekleur als er een gecachede les is ──
     if (cache && cache.categorieKleur) {
       huidigeCategorieKleur = cache.categorieKleur;
       huidigeCategorieNaam  = cache.categorie || '';
       pasCategorieKleurToe(cache.categorieKleur);
-
-      // Toon categorie-chip
       document.getElementById('categorie-dot').style.background = cache.categorieKleur;
       document.getElementById('categorie-naam-tekst').textContent = cache.categorie || '';
       chip.style.display = '';
@@ -1509,17 +1557,17 @@
       melding.style.display = 'block';
     }
 
-    const dueItems = getDueItems();
+    const dueItems = await getDueItems();
     if (dueItems.length > 0) {
       toonSRReview(dueItems);
-      knopLes.style.display  = 'none';
-      melding.style.display  = 'none';
-      chip.style.display     = 'none';
+      knopLes.style.display = 'none';
+      melding.style.display = 'none';
+      chip.style.display    = 'none';
     }
   }
 
   // ════════════════════════════════════════
-  // SR REVIEW — met per-item categoriekleuren
+  // SR REVIEW  (registreerAntwoord = fire-and-forget in event handlers)
   // ════════════════════════════════════════
   function toonSRReview(dueItems) {
     const wrap = document.getElementById('sr-review-wrap');
@@ -1553,7 +1601,6 @@
       const blok = document.createElement('div');
       blok.className = 'vraag-blok';
 
-      // ── Per item: gebruik de opgeslagen categoriekleur ──
       const itemKleur = item.categorieKleur || '#c8a96e';
       const itemRgb   = hexNaarRgb(itemKleur);
       blok.style.background   = `rgba(${itemRgb}, 0.05)`;
@@ -1606,11 +1653,11 @@
             fb.textContent = goed ? '✓ Correct!' : `✗ Het juiste antwoord is: ${item.goed}`;
             fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
 
-            // Tijdelijk categoriekleur instellen voor registreerAntwoord
+            // Tijdelijk categoriecontext instellen voor registreerAntwoord
             const voorheen = [huidigeCategorieKleur, huidigeCategorieNaam];
             huidigeCategorieKleur = itemKleur;
             huidigeCategorieNaam  = item.categorieNaam || '';
-            registreerAntwoord({
+            registreerAntwoord({   // fire-and-forget
               id: item.id, vraag: item.vraag, type: 'meerkeuze',
               antwoordData: { opties: item.opties, goed: item.goed }, goed
             });
@@ -1634,7 +1681,6 @@
         const invoerEl = blok.querySelector(`#sr-open-${hi}`);
         const knopEl   = blok.querySelector(`#sr-knop-${hi}`);
 
-        // Kleur de focus-outline met de item-kleur via inline style override
         invoerEl.addEventListener('focus', () => { invoerEl.style.borderColor = itemKleur; });
         invoerEl.addEventListener('blur',  () => { if (!state[hi].beantwoord) invoerEl.style.borderColor = ''; });
 
@@ -1655,7 +1701,7 @@
           const voorheen = [huidigeCategorieKleur, huidigeCategorieNaam];
           huidigeCategorieKleur = itemKleur;
           huidigeCategorieNaam  = item.categorieNaam || '';
-          registreerAntwoord({
+          registreerAntwoord({   // fire-and-forget
             id: item.id, vraag: item.vraag, type: 'open',
             antwoordData: { antwoord: item.antwoord }, goed
           });
@@ -1673,12 +1719,12 @@
     });
   }
 
-  function afrondSRReview() {
-    markSessionDone();
+  async function afrondSRReview() {
+    await markSessionDone();
     document.getElementById('sr-review-wrap').style.display = 'none';
 
-    const cache     = haalGecachedeLes();
-    const voortgang = haalVoortgang();
+    const cache     = await haalGecachedeLes();
+    const voortgang = await haalVoortgang();
     const knopLes   = document.getElementById('knop-les');
     const melding   = document.getElementById('cache-melding');
     const chip      = document.getElementById('categorie-chip');
@@ -1691,23 +1737,23 @@
     }
 
     if (!cache) {
-      knopLes.textContent   = 'Maak les van vandaag';
-      knopLes.onclick       = maakLes;
+      knopLes.textContent = 'Maak les van vandaag';
+      knopLes.onclick     = maakLes;
     } else if (voortgang && voortgang.voltooid) {
-      knopLes.innerHTML     = 'Les van vandaag al gemaakt <span class="hervatten-badge">✓ voltooid</span>';
-      knopLes.onclick       = toonAlGemaaktModal;
-      melding.textContent   = `✓ Klaar met "${cache.titel}"`;
+      knopLes.innerHTML   = 'Les van vandaag al gemaakt <span class="hervatten-badge">✓ voltooid</span>';
+      knopLes.onclick     = toonAlGemaaktModal;
+      melding.textContent = `✓ Klaar met "${cache.titel}"`;
       melding.style.display = 'block';
     } else if (voortgang && !voortgang.voltooid) {
-      const sectieTekst     = `deel ${voortgang.sectieIndex + 1} van ${cache.secties.length}`;
-      knopLes.innerHTML     = `Les hervatten <span class="hervatten-badge">bij ${sectieTekst}</span>`;
-      knopLes.onclick       = maakLes;
-      melding.textContent   = `Bezig met "${cache.titel}"`;
+      const sectieTekst   = `deel ${voortgang.sectieIndex + 1} van ${cache.secties.length}`;
+      knopLes.innerHTML   = `Les hervatten <span class="hervatten-badge">bij ${sectieTekst}</span>`;
+      knopLes.onclick     = maakLes;
+      melding.textContent = `Bezig met "${cache.titel}"`;
       melding.style.display = 'block';
     } else {
-      knopLes.textContent   = 'Les van vandaag hervatten';
-      knopLes.onclick       = maakLes;
-      melding.textContent   = `✓ Les van vandaag staat klaar — "${cache.titel}"`;
+      knopLes.textContent = 'Les van vandaag hervatten';
+      knopLes.onclick     = maakLes;
+      melding.textContent = `✓ Les van vandaag staat klaar — "${cache.titel}"`;
       melding.style.display = 'block';
     }
 
@@ -1718,7 +1764,7 @@
   // ════════════════════════════════════════
   // KEY BEHEER
   // ════════════════════════════════════════
-  function slaKeyOpEnStart() {
+  async function slaKeyOpEnStart() {
     const invoer = document.getElementById('key-invoer-setup').value.trim();
     const fout   = document.getElementById('key-fout-setup');
     if (!invoer.startsWith('AIza') || invoer.length < 20) {
@@ -1726,8 +1772,8 @@
       return;
     }
     fout.textContent = '';
-    slaKeyOp(invoer);
-    toonHomescreen();
+    await slaKeyOp(invoer);
+    await toonHomescreen();
   }
 
   function toonKeyModal() {
@@ -1741,14 +1787,14 @@
     document.getElementById('key-modal').classList.remove('zichtbaar');
   }
 
-  function slaKeyOpViaModal() {
+  async function slaKeyOpViaModal() {
     const invoer = document.getElementById('key-invoer-modal').value.trim();
     const fout   = document.getElementById('key-fout-modal');
     if (!invoer.startsWith('AIza') || invoer.length < 20) {
       fout.textContent = 'Vul een geldige Gemini API key in (begint met AIza...)';
       return;
     }
-    slaKeyOp(invoer);
+    await slaKeyOp(invoer);
     sluitKeyModal();
     toonToast('✓ API key opgeslagen');
   }
@@ -1764,12 +1810,12 @@
     document.getElementById('algemaakt-modal').classList.remove('zichtbaar');
   }
 
-  function herbeginLes() {
+  async function herbeginLes() {
     sluitAlGemaaktModal();
-    const cache = haalGecachedeLes();
-    if (cache) verwijderLesUitSR(cache.titel);
-    verwijderVoortgang();
-    maakLes();
+    const cache = await haalGecachedeLes();
+    if (cache) await verwijderLesUitSR(cache.titel);
+    await verwijderVoortgang();
+    await maakLes();
   }
 
   // ════════════════════════════════════════
@@ -1846,18 +1892,17 @@
   }
 
   // ════════════════════════════════════════
-  // GEMINI — met Fase 0: categorie & kleur
+  // GEMINI
   // ════════════════════════════════════════
   async function verwerkMetGemini(titel, tekst) {
-    const key  = haalKey();
-    const cats = haalCategorieën();
+    const key  = await haalKey();
+    const cats = await haalCategorieën();
     const url  = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`;
 
     const ingekorte = tekst.length > MAX_TEKST
       ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]'
       : tekst;
 
-    // Bouw de categorie-context voor het prompt op
     const catsTekst = cats.length > 0
       ? `Bestaande categorieën (gebruik er één als die goed past):\n${JSON.stringify(cats.map(c => ({ naam: c.naam, kleur: c.kleur })), null, 2)}`
       : 'Er zijn nog geen bestaande categorieën — maak een nieuwe aan.';
@@ -1968,9 +2013,9 @@ ${ingekorte}`;
       throw new Error('Kon JSON niet verwerken. Eerste 300 tekens: ' + ruwe.slice(0, 300));
     }
 
-    // ── Registreer de nieuwe/bestaande categorie in localStorage ──
+    // Registreer de nieuwe/bestaande categorie in IndexedDB
     if (lesObj.categorie && lesObj.categorieKleur) {
-      registreerCategorie(lesObj.categorie, lesObj.categorieKleur);
+      await registreerCategorie(lesObj.categorie, lesObj.categorieKleur);
     }
 
     return lesObj;
@@ -1986,17 +2031,16 @@ ${ingekorte}`;
     document.getElementById('knop-les').disabled = true;
     document.getElementById('fout-wrap').innerHTML = '';
 
-    const cache = haalGecachedeLes();
+    const cache = await haalGecachedeLes();
     if (cache) {
       lesData      = { secties: cache.secties };
       artikelTitel = cache.titel;
 
-      // Herstel categoriekleur uit cache
       huidigeCategorieKleur = cache.categorieKleur || '#c8a96e';
       huidigeCategorieNaam  = cache.categorie || '';
       pasCategorieKleurToe(huidigeCategorieKleur);
 
-      startLes();
+      await startLes();
       return;
     }
 
@@ -2015,21 +2059,20 @@ ${ingekorte}`;
       stopSchijnVoortgang();
       setStatus('Les klaar!', 100);
 
-      // ── Pas de categoriekleur toe ──
       huidigeCategorieKleur = lesData.categorieKleur || '#c8a96e';
       huidigeCategorieNaam  = lesData.categorie || '';
       pasCategorieKleurToe(huidigeCategorieKleur);
 
-      slaLesOp({
+      await slaLesOp({
         titel:          artikelTitel,
         secties:        lesData.secties,
-        categorie:      lesData.categorie,      // ← NIEUW
-        categorieKleur: lesData.categorieKleur  // ← NIEUW
+        categorie:      lesData.categorie,
+        categorieKleur: lesData.categorieKleur
       });
 
-      setTimeout(() => {
+      setTimeout(async () => {
         verbergStatus();
-        startLes();
+        await startLes();
       }, 400);
 
     } catch (err) {
@@ -2050,10 +2093,8 @@ ${ingekorte}`;
     document.getElementById('les-voortgang-balk').style.width = pct + '%';
   }
 
-  function startLes() {
+  async function startLes() {
     document.getElementById('homescreen').classList.remove('zichtbaar');
-
-    // Zorg dat de categoriekleur ook op het les-scherm actief is
     pasCategorieKleurToe(huidigeCategorieKleur);
 
     const voortgang = document.getElementById('les-voortgang');
@@ -2062,7 +2103,7 @@ ${ingekorte}`;
     document.getElementById('les-scherm').classList.add('zichtbaar');
     sessieAntwoorden = [];
 
-    const opgeslagen = haalVoortgang();
+    const opgeslagen = await haalVoortgang();
     huidigeSectie = (opgeslagen && !opgeslagen.voltooid && opgeslagen.sectieIndex)
       ? opgeslagen.sectieIndex
       : 0;
@@ -2077,13 +2118,12 @@ ${ingekorte}`;
     updateVoortgangsbalk();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    slaVoortgangOp({ sectieIndex: index, voltooid: false, titel: artikelTitel });
+    slaVoortgangOp({ sectieIndex: index, voltooid: false, titel: artikelTitel }); // fire-and-forget
 
     document.getElementById('sectie-label-tekst').textContent  = artikelTitel;
     document.getElementById('sectie-nummer-tekst').textContent = ` — deel ${index + 1} van ${totaal}`;
     document.getElementById('sectie-titel').textContent        = sectie.titel;
 
-    // Toon categorie-bolletje in sectielabel
     const dot = document.getElementById('sectie-label-dot');
     if (huidigeCategorieKleur) {
       dot.style.background = huidigeCategorieKleur;
@@ -2137,7 +2177,6 @@ ${ingekorte}`;
     sectie.vragen.forEach((vraag, vi) => {
       const blok    = document.createElement('div');
       blok.className = 'vraag-blok';
-      // CSS --les-kleur-rgb is al globaal gezet, de CSS class pakt het automatisch op
       const vraagId  = maakVraagId(artikelTitel, huidigeSectie, vi);
 
       if (vraag.type === 'meerkeuze') {
@@ -2168,7 +2207,7 @@ ${ingekorte}`;
             fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
 
             sessieAntwoorden.push({ sectieIndex: huidigeSectie, vraagIndex: vi, id: vraagId, goed });
-            registreerAntwoord({
+            registreerAntwoord({   // fire-and-forget
               id: vraagId, vraag: vraag.vraag, type: 'meerkeuze',
               antwoordData: { opties: vraag.opties, goed: vraag.goed }, goed
             });
@@ -2205,7 +2244,7 @@ ${ingekorte}`;
           fb.className   = `feedback ${goed ? 'goed' : 'fout'}`;
 
           sessieAntwoorden.push({ sectieIndex: huidigeSectie, vraagIndex: vi, id: vraagId, goed });
-          registreerAntwoord({
+          registreerAntwoord({   // fire-and-forget
             id: vraagId, vraag: vraag.vraag, type: 'open',
             antwoordData: { antwoord: vraag.antwoord }, goed
           });
@@ -2438,14 +2477,30 @@ ${ingekorte}`;
     document.getElementById('klaar-scherm').classList.add('zichtbaar');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
-    markSessionDone();
+    slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel }); // fire-and-forget
+    markSessionDone(); // fire-and-forget
   }
 
   // ════════════════════════════════════════
-  // START
+  // START  — async bootstrap
   // ════════════════════════════════════════
-  init();
+  (async () => {
+    try {
+      db = await openDB();
+      await migreerVanLocalStorage();
+    } catch (e) {
+      console.warn('IndexedDB niet beschikbaar:', e);
+      // Fallback: minimale stub zodat de app niet crasht
+      db = null;
+      const _mem = {};
+      window.dbGet        = k     => Promise.resolve(_mem[k] ?? null);
+      window.dbSet        = (k,v) => { _mem[k] = v; return Promise.resolve(); };
+      window.dbDelete     = k     => { delete _mem[k]; return Promise.resolve(); };
+      window.dbGetAllKeys = ()    => Promise.resolve(Object.keys(_mem));
+    }
+    herstelLayout();
+    await init();
+  })();
 </script>
 
 </body>
