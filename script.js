@@ -721,18 +721,10 @@ async function toonHomescreen() {
   }
 
   // Categorie‑chip
+    // Categorie‑chip permanent verbergen – we gebruiken het overzicht met tegels
   const chip = document.getElementById('categorie-chip');
-  if (cache && cache.categorieKleur) {
-    huidigeCategorieKleur = cache.categorieKleur;
-    huidigeCategorieNaam  = cache.categorie || '';
-    document.getElementById('categorie-dot').style.background = cache.categorieKleur;
-    document.getElementById('categorie-naam-tekst').textContent = cache.categorie || '';
-    document.getElementById('knop-les-nieuw').style.borderLeftColor = cache.categorieKleur;
-    chip.style.display = '';
-  } else {
-    chip.style.display = 'none';
-    document.getElementById('knop-les-nieuw').style.borderLeftColor = '';
-  }
+  chip.style.display = 'none';
+  document.getElementById('knop-les-nieuw').style.borderLeftColor = '';
 
   // Bepaal statussen
   const lesVoltooid = voortgang && voortgang.voltooid;
