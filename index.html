@@ -32,7 +32,7 @@
       </div>
 
       <button class="key-knop-header" id="stats-knop" onclick="toonStatsModal()" title="Mijn voortgang">📊</button>
-      <button class="key-knop-header" id="key-knop-header" onclick="toonKeyModal()" title="API key wijzigen" style="display:none">⚙</button>
+      <button class="key-knop-header" id="key-knop-header" onclick="toonInstellingenModal()" title="Instellingen" style="display:none">⚙</button>
     </div>
   </header>
 
@@ -90,6 +90,48 @@
     </div>
   </div>
 
+  <!-- ═══ INSTELLINGEN MODAL ═══ -->
+  <div id="instellingen-modal" onclick="if(event.target===this) sluitInstellingenModal()">
+    <div class="modal-kaart instellingen-modal-kaart">
+      <div class="stats-modal-header">
+        <h3>Instellingen</h3>
+        <button class="stats-sluit-knop" onclick="sluitInstellingenModal()">✕</button>
+      </div>
+
+      <div class="stats-sectie-kop">Welke onderwerpen wil je leren?</div>
+      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:1rem;line-height:1.5">
+        De nachtelijke lesplanner kiest automatisch een artikel uit een van de aangevinkte categorieën.
+      </p>
+      <div id="categorie-tegels" class="categorie-tegels-grid"></div>
+      <button class="knop-primair" style="width:100%;margin-top:1rem" onclick="slaCategorievoorkeurOp()">
+        Voorkeuren opslaan
+      </button>
+      <div id="categorie-opslaan-melding" style="margin-top:0.5rem;font-size:0.82rem;min-height:1.2rem;text-align:center"></div>
+
+      <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--border)">
+        <div class="stats-sectie-kop">GitHub token</div>
+        <p style="font-size:0.82rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.5">
+          Nodig om je categorievoorkeur op te slaan zodat de nachtelijke lesplanner er gebruik van maakt.
+          Maak een token aan via GitHub → Settings → Developer settings → Personal access tokens (scope: <code>repo</code>).
+        </p>
+        <div class="key-invoer-wrap">
+          <input type="password" class="key-invoer" id="github-token-invoer" placeholder="ghp_..." />
+          <button class="knop-primair" onclick="slaGithubTokenOpEnBevestig()">Opslaan</button>
+        </div>
+        <div id="github-token-melding" style="margin-top:0.5rem;font-size:0.82rem;min-height:1.2rem"></div>
+      </div>
+
+      <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--border)">
+        <div class="stats-sectie-kop">Gemini API key</div>
+        <div class="key-invoer-wrap">
+          <input type="password" class="key-invoer" id="key-invoer-instellingen" placeholder="AIza..." />
+          <button class="knop-primair" onclick="slaKeyOpViaInstellingen()">Opslaan</button>
+        </div>
+        <div id="key-fout-instellingen" class="key-fout"></div>
+      </div>
+    </div>
+  </div>
+  
   <!-- ═══ AL GEMAAKT MODAL ═══ -->
   <div id="algemaakt-modal" onclick="if(event.target===this) sluitAlGemaaktModal()">
     <div class="modal-kaart">
