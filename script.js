@@ -8,7 +8,11 @@ const LS_LAYOUT       = 'wikileer_layout';
 const LS_CATS         = 'wikileer_categories';
 const LS_STREAK       = 'wikileer_streak';
 const LS_FEEDBACK     = 'wikileer_feedback';
-const MAX_TEKST       = 40000;
+const MAX_TEKST             = 40000;
+const LS_GITHUB_TOKEN       = 'wikileer_github_token';
+const LS_GESELECTEERDE_CATS = 'wikileer_geselecteerde_cats';
+const REPO_OWNER            = 'JOUW_GITHUB_GEBRUIKERSNAAM'; // ← aanpassen
+const REPO_NAME             = 'wikileer';                   // ← aanpassen indien anders
 
 // ════════════════════════════════════════
 // INDEXEDDB LAAG
@@ -207,6 +211,25 @@ async function slaCategoriënOp(cats) {
   } catch (e) {
     console.warn('Fout bij opslaan categorieën:', e);
   }
+}
+
+async function haalGithubToken() {
+  return (await dbGet(LS_GITHUB_TOKEN)) || '';
+}
+
+async function slaGithubTokenOp(token) {
+  await dbSet(LS_GITHUB_TOKEN, token.trim());
+}
+
+async function haalGeselecteerdeCategorieen() {
+  try {
+    const raw = await dbGet(LS_GESELECTEERDE_CATS);
+    return raw ? JSON.parse(raw) : ['nl_uitgelicht'];
+  } catch(e) { return ['nl_uitgelicht']; }
+}
+
+async function slaGeselecteerdeCategorieenLokaalOp(ids) {
+  await dbSet(LS_GESELECTEERDE_CATS, JSON.stringify(ids));
 }
 
 async function registreerCategorie(naam, kleur) {
@@ -806,10 +829,34 @@ async function startVaultPractice() {
 }
 
 // ═══ LES VAN DE DAG starten met SR aan het eind ═══
+// ═══ LES VAN DE DAG starten met SR aan het eind ═══
 async function startLesVanVandaag() {
-  const dueItems = await getDueItems();
-  pendingSR = dueItems.length > 0 ? dueItems : [];
-  await toonArtikelKiezer();
+  const dueItems  = await getDueItems();
+  pendingSR       = dueItems.length > 0 ? dueItems : [];
+  const vandaag   = new Date().toISOString().slice(0, 10);
+
+  try {
+    const url = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/vandaag-les.json?t=${Date.now()}`;
+    const res = await fetch(url);
+    if (res.ok) {
+      const les = await res.json();
+      if (les.datum === vandaag && les.secties?.length > 0) {
+        await slaLesOp(les);
+        lesData               = { secties: les.secties };
+        artikelTitel          = les.titel;
+        huidigeCategorieKleur = les.categorieKleur || '#c8a96e';
+        huidigeCategorieNaam  = les.categorie      || '';
+        pasCategorieKleurToe(huidigeCategorieKleur);
+        document.getElementById('homescreen').classList.remove('zichtbaar');
+        await startLes();
+        return;
+      }
+    }
+  } catch(e) {
+    console.warn('vandaag-les.json niet beschikbaar, genereer zelf:', e);
+  }
+
+  await maakLes();
 }
 
 // ════════════════════════════════════════
@@ -1113,6 +1160,140 @@ async function afrondSRReview() {
   // Normale vault practice of einde-les SR: terug naar home
   await toonHomescreen();
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ════════════════════════════════════════
+// INSTELLINGEN MODAL
+// ════════════════════════════════════════
+const ALLE_CATEGORIEEN = [
+  { id: 'nl_uitgelicht', label: '🇳🇱 Nederlands uitgelicht' },
+  { id: 'en_uitgelicht', label: '🌟 Engels uitgelicht' },
+  { id: 'biologie',      label: '🔬 Biologie' },
+  { id: 'geschiedenis',  label: '🏛️ Geschiedenis' },
+  { id: 'kunst',         label: '🎨 Kunst & cultuur' },
+  { id: 'landen',        label: '🌍 Landen & volken' },
+  { id: 'maatschappij',  label: '👥 Mens & maatschappij' },
+  { id: 'politiek',      label: '🗳️ Politiek' },
+  { id: 'religie',       label: '🕌 Religie' },
+  { id: 'sport',         label: '⚽ Sport' },
+  { id: 'taal',          label: '💬 Taal' },
+  { id: 'wetenschap',    label: '🔭 Wetenschap & tech' },
+  { id: 'willekeurig',   label: '🎲 Willekeurig' },
+];
+
+let tijdelijkeSelectie = [];
+
+async function toonInstellingenModal() {
+  tijdelijkeSelectie = await haalGeselecteerdeCategorieen();
+  document.getElementById('categorie-opslaan-melding').textContent = '';
+  document.getElementById('github-token-melding').textContent      = '';
+  document.getElementById('key-fout-instellingen').textContent     = '';
+
+  const grid = document.getElementById('categorie-tegels');
+  grid.innerHTML = '';
+  ALLE_CATEGORIEEN.forEach(cat => {
+    const tegel     = document.createElement('button');
+    tegel.className = 'categorie-tegel' + (tijdelijkeSelectie.includes(cat.id) ? ' actief' : '');
+    tegel.textContent = cat.label;
+    tegel.onclick = () => {
+      if (tijdelijkeSelectie.includes(cat.id)) {
+        tijdelijkeSelectie = tijdelijkeSelectie.filter(id => id !== cat.id);
+        tegel.classList.remove('actief');
+      } else {
+        tijdelijkeSelectie.push(cat.id);
+        tegel.classList.add('actief');
+      }
+    };
+    grid.appendChild(tegel);
+  });
+
+  const token   = await haalGithubToken();
+  const invoer  = document.getElementById('github-token-invoer');
+  invoer.value       = '';
+  invoer.placeholder = token ? 'ghp_••••••• (al opgeslagen)' : 'ghp_...';
+
+  document.getElementById('instellingen-modal').classList.add('zichtbaar');
+}
+
+function sluitInstellingenModal() {
+  document.getElementById('instellingen-modal').classList.remove('zichtbaar');
+}
+
+async function slaCategorievoorkeurOp() {
+  if (tijdelijkeSelectie.length === 0) tijdelijkeSelectie = ['nl_uitgelicht'];
+  await slaGeselecteerdeCategorieenLokaalOp(tijdelijkeSelectie);
+
+  const token   = await haalGithubToken();
+  const melding = document.getElementById('categorie-opslaan-melding');
+
+  if (token) {
+    try {
+      await schrijfConfigNaarGitHub(token, tijdelijkeSelectie);
+      melding.style.color  = 'var(--goed)';
+      melding.textContent  = '✓ Opgeslagen en gesynchroniseerd met GitHub';
+    } catch(e) {
+      melding.style.color  = 'var(--accent)';
+      melding.textContent  = '✓ Lokaal opgeslagen (GitHub sync mislukt: ' + e.message + ')';
+    }
+  } else {
+    melding.style.color = 'var(--muted)';
+    melding.textContent = '✓ Lokaal opgeslagen — voer een GitHub token in om te synchroniseren';
+  }
+}
+
+async function schrijfConfigNaarGitHub(token, geselecteerdeIds) {
+  const url     = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/config.json`;
+  const headers = { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
+
+  const getRes = await fetch(url, { headers });
+  if (!getRes.ok) throw new Error('Kon config.json niet ophalen van GitHub');
+  const getData = await getRes.json();
+
+  let huidig = {};
+  try { huidig = JSON.parse(atob(getData.content)); } catch(e) {}
+  huidig.geselecteerdeCategorieen = geselecteerdeIds;
+
+  const putRes = await fetch(url, {
+    method:  'PUT',
+    headers,
+    body: JSON.stringify({
+      message: 'Update categorievoorkeur via app',
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(huidig, null, 2)))),
+      sha:     getData.sha
+    })
+  });
+  if (!putRes.ok) {
+    const err = await putRes.json().catch(() => ({}));
+    throw new Error(err.message || putRes.status);
+  }
+}
+
+async function slaGithubTokenOpEnBevestig() {
+  const invoer  = document.getElementById('github-token-invoer').value.trim();
+  const melding = document.getElementById('github-token-melding');
+  if (!invoer.startsWith('ghp_')) {
+    melding.style.color = 'var(--fout)';
+    melding.textContent = 'Vul een geldig GitHub token in (begint met ghp_)';
+    return;
+  }
+  await slaGithubTokenOp(invoer);
+  document.getElementById('github-token-invoer').value       = '';
+  document.getElementById('github-token-invoer').placeholder = 'ghp_••••••• (al opgeslagen)';
+  melding.style.color = 'var(--goed)';
+  melding.textContent = '✓ Token opgeslagen';
+}
+
+async function slaKeyOpViaInstellingen() {
+  const invoer = document.getElementById('key-invoer-instellingen').value.trim();
+  const fout   = document.getElementById('key-fout-instellingen');
+  if (!invoer.startsWith('AIza') || invoer.length < 20) {
+    fout.textContent = 'Vul een geldige Gemini API key in (begint met AIza...)';
+    return;
+  }
+  await slaKeyOp(invoer);
+  fout.textContent = '';
+  toonToast('✓ API key opgeslagen');
+  sluitInstellingenModal();
 }
 
 // ════════════════════════════════════════
