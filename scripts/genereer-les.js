@@ -21,11 +21,25 @@ const CATEGORIEEN = {
 };
 
 async function haalNlUitgelicht() {
-  const res = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:Wikipedia:Etalage&cmlimit=500&cmnamespace=0&format=json&origin=*');
-  const data = await res.json();
-  const leden = data?.query?.categorymembers || [];
-  if (!leden.length) throw new Error('Geen etalage-artikelen gevonden');
-  return leden[Math.floor(Math.random() * leden.length)].title;
+  // Haal de HTML van de Hoofdpagina op en zoek de eerste prominente artikellink
+  try {
+    const res = await fetch('https://nl.wikipedia.org/w/api.php?action=parse&page=Hoofdpagina&prop=text&format=json&origin=*');
+    if (res.ok) {
+      const data = await res.json();
+      const html = data?.parse?.text?.['*'] || '';
+      const matches = html.matchAll(/href="\/wiki\/([^":#]+)"/g);
+      for (const match of matches) {
+        const titel = decodeURIComponent(match[1]).replace(/_/g, ' ');
+        if (titel && titel !== 'Hoofdpagina' && titel.length > 3) {
+          return titel;
+        }
+      }
+    }
+  } catch(e) {
+    console.warn('Hoofdpagina scrapen mislukt:', e.message);
+  }
+  // Fallback: willekeurig artikel
+  return haalNlWillekeurig();
 }
 
 async function haalEnUitgelicht() {
