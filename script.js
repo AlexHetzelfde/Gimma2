@@ -1253,10 +1253,14 @@ async function toonInstellingenModal() {
   });
 
   const token   = await haalGithubToken();
-  const invoer  = document.getElementById('github-token-invoer');
-  invoer.value       = '';
-  invoer.placeholder = token ? 'ghp_••••••• (al opgeslagen)' : 'ghp_...';
-
+const invoer  = document.getElementById('github-token-invoer');
+if (token) {
+  invoer.value = token;  // je kunt ook alleen 'ghp_•••••••' tonen voor veiligheid
+  invoer.placeholder = '';
+} else {
+  invoer.value = '';
+  invoer.placeholder = 'ghp_...';
+}
   document.getElementById('instellingen-modal').classList.add('zichtbaar');
 }
 
