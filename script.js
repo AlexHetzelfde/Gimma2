@@ -11,8 +11,8 @@ const LS_FEEDBACK     = 'wikileer_feedback';
 const MAX_TEKST             = 40000;
 const LS_GITHUB_TOKEN       = 'wikileer_github_token';
 const LS_GESELECTEERDE_CATS = 'wikileer_geselecteerde_cats';
-const REPO_OWNER            = 'JOUW_GITHUB_GEBRUIKERSNAAM'; // ← aanpassen
-const REPO_NAME             = 'wikileer';                   // ← aanpassen indien anders
+const REPO_OWNER            = 'AlexHetzelfde'; // ← aanpassen
+const REPO_NAME             = 'Gimma2';                   // ← aanpassen indien anders
 
 // ════════════════════════════════════════
 // INDEXEDDB LAAG
