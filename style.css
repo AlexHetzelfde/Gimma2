@@ -2473,3 +2473,62 @@ body.layout-telefoon .knop-flashcard-goed {
   color: var(--fout);
   background: var(--bg3);
 }
+
+/* ═══════════════════════════════════════
+   INSTELLINGEN MODAL
+═══════════════════════════════════════ */
+#instellingen-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 4, 12, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+#instellingen-modal.zichtbaar { display: flex; }
+
+.instellingen-modal-kaart {
+  max-width: 520px;
+  width: 100%;
+  margin: auto;
+}
+
+.categorie-tegels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  gap: 0.5rem;
+}
+
+.categorie-tegel {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 10px;
+  border: 1.5px solid var(--border);
+  background: var(--bg3);
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  text-align: left;
+}
+
+.categorie-tegel.actief {
+  border-color: var(--les-kleur);
+  background: rgba(var(--les-kleur-rgb), 0.1);
+  color: var(--text);
+}
+
+.categorie-tegel:hover:not(.actief) {
+  border-color: var(--muted);
+  color: var(--text);
+}
