@@ -1,216 +1,208 @@
 {
-  "titel": "Paul Panda Farnana",
+  "titel": "Johan van Oldenbarnevelt",
   "secties": [
     {
-      "titel": "De onwaarschijnlijke reis van een Congolees kind",
-      "tekst": "Paul Panda Farnana, geboren in 1888 in het Congolese dorp Nzemba, zou de geschiedenis ingaan als een van de eerste Congolese intellectuelen — iemand die zich intensief bezighoudt met denken en studeren. Zijn vader was een door de overheid erkend stamhoofd, een positie die Farnana later als 'M'Fumu' zou erven. Op jonge leeftijd kwam hij, waarschijnlijk in 1895, als 'boy' — een destijds gebruikelijke, denigrerende term voor jonge Afrikaanse bedienden — mee naar Europa met een Belgisch echtpaar.\n\nToen zijn eerste patroons — de mensen die hem onder hun hoede namen en van wie hij afhankelijk was — kort na elkaar stierven, werd Farnana opgevangen door Louise Derscheid, de ongehuwde zus van zijn overleden beschermheer. 'Tante Lise', zoals hij haar noemde, ontpopte zich als een moederfiguur. Zij was een gecultiveerde muzikante en stimuleerde zijn talenten door hem teken- en pianoles te geven. Vanuit een liberale overtuiging, die de vrije ontwikkeling van het individu vooropstelde, stuurde zij hem naar het gerenommeerde Athénée Royal van Elsene, een openbare middelbare school. Na het afronden van zijn middelbare studies slaagde Farnana in 1904 voor het toelatingsexamen van de Rijkstuinbouwschool in Vilvoorde. Drie jaar later studeerde hij af met grote onderscheiding, een bewijs van zijn uitzonderlijke academische prestaties. Hij verfijnde zijn kennis verder aan de handelshogeschool van Bergen en volgde een aanvullend jaar aan de École supérieure d'Agriculture tropicale in Nogent-sur-Marne, waar hij zich specialiseerde in tropische landbouw. Dit maakte hem tot agronoom — een wetenschapper die zich bezighoudt met de landbouw en de teelt van gewassen.",
-      "kernpunt": "Paul Panda Farnana kreeg dankzij specifieke omstandigheden een unieke en hoogwaardige Europese opleiding, wat hem een ongekende positie gaf voor een Congolees in zijn tijd.",
+      "titel": "De Vroege Vorming van een Staatsman",
+      "tekst": "Johan van Oldenbarnevelt, geboren in 1547 in Amersfoort, groeide op in een katholiek gezin. Zijn moeder stamde uit een vermogende familie, wat Johan op zesjarige leeftijd een erfenis opleverde. Deze financiële zekerheid maakte zijn latere studie mogelijk. Na de Latijnse school vertrok hij op zestienjarige leeftijd naar Den Haag om bij een advocaat te werken. Daar begon zijn geleidelijke verschuiving naar het protestantisme, gedreven door zijn afkeer van gewetensdwang — het dwingen van mensen om een bepaald geloof aan te nemen of te belijden.\n\nZijn rechtenstudie voerde hem langs universiteiten in Leuven, Bourges, Keulen, Heidelberg en Padua. In het calvinistische Heidelberg sloot hij zich definitief aan bij het calvinisme. Na zijn terugkeer in 1570 vestigde hij zich als advocaat bij het Hof van Holland, destijds een bestuursorgaan en het hoogste gerechtshof van het graafschap Holland. Toen in 1572 de Nederlandse Opstand — de strijd tegen het Spaanse gezag — Holland bereikte, bleef Van Oldenbarnevelt als een van de weinigen in Den Haag, waarmee hij openlijk de kant van de opstandelingen koos.\n\nIn 1575 trouwde hij met de vermogende Maria van Utrecht, een huwelijk dat zijn sociale positie versterkte. Een jaar later werd hij pensionaris van Rotterdam. Als pensionaris – een juridisch adviseur en vertegenwoordiger van de stad in de Staten van Holland – viel hij op door zijn werklust en scherpe intellect. Hij onderhandelde namens Rotterdam met andere steden en met Willem van Oranje. Zijn bekwaamheid als onderhandelaar was een belangrijke factor bij het tot stand komen van de Unie van Utrecht, een militair en politiek verbond tussen opstandige Nederlandse gewesten. Zijn invloed groeide gestaag, wat hem in 1582 tot vertrouwenspersoon van Willem van Oranje maakte.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Van Oldenbarnevelts vroege leven, studies en principiële keuzes hem vormden tot een capabel bestuurder en een belangrijke speler in de beginfase van de Nederlandse Opstand.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1888",
-          "gebeurtenis": "Geboren in het Congolese dorp Nzemba."
+          "jaar": "1547",
+          "gebeurtenis": "Geboren in Amersfoort"
         },
         {
-          "jaar": "1895",
-          "gebeurtenis": "Kwam mee naar Europa als 'boy' met een Belgisch echtpaar."
+          "jaar": "1570",
+          "gebeurtenis": "Vestigt zich als advocaat bij het Hof van Holland"
         },
         {
-          "jaar": "1904",
-          "gebeurtenis": "Slaagde voor het toelatingsexamen van de Rijkstuinbouwschool in Vilvoorde."
+          "jaar": "1572",
+          "gebeurtenis": "Kiest openlijk de kant van de opstandelingen in de Nederlandse Opstand"
         },
         {
-          "jaar": "1907",
-          "gebeurtenis": "Studeerde af met grote onderscheiding als agronoom."
+          "jaar": "1575",
+          "gebeurtenis": "Trouwt met Maria van Utrecht"
+        },
+        {
+          "jaar": "1576",
+          "gebeurtenis": "Wordt pensionaris van Rotterdam"
+        },
+        {
+          "jaar": "1582",
+          "gebeurtenis": "Wordt vertrouwenspersoon van Willem van Oranje"
         }
       ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe zorgden de omstandigheden in Farnana's jeugd ervoor dat hij een buitengewone Europese opleiding kon volgen?",
+          "vraag": "Hoe beïnvloedde Van Oldenbarnevelts jeugd en opleiding zijn latere rol als prominent bestuurder in de Nederlanden?",
           "opties": [
-            "Zijn status als 'M'Fumu' gaf hem direct toegang tot Europese scholen.",
-            "De zorg van 'Tante Lise' en haar liberale overtuigingen stimuleerden zijn talenten en scholing.",
-            "Hij werd door de Belgische overheid geselecteerd voor een speciaal opleidingsprogramma voor Congolezen.",
-            "Zijn eigen financiële middelen als stamhoofd stelden hem in staat dure studies te betalen."
+            "Zijn financiële onafhankelijkheid maakte een uitgebreide rechtenstudie mogelijk, wat de basis legde voor zijn juridische en bestuurlijke competenties.",
+            "Zijn katholieke opvoeding gaf hem inzicht in de politieke motieven van Spanje, waardoor hij de Opstand beter kon begrijpen.",
+            "Door zijn huwelijk met Maria van Utrecht kreeg hij toegang tot militaire kringen, wat zijn invloed als staatsman vergrootte.",
+            "Zijn vroege werk bij een advocaat leerde hem de fijne kneepjes van de diplomatie, wat hem direct voorbereidde op onderhandelingen."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom was Van Oldenbarnevelts afkeer van gewetensdwang een belangrijke drijfveer voor zijn betrokkenheid bij de Nederlandse Opstand?",
+          "antwoord": "Zijn principiële bezwaar tegen het opleggen van geloofsovertuigingen, zoals door het Spaanse gezag gebeurde, motiveerde hem om zich aan te sluiten bij de strijd voor religieuze vrijheid en autonomie."
+        }
+      ]
+    },
+    {
+      "titel": "De Architect van de Republiek",
+      "tekst": "Na de moord op Willem van Oranje in 1584 ontstond er een machtsvacuüm. De Staten van Holland zochten naar een nieuwe soeverein — het hoogste gezag en de onafhankelijke zeggenschap over een gebied — en boden deze aan koningin Elizabeth I van Engeland aan. Van Oldenbarnevelt was een van de afgevaardigden die naar Engeland reisde. Elizabeth weigerde de soevereiniteit, maar zond wel de graaf van Leicester met troepen als steun tegen de Spanjaarden.\n\nDe komst van Leicester leidde tot een diepe politieke crisis. Leicester streefde naar een sterk centraal bestuur, wat de autonomie van Holland bedreigde. Om deze bedreiging te pareren, zorgde Van Oldenbarnevelt ervoor dat Maurits van Nassau, Willems tweede zoon, werd benoemd tot stadhouder — de hoogste militaire en civiele gezagsdrager in een gewest — van Holland en Zeeland, nog voordat Leicester deze functie kon uitdelen. Begin 1586 werd Van Oldenbarnevelt zelf benoemd tot landsadvocaat van Holland.\n\nDe landsadvocaat was formeel slechts een rechtsgeleerd raadsman, maar Van Oldenbarnevelt wist deze functie uit te bouwen tot de spil van het Hollandse landsbestuur. Hij leidde vergaderingen en alle belangrijke besluiten passeerden zijn tafel. Hij werd Leicesters grootste tegenstander en wist hem in 1587 uit de Nederlanden te werken. Door Leicester te bewegen tot vertrek, herstelde hij de Hollandse zeggenschap en verzekerde hij de Engelse steun. Zo schiep hij de politieke voorwaarden voor een zelfstandige Nederlandse staat. Vervolgens wist hij de macht van de Staten-Generaal, waarin Holland een leidende rol speelde, uit te breiden ten koste van de Raad van State, waarmee hij de positie van Holland verder versterkte.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Van Oldenbarnevelt na de dood van Willem van Oranje, door slim politiek en diplomatiek optreden, de positie van Holland en de Staten-Generaal versterkte en zo de basis legde voor de onafhankelijkheid van de Republiek.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1584",
+          "gebeurtenis": "Reist naar Engeland na de moord op Willem van Oranje om soevereiniteit aan te bieden"
+        },
+        {
+          "jaar": "1586",
+          "gebeurtenis": "Benoemd tot landsadvocaat van Holland"
+        },
+        {
+          "jaar": "1587",
+          "gebeurtenis": "Werkt de graaf van Leicester uit de Nederlanden"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe wist Van Oldenbarnevelt de pogingen van de graaf van Leicester om een gecentraliseerd bestuur in te voeren, te dwarsbomen en de autonomie van Holland te bewaren?",
+          "antwoord": "Hij benoemde Maurits van Nassau tot stadhouder van Holland en Zeeland nog voordat Leicester dit kon doen, en wist vervolgens Leicester uit de Nederlanden te manoeuvreren, waardoor Holland zijn zelfbeschikking kon behouden en Engelse steun veiligstelde."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom was de rol van landsadvocaat van Holland onder Van Oldenbarnevelt zo doorslaggevend voor de vorming van de Republiek, terwijl de functie formeel beperkter was?",
+          "opties": [
+            "Hij wist de functie uit te bouwen door alle belangrijke besluiten via zijn tafel te laten lopen en vergaderingen te leiden, waardoor hij de spil van het bestuur werd.",
+            "Hij gebruikte zijn persoonlijke rijkdom om politieke tegenstanders om te kopen en zo zijn invloed te vergroten.",
+            "De functie gaf hem officieel de bevoegdheid om militaire beslissingen te nemen, wat essentieel was in de strijd tegen Spanje.",
+            "Hij had de exclusieve bevoegdheid om met buitenlandse mogendheden te onderhandelen, wat cruciaal was voor erkenning van de Republiek."
+          ],
+          "correcteIndex": 0
+        }
+      ]
+    },
+    {
+      "titel": "Een Machtig Duo, een Scheur",
+      "tekst": "Vanaf 1588 brak voor de jonge Republiek een periode van voorspoed aan, mede dankzij de interne stabiliteit die Van Oldenbarnevelt schiep en zijn diplomatieke kunde. Hij en Maurits van Nassau vormden jarenlang een succesvol duo. Van Oldenbarnevelt zorgde voor de politieke steun en financiering van militaire campagnes, terwijl Maurits deze leidde. Hun karakters vulden elkaar aan: Maurits was een geduldige en voorzichtige strateeg, terwijl Van Oldenbarnevelt meer geneigd was om ver vooruit te denken en doordachte risico's te nemen.\n\nDeze samenwerking leidde tot aanzienlijke militaire successen, zoals de inname van Breda in 1590 en de daaropvolgende verovering van vrijwel alle bezette steden tussen 1590 en 1598, waardoor 'de tuin van Holland' veilig werd gesteld. Van Oldenbarnevelt was vaak aanwezig bij deze belegeringen, waar hij nauw betrokken was bij besluitvorming en de bevoorrading regelde. Een andere triomf van Van Oldenbarnevelt was de oprichting in 1602 van de Vereenigde Oostindische Compagnie (VOC) — een handelscompagnie, die het monopolie kreeg op de handel in Indië en het recht om verdragen te sluiten, oorlog te voeren en forten te bouwen. Deze krachtige organisatie droeg bij aan de opkomst van de Republiek als wereldmacht.\n\nDe reeks militaire successen vond een keerpunt in 1600 met de Slag bij Nieuwpoort. Van Oldenbarnevelt was de drijvende kracht achter dit gewaagde plan, dat het leger diep in vijandelijk gebied zou voeren om de Duinkerker Kapers uit te schakelen. Maurits en zijn neef Willem-Lodewijk waren fel tegen, vanwege de grote risico's. Van Oldenbarnevelt hield voet bij stuk, en Maurits moest schikken. De expeditie, die het voortbestaan van de jonge Republiek had kunnen bedreigen, eindigde in een mislukking. Deze gebeurtenis bracht de verschillen in hun benadering duidelijk aan het licht en veroorzaakte de eerste serieuze strubbeling in hun relatie. Negen jaar later, in 1609, pleitte Van Oldenbarnevelt voor een wapenstilstand met Spanje – het Twaalfjarig Bestand – om de hoge oorlogskosten te drukken en de handel te bevorderen. Maurits was tegen, omdat het Spaanse leger op dat moment verzwakt was. Dit diepe meningsverschil escaleerde hun conflict verder.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe de aanvankelijk succesvolle samenwerking tussen Van Oldenbarnevelt en Maurits, cruciaal voor de Republiek, uiteindelijk scheurde door hun botsende karakters en strategische visies, zoals duidelijk werd bij Nieuwpoort en het Twaalfjarig Bestand.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1588",
+          "gebeurtenis": "Begin van een periode van voorspoed voor de Republiek"
+        },
+        {
+          "jaar": "1590",
+          "gebeurtenis": "Inname van Breda"
+        },
+        {
+          "jaar": "1590-1598",
+          "gebeurtenis": "Verovering van vrijwel alle bezette steden ('de tuin van Holland' veiliggesteld)"
+        },
+        {
+          "jaar": "1600",
+          "gebeurtenis": "Slag bij Nieuwpoort"
+        },
+        {
+          "jaar": "1602",
+          "gebeurtenis": "Oprichting van de Vereenigde Oostindische Compagnie (VOC)"
+        },
+        {
+          "jaar": "1609",
+          "gebeurtenis": "Begin van het Twaalfjarig Bestand"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe droeg de Slag bij Nieuwpoort bij aan de groeiende spanningen tussen Van Oldenbarnevelt en Maurits?",
+          "opties": [
+            "Het was een militair succes dat Maurits' militaire reputatie schaadde, terwijl Van Oldenbarnevelt de eer opstreek.",
+            "Van Oldenbarnevelt dwong Maurits tot een riskante expeditie waar Maurits fel op tegen was, wat de botsing in hun strategische aanpak duidelijk maakte.",
+            "Maurits weigerde de orders van Van Oldenbarnevelt op te volgen, wat de autoriteit van de landsadvocaat ondermijnde.",
+            "De slag zorgde voor onenigheid over de verdeling van de oorlogsbuit, wat hun financiële belangen botste."
           ],
           "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom was de hoogwaardige Europese opleiding die Paul Panda Farnana genoot zo uitzonderlijk voor een Congolees in zijn tijd?",
-          "antwoord": "De meeste Congolezen kregen geen toegang tot dergelijk geavanceerd onderwijs, laat staan in Europa. Zijn succes was te danken aan persoonlijke bescherming, stimulering van zijn talenten door 'Tante Lise', en zijn eigen academische vermogen, wat hem een ongekende intellectuele voorsprong gaf."
-        }
-      ]
-    },
-    {
-      "titel": "De ontluikende strijd in de koloniale proeftuin",
-      "tekst": "In 1909 schreef Farnana geschiedenis door de eerste zwarte persoon in Belgische staatsdienst te worden. Met zijn agronomische kennis trad hij in dienst als ambtenaar bij de landbouwsectie van het ministerie van Koloniën. Met een driejarig contract vertrok hij naar de prestigieuze Jardin botanique van Eala, een koloniale proeftuin bij Coquilhatville. De reis over de Congorivier voerde hem door delen van zijn geboorteland die hij nog nooit had gezien. Naast zijn werk als landbouwkundige gaf hij in Eala ook les, een functie die hem in direct contact bracht met de koloniale realiteit.\n\nDaar kreeg hij te maken met openlijke vijandigheid en een neerbuigende houding van de Europese kolonialen. Zijn franke replieken — directe en onverbloemde antwoorden — kostten hem enkele berispingen en na twee jaar werd zijn lesgeverschap hem ontnomen. De confrontatie met de segregatie — de strikte scheiding van bevolkingsgroepen, in dit geval op basis van huidskleur — en de andere misstanden in Congo maakte hem pijnlijk bewust van de ongelijkheid. Terug in België, in 1911, sprak hij op uitnodiging van de Leuvense studentenkring Amicitia. In zijn lezing 'Le Noir au Congo est-il civilisable?' bestreed hij de Belgische vooroordelen over de intellectuele capaciteiten van Congolezen en betoogde hij dat er geen inferieure rassen bestonden. De hele conferentie, inclusief Farnana's bijdrage, werd afgedrukt in het Vlaamsgezinde blad 'Ons Volk ontwaakt', wat zijn boodschap een groter bereik gaf.",
-      "kernpunt": "Farnana's directe ervaringen met discriminatie en ongelijkheid in koloniaal Congo, ondanks zijn hoge functie, wakkerden zijn activisme aan en leidden tot zijn eerste publieke verzet tegen raciale vooroordelen.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1909",
-          "gebeurtenis": "Eerste zwarte persoon in Belgische staatsdienst; vertrok naar Jardin botanique van Eala in Congo."
-        },
-        {
-          "jaar": "1911",
-          "gebeurtenis": "Sprak in België de lezing 'Le Noir au Congo est-il civilisable?' uit, waarin hij raciale vooroordelen bestreed."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe droegen Farnana's ervaringen in koloniaal Congo, ondanks zijn hoge functie, bij aan het aanwakkeren van zijn activisme?",
-          "antwoord": "De openlijke vijandigheid, neerbuigende houding, segregatie en andere misstanden waarmee hij als ambtenaar werd geconfronteerd, maakten hem pijnlijk bewust van de diepgewortelde ongelijkheid. Dit motiveerde hem om zich publiekelijk te verzetten tegen raciale vooroordelen."
+          "vraag": "Waarom verergerde het Twaalfjarig Bestand het diepe meningsverschil tussen Van Oldenbarnevelt en Maurits?",
+          "antwoord": "Van Oldenbarnevelt bepleitte de wapenstilstand vanwege de hoge kosten en het bevorderen van handel, terwijl Maurits het zag als een gemiste kans om de verzwakte Spanjaarden definitief te verslaan, wat hun fundamenteel verschillende strategische prioriteiten blootlegde."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom was Farnana's lezing 'Le Noir au Congo est-il civilisable?' in 1911 een belangrijk moment van verzet tegen de heersende koloniale opvattingen?",
+          "vraag": "Hoe zorgde de aanvankelijke samenwerking tussen Van Oldenbarnevelt en Maurits voor de vroege successen van de Republiek?",
           "opties": [
-            "Hij gebruikte de gelegenheid om te pleiten voor onmiddellijke onafhankelijkheid van Congo, wat ongekend was.",
-            "Hij bestreed direct de Belgische vooroordelen over de intellectuele capaciteiten van Congolezen en beargumenteerde het ontbreken van inferieure rassen.",
-            "Hij onthulde details over corruptie binnen het ministerie van Koloniën, wat tot schandalen leidde.",
-            "Het was de eerste keer dat een Congolees in het openbaar sprak in België, ongeacht de inhoud."
+            "Van Oldenbarnevelt leverde de militaire strategie en Maurits zorgde voor de politieke en financiële steun.",
+            "Hun karakters vulden elkaar aan, waarbij Van Oldenbarnevelt de politieke en financiële basis legde en Maurits de militaire operaties leidde.",
+            "Ze deelden dezelfde strategische visie en vulden elkaars beslissingen blindelings aan.",
+            "Beiden waren bedreven in zowel militaire als politieke zaken, wat hen een ongeëvenaarde dubbele slagkracht gaf."
           ],
           "correcteIndex": 1
         }
       ]
     },
     {
-      "titel": "Vechten in Europa, netwerken voor Afrika",
-      "tekst": "Een nieuw verlof in België viel samen met het uitbreken van de Eerste Wereldoorlog. Farnana besloot dienst te nemen in het Korps der Vrijwilligers van Congo, een gelegenheidseenheid die later werd geïntegreerd in het reguliere leger. Van de 330 korpsleden waren er slechts vier zwart. Het Korps streed mee voor het behoud van Namen en dekte de aftocht van het terugtrekkende leger. Op 23 augustus 1914 werden Farnana en zijn eenheid door de Duitsers krijgsgevangen gemaakt in Lives. Krijgsgevangenschap betekent dat ze tijdens een oorlog gevangen werden genomen door de vijandelijke strijdkrachten.\n\nAl bij aankomst op het station in Duitsland werd Farnana om zijn huidskleur vernederd. De jaren van dwangarbeid, ziekte en hoon in Hannover en Roemenië waren zwaar. Maar in gevangenschap kwam hij ook in contact met Tirailleurs sénégalais — Senegalese infanteristen die in het Franse leger dienden. Hij schreef brieven voor hen, wat hem in contact bracht met Blaise Diagne, een invloedrijke Senegalese volksvertegenwoordiger — iemand die het volk vertegenwoordigt in een parlement — in de Franse Kamer. Deze ontmoetingen verbreedden Farnana's perspectief en legden de basis voor zijn pan-Afrikaanse overtuigingen — het idee dat alle mensen van Afrikaanse afkomst wereldwijd moeten samenwerken voor hun emancipatie en eenheid.",
-      "kernpunt": "Zijn harde ervaringen als krijgsgevangene tijdens de Eerste Wereldoorlog brachten Farnana in contact met andere zwarte soldaten en pan-Afrikaanse denkers, wat zijn visie op Congolese en Afrikaanse emancipatie verder vormde.",
+      "titel": "De Religieuze Twist en de Fatale Val",
+      "tekst": "Tijdens het Twaalfjarig Bestand verschoof Maurits' focus noodgedwongen meer naar politiek, het terrein van Van Oldenbarnevelt, wat de spanningen verder deed oplopen. Een diepgaand theologisch meningsverschil over predestinatie — de leer dat God van tevoren heeft bepaald wie behouden zal worden en wie niet — tussen twee Leidse hoogleraren, Jacobus Arminius en Franciscus Gomarus, mondde uit in een landelijke religieuze en politieke strijd. De aanhangers van Arminius dienden een verzoekschrift, of remonstrantie, in, waarin werd gepleit voor vrijheid van geloofsopvatting binnen de kerk. De tegenstanders, de contraremonstranten, eisten juist dat alle gelovigen de orthodoxe kerkleer zouden volgen.\n\nVan Oldenbarnevelt, zelf een aanhanger van het Arminianisme, meende dat de Staten het hoogste gezag hadden, ook over kerkelijke zaken, en dat de kerk meerdere stromingen moest kunnen omvatten. Maurits daarentegen, streng calvinistisch opgevoed, stond een calvinistische eenheidskerk voor. Hij maakte zijn positie duidelijk door de diensten van de contraremonstranten te bezoeken, pal naast Van Oldenbarnevelts woning. Dit maakte het conflict openlijk politiek en veroorzaakte onrust en verdeeldheid in Holland en tussen de gewesten.\n\nIn een poging zijn positie te handhaven en Maurits' invloed te beperken, liet Van Oldenbarnevelt in 1617 de Staten van Holland de Scherpe Resolutie aannemen. Dit besluit gaf steden in Holland de zelfstandige bevoegdheid om huurtroepen, zogenaamde waardgelders, in te huren om onlusten te onderdrukken. Dit ondermijnde echter het gezag van Maurits als opperbevelhebber van het Staatse leger. Maurits achtte dit onacceptabel. Op gezag van de Staten-Generaal pleegde Maurits vervolgens een daad die veel weg had van een staatsgreep: hij ontbond de waardgelders en liet op 29 augustus 1618 Van Oldenbarnevelt en zijn medestanders arresteren op verdenking van hoogverraad — het verraden van het eigen land of de soeverein.\n\nEen speciale politieke rechtbank van 24 rechters veroordeelde Van Oldenbarnevelt op 12 mei 1619 wegens hoogverraad ter dood. Hij had gehoopt op protest van zijn politieke vrienden, gezien zijn staat van dienst en leeftijd, maar Maurits had inmiddels veel remonstrantse bestuurders vervangen. Een dag na zijn veroordeling, op 13 mei 1619, werd de 71-jarige raadpensionaris op het Binnenhof in het openbaar onthoofd. Zijn laatste woorden op het schavot, gericht aan het publiek, waren: “Mannen, gelooft niet dat ik een landverrader ben, ik heb oprecht en vroom gehandeld, als een goede patriot, en zo zal ik sterven.” Daarna vroeg hij zijn knecht: “Maak het kort, maak het kort.” Zijn executie was het tragische hoogtepunt van een diepgaand conflict tussen twee machtige figuren over de toekomst van de jonge Republiek.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe diepgewortelde religieuze conflicten, gecombineerd met Van Oldenbarnevelts politieke uitdagingen en Maurits' groeiende autoriteit, leidden tot de arrestatie, veroordeling en publieke executie van de raadpensionaris.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1914",
-          "gebeurtenis": "Nam dienst in het Korps der Vrijwilligers van Congo en werd krijgsgevangen gemaakt door de Duitsers."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe waren Farnana's ervaringen als krijgsgevangene tijdens de Eerste Wereldoorlog cruciaal voor de vorming van zijn pan-Afrikaanse overtuigingen?",
-          "opties": [
-            "Hij leerde er Duits, wat hem hielp om internationale politiek te begrijpen.",
-            "De dwangarbeid en vernederingen gaven hem een dieper inzicht in de universele aard van onderdrukking.",
-            "Het contact met Senegalese soldaten en de link met Blaise Diagne legden de basis voor samenwerking en een bredere visie op Afrikaanse eenheid.",
-            "Hij kreeg de kans om te studeren en zijn intellectuele vaardigheden verder te ontwikkelen in gevangenschap."
-          ],
-          "correcteIndex": 2
+          "jaar": "1617",
+          "gebeurtenis": "Staten van Holland nemen de Scherpe Resolutie aan"
         },
         {
-          "type": "flashcard",
-          "vraag": "Hoe droeg het contact met andere zwarte soldaten en figuren zoals Blaise Diagne tijdens zijn krijgsgevangenschap bij aan de ontwikkeling van Farnana's visie op Afrikaanse emancipatie?",
-          "antwoord": "Deze ontmoetingen verbreedden zijn perspectief van louter Congolese problematiek naar een besef van gedeelde strijd onder mensen van Afrikaanse afkomst wereldwijd, en legden de basis voor zijn overtuiging dat samenwerking essentieel was voor hun bevrijding en eenheid."
-        }
-      ]
-    },
-    {
-      "titel": "De stem van Congo in Brussel en Parijs",
-      "tekst": "Na de Duitse nederlaag, in 1919, richtte Farnana samen met zijn legervrienden Albert Kudjabo en Joseph Adipanga in Brussel de Union Congolaise op. Dit was een 'vereniging voor wederzijdse hulp en morele ontwikkeling van het Congolese ras', die naast socioculturele ook nationalistische — gericht op de belangen en onafhankelijkheid van het eigen volk — en politieke doelen had. De vereniging, met zo'n 33 leden waarvan de meesten analfabeet waren, kreeg subsidie voor vorming en opende afdelingen in Luik, Charleroi en Marchienne-au-Pont. Toen een oud-strijdersblad opriep om de Congolezen die hadden meegevochten terug te sturen, reageerde de Union Congolaise strijdlustig: dan moesten de blanken ook maar uit Afrika gerepatrieerd worden. Deze onverbloemde toon was de kolonisatoren niet gewend.\n\nIn februari 1919 had Farnana al deelgenomen aan het Eerste Pan-Afrikaans Congres in Parijs, waar hij de inspirerende woorden hoorde van Blaise Diagne en de Amerikaanse socioloog W.E.B. Du Bois. In december 1920 mocht Farnana zelf het eerste Nationaal Koloniaal Congres in de Belgische Senaat toespreken. Zijn radicale boodschap, die opriep tot afschaffing van dwangarbeid, gelijke verloning, onderwijs voor Congolezen en inspraak in het bestuur, werd retorisch goed gebracht en verwees strategisch naar de steun van de zwarte priester Stefano Kaoze. Ondanks beleefd applaus viel de roep om gelijkberechtiging in slechte aarde bij pers en publieke opinie. Farnana werd hierom almaar virulenter — feller en vijandiger — op de korrel genomen door de koloniale pers in Leopoldstad. Zijn correspondentie met Henry Emmanuel John, een aanhanger van het garveyisme — het idee dat zwarte Amerikanen complotteerden om de Belgische kolonie omver te werpen — werd onderschept en gepubliceerd. De autoriteiten brachten deze stroming in verband met Simon Kimbangu, een prediker die vizioenen — bovennatuurlijke verschijningen of openbaringen — had over onafhankelijkheid, wat de spanningen verder deed oplopen.",
-      "kernpunt": "Farnana groeide uit tot een prominente stem voor Congolese rechten en pan-Afrikaanse eenheid, maar zijn directe en radicale eisen voor gelijkberechtiging stuitten op felle weerstand en vijandigheid van de koloniale autoriteiten en pers.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1919",
-          "gebeurtenis": "Richtte de Union Congolaise op in Brussel en nam deel aan het Eerste Pan-Afrikaans Congres in Parijs."
+          "jaar": "1618",
+          "gebeurtenis": "Arrestatie van Van Oldenbarnevelt en zijn medestanders (29 augustus)"
         },
         {
-          "jaar": "1920",
-          "gebeurtenis": "Sprak het eerste Nationaal Koloniaal Congres toe in de Belgische Senaat met radicale eisen."
+          "jaar": "1619",
+          "gebeurtenis": "Van Oldenbarnevelt ter dood veroordeeld (12 mei)"
+        },
+        {
+          "jaar": "1619",
+          "gebeurtenis": "Van Oldenbarnevelt onthoofd op het Binnenhof (13 mei)"
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe bevestigden Farnana's acties met de Union Congolaise en zijn toespraak op het Nationaal Koloniaal Congres zijn rol als prominente stem voor Congolese rechten?",
-          "antwoord": "Door de Union Congolaise op te richten gaf hij de Congolese gemeenschap een platform voor wederzijdse hulp en politieke doelen, en met zijn moedige toespraak in de Senaat formuleerde hij directe en concrete eisen voor gelijkberechtiging die de koloniale status quo uitdaagden."
+          "vraag": "Hoe transformeerde het theologische debat over predestinatie tussen Arminius en Gomarus in een landelijke politieke strijd?",
+          "antwoord": "Het meningsverschil escaleerde omdat Van Oldenbarnevelt de Arminiaanse zijde steunde en stelde dat de Staten over kerkelijke zaken gingen, terwijl Maurits de contraremonstranten steunde en een eenheidskerk wilde, waardoor het conflict de staatsinrichting en machtsverhoudingen raakte."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom veroorzaakten Farnana's openlijke en radicale eisen voor gelijkberechtiging zo'n felle weerstand en vijandigheid bij de koloniale autoriteiten en pers?",
+          "vraag": "Waarom was de aanname van de Scherpe Resolutie door Van Oldenbarnevelt een cruciale fout die zijn arrestatie en veroordeling tot gevolg had?",
           "opties": [
-            "Zijn eisen waren financieel onhaalbaar voor de Belgische kolonie.",
-            "De kolonisatoren waren niet gewend aan zulke directe kritiek en concrete oproepen tot verandering van een Congolees, wat hun machtsstructuur bedreigde.",
-            "Hij pleitte voor een gewapende opstand, wat de veiligheid in de kolonie ernstig in gevaar bracht.",
-            "Zijn connecties met pan-Afrikaanse leiders werden gezien als een directe bedreiging voor de Belgische soevereiniteit."
+            "Het besluit gaf steden de bevoegdheid om eigen troepen in te huren, wat Maurits' gezag als opperbevelhebber ondermijnde en hij als een staatsgevaarlijke daad beschouwde.",
+            "De resolutie zorgde voor een directe oorlog met Spanje, waar Maurits zich niet op had voorbereid.",
+            "Het maakte de weg vrij voor de invoering van een monarchie, wat indruiste tegen de republikeinse idealen van Maurits.",
+            "Het was een directe aanval op de financiële belangen van de Staten-Generaal, waardoor Van Oldenbarnevelt zijn steunbasis verloor."
           ],
-          "correcteIndex": 1
-        }
-      ]
-    },
-    {
-      "titel": "Onverzettelijk en vergeten, tot de herontdekking",
-      "tekst": "Het klimaat was verre van ideaal toen het Tweede Pan-Afrikaans Congres later dat jaar een sessie in Brussel hield. De Belgische kranten schilderden Farnana nu af als een gevaarlijke agitator — iemand die mensen opstookt tot onrust of verzet. Hij zetelde in het bestuur van het congres en gaf een lezing over de geschiedenis van de zwarte beschaving aan de oevers van de Congorivier. Het ministerie, de bedrijfswereld en de pers voerden de druk echter zodanig op dat de conclusies van het congres sterk werden afgezwakt. Het elan, de bezieling en het enthousiasme van het panafrikanisme werden hierdoor geknakt.\n\nDe polemiek — een felle discussie of pennestrijd — in de koloniale pers duurde voort. Andere kranten stonden ook niet warm voor Farnana's ideeën. In 1925 leverde hij een bijdrage over Afrikaanse kunst, waarin hij de collecties in Tervuren zonder omwegen 'geplunderd' noemde. Zijn niet-aflatende campagne voor eerbetoon aan Congolese oud-strijders leverde in 1927 enig succes op met de inhuldiging van het 'Monument du Souvenir' in Leopoldstad. Toch was de balans voor Farnana ontgoochelend. In mei 1929 keerde hij ongetrouwd en kinderloos terug naar Congo. Hij werkte in een oliemolen en richtte met steun van zijn tante Lise een school en kapel op in zijn geboortedorp Nzemba. Zijn ontwikkelingsplannen kwamen echter abrupt ten einde door zijn dood in 1930, onder onduidelijke omstandigheden. Volgens een lokale overlevering — een verhaal dat mondeling van generatie op generatie wordt doorgegeven — zou hij vergiftigd zijn om een geldkwestie.\n\nEen maand na zijn dood werd het terugkerende kolonialen verboden om zwarten mee te nemen naar België. Gouverneur-generaal Auguste Tilkens noemde het verblijf van zwarten gevaarlijk en had daarmee duidelijk Farnana in gedachten. Meer dan ooit was men vastbesloten Congolezen uit te sluiten van hoger onderwijs, met het beleid 'Pas d'élite, pas d'ennuis' (Geen elite, geen last). Pas decennia later kreeg Farnana de erkenning die hem toekwam: in 2011 werd een tentoonstelling aan hem gewijd, een documentaire gemaakt en een gedenkplaat aangebracht. In 2014 verscheen zijn levensverhaal in stripvorm, en in 2023 kondigde Vilvoorde aan een nieuwe Zennebrug naar hem te vernoemen. Zo werd Paul Panda Farnana, de eerste Congolese intellectueel en onvermoeibare strijder voor gelijkheid, uit de vergetelheid getrokken.",
-      "kernpunt": "Ondanks aanhoudende strijd en persoonlijke opoffering stierf Farnana gedesillusioneerd, waarbij zijn leven zelfs leidde tot een verdere verstrakking van het koloniale beleid, maar zijn nalatenschap werd uiteindelijk postuum erkend als die van een belangrijke pionier.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1921",
-          "gebeurtenis": "Zetelde in het bestuur van het Tweede Pan-Afrikaans Congres in Brussel."
-        },
-        {
-          "jaar": "1925",
-          "gebeurtenis": "Noemde collecties in Tervuren 'geplunderd' in een bijdrage over Afrikaanse kunst."
-        },
-        {
-          "jaar": "1927",
-          "gebeurtenis": "Campagne voor eerbetoon aan Congolese oud-strijders resulteerde in 'Monument du Souvenir'."
-        },
-        {
-          "jaar": "1929",
-          "gebeurtenis": "Keerde terug naar Congo, gedesillusioneerd."
-        },
-        {
-          "jaar": "1930",
-          "gebeurtenis": "Overleed onder onduidelijke omstandigheden; verbod op meenemen zwarten naar België ingesteld."
-        },
-        {
-          "jaar": "2011",
-          "gebeurtenis": "Tentoonstelling, documentaire en gedenkplaat ter ere van Farnana."
-        },
-        {
-          "jaar": "2014",
-          "gebeurtenis": "Levensverhaal verscheen in stripvorm."
-        },
-        {
-          "jaar": "2023",
-          "gebeurtenis": "Vilvoorde kondigde aan een nieuwe Zennebrug naar hem te vernoemen."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe beïnvloedde Farnana's onverzettelijke activisme, paradoxaal genoeg, het Belgische koloniale beleid direct na zijn dood?",
-          "opties": [
-            "Zijn dood leidde tot massale protesten die het koloniale bewind onder druk zetten om hervormingen door te voeren.",
-            "Het ministerie van Koloniën besloot, uit respect, een speciaal fonds voor Congolese studenten op te richten.",
-            "Zijn leven en ideeën werden door de autoriteiten misbruikt om de 'gevaren' van een geschoolde Congolese elite te benadrukken en hoger onderwijs voor Congolezen te verbieden.",
-            "De Belgische pers begon hem postuum te prijzen als een visionaire leider."
-          ],
-          "correcteIndex": 2
+          "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom duurde het decennia voordat Paul Panda Farnana de erkenning kreeg die hem toekwam als belangrijke pionier?",
-          "antwoord": "Zijn radicale ideeën en onverbloemde kritiek op het koloniale systeem werden tijdens zijn leven afgewezen en onderdrukt. De koloniale autoriteiten wilden geen Congolese elite, wat leidde tot een bewuste poging om zijn invloed te minimaliseren en hem in de vergetelheid te doen raken. Pas veel later, na de dekolonisatie en met een veranderend historisch perspectief, kon zijn ware belang worden ingezien en erkend."
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Hoe komt het dat Farnana, ondanks zijn persoonlijke strijd en opofferingen, gedesillusioneerd stierf?",
-          "antwoord": "De aanhoudende weerstand van de koloniale autoriteiten en pers, het afzwakken van pan-Afrikaanse idealen, en het uitblijven van concrete veranderingen in het beleid, zorgden ervoor dat zijn campagnes weinig tastbaar succes hadden tijdens zijn leven. Dit leidde tot een gevoel van teleurstelling en frustratie."
+          "vraag": "Hoe leidde de verschuiving in Maurits' focus naar politiek tijdens het Twaalfjarig Bestand tot de uiteindelijke val van Van Oldenbarnevelt?",
+          "antwoord": "De wapenstilstand dwong Maurits meer politiek actief te worden, wat hem in direct conflict bracht met Van Oldenbarnevelt over zaken als religie en de macht van de gewesten. Dit culmineerde in Maurits' ingrijpen tegen de waardgelders en de arrestatie van Van Oldenbarnevelt."
         }
       ]
     }
   ],
-  "categorie": "Panda Farnana",
-  "categorieKleur": "#7cb9e8",
-  "datum": "2026-05-12"
+  "categorie": "Oldenbarnevelt",
+  "categorieKleur": "#82d4b0",
+  "datum": "2026-05-13"
 }
