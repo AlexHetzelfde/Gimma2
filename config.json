@@ -1,10 +1,14 @@
 {
   "geselecteerdeCategorieen": [
     "nl_uitgelicht",
+    "en_uitgelicht",
     "biologie",
+    "geschiedenis",
     "landen",
     "maatschappij",
-    "sport"
+    "politiek",
+    "religie",
+    "wetenschap"
   ],
   "gisterenArtikel": "Kwallen"
 }
