@@ -256,27 +256,66 @@ async function schrijfNaarGitHub(pad, inhoud, bericht) {
 
 async function main() {
   const { readFile } = await import('fs/promises');
-  const config       = JSON.parse(await readFile('config.json', 'utf8'));
+  const config = JSON.parse(await readFile('config.json', 'utf8'));
   const geselecteerd = config.geselecteerdeCategorieen || ['nl_uitgelicht'];
-  const gisteren     = config.gisterenArtikel || '';
+  const gisteren = config.gisterenArtikel || '';
 
-  const catId      = geselecteerd[Math.floor(Math.random() * geselecteerd.length)];
-  const catFunctie = CATEGORIEEN[catId] || CATEGORIEEN.willekeurig;
-  const taal       = catId === 'en_uitgelicht' ? 'en' : 'nl';
-  console.log(`Categorie: ${catId}`);
+  // Zet de geselecteerde categorieën in een willekeurige volgorde
+  const categorieenLijst = [...geselecteerd].sort(() => Math.random() - 0.5);
+  let titel, tekst, taal;
 
-  let titel, tekst;
-  for (let poging = 0; poging < 5; poging++) {
-    const kandidaat = await catFunctie();
-    console.log(`Kandidaat: ${kandidaat}`);
-    if (kandidaat === gisteren) { console.log('Zelfde als gisteren, opnieuw...'); continue; }
-    const r = await haalVolledigeTekst(kandidaat, taal);
-    if ((r.tekst || '').length < 3000) { console.log(`Te kort (${r.tekst.length} tekens), opnieuw...`); continue; }
-    titel = r.titel; tekst = r.tekst; break;
+  // Probeer elke categorie maximaal 2 keer
+  for (const catId of categorieenLijst) {
+    const catFunctie = CATEGORIEEN[catId] || CATEGORIEEN.willekeurig;
+    const catTaal = catId === 'en_uitgelicht' ? 'en' : 'nl';
+    console.log(`Probeer categorie: ${catId}`);
+
+    for (let poging = 0; poging < 2; poging++) {
+      const kandidaat = await catFunctie();
+      console.log(`  Poging ${poging + 1}: ${kandidaat}`);
+
+      if (kandidaat === gisteren) {
+        console.log('  Zelfde als gisteren, volgende...');
+        continue;
+      }
+
+      const r = await haalVolledigeTekst(kandidaat, catTaal);
+      if ((r.tekst || '').length < 3000) {
+        console.log(`  Te kort (${r.tekst.length} tekens), volgende...`);
+        continue;
+      }
+
+      // Geschikt artikel gevonden
+      titel = r.titel;
+      tekst = r.tekst;
+      taal = catTaal;
+      break;
+    }
+
+    if (titel) break; // stop zodra we een artikel hebben
   }
-  if (!titel) throw new Error('Geen geschikt artikel gevonden na 5 pogingen');
+
+  // Fallback: volledig willekeurig Nederlands artikel
+  if (!titel) {
+    console.log('Geen artikel gevonden in geselecteerde categorieën. Kies willekeurig Nederlands artikel...');
+    for (let poging = 0; poging < 5; poging++) {
+      const kandidaat = await haalNlWillekeurig();
+      console.log(`Willekeurig poging ${poging + 1}: ${kandidaat}`);
+      if (kandidaat === gisteren) continue;
+      const r = await haalVolledigeTekst(kandidaat, 'nl');
+      if ((r.tekst || '').length >= 3000) {
+        titel = r.titel;
+        tekst = r.tekst;
+        taal = 'nl';
+        break;
+      }
+    }
+  }
+
+  if (!titel) throw new Error('Geen geschikt artikel gevonden na alle pogingen');
   console.log(`Artikel gekozen: ${titel}`);
 
+  // Gemini calls (ongewijzigd)
   console.log('Gemini call 1: sectietekst...');
   const sectieResultaat = await geminiMetRetry(maakSectiePrompt(titel, tekst, taal));
   if (!sectieResultaat.secties?.length) throw new Error('Geen secties ontvangen');
@@ -289,14 +328,20 @@ async function main() {
 
   const secties = sectieResultaat.secties.map((s, i) => ({
     ...s,
-    afbeelding:    null,
+    afbeelding: null,
     afbeeldingUrl: null,
-    tijdlijn:      vragenResultaat.secties[i]?.tijdlijn || [],
-    vragen:        vragenResultaat.secties[i]?.vragen   || []
+    tijdlijn: vragenResultaat.secties[i]?.tijdlijn || [],
+    vragen: vragenResultaat.secties[i]?.vragen || []
   }));
 
   const vandaag = new Date().toISOString().slice(0, 10);
-  const les     = { titel, secties, categorie: vragenResultaat.categorie, categorieKleur: vragenResultaat.categorieKleur, datum: vandaag };
+  const les = {
+    titel,
+    secties,
+    categorie: vragenResultaat.categorie,
+    categorieKleur: vragenResultaat.categorieKleur,
+    datum: vandaag
+  };
 
   console.log('Schrijf vandaag-les.json...');
   await schrijfNaarGitHub('vandaag-les.json', JSON.stringify(les, null, 2), `Les van ${vandaag}: ${titel}`);
@@ -307,5 +352,7 @@ async function main() {
 
   console.log('Klaar!');
 }
+
+main().catch(e => { console.error('Fout:', e); process.exit(1); });
 
 main().catch(e => { console.error('Fout:', e); process.exit(1); });
