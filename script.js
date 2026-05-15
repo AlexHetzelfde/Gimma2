@@ -438,10 +438,6 @@ async function renderStats() {
 // ════════════════════════════════════════
 // DATUM / TIJD HELPERS
 // ════════════════════════════════════════
-function lokaalDatum() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-}
 
 function vandaagSleutel() {
   return 'wikileer_les_' + lokaalDatum();
