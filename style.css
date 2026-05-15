@@ -7,7 +7,6 @@
   --muted:   #a0a0a0;   /* gedempt wit voor secundaire tekst */
   --accent:  #ed5b36;
   --accent2: #d55131;
-  --error:   #ff6b6b;   /* roodachtig, voor fouten (optioneel aanpassen) */
   --goed:    #4caf50;   /* groen (optioneel aanpassen) */
   --fout:    #ff6b6b;   /* idem */
   --les-kleur:     #ed5b36;
@@ -1309,7 +1308,7 @@ body.layout-telefoon #datum-mobiel-balk {
 .knop-kijkop:hover {
   border-color: var(--accent2);
   color: var(--accent2);
-  background: rgba(70, 217, 138, 0.06);
+  background: rgba(var(--les-kleur-rgb), 0.06);
   transform: translateY(-1px);
 }
 
@@ -2076,7 +2075,7 @@ body.layout-telefoon .knop-flashcard-goed {
 .home-knop-les   { border-left: 4px solid var(--les-kleur); }
 
 /* Tooltip bij disabled */
-.home-knop[data-tip]:hover::after {
+.home-knop[data-tip]::after {
   content: attr(data-tip);
   position: absolute;
   bottom: calc(100% + 8px);
@@ -2091,7 +2090,7 @@ body.layout-telefoon .knop-flashcard-goed {
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity 0.2s;
   z-index: 50;
 }
 
