@@ -876,7 +876,7 @@ async function renderCategorieOverzicht() {
     const cat   = item.categorieNaam || 'Overig';
     const kleur = item.categorieKleur || '#e68a2e';
     if (!perCat[cat]) perCat[cat] = { kleur, datums: new Set() };
-    const datum = new Date(item.last_seen).toISOString().slice(0, 10);
+    const datum = lokaalDatum(new Date(item.last_seen));
     perCat[cat].datums.add(datum);
   }
 
