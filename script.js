@@ -14,6 +14,10 @@ const LS_GESELECTEERDE_CATS = 'wikileer_geselecteerde_cats';
 const REPO_OWNER            = 'AlexHetzelfde'; // ← aanpassen
 const REPO_NAME             = 'Gimma2';                   // ← aanpassen indien anders
 
+function lokaalDatum(d = new Date()) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
 // ════════════════════════════════════════
 // INDEXEDDB LAAG
 // ════════════════════════════════════════
@@ -160,7 +164,7 @@ async function slaSRDataOp(data) {
 }
 
 function vandaagProgSleutel() {
-  return 'wikileer_prog_' + new Date().toISOString().slice(0, 10);
+  return 'wikileer_prog_' + lokaalDatum();
 }
 
 async function haalVoortgang() {
@@ -458,12 +462,12 @@ function getEndOfDay() {
 
 async function lastSessionToday() {
   const val = await dbGet(LS_LAST_SESSION);
-  return val === new Date().toISOString().slice(0, 10);
+  return val === lokaalDatum();
 }
 
 async function markSessionDone() {
   try {
-    await dbSet(LS_LAST_SESSION, new Date().toISOString().slice(0, 10));
+    await dbSet(LS_LAST_SESSION, lokaalDatum());
     await updateStreak();
   } catch (e) {
     console.warn('Fout bij markeren sessie:', e);
@@ -481,8 +485,8 @@ async function haalStreak() {
 
 async function updateStreak() {
   const streak    = await haalStreak();
-  const vandaag   = new Date().toISOString().slice(0, 10);
-  const gisteren  = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  const vandaag   = lokaalDatum();
+  const gisteren  = lokaalDatum(new Date(Date.now() - 86400000));
   if (streak.laatste_datum === vandaag) return;
   streak.huidig       = streak.laatste_datum === gisteren ? streak.huidig + 1 : 1;
   streak.langste      = Math.max(streak.langste, streak.huidig);
@@ -836,7 +840,7 @@ async function startVaultPractice() {
 async function startLesVanVandaag() {
   const dueItems  = await getDueItems();
   pendingSR       = dueItems.length > 0 ? dueItems : [];
-  const vandaag   = new Date().toISOString().slice(0, 10);
+  const vandaag   = lokaalDatum();
 
   try {
     const url = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/vandaag-les.json?t=${Date.now()}`;
@@ -880,7 +884,7 @@ async function renderCategorieOverzicht() {
     perCat[cat].datums.add(datum);
   }
 
-  const vandaag = new Date().toISOString().slice(0, 10);
+  const vandaag = lokaalDatum();
 
   const categorieen = Object.entries(perCat)
     .map(([naam, data]) => ({
@@ -1085,7 +1089,7 @@ function toonSRReview(dueItems) {
       const srAntwoord = vraagType === 'multiplechoice'
         ? (item.opties && item.opties[item.correcteIndex]) || ''
         : item.antwoord || '';
-      setTimeout(() => toonFeedbackPicker(blok, item.id, item.vraag, srAntwoord), 600);
+      toonFeedbackPicker(blok, item.id, item.vraag, srAntwoord);
     }
 
     // ─────────────────────────────────────────
@@ -2165,7 +2169,7 @@ function toonVraag(vi) {
       knopVolgende.disabled = false;
       slaVoortgangOp({ sectieIndex: huidigeSectie, vraagIndex: vi, inVragen: true, voltooid: false, titel: artikelTitel, vraagResultaten });
       renderShields();
-      setTimeout(() => toonFeedbackPicker(blok, vraagId, vraag.vraag, vraag.opties[vraag.correcteIndex] || ''), 500);
+      toonFeedbackPicker(blok, vraagId, vraag.vraag, vraag.opties[vraag.correcteIndex] || '');
     }
 
     const vraagDiv = document.createElement('div');
@@ -2232,7 +2236,7 @@ function toonVraag(vi) {
       knopVolgende.disabled = false;
       slaVoortgangOp({ sectieIndex: huidigeSectie, vraagIndex: vi, inVragen: true, voltooid: false, titel: artikelTitel, vraagResultaten });
       renderShields();
-      setTimeout(() => toonFeedbackPicker(blok, vraagId, vraag.vraag, antwoord), 500);
+      toonFeedbackPicker(blok, vraagId, vraag.vraag, antwoord);
     }
 
     blok.querySelector('.knop-onthul').onclick = () => {
