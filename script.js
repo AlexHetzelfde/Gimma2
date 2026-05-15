@@ -434,8 +434,13 @@ async function renderStats() {
 // ════════════════════════════════════════
 // DATUM / TIJD HELPERS
 // ════════════════════════════════════════
+function lokaalDatum() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
 function vandaagSleutel() {
-  return 'wikileer_les_' + new Date().toISOString().slice(0, 10);
+  return 'wikileer_les_' + lokaalDatum();
 }
 
 function getTomorrow() {
@@ -555,7 +560,13 @@ async function getDueItems() {
     });
 }
 
-async function registreerAntwoord({ id, vraag, type, antwoordData, goed }) {
+let _srQueue = Promise.resolve();
+function registreerAntwoord(args) {
+  _srQueue = _srQueue.then(() => _registreerAntwoordIntern(args));
+  return _srQueue;
+}
+
+async function _registreerAntwoordIntern({ id, vraag, type, antwoordData, goed }) {
   const sr  = await haalSRData();
   const idx = sr.findIndex(v => v.id === id);
   const now    = Date.now();
@@ -2602,7 +2613,7 @@ function toonHerhalingsRonde() {
   toonKlaarSchermFinal();
 }
 
-function toonKlaarSchermFinal() {
+async function toonKlaarSchermFinal() {
   document.getElementById('les-scherm').classList.remove('zichtbaar');
   document.getElementById('shields-balk').style.display = 'none';
 
@@ -2627,8 +2638,8 @@ function toonKlaarSchermFinal() {
   document.getElementById('klaar-scherm').classList.add('zichtbaar');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
-  slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
-  markSessionDone();
+  await slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
+  await markSessionDone();
 }
 
 // ════════════════════════════════════════
