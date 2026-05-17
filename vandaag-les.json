@@ -1,122 +1,147 @@
 {
-  "titel": "Godsdienstwaanzin",
+  "titel": "Periodiek systeem",
   "secties": [
     {
-      "titel": "De Verdwijnende Term: 'Godsdienstwaanzin'",
-      "tekst": "Lange tijd bestond er een begrip in de volksmond dat onlosmakelijk verbonden leek met een verwrongen blik op geloof: 'godsdienstwaanzin'. Deze term, inmiddels verouderd en verlaten door de psychiatrie, beschreef een toestand waarin iemand zich bevond in een psychose – een ernstige verstoring van de geestelijke gezondheid waarbij het contact met de realiteit geheel of gedeeltelijk verloren gaat. De inhoud van die psychose was dan sterk religieus van aard.\n\nDe gangbare opvatting destijds was dat deze mensen ziek waren geworden door een te intense preoccupatie met godsdienst, een vorm van dweperij – een fanatieke, overdreven en vaak onredelijke ijver voor een religieus doel. De Van Dale omschreef het zelfs als 'krankzinnigheid die wordt veroorzaakt door godsdienstige dweperij'. Dit perspectief plaatste religie direct in de rol van ziekmaker.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat 'godsdienstwaanzin' een verouderd begrip is dat een directe causale relatie tussen religie en geestesziekte suggereerde.",
+      "titel": "De Grote Orde: Een Kaart van Chemie",
+      "tekst": "Stel u voor: een wereld vol onzichtbare bouwstenen, elk met zijn eigen karakter en gedrag. Deze bouwstenen zijn de chemische elementen, de fundamentele stoffen waaruit alles om ons heen is opgebouwd. Van het zuurstof dat we ademen tot het goud in sieraden, elk heeft een unieke identiteit.\n\nAl eeuwen proberen wetenschappers deze elementen te begrijpen en te ordenen. Het periodiek systeem, ook wel de tabel van Mendelejev genoemd, is de meest succesvolle poging. Het is een ingenieuze tabel die alle bekende chemische elementen rangschikt op basis van hun atoomnummer – het aantal protonen in de kern van een atoom. Dit atoomnummer is de identiteitskaart van een element; het bepaalt in grote mate zijn chemische eigenschappen.\n\nDeze rangschikking is niet willekeurig. Elementen met vergelijkbare chemische eigenschappen, zoals hoe ze reageren met andere stoffen, staan in de tabel boven elkaar. De tabel toont zo in één oogopslag de relaties tussen de elementen. Het is een gereedschap dat niet alleen de bestaande elementen categoriseert, maar ook voorspellingen mogelijk maakt over het gedrag van elementen die nog moeten worden ontdekt.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat het periodiek systeem een geordende tabel is van alle bekende chemische bouwstenen, gerangschikt op atoomnummer, die helpt om hun gedrag te voorspellen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
-          "type": "flashcard",
-          "vraag": "Hoe weerspiegelde de term 'godsdienstwaanzin' de toenmalige opvatting over de connectie tussen religie en psychische aandoeningen?",
-          "antwoord": "Het impliceerde dat een intensieve focus op religie direct leidde tot een ernstige verstoring van de geestelijke gezondheid, waarbij geloof de primaire oorzaak was van de psychotische toestand."
-        },
-        {
           "type": "multiplechoice",
-          "vraag": "Waarom wordt 'godsdienstwaanzin' tegenwoordig als een achterhaald concept beschouwd binnen de psychiatrie?",
+          "vraag": "Hoe draagt de ordening van elementen in het periodiek systeem bij aan het voorspellen van hun chemische gedrag?",
           "opties": [
-            "Het suggereerde een onbewezen, directe oorzaak-gevolgrelatie tussen geloof en psychische ziekte.",
-            "De symptomen die het beschreef, komen nu niet meer voor.",
-            "Moderne religies veroorzaken geen mentale problemen meer.",
-            "De term was te moeilijk uit te spreken voor patiënten."
+            "Door elementen met vergelijkbare eigenschappen in dezelfde verticale kolommen te plaatsen.",
+            "Door elementen te rangschikken op basis van hun alfabetische naam.",
+            "Door alleen de zeldzaamste elementen in de tabel op te nemen.",
+            "Door de elementen chronologisch op volgorde van ontdekking te presenteren."
           ],
           "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom is het atoomnummer een cruciale factor voor de organisatie van het periodiek systeem en het begrip van elementen?",
+          "antwoord": "Het atoomnummer, dat het aantal protonen in de kern van een atoom aangeeft, fungeert als de unieke identificatie van een element en bepaalt in belangrijke mate de chemische karakteristieken ervan."
         }
       ]
     },
     {
-      "titel": "Stemmen uit een Andere Realiteit: De Kenmerken van de 'Waanzin'",
-      "tekst": "Wat betekende zo'n 'godsdienstwaanzin' dan concreet voor de persoon die eraan leed? Het uitte zich in diverse waanvoorstellingen – oncorrigeerbare overtuigingen die niet stroken met de realiteit en die door anderen in dezelfde culturele context niet worden gedeeld. Iemand kon vast geloven de Messias te zijn, de wereld te moeten redden, of een andere religieuze leider. Sommigen waren ervan overtuigd dat het einde der tijden nabij was, een apocalypswaan die hen volledig in beslag nam.\n\nAnderen meenden direct te communiceren met God of engelen, of zelfs speciale ingevingen van boven te ontvangen. Soms ging het zover dat men dacht door God te spreken, of zelfs God zelf te zijn. Het is van belang te beseffen dat deze overtuigingen een uitgesproken individueel karakter hadden. Ze waren afwijkend van de gedeelde geloofspraktijken binnen een religieuze gemeenschap. Een geloof dat binnen een kerkelijk verband als normaal werd beschouwd – zoals het horen van de stem van Jezus in een specifieke spirituele context – viel hier buiten. De 'waanzin' zat hem juist in de eenzame, ongedeelde aard van de religieuze beleving.",
-      "kernpunt": "Na deze sectie begrijpt de lezer de concrete uitingen van wat men destijds 'godsdienstwaanzin' noemde en het cruciale verschil tussen een individuele waan en een gedeelde geloofsovertuiging.",
+      "titel": "Atoomstructuur: De Architectuur van de Tabel",
+      "tekst": "De organisatie van het periodiek systeem is direct afgeleid van de structuur van een atoom. Elk chemisch element wordt gedefinieerd door zijn atoomnummer, dat gelijk is aan het aantal protonen in de atoomkern. Maar atomen kennen varianten: isotopen. Dit zijn atomen van hetzelfde element met hetzelfde aantal protonen, maar een verschillend aantal neutronen in de kern. Zo heeft koolstof, met zes protonen, meestal zes neutronen, maar er bestaan ook isotopen met zeven of acht neutronen. De chemische eigenschappen van deze isotopen zijn vrijwel identiek, waardoor ze in het periodiek systeem als één element worden gegroepeerd.\n\nDe tabel zelf is opgebouwd uit horizontale rijen, die we periodes noemen, en verticale kolommen, bekend als groepen. Een nieuwe periode begint steeds wanneer een nieuwe elektronenschil — een 'laag' van elektronen rond de atoomkern — zijn eerste elektron krijgt. De groepen, daarentegen, worden bepaald door de elektronenconfiguratie, oftewel de manier waarop de elektronen rond de kern zijn geordend, vooral die in de buitenste schil. Elementen in dezelfde groep hebben vaak een vergelijkbare elektronenconfiguratie in hun buitenste schil, wat verklaart waarom zij vergelijkbare chemische eigenschappen bezitten. Zuurstof en seleen, bijvoorbeeld, staan in dezelfde groep omdat beide vier elektronen hebben in hun buitenste p-schil. Deze overeenkomsten maken het mogelijk om de chemische eigenschappen van een element te voorspellen, simpelweg door te kijken naar zijn buren in de tabel.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat de plaats van een element in het periodiek systeem, in een horizontale rij (periode) of verticale kolom (groep), bepaald wordt door de opbouw van zijn atoom, met name het aantal protonen en de ordening van elektronen, wat de chemische eigenschappen verklaart.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe onderscheidden de manifestaties van wat men 'godsdienstwaanzin' noemde zich van religieuze overtuigingen die algemeen geaccepteerd waren binnen een gemeenschap?",
-          "antwoord": "De uitingen van deze aandoening waren individuele, oncorrigeerbare overtuigingen die niet strookten met de werkelijkheid en afweken van de collectieve religieuze praktijken, in tegenstelling tot gedeelde doctrines."
+          "vraag": "Hoe verklaart de elektronenconfiguratie de gelijkenis in chemische eigenschappen tussen elementen in dezelfde groep van het periodiek systeem?",
+          "antwoord": "Elementen die tot dezelfde groep behoren, hebben een vergelijkbare rangschikking van elektronen in hun buitenste schil, wat resulteert in een vergelijkbaar chemisch reactiepatroon."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom was de eenzame, ongedeelde aard van de religieuze beleving essentieel bij het identificeren van 'godsdienstwaanzin'?",
+          "vraag": "Waarom begint er een nieuwe periode in het periodiek systeem?",
           "opties": [
-            "Gedeelde religieuze ervaringen werden altijd als gezond beschouwd.",
-            "Het toonde aan dat de overtuigingen van de persoon afweken van de collectieve realiteit en niet binnen een culturele context werden gedragen.",
-            "De persoon wilde zijn of haar geloof niet delen met anderen.",
-            "Alleen individuele geloofspraktijken konden leiden tot geestesziekte."
+            "Omdat het aantal neutronen in de atoomkern verandert.",
+            "Omdat er een nieuwe elektronenschil zijn eerste elektron krijgt.",
+            "Omdat een element een ander atoomgewicht krijgt.",
+            "Omdat de elementen van aardgas naar metalen overgaan."
           ],
           "correcteIndex": 1
         }
       ]
     },
     {
-      "titel": "Een Oude Term Onder Vuur: Kritiek en Verandering",
-      "tekst": "De gedachte dat religie direct krankzinnigheid kon veroorzaken, stuitte echter op groeiende weerstand. Filosofen en psychiaters zoals Rudolf Steiner bekritiseerden de term 'godsdienstwaanzin' scherp. Hij stelde dat de term slechts symptomen beschreef, maar de werkelijke oorzaken van een geestelijke stoornis negeerde. Niemand werd waanzinnig door een religieus idee an sich, meende Steiner. In plaats daarvan vervormden religieuze ideeën bij iemand die al ziek was; de ziekte projecteerde zich op de religieuze inhoud.\n\nOok binnen de kringen van de gereformeerde psychiatrie, een stroming die een eigen, religieus geaarde benadering van geestelijke zorg nastreefde, was de term omstreden. Zij zagen het als een teken van een godsdienstvijandige houding binnen de algemene psychiatrie. Hoe kon ware godsdienstigheid iemand waanzinnig maken, als het juist bedoeld was als een bron van stabiliteit en genezing? Deze kritiek droeg bij aan het geleidelijke verdwijnen van het begrip.\n\nTegen het einde van de negentiende eeuw raakte 'godsdienstwaanzin' binnen de psychiatrie in onbruik. De reden was helder: het beschreef geen specifiek ziektebeeld. Religieuze beleving kon immers een integraal onderdeel zijn van iemands leven en soms de belangrijkste inhoud vormen van diverse psychische symptomen, zonder daarvan de oorzaak te zijn.",
-      "kernpunt": "Na deze sectie begrijpt de lezer waarom de term 'godsdienstwaanzin' op kritiek stuitte en uiteindelijk verdween uit de psychiatrische vaktaal, omdat het de complexe relatie tussen religie en geestesziekten miskende en een te simplistische oorzaak-gevolgrelatie suggereerde.",
+      "titel": "De Voorspellende Kracht van Mendelejev",
+      "tekst": "Voordat het periodiek systeem zijn huidige vorm kreeg, probeerden diverse chemici de elementen te ordenen. Ze zochten naar patronen, zoals Johann Döbereiner die elementen in 'triaden' van drie groepeerde op basis van hun chemische overeenkomsten en atoomgewicht. Maar het was de Russische scheikundige Dmitri Mendelejev die in 1869 een doorbraak forceerde.\n\nMendelejev rangschikte de toen bekende elementen op basis van hun atoomgewicht — het gewicht van een atoom. Zijn systeem was echter verre van perfect. Toch nam hij twee cruciale beslissingen die zijn tabel verhieven boven die van zijn tijdgenoten. Ten eerste liet hij bewust gaten open in zijn tabel. Hij geloofde dat deze gaten moesten worden opgevuld door elementen die nog niet ontdekt waren. Hij ging zelfs verder door de eigenschappen van deze onbekende elementen te voorspellen, zoals die van gallium en germanium.\n\nZijn tweede beslissing was om soms de volgorde van het atoomgewicht te negeren. Hij wisselde bijvoorbeeld telluur en jood om, zodat ze beter pasten bij de chemische families waar ze volgens hun eigenschappen thuishoorden. Toen de voorspelde elementen later werden ontdekt, bleken Mendelejevs voorspellingen keer op keer correct. Pas in 1913, toen Henry Moseley het atoomnummer als ordeningsprincipe vaststelde, werd duidelijk dat Mendelejevs intuïtieve ordening van elementen in feite al overeenkwam met hun atoomnummers. Deze overgang van atoomgewicht naar atoomnummer gaf het periodiek systeem een definitieve, op hele getallen gebaseerde reeks, en bevestigde zijn voorspellende kracht.",
+      "kernpunt": "Na deze sectie snapt de lezer hoe Dmitri Mendelejev, door gaten in zijn tabel open te laten en de volgorde van elementen soms aan te passen, een systeem creëerde dat met opmerkelijke nauwkeurigheid de eigenschappen van nog onontdekte elementen kon voorspellen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "Eind 19e eeuw",
-          "gebeurtenis": "Term 'godsdienstwaanzin' raakt in onbruik binnen de psychiatrie."
+          "jaar": "1869",
+          "gebeurtenis": "Dmitri Mendelejev forceerde een doorbraak met zijn periodiek systeem, gebaseerd op atoomgewicht."
+        },
+        {
+          "jaar": "1913",
+          "gebeurtenis": "Henry Moseley stelde het atoomnummer vast als het definitieve ordeningsprincipe voor het periodiek systeem."
         }
       ],
       "vragen": [
         {
-          "type": "flashcard",
-          "vraag": "Hoe heeft de kritiek van Rudolf Steiner bijgedragen aan de discussie over de simplistische verklaring van 'godsdienstwaanzin'?",
-          "antwoord": "Steiner betoogde dat de term slechts symptomen beschreef en de dieperliggende oorzaken van een psychische stoornis negeerde, waarbij religieuze ideeën eerder de inhoud dan de oorzaak van de ziekte vormden."
-        },
-        {
           "type": "multiplechoice",
-          "vraag": "Waarom was er vanuit de gereformeerde psychiatrie weerstand tegen het concept van 'godsdienstwaanzin'?",
+          "vraag": "Hoe slaagde Mendelejev erin om de eigenschappen van nog onontdekte elementen accuraat te voorspellen?",
           "opties": [
-            "Zij vonden dat het een onjuist beeld gaf van de stabiliserende en helende kracht van een authentiek geloof.",
-            "Ze geloofden dat alle psychische aandoeningen lichamelijk van aard waren.",
-            "Ze wilden hun eigen religieuze termen introduceren.",
-            "Ze zagen geen enkel verband tussen geloof en mentale processen."
+            "Door alle bekende elementen strikt op atoomgewicht te rangschikken zonder uitzonderingen.",
+            "Door bewust lege plekken in zijn tabel te laten en daarvoor eigenschappen te extrapoleren.",
+            "Door uitsluitend te focussen op de chemische reactiviteit van elementen.",
+            "Door de elementen te ordenen op basis van hun ontdekkingsjaar."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom besloot de psychiatrie uiteindelijk om de benaming 'godsdienstwaanzin' te laten vallen?",
-          "antwoord": "Het concept beschreef geen uniek ziektebeeld, maar een symptoominhoud die deel kon uitmaken van diverse psychische problemen, zonder dat geloof de primaire oorzaak was van de stoornis."
+          "vraag": "Waarom was Mendelejevs beslissing om de volgorde van atoomgewicht soms te negeren cruciaal voor de effectiviteit van zijn periodiek systeem?",
+          "antwoord": "Door de volgorde van atoomgewicht aan te passen, kon hij elementen groeperen op basis van hun overeenkomstige chemische karakteristieken, wat de voorspellende kracht van zijn systeem aanzienlijk versterkte."
         }
       ]
     },
     {
-      "titel": "De Nuance van Nu: Religie en Geestelijke Gezondheid",
-      "tekst": "De moderne godsdienstpsychologie en godsdienstpsychopathologie benaderen de relatie tussen religie en psychisch functioneren met aanzienlijk meer nuance. Er is uitgebreid onderzoek gedaan dat herhaaldelijk aantoont dat deze relatie zelden eenduidig is. Religie veroorzaakt niet direct een psychische aandoening, noch is het altijd een puur beschermende factor. De invloed van religie is meestal indirect.\n\nHet kan een bron zijn van steun en zingeving, maar ook van stress of schuldgevoelens, afhankelijk van de context en het individu. Een religieuze overtuiging kan de inhoud kleuren van een psychose of depressie, net zoals andere persoonlijke thema's dat kunnen. Het is een thema dat deel uitmaakt van de menselijke ervaring, niet een losstaande 'ziekteverwekker'. Deze verschuiving in inzicht markeert het definitieve afscheid van de simplistische term 'godsdienstwaanzin' en opent de weg voor een dieper begrip van de complexe interacties tussen geloof, geest en welzijn.",
-      "kernpunt": "Na deze sectie inziet de lezer dat de hedendaagse psychiatrie en psychologie een genuanceerder beeld schetsen van de relatie tussen religie en geestelijke gezondheid, waarbij een directe oorzakelijkheid zelden wordt aangenomen en de invloed van religie als indirect en complex wordt gezien.",
+      "titel": "De Ritmes van de Chemie: Periodieke Trends",
+      "tekst": "De kracht van het periodiek systeem ligt in de voorspelbaarheid van de eigenschappen van elementen. Deze voorspelbaarheid is te zien in zogenaamde periodieke trends – patronen in eigenschappen die zich herhalen over de rijen en kolommen van de tabel. Neem bijvoorbeeld de atoomstraal, de grootte van een atoom. Binnen een periode, van links naar rechts, neemt de atoomstraal over het algemeen af. Dit komt doordat elk opeenvolgend element meer protonen en elektronen heeft, waardoor de elektronen sterker naar de kern worden getrokken.\n\nVan boven naar beneden in een groep neemt de atoomstraal juist toe, omdat er per periode een extra elektronenschil aan het atoom wordt toegevoegd, waardoor de elektronen verder van de kern komen te zitten. Dit heeft directe gevolgen voor andere eigenschappen, zoals de ionisatiepotentiaal: de energie die nodig is om een elektron uit een atoom te verwijderen. Hoe sterker de elektronen gebonden zijn, hoe meer energie nodig is. Daarom stijgt de ionisatiepotentiaal over het algemeen van links naar rechts in een periode en van beneden naar boven in een groep.\n\nEen andere belangrijke trend is de elektronegativiteit, de neiging van een atoom om elektronen aan te trekken wanneer het een verbinding aangaat met andere atomen. Hoe hoger de elektronegativiteit, hoe sterker de aantrekkingskracht. Deze eigenschap neemt over het algemeen toe van links naar rechts in een periode en neemt af van boven naar beneden in een groep. Fluor is bijvoorbeeld het meest elektronegatieve element. Deze trends, die nauwkeurig te verklaren zijn door de theorie van elektronenschillen, leggen de basis voor het begrijpen van chemische reacties en de vorming van verbindingen.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat de plaats van een element in het periodiek systeem niet alleen zijn identiteit bepaalt, maar ook voorspelbare patronen in eigenschappen zoals grootte en reactiviteit onthult, die verklaard kunnen worden door de opbouw van de atomen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe verschilt de huidige benadering van godsdienstpsychologie ten aanzien van de interactie tussen geloof en psychisch welzijn van eerdere, simplistische opvattingen?",
-          "antwoord": "Moderne inzichten erkennen een complexe en indirecte relatie, waarbij geloof zowel een ondersteunende als een stressvolle rol kan spelen, afhankelijk van het individu en de context, in plaats van een directe oorzaak van ziekte."
+          "vraag": "Hoe verklaart de toename van het aantal protonen en elektronen de afname van de atoomstraal binnen een periode van links naar rechts?",
+          "antwoord": "Naarmate het aantal protonen en elektronen in een periode toeneemt, wordt de aantrekkingskracht van de kern op de elektronen sterker, waardoor de elektronenwolken dichter naar de kern worden getrokken en de atoomgrootte afneemt."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom wordt de rol van religie bij mentale gezondheid nu gezien als ingewikkeld en niet-direct causaal?",
+          "vraag": "Waarom neemt de ionisatiepotentiaal over het algemeen toe van links naar rechts in een periode?",
           "opties": [
-            "Religie kan verschillende functies vervullen, zoals het bieden van zingeving of het genereren van stress, en beïnvloedt de psychische toestand op diverse, contextafhankelijke manieren.",
-            "Nieuwe medicijnen hebben de invloed van religie volledig tenietgedaan.",
-            "Mensen zijn minder religieus geworden, waardoor de impact afneemt.",
-            "Wetenschappers hebben bewezen dat religie en de geest totaal gescheiden zijn."
+            "De elektronen worden verder van de kern geplaatst, waardoor ze makkelijker te verwijderen zijn.",
+            "De atomen worden groter, wat de verwijdering van elektronen vergemakkelijkt.",
+            "De elektronen worden sterker gebonden aan de atoomkern, wat meer energie vereist om ze te verwijderen.",
+            "De elektronegativiteit van het element neemt af, waardoor elektronen minder sterk worden vastgehouden."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 2
+        }
+      ]
+    },
+    {
+      "titel": "De Levende Tabel: Nieuwe Elementen en Open Vragen",
+      "tekst": "Het periodiek systeem is geen statisch document; het is een levende kaart die voortdurend wordt uitgebreid. De lijst van bekende elementen reikt inmiddels tot oganesson (atoomnummer 118). De eerste 94 elementen komen van nature voor op Aarde, al zijn sommige zo zeldzaam dat ze eerst in een laboratorium werden gesynthetiseerd voordat ze in de natuur werden ontdekt. Elementen met een atoomnummer vanaf 95 zijn uitsluitend in laboratoria gemaakt, door atomen met hoge energieën op elkaar te botsen.\n\nDeze synthetische elementen, vaak extreem zwaar en instabiel, stellen wetenschappers voor nieuwe uitdagingen. Hun chemische eigenschappen zijn soms lastig te bepalen, en ze gedragen zich mogelijk anders dan wat extrapolatie vanuit lichtere elementen zou voorspellen. Dit komt door zogenaamde relativistische effecten – verschijnselen die optreden wanneer elektronen in zware atomen zo snel bewegen dat Einsteins relativiteitstheorie een rol gaat spelen. Zo wordt voorspeld dat flerovium (element 114) edelgasachtige eigenschappen kan vertonen, in plaats van de eigenschappen van de koolstofgroep waar het volgens zijn plaats in de tabel thuishoort.\n\nOok over de plaatsing van de lichtste elementen, waterstof en helium, bestaat nog altijd geen volledige overeenstemming. Waterstof deelt eigenschappen met zowel de alkalimetalen (groep 1) als de halogenen (groep 17), maar past perfect in geen van beide. Helium, een edelgas, heeft slechts twee elektronen in zijn buitenste schil, terwijl de andere edelgassen er acht hebben. Dit zijn geen fundamentele tekortkomingen van het systeem, maar illustreren dat de chemische realiteit soms complexer is dan een strikte categorisering toelaat. Het periodiek systeem blijft een dynamisch veld van onderzoek, waarbij elke nieuwe ontdekking en elke onbeantwoorde vraag ons begrip van de materie verdiept.",
+      "kernpunt": "Na deze sectie realiseert de lezer zich dat het periodiek systeem een dynamisch instrument is dat voortdurend wordt uitgebreid met nieuw ontdekte en gesynthetiseerde elementen, en dat wetenschappers nog steeds discussiëren over de optimale plaatsing van sommige elementen en de grenzen van de tabel.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe beïnvloeden relativistische effecten de voorspelbaarheid van chemische eigenschappen van zeer zware, synthetische elementen?",
+          "opties": [
+            "Ze zorgen ervoor dat deze elementen altijd precies de voorspelde eigenschappen van hun groep volgen.",
+            "Ze veroorzaken dat elektronen zo snel bewegen dat Einsteins relativiteitstheorie van toepassing wordt, wat leidt tot onverwachte eigenschappen.",
+            "Ze stabiliseren de atomen van zware elementen, waardoor ze makkelijker te bestuderen zijn.",
+            "Ze maken het mogelijk om deze elementen op Aarde te vinden, in plaats van ze te synthetiseren."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom is er nog discussie over de optimale plaatsing van waterstof en helium in het periodiek systeem?",
+          "antwoord": "Waterstof vertoont kenmerken van zowel alkalimetalen als halogenen, terwijl helium, als edelgas, afwijkt van de algemene acht elektronenregel voor de buitenste schil van andere edelgassen, waardoor hun indeling niet eenduidig is."
         }
       ]
     }
   ],
-  "categorie": "Geloof & Geest",
+  "categorie": "Periodiek Systeem",
   "categorieKleur": "#82d4b0",
-  "datum": "2026-05-16"
+  "datum": "2026-05-17"
 }
