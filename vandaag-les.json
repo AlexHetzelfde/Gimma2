@@ -1,147 +1,138 @@
 {
-  "titel": "Periodiek systeem",
+  "titel": "Districtszetel",
   "secties": [
     {
-      "titel": "De Grote Orde: Een Kaart van Chemie",
-      "tekst": "Stel u voor: een wereld vol onzichtbare bouwstenen, elk met zijn eigen karakter en gedrag. Deze bouwstenen zijn de chemische elementen, de fundamentele stoffen waaruit alles om ons heen is opgebouwd. Van het zuurstof dat we ademen tot het goud in sieraden, elk heeft een unieke identiteit.\n\nAl eeuwen proberen wetenschappers deze elementen te begrijpen en te ordenen. Het periodiek systeem, ook wel de tabel van Mendelejev genoemd, is de meest succesvolle poging. Het is een ingenieuze tabel die alle bekende chemische elementen rangschikt op basis van hun atoomnummer – het aantal protonen in de kern van een atoom. Dit atoomnummer is de identiteitskaart van een element; het bepaalt in grote mate zijn chemische eigenschappen.\n\nDeze rangschikking is niet willekeurig. Elementen met vergelijkbare chemische eigenschappen, zoals hoe ze reageren met andere stoffen, staan in de tabel boven elkaar. De tabel toont zo in één oogopslag de relaties tussen de elementen. Het is een gereedschap dat niet alleen de bestaande elementen categoriseert, maar ook voorspellingen mogelijk maakt over het gedrag van elementen die nog moeten worden ontdekt.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat het periodiek systeem een geordende tabel is van alle bekende chemische bouwstenen, gerangschikt op atoomnummer, die helpt om hun gedrag te voorspellen.",
+      "titel": "De directe lijn naar de volksvertegenwoordiging: Wat is een districtszetel?",
+      "tekst": "Wanneer u stemt bij verkiezingen, kiest u in veel landen niet alleen een partij, maar ook een persoon die uw regio vertegenwoordigt. Dit directe mandaat — de rechtstreekse opdracht die een partij of politicus krijgt van de kiezers — noemen we een districtszetel. Het is een zetel in het parlement die wordt toegekend op basis van de stemmen in een specifiek geografisch gebied, een zogenaamd kiesdistrict. Elk land verdeelt zijn grondgebied in zulke kiesdistricten, die elk een of meerdere vertegenwoordigers naar het parlement sturen.\n\nDeze directe toewijzing van een zetel verschilt wezenlijk van systemen waarbij zetels indirect worden verdeeld. Denk aan vereffeningszetels, die pas na de districtsverkiezingen worden toegekend om de totale stemverhouding over het hele land te corrigeren. Of landelijke partij- of lijstzetels, die zonder directe regionale binding op basis van de nationale uitslag worden verdeeld. Het principe van de districtszetel legt de nadruk op de lokale band tussen kiezer en gekozene. Het is een fundamenteel onderdeel van hoe democratieën hun volksvertegenwoordiging inrichten.",
+      "kernpunt": "De lezer begrijpt de basisdefinitie van een districtszetel en het concept van een kiesdistrict, in tegenstelling tot indirecte zeteltoewijzing.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe draagt de ordening van elementen in het periodiek systeem bij aan het voorspellen van hun chemische gedrag?",
+          "vraag": "Hoe draagt een districtszetel bij aan de directe vertegenwoordiging van kiezers in het parlement?",
           "opties": [
-            "Door elementen met vergelijkbare eigenschappen in dezelfde verticale kolommen te plaatsen.",
-            "Door elementen te rangschikken op basis van hun alfabetische naam.",
-            "Door alleen de zeldzaamste elementen in de tabel op te nemen.",
-            "Door de elementen chronologisch op volgorde van ontdekking te presenteren."
+            "Door een directe opdracht van kiezers in een specifiek geografisch gebied aan een politicus te garanderen.",
+            "Door zetels pas na landelijke verkiezingen toe te wijzen op basis van totale stemverhoudingen.",
+            "Door de landelijke partijlijsten zonder regionale binding te verdelen.",
+            "Door compensatiezetels te gebruiken om de nationale uitslag te corrigeren."
           ],
           "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom is het atoomnummer een cruciale factor voor de organisatie van het periodiek systeem en het begrip van elementen?",
-          "antwoord": "Het atoomnummer, dat het aantal protonen in de kern van een atoom aangeeft, fungeert als de unieke identificatie van een element en bepaalt in belangrijke mate de chemische karakteristieken ervan."
+          "vraag": "Waarom is het onderscheid tussen een districtszetel en vereffeningszetels belangrijk voor het begrip van democratische representatie?",
+          "antwoord": "Het verschil zit in de manier waarop de zetel wordt verkregen; een districtszetel vertegenwoordigt een directe lokale keuze, terwijl vereffeningszetels later worden ingezet om de nationale stembalans te corrigeren en zo een bredere afspiegeling te waarborgen."
         }
       ]
     },
     {
-      "titel": "Atoomstructuur: De Architectuur van de Tabel",
-      "tekst": "De organisatie van het periodiek systeem is direct afgeleid van de structuur van een atoom. Elk chemisch element wordt gedefinieerd door zijn atoomnummer, dat gelijk is aan het aantal protonen in de atoomkern. Maar atomen kennen varianten: isotopen. Dit zijn atomen van hetzelfde element met hetzelfde aantal protonen, maar een verschillend aantal neutronen in de kern. Zo heeft koolstof, met zes protonen, meestal zes neutronen, maar er bestaan ook isotopen met zeven of acht neutronen. De chemische eigenschappen van deze isotopen zijn vrijwel identiek, waardoor ze in het periodiek systeem als één element worden gegroepeerd.\n\nDe tabel zelf is opgebouwd uit horizontale rijen, die we periodes noemen, en verticale kolommen, bekend als groepen. Een nieuwe periode begint steeds wanneer een nieuwe elektronenschil — een 'laag' van elektronen rond de atoomkern — zijn eerste elektron krijgt. De groepen, daarentegen, worden bepaald door de elektronenconfiguratie, oftewel de manier waarop de elektronen rond de kern zijn geordend, vooral die in de buitenste schil. Elementen in dezelfde groep hebben vaak een vergelijkbare elektronenconfiguratie in hun buitenste schil, wat verklaart waarom zij vergelijkbare chemische eigenschappen bezitten. Zuurstof en seleen, bijvoorbeeld, staan in dezelfde groep omdat beide vier elektronen hebben in hun buitenste p-schil. Deze overeenkomsten maken het mogelijk om de chemische eigenschappen van een element te voorspellen, simpelweg door te kijken naar zijn buren in de tabel.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat de plaats van een element in het periodiek systeem, in een horizontale rij (periode) of verticale kolom (groep), bepaald wordt door de opbouw van zijn atoom, met name het aantal protonen en de ordening van elektronen, wat de chemische eigenschappen verklaart.",
+      "titel": "De winnaar krijgt alles: Het meerderheidsstelsel",
+      "tekst": "In sommige landen, zoals het Verenigd Koninkrijk en de Verenigde Staten, werkt het systeem met districtszetels volgens een simpel principe: de winnaar krijgt alles. Dit heet een meerderheidsstelsel. Hierbij is er in elk kiesdistrict slechts één districtszetel te verdelen. De kandidaat of partij die de meeste stemmen behaalt in dat district, ongeacht of dit een absolute meerderheid — meer dan de helft van de stemmen — of slechts een relatieve meerderheid — meer stemmen dan elke andere kandidaat, maar niet per se meer dan de helft — is, wint de zetel. Dit systeem staat ook bekend als 'first-past-the-post'. Degene die als eerste over de finish komt, wint.\n\nHet gevolg hiervan is duidelijk: een groot deel van de kiezers voelt zich niet vertegenwoordigd. Hun stemmen gaan in feite verloren als ze niet op de winnende kandidaat hebben gestemd. Stel, in een district stemt 40% op partij A, 35% op partij B en 25% op partij C. Partij A wint de zetel, maar de 60% die op B en C stemde, ziet hun voorkeur niet terug in de vertegenwoordiging. Dit kan leiden tot een sterke ondervertegenwoordiging van kleinere partijen of minderheden, zelfs als zij landelijk gezien een aanzienlijk aantal stemmen trekken. De band tussen district en vertegenwoordiger is direct, maar de afspiegeling van de diverse kiezers binnen dat district is beperkt.",
+      "kernpunt": "De lezer doorgrondt hoe een districtszetel functioneert in een meerderheidsstelsel en de directe gevolgen daarvan voor de kiezers en de representatie van partijen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe verklaart de elektronenconfiguratie de gelijkenis in chemische eigenschappen tussen elementen in dezelfde groep van het periodiek systeem?",
-          "antwoord": "Elementen die tot dezelfde groep behoren, hebben een vergelijkbare rangschikking van elektronen in hun buitenste schil, wat resulteert in een vergelijkbaar chemisch reactiepatroon."
+          "vraag": "Hoe beïnvloedt het 'first-past-the-post' principe de representatie van kiezers in een district?",
+          "antwoord": "Dit principe leidt ertoe dat alleen de kandidaat met de meeste stemmen de zetel wint, waardoor de stemmen van alle andere kiezers in dat district niet direct resulteren in een vertegenwoordiger van hun voorkeur."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom begint er een nieuwe periode in het periodiek systeem?",
+          "vraag": "Waarom kan een meerderheidsstelsel met districtszetels leiden tot een ondervertegenwoordiging van kleinere partijen, zelfs als zij landelijk veel stemmen krijgen?",
           "opties": [
-            "Omdat het aantal neutronen in de atoomkern verandert.",
-            "Omdat er een nieuwe elektronenschil zijn eerste elektron krijgt.",
-            "Omdat een element een ander atoomgewicht krijgt.",
-            "Omdat de elementen van aardgas naar metalen overgaan."
+            "Omdat zij in veel individuele districten net niet de meeste stemmen behalen, waardoor hun stemmen lokaal verloren gaan.",
+            "Omdat dit systeem vereist dat partijen een absolute meerderheid van stemmen hebben om een zetel te winnen.",
+            "Omdat het de nadruk legt op landelijke partijlijsten in plaats van lokale vertegenwoordiging.",
+            "Omdat vereffeningszetels ontbreken om de nationale stemverhouding te corrigeren."
           ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         }
       ]
     },
     {
-      "titel": "De Voorspellende Kracht van Mendelejev",
-      "tekst": "Voordat het periodiek systeem zijn huidige vorm kreeg, probeerden diverse chemici de elementen te ordenen. Ze zochten naar patronen, zoals Johann Döbereiner die elementen in 'triaden' van drie groepeerde op basis van hun chemische overeenkomsten en atoomgewicht. Maar het was de Russische scheikundige Dmitri Mendelejev die in 1869 een doorbraak forceerde.\n\nMendelejev rangschikte de toen bekende elementen op basis van hun atoomgewicht — het gewicht van een atoom. Zijn systeem was echter verre van perfect. Toch nam hij twee cruciale beslissingen die zijn tabel verhieven boven die van zijn tijdgenoten. Ten eerste liet hij bewust gaten open in zijn tabel. Hij geloofde dat deze gaten moesten worden opgevuld door elementen die nog niet ontdekt waren. Hij ging zelfs verder door de eigenschappen van deze onbekende elementen te voorspellen, zoals die van gallium en germanium.\n\nZijn tweede beslissing was om soms de volgorde van het atoomgewicht te negeren. Hij wisselde bijvoorbeeld telluur en jood om, zodat ze beter pasten bij de chemische families waar ze volgens hun eigenschappen thuishoorden. Toen de voorspelde elementen later werden ontdekt, bleken Mendelejevs voorspellingen keer op keer correct. Pas in 1913, toen Henry Moseley het atoomnummer als ordeningsprincipe vaststelde, werd duidelijk dat Mendelejevs intuïtieve ordening van elementen in feite al overeenkwam met hun atoomnummers. Deze overgang van atoomgewicht naar atoomnummer gaf het periodiek systeem een definitieve, op hele getallen gebaseerde reeks, en bevestigde zijn voorspellende kracht.",
-      "kernpunt": "Na deze sectie snapt de lezer hoe Dmitri Mendelejev, door gaten in zijn tabel open te laten en de volgorde van elementen soms aan te passen, een systeem creëerde dat met opmerkelijke nauwkeurigheid de eigenschappen van nog onontdekte elementen kon voorspellen.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1869",
-          "gebeurtenis": "Dmitri Mendelejev forceerde een doorbraak met zijn periodiek systeem, gebaseerd op atoomgewicht."
-        },
-        {
-          "jaar": "1913",
-          "gebeurtenis": "Henry Moseley stelde het atoomnummer vast als het definitieve ordeningsprincipe voor het periodiek systeem."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe slaagde Mendelejev erin om de eigenschappen van nog onontdekte elementen accuraat te voorspellen?",
-          "opties": [
-            "Door alle bekende elementen strikt op atoomgewicht te rangschikken zonder uitzonderingen.",
-            "Door bewust lege plekken in zijn tabel te laten en daarvoor eigenschappen te extrapoleren.",
-            "Door uitsluitend te focussen op de chemische reactiviteit van elementen.",
-            "Door de elementen te ordenen op basis van hun ontdekkingsjaar."
-          ],
-          "correcteIndex": 1
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Waarom was Mendelejevs beslissing om de volgorde van atoomgewicht soms te negeren cruciaal voor de effectiviteit van zijn periodiek systeem?",
-          "antwoord": "Door de volgorde van atoomgewicht aan te passen, kon hij elementen groeperen op basis van hun overeenkomstige chemische karakteristieken, wat de voorspellende kracht van zijn systeem aanzienlijk versterkte."
-        }
-      ]
-    },
-    {
-      "titel": "De Ritmes van de Chemie: Periodieke Trends",
-      "tekst": "De kracht van het periodiek systeem ligt in de voorspelbaarheid van de eigenschappen van elementen. Deze voorspelbaarheid is te zien in zogenaamde periodieke trends – patronen in eigenschappen die zich herhalen over de rijen en kolommen van de tabel. Neem bijvoorbeeld de atoomstraal, de grootte van een atoom. Binnen een periode, van links naar rechts, neemt de atoomstraal over het algemeen af. Dit komt doordat elk opeenvolgend element meer protonen en elektronen heeft, waardoor de elektronen sterker naar de kern worden getrokken.\n\nVan boven naar beneden in een groep neemt de atoomstraal juist toe, omdat er per periode een extra elektronenschil aan het atoom wordt toegevoegd, waardoor de elektronen verder van de kern komen te zitten. Dit heeft directe gevolgen voor andere eigenschappen, zoals de ionisatiepotentiaal: de energie die nodig is om een elektron uit een atoom te verwijderen. Hoe sterker de elektronen gebonden zijn, hoe meer energie nodig is. Daarom stijgt de ionisatiepotentiaal over het algemeen van links naar rechts in een periode en van beneden naar boven in een groep.\n\nEen andere belangrijke trend is de elektronegativiteit, de neiging van een atoom om elektronen aan te trekken wanneer het een verbinding aangaat met andere atomen. Hoe hoger de elektronegativiteit, hoe sterker de aantrekkingskracht. Deze eigenschap neemt over het algemeen toe van links naar rechts in een periode en neemt af van boven naar beneden in een groep. Fluor is bijvoorbeeld het meest elektronegatieve element. Deze trends, die nauwkeurig te verklaren zijn door de theorie van elektronenschillen, leggen de basis voor het begrijpen van chemische reacties en de vorming van verbindingen.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat de plaats van een element in het periodiek systeem niet alleen zijn identiteit bepaalt, maar ook voorspelbare patronen in eigenschappen zoals grootte en reactiviteit onthult, die verklaard kunnen worden door de opbouw van de atomen.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe verklaart de toename van het aantal protonen en elektronen de afname van de atoomstraal binnen een periode van links naar rechts?",
-          "antwoord": "Naarmate het aantal protonen en elektronen in een periode toeneemt, wordt de aantrekkingskracht van de kern op de elektronen sterker, waardoor de elektronenwolken dichter naar de kern worden getrokken en de atoomgrootte afneemt."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Waarom neemt de ionisatiepotentiaal over het algemeen toe van links naar rechts in een periode?",
-          "opties": [
-            "De elektronen worden verder van de kern geplaatst, waardoor ze makkelijker te verwijderen zijn.",
-            "De atomen worden groter, wat de verwijdering van elektronen vergemakkelijkt.",
-            "De elektronen worden sterker gebonden aan de atoomkern, wat meer energie vereist om ze te verwijderen.",
-            "De elektronegativiteit van het element neemt af, waardoor elektronen minder sterk worden vastgehouden."
-          ],
-          "correcteIndex": 2
-        }
-      ]
-    },
-    {
-      "titel": "De Levende Tabel: Nieuwe Elementen en Open Vragen",
-      "tekst": "Het periodiek systeem is geen statisch document; het is een levende kaart die voortdurend wordt uitgebreid. De lijst van bekende elementen reikt inmiddels tot oganesson (atoomnummer 118). De eerste 94 elementen komen van nature voor op Aarde, al zijn sommige zo zeldzaam dat ze eerst in een laboratorium werden gesynthetiseerd voordat ze in de natuur werden ontdekt. Elementen met een atoomnummer vanaf 95 zijn uitsluitend in laboratoria gemaakt, door atomen met hoge energieën op elkaar te botsen.\n\nDeze synthetische elementen, vaak extreem zwaar en instabiel, stellen wetenschappers voor nieuwe uitdagingen. Hun chemische eigenschappen zijn soms lastig te bepalen, en ze gedragen zich mogelijk anders dan wat extrapolatie vanuit lichtere elementen zou voorspellen. Dit komt door zogenaamde relativistische effecten – verschijnselen die optreden wanneer elektronen in zware atomen zo snel bewegen dat Einsteins relativiteitstheorie een rol gaat spelen. Zo wordt voorspeld dat flerovium (element 114) edelgasachtige eigenschappen kan vertonen, in plaats van de eigenschappen van de koolstofgroep waar het volgens zijn plaats in de tabel thuishoort.\n\nOok over de plaatsing van de lichtste elementen, waterstof en helium, bestaat nog altijd geen volledige overeenstemming. Waterstof deelt eigenschappen met zowel de alkalimetalen (groep 1) als de halogenen (groep 17), maar past perfect in geen van beide. Helium, een edelgas, heeft slechts twee elektronen in zijn buitenste schil, terwijl de andere edelgassen er acht hebben. Dit zijn geen fundamentele tekortkomingen van het systeem, maar illustreren dat de chemische realiteit soms complexer is dan een strikte categorisering toelaat. Het periodiek systeem blijft een dynamisch veld van onderzoek, waarbij elke nieuwe ontdekking en elke onbeantwoorde vraag ons begrip van de materie verdiept.",
-      "kernpunt": "Na deze sectie realiseert de lezer zich dat het periodiek systeem een dynamisch instrument is dat voortdurend wordt uitgebreid met nieuw ontdekte en gesynthetiseerde elementen, en dat wetenschappers nog steeds discussiëren over de optimale plaatsing van sommige elementen en de grenzen van de tabel.",
+      "titel": "Evenwicht zoeken: Districtszetels en compensatie",
+      "tekst": "Niet elk land met districtszetels kiest voor het 'winner-takes-all'-principe. Veel democratieën streven naar een evenwichtiger afspiegeling van de stemmen, zowel lokaal als nationaal. In landen met evenredige vertegenwoordiging, zoals Zweden, Noorwegen en Denemarken, worden er per kiesdistrict vaak meerdere directe districtszetels verdeeld. Deze gaan naar de partijen en kandidaten die de meeste stemmen ontvangen in dat specifieke gebied, maar het systeem stopt daar niet.\n\nOm te voorkomen dat de landelijke zetelverdeling te veel afwijkt van de totale stemmen die partijen hebben gekregen, worden er aanvullend vereffeningszetels toegekend. Dit zijn extra zetels die na de directe districtsverkiezingen worden verdeeld op basis van de nationale verkiezingsuitslag. Het doel is om eventuele onevenwichtigheden die door de directe districtszetels zijn ontstaan, te compenseren. Zo kan een partij die in individuele districten net niet genoeg stemmen haalde om een directe zetel te winnen, toch vertegenwoordigd worden in het parlement als zij landelijk een aanzienlijk deel van de stemmen heeft verzameld. Dit zorgt ervoor dat de stem van de kiezer, zelfs als deze lokaal niet tot een directe zetel leidde, op nationaal niveau meetelt voor de samenstelling van het parlement.",
+      "kernpunt": "De lezer ziet in hoe landen met evenredige vertegenwoordiging districtszetels combineren met compensatiemechanismen, zoals vereffeningszetels, om een nationaal evenwicht te bewaren.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe beïnvloeden relativistische effecten de voorspelbaarheid van chemische eigenschappen van zeer zware, synthetische elementen?",
+          "vraag": "Hoe dragen vereffeningszetels bij aan een evenwichtiger parlementaire afspiegeling in landen met districtszetels?",
           "opties": [
-            "Ze zorgen ervoor dat deze elementen altijd precies de voorspelde eigenschappen van hun groep volgen.",
-            "Ze veroorzaken dat elektronen zo snel bewegen dat Einsteins relativiteitstheorie van toepassing wordt, wat leidt tot onverwachte eigenschappen.",
-            "Ze stabiliseren de atomen van zware elementen, waardoor ze makkelijker te bestuderen zijn.",
-            "Ze maken het mogelijk om deze elementen op Aarde te vinden, in plaats van ze te synthetiseren."
+            "Zij compenseren onevenwichtigheden die ontstaan zijn door directe districtszetels door extra zetels nationaal te verdelen op basis van de totale stemmen.",
+            "Zij zorgen ervoor dat alleen partijen met een absolute meerderheid in een district een zetel kunnen winnen.",
+            "Zij garanderen dat elke stem in een district direct leidt tot een vertegenwoordiger van de gekozen partij.",
+            "Zij vervangen volledig de directe districtszetels om een perfect evenredige vertegenwoordiging te bereiken."
           ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom is er nog discussie over de optimale plaatsing van waterstof en helium in het periodiek systeem?",
-          "antwoord": "Waterstof vertoont kenmerken van zowel alkalimetalen als halogenen, terwijl helium, als edelgas, afwijkt van de algemene acht elektronenregel voor de buitenste schil van andere edelgassen, waardoor hun indeling niet eenduidig is."
+          "vraag": "Waarom kiezen sommige democratieën ervoor om districtszetels te combineren met compensatiemechanismen in plaats van alleen een meerderheidsstelsel te gebruiken?",
+          "antwoord": "Zij streven ernaar om zowel lokale vertegenwoordiging via districtszetels te behouden als een bredere nationale afspiegeling van de kiezerswensen te waarborgen, door eventuele vertekeningen van het meerderheidsstelsel op te vangen."
+        }
+      ]
+    },
+    {
+      "titel": "De kiezer rangschikt: Een genuanceerdere districtszetel",
+      "tekst": "Er zijn ook kiessystemen die de directe districtszetel nog verder verfijnen, om de representativiteit binnen het district zelf te verhogen. Een voorbeeld hiervan is het systeem van gerangschikt stemmen, vaak toegepast via de enkelvoudige overdraagbare stem (STV), zoals in Ierland. Bij deze methode rangschikken kiezers de kandidaten op hun stembiljet op volgorde van voorkeur: eerste keus, tweede keus, enzovoort.\n\nWanneer de stemmen worden geteld, wordt eerst gekeken of een kandidaat direct een vereist aantal stemmen, een zogenaamd quotum, heeft behaald. Is dit niet het geval, dan worden de stemmen van de kandidaat met de minste eerstevoorkeurstemmen herverdeeld onder de overige kandidaten, op basis van de tweede voorkeur van de kiezers. Dit proces herhaalt zich totdat voldoende kandidaten het quotum hebben bereikt en de districtszetels zijn verdeeld. Het grote voordeel hiervan is dat stemmen minder snel verloren gaan. Zelfs als uw eerste keus niet wint, kan uw stem via uw tweede of derde voorkeur nog steeds bijdragen aan de verkiezing van een andere kandidaat. Dit resulteert in een fijnmaziger afspiegeling van de kiezerswensen binnen een district, waardoor de vertegenwoordiging daar breder wordt.",
+      "kernpunt": "De lezer begrijpt hoe gerangschikt stemmen de representativiteit binnen een kiesdistrict verhoogt door stemmen te herverdelen op basis van voorkeur en zo minder stemmen verloren laat gaan.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe zorgt het systeem van gerangschikt stemmen ervoor dat minder stemmen verloren gaan binnen een kiesdistrict?",
+          "antwoord": "Kiezers rangschikken hun voorkeur voor kandidaten, en als hun eerste keus niet genoeg stemmen krijgt, wordt hun stem overgedragen naar hun volgende voorkeur, waardoor de invloed van de stem behouden blijft."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom leidt gerangschikt stemmen, zoals bij de enkelvoudige overdraagbare stem (STV), tot een fijnmaziger afspiegeling van kiezerswensen binnen een district?",
+          "opties": [
+            "Omdat het kiezers toestaat om meerdere kandidaten te kiezen, wat de kans vergroot dat hun stem uiteindelijk meetelt voor een gekozen vertegenwoordiger.",
+            "Omdat alleen kandidaten met een absolute meerderheid van de eerste voorkeurstemmen een zetel kunnen winnen.",
+            "Omdat het de nadruk legt op de landelijke populariteit van partijen in plaats van individuele kandidaten.",
+            "Omdat het de noodzaak van vereffeningszetels op nationaal niveau overbodig maakt."
+          ],
+          "correcteIndex": 0
+        }
+      ]
+    },
+    {
+      "titel": "De afweging: Lokale band versus nationale evenredigheid",
+      "tekst": "De districtszetel vormt een fundamentele bouwsteen in veel democratische systemen. Het belangrijkste voordeel ligt in de directe, tastbare band die het creëert tussen de gekozen vertegenwoordiger en zijn of haar kiesdistrict. Kiezers weten precies wie hen in het parlement vertegenwoordigt en kunnen deze persoon aanspreken op lokale kwesties. Deze nabijheid versterkt de lokale democratie.\n\nTegelijkertijd brengt de directe aard van de districtszetel een inherente spanning met zich mee: hoe zorg je ervoor dat deze lokale vertegenwoordiging niet ten koste gaat van de evenredigheid op nationaal niveau? Zoals we zagen, kunnen systemen met één districtszetel per district leiden tot een scheve verhouding tussen het aantal stemmen en het aantal zetels voor een partij. Landen vangen dit op verschillende manieren op: door vereffeningszetels toe te voegen, die de nationale balans herstellen, of door complexere methodes zoals de dubbelevenredige zetelverdeling, die zowel regionale als nationale evenredigheid nastreeft. De keuze voor een systeem met districtszetels is dan ook altijd een afweging: hoe zwaar weegt de directe lokale vertegenwoordiging ten opzichte van een perfect evenredige afspiegeling van de nationale stemmen?",
+      "kernpunt": "De lezer overziet de fundamentele afweging tussen regionale vertegenwoordiging en nationale evenredigheid die kenmerkend is voor systemen met districtszetels en de manieren waarop landen dit dilemma oplossen.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom is er een inherente spanning tussen de directe lokale vertegenwoordiging van een districtszetel en de evenredigheid op nationaal niveau?",
+          "opties": [
+            "Omdat een sterke focus op lokale vertegenwoordiging via één zetel per district kan leiden tot een scheve verhouding tussen de landelijke stemmen en de zetelverdeling.",
+            "Omdat kiezers alleen op partijen stemmen en niet op individuen, wat de lokale band verzwakt.",
+            "Omdat alle landen verplicht zijn om vereffeningszetels te gebruiken, wat de lokale invloed vermindert.",
+            "Omdat nationale evenredigheid altijd prioriteit krijgt boven regionale belangen in democratische systemen."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe proberen landen het dilemma tussen directe lokale vertegenwoordiging en nationale evenredigheid op te lossen wanneer zij districtszetels gebruiken?",
+          "antwoord": "Landen passen compensatiemechanismen toe, zoals vereffeningszetels, om de nationale stembalans te herstellen, of gebruiken complexere methoden die zowel regionale als nationale afspiegeling nastreven."
         }
       ]
     }
   ],
-  "categorie": "Periodiek Systeem",
-  "categorieKleur": "#82d4b0",
-  "datum": "2026-05-17"
+  "categorie": "Districtszetel",
+  "categorieKleur": "#7cb9e8",
+  "datum": "2026-05-18"
 }
