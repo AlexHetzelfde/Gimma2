@@ -23,4 +23,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
-        run: node scripts/genereer-les.js
+        run: node scripts/genereer.js
