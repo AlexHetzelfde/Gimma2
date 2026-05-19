@@ -168,24 +168,56 @@ function bouwActiefLeerpad(padStruct, padId, categorieId, categorieKleur) {
 }
 
 // Prompts voor les 1 (zoals nu, maar met padcontext)
-function maakSectiePromptLes1(titel, tekst) {
-  const ingekorte = tekst.length > MAX_TEKST ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]' : tekst;
-  return `Je bent redacteur bij NRC. Jouw enige taak: schrijf een heldere, boeiende les over "${titel}" in goed Nederlands proza.
+function maakVragenPromptLes1(titel, secties) {
+  const sectiesVoorPrompt = secties.map((s, i) => ({
+    sectie: i + 1, titel: s.titel, tekst: s.tekst, kernpunt: s.kernpunt
+  }));
+  return `Je krijgt een les over "${titel}", verdeeld in secties. Elke sectie heeft een kernpunt: wat de lezer na het lezen moet begrijpen.
 
-TAAL: De brontekst is in het Nederlands.
+Jouw taken: bepaal categorie, maak tijdlijnen waar nodig, schrijf vragen.
 
-SCHRIJFREGELS — elk van deze regels is verplicht:
-... (identiek aan de bestaande prompt, zie originele code) ...
+CATEGORIE & KLEUR:
+- Korte Nederlandse naam, max 20 tekens
+- Kleur leesbaar op donkere achtergrond (#0f0f0f), perceived lightness > 50%
+- Voorbeelden: #7cb9e8, #e07b6a, #82d4b0, #c9a0dc, #f4c56a
 
-ARTIKELTEKST:
-${ingekorte}`;
+TIJDLIJN: Alleen toevoegen als de sectie expliciete historische datums bevat. Anders lege array.
+
+VRAGEN — verplichte regels:
+1. Elke vraag is gebaseerd op het kernpunt van de sectie, niet op een los feit
+2. Vraag naar WAAROM of HOE, nooit alleen naar WAT
+3. Het antwoord mag NOOIT dezelfde woorden herhalen als de vraag
+4. Wissel flashcard (open) en multiplechoice (4 opties, 1 correct) af
+5. Foute opties bij multiple choice zijn aannemelijk maar aantoonbaar onjuist op basis van de tekst
+6. 2 à 3 vragen per sectie
+
+GEEF JE ANTWOORD UITSLUITEND ALS GELDIGE JSON — geen uitleg, geen markdown.
+
+{
+  "categorie": "Naam",
+  "categorieKleur": "#hexkleur",
+  "secties": [
+    {
+      "tijdlijn": [{"jaar": "1200", "gebeurtenis": "Wat er gebeurde"}],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom/Hoe-vraag gebaseerd op het kernpunt",
+          "opties": ["A", "B", "C", "D"],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom/Hoe-vraag gebaseerd op het kernpunt",
+          "antwoord": "Concreet antwoord dat de redenering uitlegt"
+        }
+      ]
+    }
+  ]
 }
 
-function maakVragenPromptLes1(titel, secties) {
-  return `Je krijgt een les over "${titel}", verdeeld in secties.
-... (identiek aan de bestaande prompt, maar pas het JSON-voorbeeld aan zodat het antwoord een "categorie", "categorieKleur" en "vragen" bevat, zoals nu) ...
 LES:
-${JSON.stringify(secties, null, 2)}`;
+${JSON.stringify(sectiesVoorPrompt, null, 2)}`;
 }
 
 async function genereerLes1EnUpdatePad(padId, lesNummer, wikipediaArtikel, onderwerp) {
