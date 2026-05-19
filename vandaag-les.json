@@ -1,138 +1,212 @@
 {
-  "titel": "Districtszetel",
+  "titel": "Koninklijke Nederlandse Redding Maatschappij",
   "secties": [
     {
-      "titel": "De directe lijn naar de volksvertegenwoordiging: Wat is een districtszetel?",
-      "tekst": "Wanneer u stemt bij verkiezingen, kiest u in veel landen niet alleen een partij, maar ook een persoon die uw regio vertegenwoordigt. Dit directe mandaat — de rechtstreekse opdracht die een partij of politicus krijgt van de kiezers — noemen we een districtszetel. Het is een zetel in het parlement die wordt toegekend op basis van de stemmen in een specifiek geografisch gebied, een zogenaamd kiesdistrict. Elk land verdeelt zijn grondgebied in zulke kiesdistricten, die elk een of meerdere vertegenwoordigers naar het parlement sturen.\n\nDeze directe toewijzing van een zetel verschilt wezenlijk van systemen waarbij zetels indirect worden verdeeld. Denk aan vereffeningszetels, die pas na de districtsverkiezingen worden toegekend om de totale stemverhouding over het hele land te corrigeren. Of landelijke partij- of lijstzetels, die zonder directe regionale binding op basis van de nationale uitslag worden verdeeld. Het principe van de districtszetel legt de nadruk op de lokale band tussen kiezer en gekozene. Het is een fundamenteel onderdeel van hoe democratieën hun volksvertegenwoordiging inrichten.",
-      "kernpunt": "De lezer begrijpt de basisdefinitie van een districtszetel en het concept van een kiesdistrict, in tegenstelling tot indirecte zeteltoewijzing.",
+      "titel": "De Geboorte uit Noodzaak",
+      "tekst": "De geschiedenis van de Koninklijke Nederlandse Redding Maatschappij (KNRM) begint met een tragedie. Op 14 oktober 1824 voltrok zich voor de kust van Huisduinen een scheepsramp waarbij negen mensen omkwamen: drie schipbreukelingen en zes redders. Dit verlies schokte de natie. Het leidde tot een golf van publieke verontwaardiging en het besef dat gestructureerde hulp op zee nodig was.\n\nNog geen maand later, in november 1824, werden twee particuliere stichtingen opgericht. Een particuliere stichting is een organisatie die niet door de overheid wordt beheerd, maar door burgers wordt gefinancierd en bestuurd. De Koninklijke Noord- en Zuid-Hollandsche Redding-Maatschappij (KNZHRM) nam de reddingen op zich langs de Noordzeekust ten noorden van Scheveningen en op het IJsselmeer. Tegelijkertijd richtte de Koninklijke Zuid-Hollandsche Maatschappij tot Redding van Schipbreukelingen (KZHMRS) zich op het gebied ten zuiden van Scheveningen. Deze twee organisaties, die in 1991 zouden fuseren tot de huidige KNRM, hadden één doel: mensen en schepen in nood helpen. Aanvankelijk lag de nadruk op de beroepsvaart — schepen die voor hun werk op zee waren, zoals vissers en vrachtvaarders.",
+      "kernpunt": "De KNRM ontstond in 1824 uit de directe noodzaak om levens te redden na een scheepsramp, wat leidde tot de oprichting van twee afzonderlijke, door burgers gefinancierde reddingmaatschappijen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1824",
+          "gebeurtenis": "Scheepsramp voor de kust van Huisduinen, waarbij negen mensen omkwamen."
+        },
+        {
+          "jaar": "1824",
+          "gebeurtenis": "Oprichting van de Koninklijke Noord- en Zuid-Hollandsche Redding-Maatschappij (KNZHRM) en de Koninklijke Zuid-Hollandsche Maatschappij tot Redding van Schipbreukelingen (KZHMRS)."
+        },
+        {
+          "jaar": "1991",
+          "gebeurtenis": "Fusie van KNZHRM en KZHMRS tot de huidige KNRM."
+        }
+      ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe draagt een districtszetel bij aan de directe vertegenwoordiging van kiezers in het parlement?",
+          "vraag": "Hoe heeft de tragische scheepsramp van 1824 de oprichting van de KNRM beïnvloed?",
           "opties": [
-            "Door een directe opdracht van kiezers in een specifiek geografisch gebied aan een politicus te garanderen.",
-            "Door zetels pas na landelijke verkiezingen toe te wijzen op basis van totale stemverhoudingen.",
-            "Door de landelijke partijlijsten zonder regionale binding te verdelen.",
-            "Door compensatiezetels te gebruiken om de nationale uitslag te corrigeren."
+            "De ramp toonde de acute noodzaak van een georganiseerde hulpstructuur op zee aan, wat resulteerde in de oprichting van twee burgerinitiatieven.",
+            "De overheid besloot direct na de ramp een nationale reddingsdienst op te zetten om toekomstige ongevallen te voorkomen.",
+            "Bestaande visserscoöperaties bundelden hun krachten om een professionele reddingsdienst te vormen.",
+            "De ramp leidde tot internationale samenwerking op het gebied van zeeretting, met de KNRM als Nederlands onderdeel."
           ],
           "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom is het onderscheid tussen een districtszetel en vereffeningszetels belangrijk voor het begrip van democratische representatie?",
-          "antwoord": "Het verschil zit in de manier waarop de zetel wordt verkregen; een districtszetel vertegenwoordigt een directe lokale keuze, terwijl vereffeningszetels later worden ingezet om de nationale stembalans te corrigeren en zo een bredere afspiegeling te waarborgen."
+          "vraag": "Waarom was de financiering en het bestuur van de oorspronkelijke reddingmaatschappijen in 1824 cruciaal voor hun ontstaan?",
+          "antwoord": "De maatschappijen werden door burgers gefinancierd en bestuurd, omdat de overheid destijds geen gestructureerde reddingsdienst had. Dit maakte het mogelijk om snel en onafhankelijk te handelen en de directe behoefte aan hulp op zee te vervullen."
         }
       ]
     },
     {
-      "titel": "De winnaar krijgt alles: Het meerderheidsstelsel",
-      "tekst": "In sommige landen, zoals het Verenigd Koninkrijk en de Verenigde Staten, werkt het systeem met districtszetels volgens een simpel principe: de winnaar krijgt alles. Dit heet een meerderheidsstelsel. Hierbij is er in elk kiesdistrict slechts één districtszetel te verdelen. De kandidaat of partij die de meeste stemmen behaalt in dat district, ongeacht of dit een absolute meerderheid — meer dan de helft van de stemmen — of slechts een relatieve meerderheid — meer stemmen dan elke andere kandidaat, maar niet per se meer dan de helft — is, wint de zetel. Dit systeem staat ook bekend als 'first-past-the-post'. Degene die als eerste over de finish komt, wint.\n\nHet gevolg hiervan is duidelijk: een groot deel van de kiezers voelt zich niet vertegenwoordigd. Hun stemmen gaan in feite verloren als ze niet op de winnende kandidaat hebben gestemd. Stel, in een district stemt 40% op partij A, 35% op partij B en 25% op partij C. Partij A wint de zetel, maar de 60% die op B en C stemde, ziet hun voorkeur niet terug in de vertegenwoordiging. Dit kan leiden tot een sterke ondervertegenwoordiging van kleinere partijen of minderheden, zelfs als zij landelijk gezien een aanzienlijk aantal stemmen trekken. De band tussen district en vertegenwoordiger is direct, maar de afspiegeling van de diverse kiezers binnen dat district is beperkt.",
-      "kernpunt": "De lezer doorgrondt hoe een districtszetel functioneert in een meerderheidsstelsel en de directe gevolgen daarvan voor de kiezers en de representatie van partijen.",
+      "titel": "Van Roeisloep tot Razendsnelle RIB",
+      "tekst": "De reddingsacties van de beginjaren waren zwaar en gevaarlijk. De eerste boten waren vaak Groenlandse sloepen, open roeiboten die in zware zeegang — ruw weer met hoge golven — snel konden omslaan. Vanaf de jaren zestig van de negentiende eeuw kwam er verbetering met speciaal gebouwde reddingssloepen. Deze waren afgeleid van Engelse types en voorzien van luchtkasten aan de voor- en achtersteven. Luchtkasten zijn afgesloten ruimtes gevuld met lucht, die ervoor zorgden dat de boot bleef drijven, zelfs als deze vol water liep. Toch bleef het een zware klus, want deze boten moesten geroeid worden, waardoor het lang duurde voordat een schip in nood bereikt was.\n\nEen ware revolutie kwam met de introductie van motorreddingboten in de jaren tien van de twintigste eeuw. De motoren verkortten de aanvaarttijd aanzienlijk. Een grote stap voorwaarts was de zelfrichtende reddingboot. Bij dit type schip zorgde een slim systeem van kleppen ervoor dat asymmetrische tanks in de romp volliepen wanneer de boot omsloeg. Dit gewicht trok de boot door, waardoor die zichzelf weer oprichtte. De Insulinde, in de jaren dertig in dienst genomen, was het eerste schip dat dit principe toepaste; zij ligt nu in het Nationaal Reddingmuseum.\n\nVanaf de jaren tachtig verschoof de aandacht naar kleinere, snellere motorboten, bekend als 'rigid inflatable boats' of RIBs. Een RIB heeft een planerende romp — een onderwaterschip dat bij hoge snelheid over het water glijdt in plaats van erdoorheen ploegt — en is rondom voorzien van een luchtgevulde rubberen tube. De voortstuwing gebeurt vaak met waterjets. Waterjets zuigen water aan en spuiten dit met kracht naar achteren, waardoor het schip vooruit beweegt zonder externe schroeven. Dit voorkwam schade aan schroeven in ondiep water. Deze boten zijn uitgerust met uitzonderlijk sterke motoren; het grootste type, bijna negentien meter lang, heeft twee motoren van elk 735 kilowatt, waarmee snelheden tot 65 kilometer per uur worden gehaald. Recenter, in 2015, werd de Nh1816 geïntroduceerd, met een bijlboeg. Een bijlboeg is een rechte, smalle boeg die als een bijl door de golven snijdt, waardoor het schip ook bij ruwe zee comfortabeler en sneller vaart.",
+      "kernpunt": "De voortdurende technische ontwikkeling van reddingboten, van kwetsbare roeisloepen naar krachtige, zelfrichtende en snelle vaartuigen met geavanceerde voortstuwing, heeft de effectiviteit en veiligheid van reddingsacties aanzienlijk verbeterd.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1860s",
+          "gebeurtenis": "Introductie van speciaal gebouwde reddingssloepen, afgeleid van Engelse types."
+        },
+        {
+          "jaar": "1910s",
+          "gebeurtenis": "Introductie van motorreddingboten."
+        },
+        {
+          "jaar": "1930s",
+          "gebeurtenis": "De Insulinde, de eerste zelfrichtende reddingboot, wordt in dienst genomen."
+        },
+        {
+          "jaar": "1980s",
+          "gebeurtenis": "Aandacht verschuift naar kleinere, snellere motorboten, bekend als 'rigid inflatable boats' (RIBs)."
+        },
+        {
+          "jaar": "2015",
+          "gebeurtenis": "Introductie van de Nh1816 met een bijlboeg."
+        }
+      ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe beïnvloedt het 'first-past-the-post' principe de representatie van kiezers in een district?",
-          "antwoord": "Dit principe leidt ertoe dat alleen de kandidaat met de meeste stemmen de zetel wint, waardoor de stemmen van alle andere kiezers in dat district niet direct resulteren in een vertegenwoordiger van hun voorkeur."
+          "vraag": "Hoe heeft de overgang van roeisloepen naar motorreddingboten de uitvoering van reddingsacties fundamenteel veranderd?",
+          "antwoord": "De introductie van motoren verkortte de tijd om bij een schip in nood te komen aanzienlijk, waardoor redders sneller hulp konden bieden en de kans op overleving voor schipbreukelingen toenam."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom kan een meerderheidsstelsel met districtszetels leiden tot een ondervertegenwoordiging van kleinere partijen, zelfs als zij landelijk veel stemmen krijgen?",
+          "vraag": "Waarom waren innovaties zoals zelfrichtende boten en waterjets zo belangrijk voor de veiligheid en effectiviteit van de KNRM?",
           "opties": [
-            "Omdat zij in veel individuele districten net niet de meeste stemmen behalen, waardoor hun stemmen lokaal verloren gaan.",
-            "Omdat dit systeem vereist dat partijen een absolute meerderheid van stemmen hebben om een zetel te winnen.",
-            "Omdat het de nadruk legt op landelijke partijlijsten in plaats van lokale vertegenwoordiging.",
-            "Omdat vereffeningszetels ontbreken om de nationale stemverhouding te corrigeren."
+            "Zelfrichtende boten maakten het mogelijk om meer mensen tegelijk te redden, terwijl waterjets de boten minder brandstof lieten verbruiken.",
+            "Deze ontwikkelingen zorgden ervoor dat reddingboten ook bij ruwe zee stabiel bleven en veilig konden opereren, en voorkwamen schade aan de voortstuwing in ondiep water.",
+            "Ze verminderden de behoefte aan vrijwilligers doordat de boten minder onderhoud nodig hadden en gemakkelijker te besturen waren.",
+            "De innovaties waren voornamelijk gericht op het vergroten van de laadcapaciteit en het comfort van de bemanning tijdens langere missies."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe dragen de technische kenmerken van moderne RIBs, zoals de planerende romp en waterjets, bij aan de efficiëntie van hedendaagse reddingsoperaties?",
+          "antwoord": "De planerende romp maakt hoge snelheden mogelijk door over het water te glijden, en waterjets zorgen voor efficiënte voortstuwing zonder kwetsbare externe schroeven, wat snelle en veilige acties in diverse wateren bevordert."
         }
       ]
     },
     {
-      "titel": "Evenwicht zoeken: Districtszetels en compensatie",
-      "tekst": "Niet elk land met districtszetels kiest voor het 'winner-takes-all'-principe. Veel democratieën streven naar een evenwichtiger afspiegeling van de stemmen, zowel lokaal als nationaal. In landen met evenredige vertegenwoordiging, zoals Zweden, Noorwegen en Denemarken, worden er per kiesdistrict vaak meerdere directe districtszetels verdeeld. Deze gaan naar de partijen en kandidaten die de meeste stemmen ontvangen in dat specifieke gebied, maar het systeem stopt daar niet.\n\nOm te voorkomen dat de landelijke zetelverdeling te veel afwijkt van de totale stemmen die partijen hebben gekregen, worden er aanvullend vereffeningszetels toegekend. Dit zijn extra zetels die na de directe districtsverkiezingen worden verdeeld op basis van de nationale verkiezingsuitslag. Het doel is om eventuele onevenwichtigheden die door de directe districtszetels zijn ontstaan, te compenseren. Zo kan een partij die in individuele districten net niet genoeg stemmen haalde om een directe zetel te winnen, toch vertegenwoordigd worden in het parlement als zij landelijk een aanzienlijk deel van de stemmen heeft verzameld. Dit zorgt ervoor dat de stem van de kiezer, zelfs als deze lokaal niet tot een directe zetel leidde, op nationaal niveau meetelt voor de samenstelling van het parlement.",
-      "kernpunt": "De lezer ziet in hoe landen met evenredige vertegenwoordiging districtszetels combineren met compensatiemechanismen, zoals vereffeningszetels, om een nationaal evenwicht te bewaren.",
+      "titel": "Een Cultuur van Hulp en Herinnering",
+      "tekst": "De oprichting van de reddingmaatschappijen was meer dan alleen het leveren van materieel; het was een poging om een mentaliteitsverandering teweeg te brengen. In eerdere eeuwen was het langs de kust gebruikelijk om te 'jutten' — het oprapen van aangespoelde goederen van scheepswrakken. Helaas liet men daarbij vaak schipbreukelingen aan hun lot over. De reddingmaatschappijen wilden dit veranderen en het redden van levens stimuleren. Daarom werden er al snel onderscheidingen ingesteld. De Zuid-Hollandsche Maatschappij tot Redding van Schipbreukelingen introduceerde in 1838 een medaille, gevolgd door de Noord- en Zuid-Hollandsche Redding Maatschappij in 1840. Deze medailles, ook wel legpenningen genoemd — een metalen schijf als teken van erkenning — werden uitgereikt aan redders. Dit was een bewuste aanmoediging om hulp te bieden.\n\nHet reddingswerk blijft echter gevaarlijk. Sinds 1824 hebben 69 redders hun leven verloren, veelal door het kapseizen van hun boot of doordat ze overboord sloegen tijdens stormen. Het laatste fatale incident vond plaats in 1981. Om hun opoffering te eren, werd in 1934 een Nationaal Monument voor het Reddingswezen onthuld in Den Helder door Koningin Wilhelmina. Dit monument, voorzien van een carillon — een klokkenspel met meerdere gestemde klokken — herinnert aan de moed van degenen die hun leven riskeerden voor anderen. De namen van de verdronken redders staan vermeld op de website van de KNRM, als blijvende eerbetoon.",
+      "kernpunt": "Naast het uitvoeren van reddingsacties, heeft de KNRM met het instellen van onderscheidingen een cultuur van hulpvaardigheid bevorderd en eert zij de offers van de redders die hun leven verloren in de strijd tegen de zee.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1838",
+          "gebeurtenis": "De Zuid-Hollandsche Maatschappij tot Redding van Schipbreukelingen introduceert een medaille voor redders."
+        },
+        {
+          "jaar": "1840",
+          "gebeurtenis": "De Noord- en Zuid-Hollandsche Redding Maatschappij introduceert een medaille voor redders."
+        },
+        {
+          "jaar": "1934",
+          "gebeurtenis": "Nationaal Monument voor het Reddingswezen onthuld in Den Helder door Koningin Wilhelmina."
+        },
+        {
+          "jaar": "1981",
+          "gebeurtenis": "Het laatste fatale incident waarbij redders hun leven verloren."
+        }
+      ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe dragen vereffeningszetels bij aan een evenwichtiger parlementaire afspiegeling in landen met districtszetels?",
+          "vraag": "Waarom was het instellen van onderscheidingen door de reddingmaatschappijen zo belangrijk voor de maatschappij in de beginjaren?",
           "opties": [
-            "Zij compenseren onevenwichtigheden die ontstaan zijn door directe districtszetels door extra zetels nationaal te verdelen op basis van de totale stemmen.",
-            "Zij zorgen ervoor dat alleen partijen met een absolute meerderheid in een district een zetel kunnen winnen.",
-            "Zij garanderen dat elke stem in een district direct leidt tot een vertegenwoordiger van de gekozen partij.",
-            "Zij vervangen volledig de directe districtszetels om een perfect evenredige vertegenwoordiging te bereiken."
+            "Het was een manier om financiële beloningen te geven aan de meest succesvolle redders.",
+            "Het diende om de mentaliteit langs de kust te veranderen, van jutten naar het actief redden van levens.",
+            "De medailles waren nodig om de reddingmaatschappijen te onderscheiden van andere liefdadigheidsinstellingen.",
+            "Het was een vereiste van de overheid om de kwaliteit van de reddingsoperaties te waarborgen."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom kiezen sommige democratieën ervoor om districtszetels te combineren met compensatiemechanismen in plaats van alleen een meerderheidsstelsel te gebruiken?",
-          "antwoord": "Zij streven ernaar om zowel lokale vertegenwoordiging via districtszetels te behouden als een bredere nationale afspiegeling van de kiezerswensen te waarborgen, door eventuele vertekeningen van het meerderheidsstelsel op te vangen."
+          "vraag": "Hoe draagt het Nationaal Monument voor het Reddingswezen bij aan het eren van de redders en hun opofferingen?",
+          "antwoord": "Het monument herdenkt de moed van redders die hun leven verloren, en dient als een blijvende fysieke herinnering aan hun opoffering, wat de waardering voor hun gevaarlijke werk levend houdt."
         }
       ]
     },
     {
-      "titel": "De kiezer rangschikt: Een genuanceerdere districtszetel",
-      "tekst": "Er zijn ook kiessystemen die de directe districtszetel nog verder verfijnen, om de representativiteit binnen het district zelf te verhogen. Een voorbeeld hiervan is het systeem van gerangschikt stemmen, vaak toegepast via de enkelvoudige overdraagbare stem (STV), zoals in Ierland. Bij deze methode rangschikken kiezers de kandidaten op hun stembiljet op volgorde van voorkeur: eerste keus, tweede keus, enzovoort.\n\nWanneer de stemmen worden geteld, wordt eerst gekeken of een kandidaat direct een vereist aantal stemmen, een zogenaamd quotum, heeft behaald. Is dit niet het geval, dan worden de stemmen van de kandidaat met de minste eerstevoorkeurstemmen herverdeeld onder de overige kandidaten, op basis van de tweede voorkeur van de kiezers. Dit proces herhaalt zich totdat voldoende kandidaten het quotum hebben bereikt en de districtszetels zijn verdeeld. Het grote voordeel hiervan is dat stemmen minder snel verloren gaan. Zelfs als uw eerste keus niet wint, kan uw stem via uw tweede of derde voorkeur nog steeds bijdragen aan de verkiezing van een andere kandidaat. Dit resulteert in een fijnmaziger afspiegeling van de kiezerswensen binnen een district, waardoor de vertegenwoordiging daar breder wordt.",
-      "kernpunt": "De lezer begrijpt hoe gerangschikt stemmen de representativiteit binnen een kiesdistrict verhoogt door stemmen te herverdelen op basis van voorkeur en zo minder stemmen verloren laat gaan.",
+      "titel": "Meer dan alleen Schepen Redding",
+      "tekst": "De rol van de KNRM is in de loop der tijd veranderd en verbreed. Waar aanvankelijk de focus lag op de beroepsvaart, wordt tegenwoordig steeds meer hulp verleend aan watersporters. De KNRM kwam in 2017 bijvoorbeeld 2.119 keer in actie en hielp daarbij 3.521 mensen en 78 dieren. Sinds 2010 omvat het werk ook strandbewaking op de Friese Waddeneilanden, onder de naam KNRM Lifeguards. Ongeveer honderd speciaal opgeleide strandwachten bewaken de veiligheid van badgasten, onder andere met waterscooters — snelle vaartuigen waarop men zit als op een motorfiets — paddleboards, een soort surfplanken om mee te peddelen, en tubes, zachte schuimrubberen banden om drenkelingen mee te redden. Geel-rode vlaggen bakenen veilige zwemgebieden af.\n\nDeze uitbreiding van taken vraagt om voortdurende training. Om de vrijwillige bemanningen voor te bereiden op de meest extreme omstandigheden, heeft de KNRM in 2013, samen met de STC-Group, een drijvend oefenbassin geopend in Rotterdam. Dit offshore safety opleidingscentrum — een gespecialiseerd trainingscentrum voor veiligheid op zee — kan stormen met windkracht 8 en slagregens simuleren, en golven van anderhalve meter opwekken. Hier volgen de vrijwilligers intensieve kapseisontsnappingstrainingen — oefeningen waarbij ze leren hoe ze veilig uit een omslaande boot kunnen komen — en andere veiligheidsprocedures. Dit zorgt ervoor dat de 1.500 vrijwilligers, die verdeeld over 45 reddingstations 24 uur per dag paraat staan, hun werk zo veilig en effectief mogelijk kunnen doen.",
+      "kernpunt": "De KNRM heeft haar werkterrein verbreed van traditionele scheepsreddingen naar strandbewaking en investeert in geavanceerde trainingsfaciliteiten om haar vrijwilligers voor te bereiden op alle denkbare noodsituaties op het water.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "2010",
+          "gebeurtenis": "De KNRM start met strandbewaking op de Friese Waddeneilanden onder de naam KNRM Lifeguards."
+        },
+        {
+          "jaar": "2013",
+          "gebeurtenis": "De KNRM opent, samen met de STC-Group, een drijvend oefenbassin in Rotterdam."
+        },
+        {
+          "jaar": "2017",
+          "gebeurtenis": "De KNRM kwam 2.119 keer in actie en hielp 3.521 mensen en 78 dieren."
+        }
+      ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe zorgt het systeem van gerangschikt stemmen ervoor dat minder stemmen verloren gaan binnen een kiesdistrict?",
-          "antwoord": "Kiezers rangschikken hun voorkeur voor kandidaten, en als hun eerste keus niet genoeg stemmen krijgt, wordt hun stem overgedragen naar hun volgende voorkeur, waardoor de invloed van de stem behouden blijft."
+          "vraag": "Hoe heeft de verbreding van het werkterrein van de KNRM, zoals de strandbewaking, de impact van de organisatie vergroot?",
+          "antwoord": "Door strandbewaking en hulp aan watersporters toe te voegen aan de traditionele scheepsreddingen, bereikt de KNRM een breder publiek en draagt het bij aan de veiligheid van meer mensen en dieren op en rondom het water."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom leidt gerangschikt stemmen, zoals bij de enkelvoudige overdraagbare stem (STV), tot een fijnmaziger afspiegeling van kiezerswensen binnen een district?",
+          "vraag": "Waarom is de investering in geavanceerde trainingsfaciliteiten, zoals het drijvende oefenbassin, essentieel voor de KNRM en haar vrijwilligers?",
           "opties": [
-            "Omdat het kiezers toestaat om meerdere kandidaten te kiezen, wat de kans vergroot dat hun stem uiteindelijk meetelt voor een gekozen vertegenwoordiger.",
-            "Omdat alleen kandidaten met een absolute meerderheid van de eerste voorkeurstemmen een zetel kunnen winnen.",
-            "Omdat het de nadruk legt op de landelijke populariteit van partijen in plaats van individuele kandidaten.",
-            "Omdat het de noodzaak van vereffeningszetels op nationaal niveau overbodig maakt."
+            "Het stelt de KNRM in staat om nieuwe reddingstechnieken te ontwikkelen en te testen voordat ze in de praktijk worden gebracht.",
+            "Het waarborgt dat de vrijwilligers, zelfs onder de meest extreme omstandigheden, veilig en effectief kunnen handelen.",
+            "De faciliteit genereert extra inkomsten voor de KNRM door trainingen aan externe partijen aan te bieden.",
+            "Het is een vereiste van de overheid om te voldoen aan internationale veiligheidsstandaarden voor reddingsdiensten."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 1
         }
       ]
     },
     {
-      "titel": "De afweging: Lokale band versus nationale evenredigheid",
-      "tekst": "De districtszetel vormt een fundamentele bouwsteen in veel democratische systemen. Het belangrijkste voordeel ligt in de directe, tastbare band die het creëert tussen de gekozen vertegenwoordiger en zijn of haar kiesdistrict. Kiezers weten precies wie hen in het parlement vertegenwoordigt en kunnen deze persoon aanspreken op lokale kwesties. Deze nabijheid versterkt de lokale democratie.\n\nTegelijkertijd brengt de directe aard van de districtszetel een inherente spanning met zich mee: hoe zorg je ervoor dat deze lokale vertegenwoordiging niet ten koste gaat van de evenredigheid op nationaal niveau? Zoals we zagen, kunnen systemen met één districtszetel per district leiden tot een scheve verhouding tussen het aantal stemmen en het aantal zetels voor een partij. Landen vangen dit op verschillende manieren op: door vereffeningszetels toe te voegen, die de nationale balans herstellen, of door complexere methodes zoals de dubbelevenredige zetelverdeling, die zowel regionale als nationale evenredigheid nastreeft. De keuze voor een systeem met districtszetels is dan ook altijd een afweging: hoe zwaar weegt de directe lokale vertegenwoordiging ten opzichte van een perfect evenredige afspiegeling van de nationale stemmen?",
-      "kernpunt": "De lezer overziet de fundamentele afweging tussen regionale vertegenwoordiging en nationale evenredigheid die kenmerkend is voor systemen met districtszetels en de manieren waarop landen dit dilemma oplossen.",
+      "titel": "De Motor Achter de Redding",
+      "tekst": "De KNRM is een particuliere organisatie en ontvangt slechts in geringe mate subsidie van de staat en Europa. Haar voortbestaan en operationele kracht zijn grotendeels afhankelijk van de Nederlandse samenleving zelf. Het grootste deel van de inkomsten komt uit giften van donateurs — mensen die vrijwillig geld geven — en nalatenschappen. Nalatenschappen zijn bezittingen die iemand na zijn overlijden nalaat. Zo werft de KNRM gemiddeld 10 miljoen euro per jaar via eigen fondsenwerving en ontvangt zij nog eens 4 miljoen euro uit nalatenschappen.\n\nAl sinds 1824 worden de reddingboten gebouwd dankzij genereuze schenkingen. Daarom dragen de boten vaak de naam van de schenker of erflater — degene die een nalatenschap heeft achtergelaten. Dit is een tastbare herinnering aan de publieke steun. Naast deze financiële bijdragen steunt de KNRM op de onbetaalbare inzet van ruim 1.500 vrijwilligers. Deze mannen en vrouwen bemannen de 77 reddingboten op de 45 stations, van de Zeeuwse Delta tot de Randmeren rond Flevoland. Zij staan 24 uur per dag paraat, zonder hiervoor betaald te krijgen. Hun toewijding, gecombineerd met de financiële steun van duizenden Nederlanders, vormt de ware motor achter de reddingsoperaties op onze wateren.",
+      "kernpunt": "De KNRM is volledig afhankelijk van de onbetaalde inzet van haar vrijwilligers en de financiële steun van donateurs en nalatenschappen, waardoor zij als particuliere organisatie haar vitale werk kan blijven doen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1824",
+          "gebeurtenis": "Al sinds 1824 worden de reddingboten gebouwd dankzij genereuze schenkingen."
+        }
+      ],
       "vragen": [
         {
-          "type": "multiplechoice",
-          "vraag": "Waarom is er een inherente spanning tussen de directe lokale vertegenwoordiging van een districtszetel en de evenredigheid op nationaal niveau?",
-          "opties": [
-            "Omdat een sterke focus op lokale vertegenwoordiging via één zetel per district kan leiden tot een scheve verhouding tussen de landelijke stemmen en de zetelverdeling.",
-            "Omdat kiezers alleen op partijen stemmen en niet op individuen, wat de lokale band verzwakt.",
-            "Omdat alle landen verplicht zijn om vereffeningszetels te gebruiken, wat de lokale invloed vermindert.",
-            "Omdat nationale evenredigheid altijd prioriteit krijgt boven regionale belangen in democratische systemen."
-          ],
-          "correcteIndex": 0
+          "type": "flashcard",
+          "vraag": "Hoe zorgt de financiële structuur van de KNRM, met nadruk op donaties en nalatenschappen, ervoor dat de organisatie haar taken kan blijven uitvoeren?",
+          "antwoord": "Aangezien de KNRM grotendeels particulier gefinancierd is en weinig staatssubsidie ontvangt, zijn donaties en nalatenschappen de primaire inkomstenbronnen die de bouw van boten, onderhoud en trainingen mogelijk maken, waardoor de organisatie operationeel blijft."
         },
         {
-          "type": "flashcard",
-          "vraag": "Hoe proberen landen het dilemma tussen directe lokale vertegenwoordiging en nationale evenredigheid op te lossen wanneer zij districtszetels gebruiken?",
-          "antwoord": "Landen passen compensatiemechanismen toe, zoals vereffeningszetels, om de nationale stembalans te herstellen, of gebruiken complexere methoden die zowel regionale als nationale afspiegeling nastreven."
+          "type": "multiplechoice",
+          "vraag": "Waarom is de rol van de 1.500 vrijwilligers zo onmisbaar voor de KNRM, gezien hun operationele structuur?",
+          "opties": [
+            "Ze zorgen voor een constante instroom van nieuwe, getalenteerde redders die ervaring opdoen voor betaalde posities.",
+            "Hun 24/7 paraatheid op 45 stations, zonder salaris, maakt het mogelijk om de reddingsoperaties kostenefficiënt en breed dekkend uit te voeren.",
+            "De vrijwilligers zijn primair verantwoordelijk voor de fondsenwerving en het beheer van de nalatenschappen.",
+            "Ze dienen als ambassadeurs voor de organisatie en werven actief nieuwe donateurs aan."
+          ],
+          "correcteIndex": 1
         }
       ]
     }
   ],
-  "categorie": "Districtszetel",
+  "categorie": "KNRM",
   "categorieKleur": "#7cb9e8",
-  "datum": "2026-05-18"
+  "datum": "2026-05-19"
 }
