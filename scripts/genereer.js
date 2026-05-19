@@ -3,7 +3,7 @@
 const MAX_TEKST  = 40000;
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const GH_TOKEN   = process.env.GH_TOKEN;
-const [REPO_OWNER, REPO_NAME] = (process.env.GITHUB_REPOSITORY || '').split('/');
+const [REPO_OWNER, REPO_NAME] = (process.env.GITHUB_REPOSITORY || 'AlexHetzelfde/Gimma2').split('/');
 
 // ════════════════════════════════════════
 // HULPFUNCTIES (ongewijzigd)
