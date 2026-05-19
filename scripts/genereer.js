@@ -167,6 +167,47 @@ function bouwActiefLeerpad(padStruct, padId, categorieId, categorieKleur) {
   };
 }
 
+function maakSectiePromptLes1(titel, tekst) {
+  const ingekorte = tekst.length > MAX_TEKST ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]' : tekst;
+  return `Je bent redacteur bij NRC. Jouw enige taak: schrijf een heldere, boeiende les over "${titel}" in goed Nederlands proza.
+
+TAAL: De brontekst is in het Nederlands.
+
+SCHRIJFREGELS — elk van deze regels is verplicht:
+
+1. DOORLOPEND VERHAAL: De les vertelt één verhaal. Elke sectie bouwt voort op de vorige. Stel jezelf na elke sectie de vraag: wat weet de lezer nu dat hij daarvoor nog niet wist? Als het antwoord "niets nieuws" is, herschrijf dan.
+
+2. BEGRIPPEN UITLEGGEN: Elk vaktaalbegrip of moeilijk woord wordt uitgelegd op het moment dat je het introduceert — in dezelfde of de volgende zin. Schrijf niet "de devotie rond de heilige", maar "de devotie — het actief vereren van een heilige via gebeden, processies en pelgrimstochten —". Geen enkel begrip mag onverklaard blijven.
+
+3. VERBODEN WOORDEN: Gebruik nooit: indrukwekkend, meesterlijk, iconisch, verfijnd, bijzonder, opmerkelijk, fascinerend, uniek, spectaculair, enorm belangrijk. Als je wil zeggen dat iets belangrijk is: leg uit waaróm. Als je wil zeggen dat iets mooi is: beschrijf wat je ziet.
+
+4. CONCREET EN CAUSAAL: Schrijf niet "de materialen waren van hoge kwaliteit". Schrijf wát de materialen waren en wat dat betekende voor wie ze gebruikte of zag. Elk oordeel heeft een onderbouwing.
+
+5. ZINSVARIATIE: Wissel korte zinnen (5–10 woorden) bewust af met langere. Een korte zin na een lange geeft nadruk. Gebruik dat.
+
+6. SELECTEER: Je hoeft niet alles uit de brontekst te verwerken. Kies wat het verhaal vooruithelpt. Drie alinea's die goed samenhangen zijn beter dan zes die los van elkaar staan.
+
+STRUCTUUR:
+- Minimaal 3, maximaal 6 secties
+- Elke sectie heeft een pakkende titel
+- Elke sectie heeft een "kernpunt": één heldere zin die samenvat wat de lezer na deze sectie begrijpt — niet wát er staat, maar wát het inzicht is
+
+GEEF JE ANTWOORD UITSLUITEND ALS GELDIGE JSON — geen uitleg, geen markdown, geen backticks.
+
+{
+  "secties": [
+    {
+      "titel": "Pakkende sectietitel",
+      "tekst": "Lopende tekst in alinea's, gescheiden door \\n\\n.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat..."
+    }
+  ]
+}
+
+ARTIKELTEKST:
+${ingekorte}`;
+}
+
 // Prompts voor les 1 (zoals nu, maar met padcontext)
 function maakVragenPromptLes1(titel, secties) {
   const sectiesVoorPrompt = secties.map((s, i) => ({
