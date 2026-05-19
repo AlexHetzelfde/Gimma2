@@ -1,4 +1,4 @@
-// scripts/genereer.js – Leerpaden generator (Fase 2)
+// scripts/genereer.js – Leerpaden generator (Wikipedia-loze versie)
 
 const MAX_TEKST  = 40000;
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
@@ -61,79 +61,99 @@ async function schrijfNaarGitHub(pad, inhoud, bericht) {
 }
 
 // ════════════════════════════════════════
-// NIEUWE FUNCTIES
+// ONDERWERP KIEZEN UIT CATEGORIE
 // ════════════════════════════════════════
 
-async function haalWikipediaTekst(titel, taal = 'nl') {
-  const base = taal === 'nl' ? 'https://nl.wikipedia.org' : 'https://en.wikipedia.org';
-  const res  = await fetch(`${base}/w/api.php?action=query&titles=${encodeURIComponent(titel)}&prop=extracts&explaintext=true&format=json&origin=*`);
-  const data = await res.json();
-  const page = Object.values(data.query.pages)[0];
-  if (!page || page.missing) throw new Error(`Artikel niet gevonden: ${titel}`);
-  return { titel: page.title, tekst: page.extract || '' };
-}
+async function kiesOnderwerpUitCategorie(categorieId) {
+  // Mapping van categorieId naar Nederlandse categorienaam voor Wikipedia API
+  const categorieMap = {
+    'nl_uitgelicht': 'Hoofdpagina',        // speciaal: we gebruiken willekeurig artikel
+    'en_uitgelicht': 'Hoofdpagina',
+    'biologie':      'Biologie',
+    'geschiedenis':  'Geschiedenis',
+    'kunst':         'Kunst en cultuur',
+    'landen':        'Landen en volken',
+    'maatschappij':  'Samenleving',
+    'politiek':      'Politiek',
+    'religie':       'Religie',
+    'sport':         'Sport',
+    'taal':          'Taalkunde',
+    'wetenschap':    'Wetenschap',
+    'willekeurig':   'Willekeurig'
+  };
 
-async function valideerArtikelen(lessen) {
-  for (const les of lessen) {
-    if (les.isSynthese) continue; // syntheseles heeft geen Wikipedia
-    try {
-      const { tekst } = await haalWikipediaTekst(les.wikipediaArtikel);
-      if (tekst.length < 3000) {
-        throw new Error(`Artikel te kort (${tekst.length} tekens)`);
-      }
-    } catch (e) {
-      console.warn(`Validatie mislukt voor "${les.wikipediaArtikel}": ${e.message}`);
-      return false;
-    }
+  const catNaam = categorieMap[categorieId] || 'Willekeurig';
+
+  // Functie om een willekeurige Nederlandse Wikipedia-titel te krijgen
+  async function haalNlWillekeurig() {
+    const res = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=1&format=json&origin=*');
+    const data = await res.json();
+    return data?.query?.random?.[0]?.title;
   }
-  return true;
+
+  // Functie om een willekeurig artikel uit een categorie te halen
+  async function haalTitelUitCategorie(catNaam) {
+    try {
+      const res = await fetch(`https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:${encodeURIComponent(catNaam)}&cmlimit=500&cmnamespace=0&cmtype=page&format=json&origin=*`);
+      if (res.ok) {
+        const data = await res.json();
+        const leden = data?.query?.categorymembers || [];
+        if (leden.length) {
+          // Kies willekeurig
+          return leden[Math.floor(Math.random() * leden.length)].title;
+        }
+      }
+    } catch(e) {}
+    // Fallback: probeer een willekeurig artikel
+    return await haalNlWillekeurig();
+  }
+
+  if (catNaam === 'Willekeurig' || catNaam === 'Hoofdpagina') {
+    return await haalNlWillekeurig();
+  }
+
+  return await haalTitelUitCategorie(catNaam);
 }
 
-async function maakPadStructuur(categorieId, categorienaam) {
+// ════════════════════════════════════════
+// LEERPADSTRUCTUUR GENEREREN
+// ════════════════════════════════════════
+
+async function maakPadStructuur(onderwerp, categorieNaam) {
   const prompt = `Je bent een educatieve planner.
 
-Kies één specifiek Wikipedia-onderwerp uit de categorie "${categorienaam}" dat geschikt is voor een diepgaand leerpad.
+We hebben het onderwerp "${onderwerp}" gekozen uit de categorie "${categorieNaam}".
+Ontwerp een leerpad van 6 tot 10 lessen dat steeds dieper op dit onderwerp ingaat.
 
-Bepaal zelf hoeveel lessen nodig zijn (minimaal 6, maximaal 10).
-De structuur is altijd:
-- Les 1: brede introductie op het hoofdonderwerp
-- Lessen 2 t/m N-1: elk één deelonderwerp, steeds dieper, altijd bekeken vanuit het hoofdonderwerp
-- Laatste les: altijd een synthese zonder Wikipedia-artikel
+Structuur:
+- Les 1: brede introductie op het onderwerp
+- Lessen 2 t/m N-1: elk één specifiek deelonderwerp, bekeken vanuit het hoofdonderwerp
+- Laatste les: synthese die alle voorgaande lessen samenbrengt (geen nieuw feitenmateriaal)
 
-Regels:
-- Elk deelonderwerp moet een bestaand Nederlands Wikipedia-artikel hebben
-- De lessen moeten logisch op elkaar voortbouwen
-- Vermijd overlap tussen lessen
+Je mag volledig vertrouwen op je eigen kennis; Wikipedia-artikelen zijn niet nodig.
+Geef elke les een pakkende titel en een korte beschrijving (1 zin) van wat de lezer leert.
 
 Geef terug als JSON:
 {
-  "onderwerp": "Naam van het hoofdonderwerp",
-  "wikipediaHoofdArtikel": "Exacte Wikipedia-paginanaam",
+  "onderwerp": "${onderwerp}",
   "aantalLessen": 8,
   "lessen": [
     {
       "nummer": 1,
       "titel": "Pakkende lestitel",
-      "beschrijving": "Wat de lezer leert",
-      "wikipediaArtikel": "Exacte Wikipedia-paginanaam",
-      "focus": "Specifieke invalshoek vanuit het hoofdonderwerp",
+      "beschrijving": "Wat de lezer in deze les leert",
       "isSynthese": false
-    }
+    },
+    ...
   ]
 }`;
 
-  let resultaat;
   for (let poging = 0; poging < 3; poging++) {
-    resultaat = await geminiMetRetry(prompt);
+    const resultaat = await geminiMetRetry(prompt);
     if (resultaat.onderwerp && resultaat.lessen?.length >= 6 && resultaat.lessen.length <= 10) {
-      // Valideer de artikelen
-      if (await valideerArtikelen(resultaat.lessen)) {
-        return resultaat;
-      }
-      console.log('Validatie artikelen mislukt, nieuwe poging...');
-    } else {
-      console.log('Ongeldige structuur, nieuwe poging...');
+      return resultaat;
     }
+    console.log('Ongeldige structuur, nieuwe poging...');
   }
   throw new Error('Kon geen geldig leerpad genereren na 3 pogingen');
 }
@@ -156,7 +176,6 @@ function bouwActiefLeerpad(padStruct, padId, categorieId, categorieKleur) {
       nummer: idx + 1,
       titel: l.titel,
       beschrijving: l.beschrijving,
-      wikipediaArtikel: l.wikipediaArtikel || null,
       focus: l.focus || '',
       isSynthese: l.isSynthese || false,
       samenvatting: '',
@@ -167,11 +186,15 @@ function bouwActiefLeerpad(padStruct, padId, categorieId, categorieKleur) {
   };
 }
 
-function maakSectiePromptLes1(titel, tekst) {
-  const ingekorte = tekst.length > MAX_TEKST ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]' : tekst;
-  return `Je bent redacteur bij NRC. Jouw enige taak: schrijf een heldere, boeiende les over "${titel}" in goed Nederlands proza.
+// ════════════════════════════════════════
+// LESSEN GENEREREN (ZONDER WIKIPEDIA)
+// ════════════════════════════════════════
 
-TAAL: De brontekst is in het Nederlands.
+function maakSectiePrompt(titel) {
+  return `Je bent redacteur bij NRC. Schrijf een heldere, boeiende les over "${titel}" in goed Nederlands proza.
+Gebruik je eigen kennis over dit onderwerp; je krijgt geen brontekst.
+
+TAAL: De les is in het Nederlands.
 
 SCHRIJFREGELS — elk van deze regels is verplicht:
 
@@ -185,7 +208,7 @@ SCHRIJFREGELS — elk van deze regels is verplicht:
 
 5. ZINSVARIATIE: Wissel korte zinnen (5–10 woorden) bewust af met langere. Een korte zin na een lange geeft nadruk. Gebruik dat.
 
-6. SELECTEER: Je hoeft niet alles uit de brontekst te verwerken. Kies wat het verhaal vooruithelpt. Drie alinea's die goed samenhangen zijn beter dan zes die los van elkaar staan.
+6. SELECTEER: Je hoeft niet alles over het onderwerp te behandelen. Kies wat het verhaal vooruithelpt. Drie alinea's die goed samenhangen zijn beter dan zes die los van elkaar staan.
 
 STRUCTUUR:
 - Minimaal 3, maximaal 6 secties
@@ -202,14 +225,10 @@ GEEF JE ANTWOORD UITSLUITEND ALS GELDIGE JSON — geen uitleg, geen markdown, ge
       "kernpunt": "Na deze sectie begrijpt de lezer dat..."
     }
   ]
+}`;
 }
 
-ARTIKELTEKST:
-${ingekorte}`;
-}
-
-// Prompts voor les 1 (zoals nu, maar met padcontext)
-function maakVragenPromptLes1(titel, secties) {
+function maakVragenPrompt(titel, secties) {
   const sectiesVoorPrompt = secties.map((s, i) => ({
     sectie: i + 1, titel: s.titel, tekst: s.tekst, kernpunt: s.kernpunt
   }));
@@ -261,20 +280,17 @@ LES:
 ${JSON.stringify(sectiesVoorPrompt, null, 2)}`;
 }
 
-async function genereerLes1EnUpdatePad(padId, lesNummer, wikipediaArtikel, onderwerp) {
-  // Haal Wikipedia op
-  const { titel, tekst } = await haalWikipediaTekst(wikipediaArtikel);
+async function genereerLes(padId, lesNummer, lesTitel, onderwerp) {
+  console.log(`Genereer les ${lesNummer}: "${lesTitel}"`);
   
-  // Call 2: secties
-  console.log('Gemini call 2: sectietekst (les 1)...');
-  const sectieResultaat = await geminiMetRetry(maakSectiePromptLes1(titel, tekst));
+  // Call 2: secties genereren
+  const sectieResultaat = await geminiMetRetry(maakSectiePrompt(lesTitel));
   if (!sectieResultaat.secties?.length) throw new Error('Geen secties ontvangen');
 
   await new Promise(r => setTimeout(r, 1000));
 
-  // Call 3: vragen
-  console.log('Gemini call 3: vragen (les 1)...');
-  const vragenResultaat = await geminiMetRetry(maakVragenPromptLes1(titel, sectieResultaat.secties));
+  // Call 3: vragen genereren
+  const vragenResultaat = await geminiMetRetry(maakVragenPrompt(lesTitel, sectieResultaat.secties));
   if (!vragenResultaat.secties?.length) throw new Error('Geen vragen ontvangen');
 
   const secties = sectieResultaat.secties.map((s, i) => ({
@@ -288,7 +304,7 @@ async function genereerLes1EnUpdatePad(padId, lesNummer, wikipediaArtikel, onder
   const les = {
     padId,
     lesNummer,
-    titel,
+    titel: lesTitel,
     secties,
     categorie: vragenResultaat.categorie || onderwerp,
     categorieKleur: vragenResultaat.categorieKleur || '#82d4b0',
@@ -298,7 +314,9 @@ async function genereerLes1EnUpdatePad(padId, lesNummer, wikipediaArtikel, onder
   // Schrijf lesbestand
   await schrijfNaarGitHub(`lessen/${padId}-les-${lesNummer}.json`, JSON.stringify(les, null, 2), `Les ${lesNummer} voor pad ${padId}`);
 
-  return { les, samenvatting: sectieResultaat.secties.map(s => s.kernpunt).join(' ') };
+  // Samenvatting: combineer alle kernpunten
+  const samenvatting = sectieResultaat.secties.map(s => s.kernpunt).join(' ');
+  return { les, samenvatting };
 }
 
 // ════════════════════════════════════════
@@ -312,28 +330,29 @@ async function main() {
   const config = JSON.parse(await readFile('config.json', 'utf8'));
   const geselecteerdeCats = config.geselecteerdeCategorieen || ['nl_uitgelicht'];
   
-  // Kies willekeurig een categorie (mappen naar oude namen, maar we gebruiken gewoon de id)
+  // Kies willekeurig een categorie
   const categorieId = geselecteerdeCats[Math.floor(Math.random() * geselecteerdeCats.length)];
+  console.log(`Categorie gekozen: ${categorieId}`);
   
-  // Bepaal categorie-naam (optioneel – je kunt een mapping maken of gewoon de id gebruiken)
-  const categorienaam = categorieId; // in de prompt gebruik ik de id als naam, pas later aan naar mooie namen
+  // Kies een onderwerp via Wikipedia (alleen titel)
+  const onderwerp = await kiesOnderwerpUitCategorie(categorieId);
+  console.log(`Onderwerp gekozen: "${onderwerp}"`);
   
-  console.log(`Nieuw leerpad genereren voor categorie: ${categorienaam}`);
-  
-  // Call 1: padstructuur
-  const padStruct = await maakPadStructuur(categorieId, categorienaam);
+  // Genereer padstructuur
+  const padStruct = await maakPadStructuur(onderwerp, categorieId);
   console.log(`Padstructuur ontvangen: ${padStruct.onderwerp} (${padStruct.aantalLessen} lessen)`);
   
   const padId = maakPadId(padStruct.onderwerp);
   
-  // Bouw actief-leerpad.json (met les1 al beschikbaar)
-  const actiefPad = bouwActiefLeerpad(padStruct, padId, categorieId, '#82d4b0'); // kleur later door Gemini laten bepalen
+  // Bouw actief leerpad (les 1 voorlopig op 'gepland', we zetten hem straks op beschikbaar)
+  const actiefPad = bouwActiefLeerpad(padStruct, padId, categorieId, '#82d4b0');
   
-  // Genereer les 1
-  const les1 = padStruct.lessen[0];
-  const { samenvatting } = await genereerLes1EnUpdatePad(padId, 1, les1.wikipediaArtikel, padStruct.onderwerp);
+  // Genereer Les 1
+  const les1Titel = padStruct.lessen[0].titel;
+  const { samenvatting } = await genereerLes(padId, 1, les1Titel, padStruct.onderwerp);
   
-  // Update samenvatting in actiefPad
+  // Update actiefPad: les 1 beschikbaar en samenvatting
+  actiefPad.lessen[0].status = 'beschikbaar';
   actiefPad.lessen[0].samenvatting = samenvatting;
   
   // Schrijf actief-leerpad.json
