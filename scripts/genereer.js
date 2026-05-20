@@ -186,14 +186,30 @@ function bouwActiefLeerpad(padStruct, padId, categorieId, categorieKleur) {
   };
 }
 
+function bouwPadContext(actiefPad, lesNummer) {
+  // Verzamel samenvattingen van alle lessen vóór lesNummer
+  const vorigeLessen = actiefPad.lessen.filter(l => l.nummer < lesNummer && l.samenvatting);
+  if (vorigeLessen.length === 0) return '';
+  
+  let context = `Leerpad: ${actiefPad.onderwerp} (les ${lesNummer} van ${actiefPad.aantalLessen})\n\n`;
+  context += `De lezer heeft al geleerd:\n`;
+  vorigeLessen.forEach(l => {
+    context += `- Les ${l.nummer} "${l.titel}": ${l.samenvatting}\n`;
+  });
+  context += `\nSchrijf nu les ${lesNummer} over "${actiefPad.lessen[lesNummer-1].titel}". `;
+  context += `Veronderstel dat de lezer de basis uit eerdere lessen kent. Ga dieper. Bouw voort op wat al behandeld is. Herhaal geen informatie uit eerdere lessen.`;
+  return context;
+}
+
 // ════════════════════════════════════════
 // LESSEN GENEREREN (ZONDER WIKIPEDIA)
 // ════════════════════════════════════════
 
-function maakSectiePrompt(titel) {
+function maakSectiePrompt(titel, padContext = '') {
+  const contextDeel = padContext ? `\nCONTEXT VAN HET LEERPAD:\n${padContext}\n` : '';
+  
   return `Je bent redacteur bij NRC. Schrijf een heldere, boeiende les over "${titel}" in goed Nederlands proza.
-Gebruik je eigen kennis over dit onderwerp; je krijgt geen brontekst.
-
+Gebruik je eigen kennis over dit onderwerp; je krijgt geen brontekst.${contextDeel}
 TAAL: De les is in het Nederlands.
 
 SCHRIJFREGELS — elk van deze regels is verplicht:
@@ -280,20 +296,44 @@ LES:
 ${JSON.stringify(sectiesVoorPrompt, null, 2)}`;
 }
 
-async function genereerLes(padId, lesNummer, lesTitel, onderwerp) {
+async function genereerLes(padId, lesNummer, lesTitel, onderwerp, padContext = '') {
   console.log(`Genereer les ${lesNummer}: "${lesTitel}"`);
   
-  // Call 2: secties genereren
-  const sectieResultaat = await geminiMetRetry(maakSectiePrompt(lesTitel));
-  if (!sectieResultaat.secties?.length) throw new Error('Geen secties ontvangen');
+  // Call 2: eerste versie secties, nu met padcontext
+  const ruweSecties = await geminiMetRetry(maakSectiePrompt(lesTitel, padContext));
+  if (!ruweSecties.secties?.length) throw new Error('Geen secties ontvangen');
+
+  // Call 2b: kwaliteitsreview en herschrijving
+  const reviewPrompt = `Je hebt de volgende les geschreven over "${lesTitel}". 
+Jouw taak: verbeter de tekst zodat deze **zeer helder en vloeiend leest**, zonder dat de lezer moeite hoeft te doen.
+Pas de schrijfregels strikt toe, maar let nu extra op:
+
+- Geen enkele zin mag langer zijn dan 25 woorden.
+- Elk abstract begrip moet onmiddellijk in eenvoudige taal worden uitgelegd.
+- Zorg dat elke alinea één duidelijke gedachte bevat.
+- Gebruik actieve, directe taal.
+- Behoud de originele structuur (sectietitels, kernpunten, aantal secties).
+
+Geef de verbeterde les terug in exact hetzelfde JSON-formaat als de invoer.
+
+Invoer:
+${JSON.stringify(ruweSecties, null, 2)}`;
+
+  const verbeterdeSecties = await geminiMetRetry(reviewPrompt);
+  if (!verbeterdeSecties.secties?.length) {
+    console.warn('Review mislukt, gebruik originele versie');
+    var definitieveSecties = ruweSecties;
+  } else {
+    var definitieveSecties = verbeterdeSecties;
+  }
 
   await new Promise(r => setTimeout(r, 1000));
 
-  // Call 3: vragen genereren
-  const vragenResultaat = await geminiMetRetry(maakVragenPrompt(lesTitel, sectieResultaat.secties));
+  // Call 3: vragen genereren op basis van de definitieve secties
+  const vragenResultaat = await geminiMetRetry(maakVragenPrompt(lesTitel, definitieveSecties.secties));
   if (!vragenResultaat.secties?.length) throw new Error('Geen vragen ontvangen');
 
-  const secties = sectieResultaat.secties.map((s, i) => ({
+  const secties = definitieveSecties.secties.map((s, i) => ({
     ...s,
     afbeelding: null,
     afbeeldingUrl: null,
@@ -315,7 +355,7 @@ async function genereerLes(padId, lesNummer, lesTitel, onderwerp) {
   await schrijfNaarGitHub(`lessen/${padId}-les-${lesNummer}.json`, JSON.stringify(les, null, 2), `Les ${lesNummer} voor pad ${padId}`);
 
   // Samenvatting: combineer alle kernpunten
-  const samenvatting = sectieResultaat.secties.map(s => s.kernpunt).join(' ');
+  const samenvatting = definitieveSecties.secties.map(s => s.kernpunt).join(' ');
   return { les, samenvatting };
 }
 
@@ -325,40 +365,76 @@ async function genereerLes(padId, lesNummer, lesTitel, onderwerp) {
 
 async function main() {
   const { readFile } = await import('fs/promises');
+  const vandaag = new Date().toISOString().slice(0, 10);
   
-  // Lees config.json
+  // 1. Lees config.json
   const config = JSON.parse(await readFile('config.json', 'utf8'));
   const geselecteerdeCats = config.geselecteerdeCategorieen || ['nl_uitgelicht'];
   
-  // Kies willekeurig een categorie
+  // 2. Probeer actief-leerpad.json te lezen
+  let actiefPad = null;
+  try {
+    actiefPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
+  } catch (e) {
+    console.log('Geen actief leerpad gevonden.');
+  }
+  
+  // 3. Bepaal actie
+  if (actiefPad) {
+    // Zoek de eerste geplande les
+    const volgendeLes = actiefPad.lessen.find(l => l.status === 'gepland');
+    
+    if (volgendeLes) {
+      // Genereer deze les
+      const padContext = bouwPadContext(actiefPad, volgendeLes.nummer);
+      const { samenvatting } = await genereerLes(
+        actiefPad.id,
+        volgendeLes.nummer,
+        volgendeLes.titel,
+        actiefPad.onderwerp,
+        padContext
+      );
+      
+      // Update het actief pad
+      actiefPad.lessen[volgendeLes.nummer - 1].status = 'beschikbaar';
+      actiefPad.lessen[volgendeLes.nummer - 1].samenvatting = samenvatting;
+      actiefPad.lessen[volgendeLes.nummer - 1].datumGegenereerd = vandaag;
+      
+      await schrijfNaarGitHub('actief-leerpad.json', JSON.stringify(actiefPad, null, 2), 
+        `Les ${volgendeLes.nummer} gegenereerd voor pad ${actiefPad.id}`);
+      console.log(`Les ${volgendeLes.nummer} succesvol gegenereerd.`);
+      return;
+    } else {
+      // Alle lessen zijn al gegenereerd – start een nieuw pad (archivering volgt in Fase 4)
+      console.log('Alle lessen van het actieve pad zijn gegenereerd. Start nieuw leerpad...');
+    }
+  }
+  
+  // 4. Start een nieuw leerpad (zowel als er geen actief pad is, als wanneer het voltooid is)
   const categorieId = geselecteerdeCats[Math.floor(Math.random() * geselecteerdeCats.length)];
   console.log(`Categorie gekozen: ${categorieId}`);
   
-  // Kies een onderwerp via Wikipedia (alleen titel)
   const onderwerp = await kiesOnderwerpUitCategorie(categorieId);
   console.log(`Onderwerp gekozen: "${onderwerp}"`);
   
-  // Genereer padstructuur
   const padStruct = await maakPadStructuur(onderwerp, categorieId);
   console.log(`Padstructuur ontvangen: ${padStruct.onderwerp} (${padStruct.aantalLessen} lessen)`);
   
   const padId = maakPadId(padStruct.onderwerp);
   
-  // Bouw actief leerpad (les 1 voorlopig op 'gepland', we zetten hem straks op beschikbaar)
-  const actiefPad = bouwActiefLeerpad(padStruct, padId, categorieId, '#82d4b0');
+  const nieuwPad = bouwActiefLeerpad(padStruct, padId, categorieId, '#82d4b0');
   
   // Genereer Les 1
   const les1Titel = padStruct.lessen[0].titel;
   const { samenvatting } = await genereerLes(padId, 1, les1Titel, padStruct.onderwerp);
   
-  // Update actiefPad: les 1 beschikbaar en samenvatting
-  actiefPad.lessen[0].status = 'beschikbaar';
-  actiefPad.lessen[0].samenvatting = samenvatting;
+  nieuwPad.lessen[0].status = 'beschikbaar';
+  nieuwPad.lessen[0].samenvatting = samenvatting;
   
-  // Schrijf actief-leerpad.json
-  await schrijfNaarGitHub('actief-leerpad.json', JSON.stringify(actiefPad, null, 2), `Nieuw leerpad: ${padStruct.onderwerp}`);
+  await schrijfNaarGitHub('actief-leerpad.json', JSON.stringify(nieuwPad, null, 2), 
+    `Nieuw leerpad: ${padStruct.onderwerp}`);
   
-  console.log('Leerpad succesvol aangemaakt!');
+  console.log('Nieuw leerpad succesvol aangemaakt!');
 }
 
 main().catch(e => { console.error('Fout:', e); process.exit(1); });
