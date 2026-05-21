@@ -9,6 +9,19 @@ const [REPO_OWNER, REPO_NAME] = (process.env.GITHUB_REPOSITORY || 'AlexHetzelfde
 // HULPFUNCTIES (ongewijzigd)
 // ════════════════════════════════════════
 
+async function metRetry(fn, maxPogingen = 3, wachtMs = 30000) {
+  for (let i = 0; i < maxPogingen; i++) {
+    try {
+      return await fn();
+    } catch (e) {
+      console.warn(`Poging ${i + 1} mislukt: ${e.message}`);
+      if (i < maxPogingen - 1) {
+        await new Promise(r => setTimeout(r, wachtMs));
+      }
+    }
+  }
+  throw new Error(`Alle ${maxPogingen} pogingen mislukt`);
+}
 async function geminiCall(prompt) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
   const res  = await fetch(url, {
@@ -65,9 +78,8 @@ async function schrijfNaarGitHub(pad, inhoud, bericht) {
 // ════════════════════════════════════════
 
 async function kiesOnderwerpUitCategorie(categorieId) {
-  // Mapping van categorieId naar Nederlandse categorienaam voor Wikipedia API
   const categorieMap = {
-    'nl_uitgelicht': 'Hoofdpagina',        // speciaal: we gebruiken willekeurig artikel
+    'nl_uitgelicht': 'Hoofdpagina',
     'en_uitgelicht': 'Hoofdpagina',
     'biologie':      'Biologie',
     'geschiedenis':  'Geschiedenis',
@@ -84,25 +96,66 @@ async function kiesOnderwerpUitCategorie(categorieId) {
 
   const catNaam = categorieMap[categorieId] || 'Willekeurig';
 
-  // Functie om een willekeurige Nederlandse Wikipedia-titel te krijgen
   async function haalNlWillekeurig() {
-    const res = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=1&format=json&origin=*');
-    const data = await res.json();
-    return data?.query?.random?.[0]?.title;
+    try {
+      return await metRetry(async () => {
+        const res = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=1&format=json&origin=*');
+        if (!res.ok) throw new Error(`Status ${res.status}`);
+        const data = await res.json();
+        if (!data?.query?.random?.length) throw new Error('Geen resultaat');
+        return data.query.random[0].title;
+      });
+    } catch(e) {
+      console.warn('Wikipedia random blijft falen, val terug op hardcoded onderwerp.');
+      const fallbacks = [
+        'Klimaatverandering', 'Renaissance', 'Universum', 'Mensenrechten',
+        'Zwarte gaten', 'Evolutie', 'Romeinse Rijk', 'Microbiologie',
+        'Himalaya', 'Taalfilosofie', 'Franse Revolutie', 'Kunstmatige intelligentie',
+        'Pandemieën', 'Oude Griekenland', 'Aarde'
+      ];
+      return fallbacks[Math.floor(Math.random() * fallbacks.length)];
+    }
   }
+
+  async function haalTitelUitCategorie(catNaam) {
+    try {
+      return await metRetry(async () => {
+        const res = await fetch(`https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:${encodeURIComponent(catNaam)}&cmlimit=500&cmnamespace=0&cmtype=page&format=json&origin=*`);
+        if (!res.ok) throw new Error(`Status ${res.status}`);
+        const data = await res.json();
+        const leden = data?.query?.categorymembers || [];
+        if (!leden.length) throw new Error('Geen leden in categorie');
+        return leden[Math.floor(Math.random() * leden.length)].title;
+      });
+    } catch(e) {
+      console.warn(`Categorie "${catNaam}" blijft falen, val terug op willekeurig.`);
+      return await haalNlWillekeurig();
+    }
+  }
+
+  if (catNaam === 'Willekeurig' || catNaam === 'Hoofdpagina') {
+    return await haalNlWillekeurig();
+  }
+
+  return await haalTitelUitCategorie(catNaam);
+}
 
   // Functie om een willekeurig artikel uit een categorie te halen
   async function haalTitelUitCategorie(catNaam) {
-    try {
+  try {
+    return await metRetry(async () => {
       const res = await fetch(`https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:${encodeURIComponent(catNaam)}&cmlimit=500&cmnamespace=0&cmtype=page&format=json&origin=*`);
-      if (res.ok) {
-        const data = await res.json();
-        const leden = data?.query?.categorymembers || [];
-        if (leden.length) {
-          // Kies willekeurig
-          return leden[Math.floor(Math.random() * leden.length)].title;
-        }
-      }
+      if (!res.ok) throw new Error(`Status ${res.status}`);
+      const data = await res.json();
+      const leden = data?.query?.categorymembers || [];
+      if (!leden.length) throw new Error('Geen leden in categorie');
+      return leden[Math.floor(Math.random() * leden.length)].title;
+    });
+  } catch(e) {
+    console.warn(`Categorie "${catNaam}" blijft falen, val terug op willekeurig.`);
+    return await haalNlWillekeurig();
+  }
+}
     } catch(e) {}
     // Fallback: probeer een willekeurig artikel
     return await haalNlWillekeurig();
