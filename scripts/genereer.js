@@ -360,6 +360,60 @@ ${JSON.stringify(ruweSecties, null, 2)}`;
 }
 
 // ════════════════════════════════════════
+// ARCHIVERING EN STATUS
+// ════════════════════════════════════════
+
+async function leesStatus() {
+  try {
+    const { readFile } = await import('fs/promises');
+    return JSON.parse(await readFile('status.json', 'utf8'));
+  } catch (e) {
+    return { padOvergeslagen: false, overgeslageOp: null };
+  }
+}
+
+async function schrijfStatus(statusObj) {
+  await schrijfNaarGitHub('status.json', JSON.stringify(statusObj, null, 2), 'Update status.json');
+}
+
+async function archiveerPad(padId, reden) {
+  const { readFile } = await import('fs/promises');
+  
+  // Lees het actieve pad
+  let actiefPad;
+  try {
+    actiefPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
+  } catch (e) {
+    console.log('Geen actief pad om te archiveren.');
+    return;
+  }
+  
+  const overzicht = {
+    id: actiefPad.id,
+    onderwerp: actiefPad.onderwerp,
+    categorieKleur: actiefPad.categorieKleur,
+    aangemaakt: actiefPad.aangemaakt,
+    afgesloten: new Date().toISOString().slice(0, 10),
+    reden,
+    aantalLessen: actiefPad.aantalLessen,
+    lessen: actiefPad.lessen.map(l => ({
+      nummer: l.nummer,
+      titel: l.titel,
+      datumGegenereerd: l.datumGegenereerd,
+      datumVoltooid: l.datumVoltooid
+    }))
+  };
+  
+  // Schrijf archiefoverzicht
+  await schrijfNaarGitHub(`archief/${padId}-overzicht.json`, JSON.stringify(overzicht, null, 2), 
+    `Archiveer pad ${padId} (${reden})`);
+  
+  // Verwijder actief-leerpad.json (maak leeg of commit een delete – we gebruiken schrijfNaarGitHub met een leeg object is lastig; we kunnen ook een dummy schrijven. Eenvoudiger: we overschrijven met `null` of een leeg JSON object)
+  await schrijfNaarGitHub('actief-leerpad.json', '{}', `Verwijder actief pad na archivering`);
+  console.log(`Leerpad ${padId} gearchiveerd (reden: ${reden}).`);
+}
+
+// ════════════════════════════════════════
 // MAIN
 // ════════════════════════════════════════
 
@@ -371,15 +425,33 @@ async function main() {
   const config = JSON.parse(await readFile('config.json', 'utf8'));
   const geselecteerdeCats = config.geselecteerdeCategorieen || ['nl_uitgelicht'];
   
-  // 2. Probeer actief-leerpad.json te lezen
+  // 2. Lees status.json
+  const status = await leesStatus();
+  if (status.padOvergeslagen) {
+    console.log('Pad was overgeslagen. Archiveer en start nieuw pad.');
+    // Zoek het actieve pad (mocht het nog bestaan) en archiveer
+    try {
+      const actiefPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
+      await archiveerPad(actiefPad.id, 'overgeslagen');
+    } catch (e) {
+      console.log('Geen actief pad gevonden om te archiveren.');
+    }
+    // Reset status
+    await schrijfStatus({ padOvergeslagen: false, overgeslageOp: null });
+    // Start nieuw pad
+    // (val door naar de code onderaan die een nieuw pad maakt)
+  }
+  
+  // 3. Lees actief-leerpad.json
   let actiefPad = null;
   try {
     actiefPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
+    // Controleer of het bestand niet leeg is (door archivering)
+    if (!actiefPad.id) actiefPad = null;
   } catch (e) {
     console.log('Geen actief leerpad gevonden.');
   }
   
-  // 3. Bepaal actie
   if (actiefPad) {
     // Zoek de eerste geplande les
     const volgendeLes = actiefPad.lessen.find(l => l.status === 'gepland');
@@ -405,12 +477,14 @@ async function main() {
       console.log(`Les ${volgendeLes.nummer} succesvol gegenereerd.`);
       return;
     } else {
-      // Alle lessen zijn al gegenereerd – start een nieuw pad (archivering volgt in Fase 4)
-      console.log('Alle lessen van het actieve pad zijn gegenereerd. Start nieuw leerpad...');
+      // Alle lessen zijn gegenereerd – archiveer als voltooid en start nieuw pad
+      console.log('Alle lessen gegenereerd, archiveer pad als voltooid.');
+      await archiveerPad(actiefPad.id, 'voltooid');
+      // val door naar nieuw pad
     }
   }
   
-  // 4. Start een nieuw leerpad (zowel als er geen actief pad is, als wanneer het voltooid is)
+  // 4. Start een nieuw leerpad
   const categorieId = geselecteerdeCats[Math.floor(Math.random() * geselecteerdeCats.length)];
   console.log(`Categorie gekozen: ${categorieId}`);
   
