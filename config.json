@@ -1,14 +1,13 @@
 {
   "geselecteerdeCategorieen": [
     "nl_uitgelicht",
-    "en_uitgelicht",
-    "biologie",
     "geschiedenis",
+    "biologie",
+    "kunst",
     "landen",
-    "maatschappij",
-    "politiek",
+    "wetenschap",
     "religie",
-    "wetenschap"
+    "politiek"
   ],
   "gisterenArtikel": "Internationale Jongerenvrijheidsconferentie"
 }
