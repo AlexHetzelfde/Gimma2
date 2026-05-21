@@ -137,9 +137,6 @@ async function kiesOnderwerpUitCategorie(categorieId) {
     return await haalNlWillekeurig();
   }
 
-  return await haalTitelUitCategorie(catNaam);
-}
-
   // Functie om een willekeurig artikel uit een categorie te halen
   async function haalTitelUitCategorie(catNaam) {
   try {
