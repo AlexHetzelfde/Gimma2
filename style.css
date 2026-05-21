@@ -2383,3 +2383,144 @@ body.layout-telefoon .knop-flashcard-goed {
   background: linear-gradient(to bottom, transparent, var(--bg));
   pointer-events: none;
 }
+
+/* ═══════════════════════════════════════
+   HAMBURGER & SIDEBAR
+═══════════════════════════════════════ */
+.hamburger {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.75rem;
+  display: none; /* standaard verborgen, tonen zodra API key aanwezig */
+}
+
+#sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 4, 12, 0.6);
+  z-index: 150;
+}
+
+#sidebar-overlay.zichtbaar {
+  display: block;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0; left: 0;
+  width: 300px; max-width: 85vw;
+  height: 100vh;
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-titel {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.sidebar-sluit {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  width: 30px; height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar-sluit:hover {
+  border-color: var(--les-kleur);
+  color: var(--les-kleur);
+}
+
+.sidebar-sectie-kop {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  padding: 1rem 1.25rem 0.5rem;
+  font-weight: 600;
+}
+
+.sidebar-pad-rij {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.sidebar-pad-rij:hover {
+  background: rgba(var(--les-kleur-rgb), 0.05);
+}
+
+.sidebar-pad-icoon {
+  font-size: 1.1rem;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.sidebar-pad-info {
+  flex: 1;
+}
+
+.sidebar-pad-naam {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.sidebar-pad-meta {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.sidebar-pad-voortgang {
+  font-size: 0.7rem;
+  color: var(--les-kleur);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ═══ OVERSLAAN MODAL ═══ */
+#overslaan-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 4, 12, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+#overslaan-modal.zichtbaar {
+  display: flex;
+}
