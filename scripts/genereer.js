@@ -137,31 +137,6 @@ async function kiesOnderwerpUitCategorie(categorieId) {
     return await haalNlWillekeurig();
   }
 
-  // Functie om een willekeurig artikel uit een categorie te halen
-  async function haalTitelUitCategorie(catNaam) {
-  try {
-    return await metRetry(async () => {
-      const res = await fetch(`https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:${encodeURIComponent(catNaam)}&cmlimit=500&cmnamespace=0&cmtype=page&format=json&origin=*`);
-      if (!res.ok) throw new Error(`Status ${res.status}`);
-      const data = await res.json();
-      const leden = data?.query?.categorymembers || [];
-      if (!leden.length) throw new Error('Geen leden in categorie');
-      return leden[Math.floor(Math.random() * leden.length)].title;
-    });
-  } catch(e) {
-    console.warn(`Categorie "${catNaam}" blijft falen, val terug op willekeurig.`);
-    return await haalNlWillekeurig();
-  }
-}
-    } catch(e) {}
-    // Fallback: probeer een willekeurig artikel
-    return await haalNlWillekeurig();
-  }
-
-  if (catNaam === 'Willekeurig' || catNaam === 'Hoofdpagina') {
-    return await haalNlWillekeurig();
-  }
-
   return await haalTitelUitCategorie(catNaam);
 }
 
