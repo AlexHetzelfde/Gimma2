@@ -1,0 +1,98 @@
+{
+  "id": "lp_walt_disney_family_museum_20260521",
+  "onderwerp": "Walt Disney Family Museum",
+  "categorieId": "en_uitgelicht",
+  "categorieKleur": "#82d4b0",
+  "aangemaakt": "2026-05-21",
+  "aantalLessen": 8,
+  "lessen": [
+    {
+      "nummer": 1,
+      "titel": "De Man, Niet De Muis: Een Introductie tot het Walt Disney Family Museum",
+      "beschrijving": "Deze les introduceert het Walt Disney Family Museum als een unieke instelling gewijd aan het leven en de nalatenschap van Walt Disney, de man achter het imperium.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "Na deze sectie begrijpt de lezer dat het Walt Disney Family Museum een genuanceerd beeld van Walt Disney presenteert, voorbij de publieke merkidentiteit. De lezer leert dat Walt Disney's latere successen werden gevormd door zijn jeugdervaringen en een vroegtijdige periode van faillissement en financiële onzekerheid, die zijn veerkracht toonde. De lezer begrijpt dat Walt Disney een technologisch innovator was die voortdurend de grenzen van animatie verlegde om verhalen dieper en emotioneler te maken. De lezer krijgt een completer beeld van Walt Disney als mens door inzicht in zijn gezinsleven, persoonlijke hobby's en de uitdagingen die hij tegenkwam, wat zijn diepgang en blijvende invloed benadrukt.",
+      "status": "beschikbaar",
+      "datumGegenereerd": "2026-05-21",
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 2,
+      "titel": "Vroege Dromen en Tekenstreken: Walts Jeugd en Vormende Jaren",
+      "beschrijving": "We duiken in de jeugd van Walt Disney, zijn familieachtergrond en de vroege ervaringen die zijn creatieve geest en ondernemerszin hebben gevormd.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 3,
+      "titel": "De Geboorte van een Imperium: Van Laugh-O-gram tot Mickey Mouse",
+      "beschrijving": "Deze les volgt Walts eerste stappen in de animatie-industrie, de uitdagingen en triomfen die leidden tot de creatie van iconische figuren zoals Oswald the Lucky Rabbit en uiteindelijk Mickey Mouse.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 4,
+      "titel": "Innovatie Voorbij de Verbeelding: Geluid, Kleur en de Eerste Avondvullende Film",
+      "beschrijving": "We onderzoeken hoe Walt Disney de grenzen van animatie verlegde met technologische innovaties zoals synchroon geluid, Technicolor en de revolutionaire productie van Sneeuwwitje en de Zeven Dwergen.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 5,
+      "titel": "Een Leven van Diversificatie: Van Oorlogsinspanningen tot Natuurdocumentaires",
+      "beschrijving": "Deze les belicht Walts bredere creatieve output na de vroege animatiesuccessen, inclusief zijn bijdragen tijdens de Tweede Wereldoorlog en zijn pionierswerk in live-action films en natuurdocumentaires.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 6,
+      "titel": "De Droom van Disneyland en de Toekomst: Walts Laatste Visies",
+      "beschrijving": "We verkennen Walts visie op entertainmentparken en zijn ambitieuze plannen voor de toekomst, waaronder de ontwikkeling van Disneyland en het oorspronkelijke concept van EPCOT.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 7,
+      "titel": "Het Museum als Verhaalverteller: Architectuur en Collectie",
+      "beschrijving": "Deze les richt zich op het Walt Disney Family Museum zelf, de architectuur, de opzet van de tentoonstellingen en hoe het museum Walts verhaal op een diepgaande en persoonlijke manier presenteert.",
+      "focus": "",
+      "isSynthese": false,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    },
+    {
+      "nummer": 8,
+      "titel": "De Eeuwige Erfenis van Walt: Een Synthese van een Visionair Leven",
+      "beschrijving": "Deze afsluitende les brengt alle geleerde aspecten samen en benadrukt hoe het Walt Disney Family Museum de complexe en inspirerende erfenis van Walt Disney levend houdt voor toekomstige generaties.",
+      "focus": "",
+      "isSynthese": true,
+      "samenvatting": "",
+      "status": "gepland",
+      "datumGegenereerd": null,
+      "datumVoltooid": null
+    }
+  ]
+}
