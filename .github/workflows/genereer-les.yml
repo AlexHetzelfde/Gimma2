@@ -1,63 +1,24 @@
-async function genereerLes(padId, lesNummer, lesTitel, onderwerp) {
-  console.log(`Genereer les ${lesNummer}: "${lesTitel}"`);
-  
-  // Call 2: eerste versie secties
-  const ruweSecties = await geminiMetRetry(maakSectiePrompt(lesTitel));
-  if (!ruweSecties.secties?.length) throw new Error('Geen secties ontvangen');
+name: Genereer dagelijkse les
 
-  // Call 2b: kwaliteitsreview en herschrijving
-  const reviewPrompt = `Je hebt de volgende les geschreven over "${lesTitel}". 
-Jouw taak: verbeter de tekst zodat deze **zeer helder en vloeiend leest**, zonder dat de lezer moeite hoeft te doen.
-Pas de schrijfregels strikt toe, maar let nu extra op:
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
 
-- Geen enkele zin mag langer zijn dan 25 woorden.
-- Elk abstract begrip moet onmiddellijk in eenvoudige taal worden uitgelegd.
-- Zorg dat elke alinea één duidelijke gedachte bevat.
-- Gebruik actieve, directe taal.
-- Behoud de originele structuur (sectietitels, kernpunten, aantal secties).
+jobs:
+  genereer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-Geef de verbeterde les terug in exact hetzelfde JSON-formaat als de invoer.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-Invoer:
-${JSON.stringify(ruweSecties, null, 2)}`;
-
-  const verbeterdeSecties = await geminiMetRetry(reviewPrompt);
-  if (!verbeterdeSecties.secties?.length) {
-    console.warn('Review mislukt, gebruik originele versie');
-    // Fallback: gebruik de ruwe versie
-    var definitieveSecties = ruweSecties;
-  } else {
-    var definitieveSecties = verbeterdeSecties;
-  }
-
-  await new Promise(r => setTimeout(r, 1000));
-
-  // Call 3: vragen genereren op basis van de definitieve secties
-  const vragenResultaat = await geminiMetRetry(maakVragenPrompt(lesTitel, definitieveSecties.secties));
-  if (!vragenResultaat.secties?.length) throw new Error('Geen vragen ontvangen');
-
-  const secties = definitieveSecties.secties.map((s, i) => ({
-    ...s,
-    afbeelding: null,
-    afbeeldingUrl: null,
-    tijdlijn: vragenResultaat.secties[i]?.tijdlijn || [],
-    vragen: vragenResultaat.secties[i]?.vragen || []
-  }));
-
-  const les = {
-    padId,
-    lesNummer,
-    titel: lesTitel,
-    secties,
-    categorie: vragenResultaat.categorie || onderwerp,
-    categorieKleur: vragenResultaat.categorieKleur || '#82d4b0',
-    datum: new Date().toISOString().slice(0, 10)
-  };
-
-  // Schrijf lesbestand
-  await schrijfNaarGitHub(`lessen/${padId}-les-${lesNummer}.json`, JSON.stringify(les, null, 2), `Les ${lesNummer} voor pad ${padId}`);
-
-  // Samenvatting: combineer alle kernpunten
-  const samenvatting = definitieveSecties.secties.map(s => s.kernpunt).join(' ');
-  return { les, samenvatting };
-}
+      - name: Genereer les
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: node scripts/genereer.js
