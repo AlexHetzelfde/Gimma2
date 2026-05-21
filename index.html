@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wiki Leerapp</title>
+  <title>WikiLeer · Leerpaden</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,11 +11,22 @@
   
 <div id="toast"></div>
 
+<!-- ═══ SIDEBAR ═══ -->
+<div id="sidebar-overlay" onclick="sluitSidebar()"></div>
+<div id="sidebar">
+  <div class="sidebar-header">
+    <span class="sidebar-titel">📚 Mijn Leerpaden</span>
+    <button class="sidebar-sluit" onclick="sluitSidebar()">✕</button>
+  </div>
+  <div id="sidebar-inhoud"></div>
+</div>
+
 <div id="app-shell">
 
   <div id="les-voortgang"><div id="les-voortgang-balk"></div></div>
 
   <header>
+    <button class="hamburger" id="hamburger-btn" onclick="openSidebar()" title="Leerpaden">☰</button>
     <div class="logo" onclick="logoKlikken()" title="Terug naar home">WikiLeer <span>dagelijks leren</span></div>
     <div class="header-rechts">
       <div class="datum" id="header-datum"></div>
@@ -100,7 +111,7 @@
 
       <div class="stats-sectie-kop">Welke onderwerpen wil je leren?</div>
       <p style="font-size:0.82rem;color:var(--muted);margin-bottom:1rem;line-height:1.5">
-        De nachtelijke lesplanner kiest automatisch een artikel uit een van de aangevinkte categorieën.
+        De nachtelijke lesplanner kiest automatisch een onderwerp uit een van de aangevinkte categorieën.
       </p>
       <div id="categorie-tegels" class="categorie-tegels-grid"></div>
       <button class="knop-primair" style="width:100%;margin-top:1rem" onclick="slaCategorievoorkeurOp()">
@@ -165,12 +176,29 @@
     </div>
   </div>
 
+  <!-- ═══ LEERPAD OVERSLAAN MODAL ═══ -->
+  <div id="overslaan-modal" onclick="if(event.target===this) sluitOverslaanModal()">
+    <div class="modal-kaart">
+      <div class="algemaakt-icoon">🔀</div>
+      <div class="algemaakt-modal-tekst">
+        <strong>Ander onderwerp?</strong>
+        Je slaat het leerpad <span id="overslaan-padnaam"></span> over.
+        Morgenochtend kiest de AI een nieuw onderwerp voor je — uit dezelfde categorie.
+        Je SR-vragen van dit pad blijven gewoon bewaard.
+      </div>
+      <div class="modal-acties">
+        <button class="knop-secundair" onclick="sluitOverslaanModal()">Annuleren</button>
+        <button class="knop-primair" style="background:var(--fout)" id="overslaan-bevestig-knop">Ja, sla dit over</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ═══ HOMESCREEN ═══ -->
   <div id="homescreen">
     <div class="home-driehoek"></div>
     <div class="hero-tekst">
       <h1>Leer iets nieuws<br/>vandaag</h1>
-      <p>Het uitgelichte artikel van de Nederlandse Wikipedia, omgezet naar een les met vragen en dagelijkse herhaling.</p>
+      <p>Je persoonlijke leerpaden, elke dag een stap dieper.</p>
     </div>
 
     <div id="streak-display" style="display:none"></div>
@@ -189,17 +217,7 @@
       </div>
     </div>
 
-    <div id="cache-melding" class="cache-melding" style="display:none"></div>
-
-    <div id="categorie-chip" style="display:none" class="categorie-chip">
-      <span class="categorie-dot" id="categorie-dot"></span>
-      <span id="categorie-naam-tekst"></span>
-    </div>
-
-    <div id="categorie-overzicht" class="categorie-overzicht" style="display:none"></div>
-
-        <!-- ═══ NIEUWE HOME-KNOPPEN ═══ -->
-    <div class="home-knoppen-wrap" id="home-knoppen-wrap" style="display:none">
+    <div id="home-knoppen-wrap" class="home-knoppen-wrap" style="display:none">
       <button class="home-knop home-knop-smart" id="knop-smart" onclick="startSmartSession()">
         <span class="home-knop-icoon">🧠</span>
         <span class="home-knop-titel">Smart Session</span>
@@ -212,18 +230,14 @@
         <span class="home-knop-sub" id="vault-sub"></span>
       </button>
 
-      <button class="home-knop home-knop-les" id="knop-les-nieuw" onclick="startLesVanVandaag()">
+      <button class="home-knop home-knop-les" id="knop-les-nieuw" onclick="startHuidigeLes()">
         <span class="home-knop-icoon">📖</span>
-        <span class="home-knop-titel">Les van de dag</span>
+        <span class="home-knop-titel">Huidige les</span>
         <span class="home-knop-sub" id="les-sub"></span>
       </button>
     </div>
 
-   <!-- oude knop -->
-    <button class="knop-primair" id="knop-les" style="display:none">Maak les van vandaag</button>
-
     <div id="fout-wrap"></div>
-
     <div id="status-wrap">
       <div id="status-tekst">Bezig...</div>
       <div class="laadbalk-bg">
@@ -231,14 +245,10 @@
         <div class="laadbalk-shimmer" id="laadbalk-shimmer" style="display:none"></div>
       </div>
     </div>
-
   </div><!-- /homescreen -->
 
   <!-- ═══ LES SCHERM ═══ -->
-
-  <!-- ═══ LES SCHERM ═══ -->
   <div id="les-scherm">
-
     <div class="reader-header">
       <div class="reader-artikel-naam" id="sectie-label-tekst"></div>
       <div class="reader-cat-badge" id="reader-cat-badge" style="display:none"></div>
@@ -247,45 +257,31 @@
       <span id="sectie-label-dot" style="display:none"></span>
     </div>
 
-    <!-- ═══ LEES KAART — donker leeskaartje ═══ -->
+    <!-- ═══ LEES KAART ═══ -->
     <div id="lees-kaart">
       <div class="sectie-tekst" id="sectie-tekst"></div>
-
       <div id="tijdlijn-wrap" class="tijdlijn-wrap" style="display:none">
         <div class="tijdlijn-kop">Tijdlijn</div>
         <div id="tijdlijn-inhoud"></div>
       </div>
-
       <div id="knop-gelezen-wrap" style="display:none">
-        <button class="knop-gelezen" onclick="toonVraag(0)">
-          Ik heb dit gelezen →
-        </button>
+        <button class="knop-gelezen" onclick="toonVraag(0)">Ik heb dit gelezen →</button>
       </div>
     </div>
 
-    <!-- Vragen sectie — één vraag per keer -->
+    <!-- Vragen sectie -->
     <div id="vragen-sectie" style="display:none">
       <div id="vragen-inhoud"></div>
       <div class="sectie-nav">
-        <button class="knop-weetniets" id="knop-weetniets" onclick="markeerHuidigeVraagFout()" style="display:none">
-          Weet niet
-        </button>
-        <button class="knop-kijkop" id="knop-kijkop" onclick="toonTekstLookup()" style="display:none">
-          📖 Kijk op
-        </button>
-        <button id="knop-volgende" onclick="" disabled>
-          Volgende →
-        </button>
+        <button class="knop-weetniets" id="knop-weetniets" onclick="markeerHuidigeVraagFout()" style="display:none">Weet niet</button>
+        <button class="knop-kijkop" id="knop-kijkop" onclick="toonTekstLookup()" style="display:none">📖 Kijk op</button>
+        <button id="knop-volgende" onclick="" disabled>Volgende →</button>
       </div>
     </div>
 
-    <!-- Terug naar vraag — verschijnt bij kijk-op modus -->
     <div id="terug-naar-vraag-balk">
-      <button class="knop-gelezen" onclick="terugNaarVraag()">
-        ← Terug naar de vraag
-      </button>
+      <button class="knop-gelezen" onclick="terugNaarVraag()">← Terug naar de vraag</button>
     </div>
-
   </div>
 
   <!-- ═══ KLAAR SCHERM ═══ -->
