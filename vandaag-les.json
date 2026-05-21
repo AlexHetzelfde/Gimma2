@@ -1,219 +1,203 @@
 {
-  "titel": "Annie M.G. Schmidt",
+  "titel": "Internationale Jongerenvrijheidsconferentie",
   "secties": [
     {
-      "titel": "De geboorte van een vrije geest",
-      "tekst": "Anna Maria Geertruida Schmidt, geboren in Kapelle in 1911, zou uitgroeien tot een van de meest geliefde Nederlandse schrijfsters. Haar carrière begon echter niet direct met de kinderboeken en liedjes waarvoor ze later zo bekend werd.\n\nNa haar eindexamen hbs-a in 1930 werkte Schmidt jarenlang als bibliothecaresse, onder meer in Amsterdam en Den Haag. Pas na de Tweede Wereldoorlog, in 1946, trad ze in dienst bij de Amsterdamse krant Het Parool. Daar begon haar schrijverschap, eerst als documentaliste — iemand die informatie verzamelt en ordent — en later als redactrice. Deze overstap markeerde het begin van haar creatieve uitingen.\n\nToch richtte ze zich aanvankelijk ook op poëzie voor volwassenen. Na kritiek van dichter Adriaan Morriën in 1954, maakte ze een bewuste keuze. Ze legde zich vanaf dat moment toe op liedjes, teksten voor theater, radio en televisie, en vooral op boeken en versjes voor kinderen. Deze verschuiving bleek de katalysator voor haar latere, ongekende succes.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Annie M.G. Schmidt pas later in haar leven begon met schrijven en na kritiek op volwassen poëzie haar ware roeping vond in kinderteksten en liedjes.",
+      "titel": "Vrijheid vieren in Zeeland: De aanleiding",
+      "tekst": "In het voorjaar van 2025 kwam de Internationale Jongeren Vrijheidsconferentie tot stand, een bijeenkomst van jonge mensen uit alle werelddelen. Deze top, gehouden op 2 en 3 mei in het historische Middelburg, bracht ruim tweehonderd jongeren uit meer dan vijftig landen samen.\n\nDe conferentie was een hoogtepunt binnen het project '80 Jaar Vrijheid Zeeland'. Dit initiatief herdacht tachtig jaar geleden de bevrijding van Nederland aan het einde van de Tweede Wereldoorlog. Zeeland, met zijn geschiedenis van strijd en herstel, bood een passende achtergrond voor gesprekken over de waarde van vrijheid.\n\nDe inspiratie voor de inhoud van de conferentie kwam van de 'Vier Vrijheden', zoals in 1941 geformuleerd door de Amerikaanse president Franklin D. Roosevelt. Deze fundamentele principes — vrijheid van meningsuiting, vrijheid van godsdienst, vrijwaring van gebrek en vrijwaring van vrees — vormden het inhoudelijke raamwerk voor alle discussies. Het uiteindelijke doel was het opstellen van het Youth Freedom Treaty, ook wel het Verdrag van Middelburg genoemd: een manifest met aanbevelingen voor wereldleiders.",
+      "kernpunt": "De Internationale Jongeren Vrijheidsconferentie werd georganiseerd in het kader van 80 Jaar Vrijheid Zeeland, met als doel jongeren te laten debatteren over Roosevelts Vier Vrijheden en hun visie op vrijheid in een manifest vast te leggen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1911",
-          "gebeurtenis": "Anna Maria Geertruida Schmidt geboren in Kapelle"
+          "jaar": "1941",
+          "gebeurtenis": "President Roosevelt formuleerde de 'Vier Vrijheden'."
         },
         {
-          "jaar": "1930",
-          "gebeurtenis": "Eindexamen hbs-a"
-        },
-        {
-          "jaar": "1946",
-          "gebeurtenis": "In dienst bij Het Parool, begin van haar schrijverschap"
-        },
-        {
-          "jaar": "1954",
-          "gebeurtenis": "Na kritiek op poëzie richt ze zich op kinderteksten en liedjes"
+          "jaar": "2025",
+          "gebeurtenis": "Internationale Jongeren Vrijheidsconferentie vond plaats op 2 en 3 mei in Middelburg."
         }
       ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe heeft kritiek van dichter Adriaan Morriën de loopbaan van Annie M.G. Schmidt beïnvloed?",
+          "vraag": "Hoe droeg de herdenking van '80 Jaar Vrijheid Zeeland' bij aan de organisatie van de Internationale Jongeren Vrijheidsconferentie?",
           "opties": [
-            "Het motiveerde haar om uitsluitend poëzie voor volwassenen te blijven schrijven.",
-            "Het zorgde ervoor dat ze haar werk bij Het Parool verliet om fulltime dichter te worden.",
-            "Het leidde tot een bewuste focus op kinderboeken, liedjes en teksten voor theater, radio en televisie.",
-            "Ze besloot na de kritiek haar schrijverschap volledig te beëindigen."
+            "Het bood een historisch relevante context en aanleiding voor een discussie over de betekenis van autonomie.",
+            "Het was de primaire financieringsbron voor alle activiteiten van de conferentie.",
+            "De deelnemers werden geselecteerd op basis van hun kennis van de Zeeuwse geschiedenis.",
+            "De conferentie diende enkel als een viering van de lokale bevrijding, zonder bredere doelen."
           ],
-          "correcteIndex": 2
+          "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom begon Annie M.G. Schmidt pas relatief laat in haar leven met het schrijven van de werken waar ze beroemd mee zou worden?",
-          "antwoord": "Ze werkte eerst jarenlang als bibliothecaresse en begon pas na de Tweede Wereldoorlog bij Het Parool met schrijven, waarbij ze na kritiek op haar volwassen poëzie haar passie voor kinderteksten en liedjes ontdekte."
+          "vraag": "Waarom vormden de 'Vier Vrijheden' van Roosevelt het inhoudelijke fundament voor de conferentie?",
+          "antwoord": "Deze principes boden een algemeen aanvaard raamwerk voor het bespreken van fundamentele rechten en vrijheden, waardoor jongeren een gestructureerde basis kregen om hun ideeën over een toekomstige vrije samenleving te ontwikkelen en vast te leggen in een verdrag."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Welke functie vervulde het 'Youth Freedom Treaty' voor de deelnemers aan de conferentie?",
+          "opties": [
+            "Het diende als een officieel verslag van de plenaire discussies.",
+            "Het was een verzameling van individuele meningen over actuele gebeurtenissen.",
+            "Het bood een platform om gezamenlijke standpunten over zelfbeschikking te formuleren en aan te bieden aan wereldleiders.",
+            "Het was een intern document voor de organisatie van toekomstige conferenties."
+          ],
+          "correcteIndex": 2
         }
       ]
     },
     {
-      "titel": "Een stem die Nederland wakker schudde",
-      "tekst": "Bij Het Parool werd Schmidt lid van cabaretgroep De Inktvis, waarvoor ze teksten en liedjes schreef voor toentertijd bekende namen als Wim Kan en Wim Sonneveld. Haar stem begon zich te vormen, en die stem was anders.\n\nHaar brede bekendheid kwam met de hoorspelserie — een dramaserie die alleen via de radio wordt uitgezonden — *In Holland staat een huis* over de Familie Doorsnee, die tussen 1952 en 1958 in 91 afleveringen te horen was. Schmidt schrok er niet voor terug om voor die tijd ongewoon directe taal te gebruiken. Zo liet ze in een hoorspel een personage zeggen dat hij 'die ander een schop onder zijn achterwerk zou geven'. De volgende dag stroomden de opzeggingen en verontwaardigde reacties binnen bij de VARA, de omroep die het uitzond. Toch bleef ze een publiekslieveling, want de vrolijkheid en herkenbaarheid van haar werk wogen zwaarder dan de schok van een paar woorden.\n\nIn 1956 droeg ze zelfs bij aan het Nationaal Songfestival. Een van haar nummers, 'De Vogels van Holland', gezongen door Jetty Paerl, opende dat jaar het Eurovisiesongfestival en ging daarmee de geschiedenis in als het allereerste lied dat ooit op dit liedjesfestijn werd vertolkt.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Annie M.G. Schmidt met haar directe taal en vrolijke verhalen een frisse wind liet waaien door het naoorlogse Nederland, ondanks weerstand tegen haar onconventionele stijl.",
+      "titel": "Een wereld aan stemmen: Wie nam deel?",
+      "tekst": "De deelnemers aan de conferentie waren geen willekeurige groep. Zij werden geselecteerd op basis van hun motivatie om bij te dragen, hun maatschappelijke betrokkenheid en de diversiteit van hun achtergrond. Deze aanpak zorgde ervoor dat de groep een representatie vormde van zes continenten, met jongeren uit landen als Oekraïne, Zuid-Afrika, Colombia en Indonesië.\n\nOnder hen bevonden zich studenten die hun academische kennis inbrachten, jonge activisten die reeds ervaring hadden met maatschappelijke verandering, scholieren met frisse perspectieven en jonge professionals die hun expertise deelden. Deze brede samenstelling was essentieel om een interculturele dialoog — een gesprek tussen mensen met verschillende culturele achtergronden — te stimuleren over universele mensenrechten.\n\nDe gezamenlijke voertaal was Engels, wat de communicatie tussen de diverse nationaliteiten vergemakkelijkte. Deze bewuste keuze om jongeren met verschillende ervaringen en kennis samen te brengen, droeg bij aan de diepgang van de discussies en de breedte van de perspectieven die in het uiteindelijke verdrag werden opgenomen.",
+      "kernpunt": "De tweehonderd deelnemers, zorgvuldig geselecteerd op motivatie en diversiteit uit ruim vijftig landen, brachten een breed scala aan achtergronden en perspectieven samen, wat de interculturele dialoog en de diepgang van de conferentie ten goede kwam.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe droeg de diverse samenstelling van de deelnemersgroep bij aan de kwaliteit van de conferentie?",
+          "antwoord": "Door een brede representatie van verschillende culturele achtergronden, opleidingen en ervaringen, werd een rijke uitwisseling van ideeën en standpunten over universele mensenrechten mogelijk gemaakt, wat de diepgang van de gesprekken vergrootte."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom was de selectie van deelnemers op motivatie en maatschappelijke betrokkenheid cruciaal voor het succes van de conferentie?",
+          "opties": [
+            "Het garandeerde dat alle deelnemers al experts waren op het gebied van internationale betrekkingen.",
+            "Het zorgde voor een groep individuen die actief wilden bijdragen aan de dialoog en de formulering van de verdragstekst.",
+            "Het was een vereiste om subsidie te ontvangen van de organiserende partijen.",
+            "Het beperkte het aantal deelnemers tot een beheersbare omvang."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe faciliteerde de keuze voor Engels als voertaal de interculturele discussie?",
+          "antwoord": "Het gebruik van één gemeenschappelijke taal maakte het voor mensen met verschillende nationaliteiten en talen mogelijk om effectief met elkaar te communiceren, hun ideeën te delen en zo een gezamenlijk document te creëren zonder taalbarrières."
+        }
+      ]
+    },
+    {
+      "titel": "Van idee naar verdrag: Het driedaagse proces",
+      "tekst": "De conferentie strekte zich uit over drie dagen, elk met een eigen functie die leidde naar het gezamenlijke slotdocument. Op 1 mei begon de inhoudelijke vooravond in Vlissingen. De deelnemers kregen inzicht in de geschiedenis van vrijheid in Zeeland via de première van het docudrama 'De Bevrijding van Zeeland/West-Brabant'. Deze film toonde de strijd om vrijheid tijdens de laatste maanden van de Tweede Wereldoorlog en maakte duidelijk waarom Zeeland symbool staat voor reflectie op oorlog en herdenking.\n\nDe officiële opening vond plaats op 2 mei in Middelburg. Presentator Ikenna Azuike, een broadcaster en voormalig advocaat, legde de doelstelling uit: het gezamenlijk opstellen van het Youth Freedom Treaty. De jongeren werden vervolgens verdeeld in thematische werkgroepen. Deze groepen, elk verantwoordelijk voor een deel van het verdrag, bogen zich over onderwerpen die de Vier Vrijheden van Roosevelt breder interpreteerden, zoals persvrijheid en desinformatie, klimaatrechtvaardigheid, en digitale mensenrechten. In de middag werden interactieve panels gehouden met sprekers als Melati Wijsen, die sprak over de kracht van jeugdactivisme, en Victor Ochen, die zijn persoonlijke verhaal deelde over vrijheid in conflictgebieden. De dag werd afgesloten met de 'Avond van de Vrijheid', een cultureel programma met muziek, spoken word en persoonlijke getuigenissen, gericht op verbinding en bezinning.\n\nDe derde en laatste dag, 3 mei, stond volledig in het teken van samenwerking en afronding. De werkgroepen werkten intensief aan de definitieve formulering van hun verdragsonderdelen. Onder begeleiding van moderatoren, schrijvers en vertalers ontstond zo het integrale Youth Freedom Treaty. In de Nieuwe Kerk van Middelburg vond de officiële presentatie plaats. Minister van Defensie Ruben Brekelmans nam het verdrag symbolisch in ontvangst namens het Nederlandse kabinet. De deelnemers presenteerden zelf hun artikelen en lichtten hun motivatie toe. Een ceremoniële ondertekening door alle aanwezige jongeren bekrachtigde het verdrag, waarna het online werd gepubliceerd.",
+      "kernpunt": "Over drie dagen doorliepen de jongeren een zorgvuldig proces, beginnend met historische verdieping, gevolgd door intensieve werksessies in themagroepen en inspirerende sprekers, culminerend in de gezamenlijke totstandkoming en presentatie van het Youth Freedom Treaty.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1952-1958",
-          "gebeurtenis": "Hoorspelserie 'In Holland staat een huis' over de Familie Doorsnee"
+          "jaar": "1 mei",
+          "gebeurtenis": "Inhoudelijke vooravond in Vlissingen met docudrama 'De Bevrijding van Zeeland/West-Brabant'."
         },
         {
-          "jaar": "1956",
-          "gebeurtenis": "Haar lied 'De Vogels van Holland' opende het allereerste Eurovisiesongfestival"
+          "jaar": "2 mei",
+          "gebeurtenis": "Officiële opening in Middelburg, start thematische werkgroepen, interactieve panels en Avond van de Vrijheid."
+        },
+        {
+          "jaar": "3 mei",
+          "gebeurtenis": "Definitieve formulering en presentatie van het Youth Freedom Treaty in de Nieuwe Kerk van Middelburg."
         }
       ],
       "vragen": [
         {
+          "type": "multiplechoice",
+          "vraag": "Waarom begon de conferentie met een inhoudelijke vooravond en een docudrama over de bevrijding van Zeeland?",
+          "opties": [
+            "Het was een verplichte culturele activiteit voor alle internationale gasten.",
+            "Het bood de deelnemers een historische context en een dieper inzicht in de waarde van vrijheid, als basis voor de komende discussies.",
+            "Het diende als een kennismakingsevenement voor de jongeren om elkaar informeel te ontmoeten.",
+            "Het docudrama was een promotiefilm voor de provincie Zeeland."
+          ],
+          "correcteIndex": 1
+        },
+        {
           "type": "flashcard",
-          "vraag": "Hoe wist Annie M.G. Schmidt een publiekslieveling te blijven, ondanks de weerstand die haar directe taalgebruik soms opriep?",
-          "antwoord": "Haar vrolijke verhalen en de herkenbaarheid van haar werk wogen zwaarder voor het publiek dan de schok die haar onconventionele en directe taal soms veroorzaakte."
+          "vraag": "Hoe droegen de thematische werkgroepen bij aan de effectieve totstandkoming van het Youth Freedom Treaty?",
+          "antwoord": "Door de jongeren te verdelen in gespecialiseerde groepen, konden ze zich focussen op specifieke aspecten van vrijheid, zoals persvrijheid of klimaatrechtvaardigheid, waardoor een gedetailleerde en goed onderbouwde inhoud voor elk deel van het verdrag kon worden ontwikkeld."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom wordt gesteld dat Annie M.G. Schmidt een 'frisse wind' liet waaien door het naoorlogse Nederland?",
+          "vraag": "Waarom werd het Youth Freedom Treaty ceremonieel ondertekend door alle aanwezige jongeren en officieel overhandigd aan de Minister van Defensie?",
           "opties": [
-            "Ze introduceerde een geheel nieuwe literaire stroming die de traditionele genres verving.",
-            "Haar schrijfstijl omvatte ongewoon directe taal en vrolijke, herkenbare verhalen die afweken van de norm.",
-            "Ze dwong af dat alle radio-uitzendingen voortaan haar teksten moesten gebruiken.",
-            "Ze zorgde ervoor dat de VARA voortaan uitsluitend kindvriendelijke content uitzond."
+            "De ondertekening was puur een symbolische daad zonder verdere betekenis.",
+            "Het gaf de deelnemers een gevoel van eigenaarschap en bekrachtigde de collectieve visie, terwijl de overhandiging de erkenning door de overheid symboliseerde.",
+            "Dit was een vereiste om de publicatie van het verdrag online te garanderen.",
+            "De Minister van Defensie was de enige bevoegde persoon om dergelijke documenten in ontvangst te nemen."
           ],
           "correcteIndex": 1
         }
       ]
     },
     {
-      "titel": "Van radio naar het grote podium: De musicaljaren",
-      "tekst": "De overstap van radio naar theater en televisie verliep naadloos. In 1965 schreef Annie M.G. Schmidt de tekst voor *Heerlijk duurt het langst*, de eerste volledig Nederlandstalige musical — een theaterstuk waarin zang, dans en gesproken dialoog worden gecombineerd. Deze musical beleefde maar liefst 534 voorstellingen en markeerde het begin van een vruchtbare samenwerking met componist Harry Bannink.\n\nHet duo Schmidt-Bannink creëerde tussen 1966 en 1968 ook de geliefde televisieserie *Ja zuster, nee zuster*, die vele huiskamers veroverde. Deze serie, vol aanstekelijke liedjes en grappige situaties, toonde Schmidts talent voor het schrijven van verhalen die zowel kinderen als volwassenen aanspraken. Andere musicals volgden, zoals *En nu naar bed* (1971) en *Foxtrot* (1977), waarmee ze de Nederlandse podiumkunsten verrijkte.\n\nVoor haar kinderboeken werkte ze nauw samen met illustratrice Fiep Westendorp. Westendorps herkenbare tekenstijl, met haar heldere lijnen en levendige kleuren, gaf figuren als Jip en Janneke een gezicht en hielp Schmidts verhalen tot leven te brengen op papier. Deze creatieve partnerschappen waren een belangrijke pijler onder haar succes.",
-      "kernpunt": "Na deze sectie begrijpt de lezer hoe Annie M.G. Schmidt de Nederlandse theater- en televisiewereld vernieuwde met succesvolle musicals en series, vaak in nauwe samenwerking met vaste creatieve partners.",
+      "titel": "Het Verdrag van Middelburg: Een blauwdruk voor vrijheid",
+      "tekst": "Het Youth Freedom Treaty, beter bekend als het Verdrag van Middelburg, is een document van ruim tien pagina’s. Het verdrag is opgebouwd rond de Vier Vrijheden van Roosevelt en biedt concrete aanbevelingen aan wereldleiders. De jongeren benadrukken de noodzaak van ondersteuning van vrije en eerlijke verkiezingen wereldwijd, wat de basis vormt voor democratische legitimiteit. Ook roepen zij op tot investeringen in onderwijs, omdat dit een weerbare democratie — een samenleving die bestand is tegen bedreigingen van haar vrijheden en waarden — creëert.\n\nAndere speerpunten zijn de bescherming van journalisten en klokkenluiders, essentieel voor een open informatiestroom, en internationale samenwerking in het bestrijden van desinformatie — het verspreiden van onjuiste informatie om te misleiden. Duurzame ontwikkeling wordt gepresenteerd als een voorwaarde voor structurele vrijheid, omdat ecologische stabiliteit en sociale rechtvaardigheid onlosmakelijk verbonden zijn met langdurige vrede. Tot slot staat gelijkheid in gender, seksuele oriëntatie, afkomst en religie centraal, omdat discriminatie de kern van vrijheid aantast. Het volledige verdrag is online te raadplegen, waardoor de aanbevelingen voor iedereen toegankelijk zijn.",
+      "kernpunt": "Het Youth Freedom Treaty is een uitgebreid manifest waarin jongeren, geïnspireerd door de Vier Vrijheden, concrete aanbevelingen doen aan wereldleiders, gericht op het versterken van democratie, persvrijheid, duurzaamheid en gelijkheid.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1965",
-          "gebeurtenis": "Schreef tekst voor 'Heerlijk duurt het langst', de eerste volledig Nederlandstalige musical"
-        },
-        {
-          "jaar": "1966-1968",
-          "gebeurtenis": "Creëerde televisieserie 'Ja zuster, nee zuster' met Harry Bannink"
-        },
-        {
-          "jaar": "1971",
-          "gebeurtenis": "Musical 'En nu naar bed'"
-        },
-        {
-          "jaar": "1977",
-          "gebeurtenis": "Musical 'Foxtrot'"
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe heeft de samenwerking met vaste creatieve partners bijgedragen aan de vernieuwing van de Nederlandse podiumkunsten door Annie M.G. Schmidt?",
-          "opties": [
-            "Deze partners beperkten haar creatieve vrijheid, wat leidde tot meer gestandaardiseerde producties.",
-            "Door de samenwerking kon ze zich volledig richten op kinderboeken, los van theater en televisie.",
-            "De synergie met componisten als Harry Bannink en illustratrices als Fiep Westendorp resulteerde in iconische, herkenbare werken die een breed publiek aanspraken.",
-            "De partnerschappen waren voornamelijk gericht op het verlagen van productiekosten en hadden geen artistieke impact."
-          ],
-          "correcteIndex": 2
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Waarom wordt gesteld dat Annie M.G. Schmidt de Nederlandse theater- en televisiewereld vernieuwde met haar werk?",
-          "antwoord": "Ze creëerde succesvolle musicals zoals 'Heerlijk duurt het langst' (de eerste volledig Nederlandstalige musical) en populaire televisieseries zoals 'Ja zuster, nee zuster', die zowel kinderen als volwassenen aanspraken met hun aanstekelijke liedjes en grappige verhalen."
-        }
-      ]
-    },
-    {
-      "titel": "Een oeuvre voor generaties",
-      "tekst": "Annie M.G. Schmidts kinderboeken en versjes hebben generaties Nederlanders gevormd. Verhalen als *Pluk van de Petteflet* (1971), *Abeltje* (1953), de avonturen van *Jip en Janneke* (1952-1957) en versjes zoals 'Dikkertje Dap' (1950) zijn zo diep geworteld in het Nederlandse leven dat ze onderdeel zijn geworden van het collectieve geheugen — de gedeelde herinneringen en kennis die een samenleving bindt.\n\nHaar werk viel op door de humor, de speelse omgang met taal en de vaak ondeugende, vrijgevochten personages die de belevingswereld van kinderen serieus namen. Ze schreef verhalen die de verbeelding prikkelden en liedjes die uitnodigden tot meezingen, vol met levendige details. Deze kwaliteiten resulteerden in een reeks literaire onderscheidingen: de Staatsprijs voor kinder- en jeugdliteratuur in 1964, Gouden en Zilveren Griffels voor boeken als *Minoes* en *Otje*, en zelfs de internationale Hans Christian Andersenprijs in 1988. Opvallend is dat Schmidt nooit een koninklijke onderscheiding ontving, terwijl haar werk door het publiek wel tweemaal werd bekroond met de Publieksprijs voor het Nederlandse Boek, wat haar status als volksschrijver onderstreepte.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Annie M.G. Schmidts kinderboeken en versjes generaties Nederlanders hebben gevormd en blijvend deel uitmaken van het culturele erfgoed, wat resulteerde in vele prijzen en publieke erkenning.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1950",
-          "gebeurtenis": "Versje 'Dikkertje Dap'"
-        },
-        {
-          "jaar": "1952-1957",
-          "gebeurtenis": "Avonturen van 'Jip en Janneke'"
-        },
-        {
-          "jaar": "1953",
-          "gebeurtenis": "Kinderboek 'Abeltje'"
-        },
-        {
-          "jaar": "1964",
-          "gebeurtenis": "Ontvangst Staatsprijs voor kinder- en jeugdliteratuur"
-        },
-        {
-          "jaar": "1971",
-          "gebeurtenis": "Kinderboek 'Pluk van de Petteflet'"
-        },
-        {
-          "jaar": "1988",
-          "gebeurtenis": "Ontvangst Hans Christian Andersenprijs"
-        }
-      ],
+      "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe hebben Annie M.G. Schmidts kinderboeken en versjes generaties Nederlanders gevormd en waarom zijn ze blijvend deel van het culturele erfgoed?",
-          "antwoord": "Door haar humor, speelse taalgebruik en vrijgevochten personages prikkelde ze de verbeelding en nam ze de belevingswereld van kinderen serieus, waardoor haar werk diep geworteld raakte in het collectieve geheugen en vele literaire prijzen en publieke erkenning ontving."
+          "vraag": "Waarom benadrukt het Verdrag van Middelburg het belang van investeringen in onderwijs voor een weerbare democratie?",
+          "antwoord": "Omdat onderwijs essentieel is om burgers te voorzien van de kennis en kritische denkvaardigheden die nodig zijn om desinformatie te herkennen en bij te dragen aan een stabiele samenleving die haar waarden en vrijheden kan beschermen."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom wordt de erkenning van Annie M.G. Schmidt als 'volksschrijver' benadrukt door de Publieksprijs voor het Nederlandse Boek, ondanks het ontbreken van een koninklijke onderscheiding?",
+          "vraag": "Hoe probeert het Youth Freedom Treaty de persvrijheid en de informatiestroom te waarborgen?",
           "opties": [
-            "De Publieksprijs is een exclusieve erkenning die alleen aan schrijvers van kinderboeken wordt toegekend.",
-            "Het toont aan dat haar werk, ondanks officiële erkenning, vooral door de gewone lezer in het hart werd gesloten en gewaardeerd.",
-            "Een koninklijke onderscheiding is irrelevant voor de status van een schrijver in Nederland.",
-            "De Publieksprijs wordt alleen toegekend aan auteurs die al een internationale prijs zoals de Hans Christian Andersenprijs hebben gewonnen."
+            "Door te pleiten voor overheidscontrole op alle media-uitingen.",
+            "Door te roepen om de bescherming van journalisten en klokkenluiders, en internationale samenwerking tegen misleidende informatie.",
+            "Door het verplichten van alle burgers om nieuws te consumeren via staatszenders.",
+            "Door het promoten van exclusieve nieuwsbronnen met een goedgekeurd perspectief."
           ],
           "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom wordt duurzame ontwikkeling in het verdrag gepresenteerd als een voorwaarde voor structurele vrijheid?",
+          "antwoord": "Omdat ecologische stabiliteit en sociale rechtvaardigheid onlosmakelijk verbonden zijn met langdurige vrede en welzijn. Zonder een duurzame leefomgeving en gelijke kansen voor iedereen, is ware en blijvende vrijheid niet mogelijk."
         }
       ]
     },
     {
-      "titel": "Het afscheid van een schrijver",
-      "tekst": "In 1991 stopte Annie M.G. Schmidt met schrijven, mede omdat haar laatste toneelstuk, *We hebben samen een paard*, slecht werd ontvangen en haar zicht sterk achteruitging; ze was vrijwel blind geworden. Na een val in 1994 en een daaruit voortvloeiende heupoperatie, nam ze een besluit over haar levenseinde.\n\nSchmidt maakte afspraken met haar huisarts over euthanasie — het opzettelijk beëindigen van iemands leven door een arts op uitdrukkelijk verzoek van die persoon, om ondraaglijk lijden te beëindigen. Ze vroeg Harry Bannink zelfs om de muziek voor haar begrafenis te schrijven: 'Harry moet een mooie medley maken, met liedjes van hem en mij zoals In een rijtuigie en Op een mooie pinksterdag en dat moet dan in iets klassieks overgaan.' Deze regie over haar eigen afscheid toonde haar vastberadenheid tot het laatste moment.\n\nIn de vroege ochtend van 21 mei 1995, daags na haar 84e verjaardag, werd ze overleden in haar slaapkamer gevonden. Naast haar bed lagen een wijnfles en pillenflesjes. Een arts stelde een hartstilstand vast. Haar graf op begraafplaats Zorgvlied in Amsterdam is een eerbetoon op zich: de letters van haar naam dansen op de zerk, gezet in een raamwerk van gekleurde tegels. Liefhebbers van haar werk vullen de ruimte rond de zerk regelmatig met pennen, giraffen en andere dieren, als een voortdurende dialoog met de schepper van zoveel onvergetelijke verhalen.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Annie M.G. Schmidt, ondanks haar afnemende gezondheid, tot het einde toe de regie over haar leven – en haar afscheid – in eigen hand hield, en dat haar graf haar blijvende artistieke geest weerspiegelt.",
+      "titel": "De impact: Een gehoorde stem voor de toekomst",
+      "tekst": "De conferentie en het Youth Freedom Treaty ontvingen erkenning van diverse kanten. Minister Ruben Brekelmans sprak zijn waardering uit voor de diepgang van het verdrag. Hij benadrukte in zijn toespraak dat vrijheid in deze tijd opnieuw onder druk staat, en dat de stem van jongeren gehoord moet worden in het nationale en internationale debat. Ook waarnemend Commissaris van de Koning Hugo de Jonge prees de moed en creativiteit van de deelnemers en riep op tot jaarlijkse herhaling van dit soort initiatieven, wat de potentiële langetermijnimpact van de conferentie onderstreept.\n\nDaarnaast kregen de jongeren steun van internationale figuren. Mark Rutte, secretaris-generaal van de NAVO en voormalig minister-president, nam een videoboodschap op waarin hij het belang van de inzet van jongeren voor vrijheid benadrukte. Ook Anne Roosevelt, kleindochter van president Franklin D. Roosevelt en verbonden aan het Roosevelt Network, deelde via een videoboodschap haar waardering. Verschillende deelnemers kregen media-aandacht en gaven in interviews aan zich gehoord te voelen. Zij onderstreepten het belang van blijvende jongereninspraak in beleid rond vrijheid en mensenrechten, wat aantoont dat de conferentie niet alleen een momentopname was, maar een aanzet tot voortdurende betrokkenheid.",
+      "kernpunt": "De conferentie en het Youth Freedom Treaty kregen erkenning van nationale en internationale leiders, wat de noodzaak van blijvende jongereninspraak in het debat over vrijheid onderstreepte en de deelnemers het gevoel gaf dat hun stem ertoe doet.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1991",
-          "gebeurtenis": "Stopt met schrijven door slecht ontvangen toneelstuk en afnemend zicht"
-        },
-        {
-          "jaar": "1994",
-          "gebeurtenis": "Val en heupoperatie, neemt besluit over levenseinde"
-        },
-        {
-          "jaar": "1995 (21 mei)",
-          "gebeurtenis": "Overleden, daags na haar 84e verjaardag"
-        }
-      ],
+      "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe toonde Annie M.G. Schmidt haar vastberadenheid om de regie over haar leven en afscheid in eigen hand te houden, ondanks haar afnemende gezondheid?",
+          "vraag": "Hoe droeg de erkenning door nationale en internationale figuren bij aan het gevoel van de deelnemers dat hun stem belangrijk was?",
           "opties": [
-            "Ze bleef tot haar laatste dagen intensief schrijven en publiceren, ongeacht haar zicht.",
-            "Ze weigerde medische hulp na haar val en heupoperatie om haar lot te accepteren.",
-            "Ze maakte bewuste afspraken over euthanasie en gaf zelfs instructies voor de muziek op haar begrafenis.",
-            "Ze liet al haar bezittingen na aan een onbekende, om zo haar onafhankelijkheid te benadrukken."
+            "Het garandeerde dat alle aanbevelingen onmiddellijk in beleid werden omgezet.",
+            "Het bevestigde de relevantie en waarde van hun inspanningen en het verdrag, wat hun motivatie voor toekomstige betrokkenheid versterkte.",
+            "Het resulteerde in directe financiering voor alle deelnemers om hun projecten voort te zetten.",
+            "De erkenning was uitsluitend gericht op de organisatie van de conferentie, niet op de inhoud van het verdrag."
           ],
-          "correcteIndex": 2
+          "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom weerspiegelt het graf van Annie M.G. Schmidt haar blijvende artistieke geest en de connectie met haar lezers?",
-          "antwoord": "De dansende letters van haar naam en het raamwerk van gekleurde tegels op de zerk symboliseren haar speelse creativiteit, terwijl de pennen en dieren die liefhebbers achterlaten een voortdurende dialoog met haar werk en personages laten zien."
+          "vraag": "Waarom benadrukten leiders zoals Minister Brekelmans en Mark Rutte het belang van de stem van jongeren in het vrijheidsdebat?",
+          "antwoord": "Zij erkenden dat vrijheid onder druk staat en dat de frisse perspectieven en energie van jonge mensen essentieel zijn om de uitdagingen van deze tijd aan te pakken en de waarden van vrijheid voor de toekomst te waarborgen."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe onderstreepte de oproep van Hugo de Jonge tot jaarlijkse herhaling de potentiële langetermijnimpact van de conferentie?",
+          "opties": [
+            "Hij geloofde dat de conferentie een eenmalig evenement moest zijn om exclusiviteit te behouden.",
+            "Het suggereerde dat dergelijke bijeenkomsten noodzakelijk zijn om een continue dialoog en betrokkenheid van jongeren bij vrijheidskwesties te waarborgen.",
+            "Dit was een formele eis vanuit de provincie Zeeland voor alle toekomstige evenementen.",
+            "De conferentie was zo succesvol dat het geen verdere opvolging nodig had."
+          ],
+          "correcteIndex": 1
         }
       ]
     }
   ],
-  "categorie": "Annie M.G.",
-  "categorieKleur": "#f4c56a",
-  "datum": "2026-05-20"
+  "categorie": "Jongeren Vrijheidstop",
+  "categorieKleur": "#7cb9e8",
+  "datum": "2026-05-21"
 }
