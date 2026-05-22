@@ -74,13 +74,69 @@ async function schrijfNaarGitHub(pad, inhoud, bericht) {
 }
 
 // ════════════════════════════════════════
+// SPECIFIEKE ONDERWERPEN OPHALEN
+// ════════════════════════════════════════
+
+// Nederlands uitgelicht artikel van de hoofdpagina
+async function haalNlUitgelicht() {
+  try {
+    return await metRetry(async () => {
+      const res = await fetch('https://nl.wikipedia.org/w/api.php?action=parse&page=Hoofdpagina&prop=text&format=json&origin=*');
+      if (!res.ok) throw new Error(`Status ${res.status}`);
+      const data = await res.json();
+      const html = data?.parse?.text?.['*'] || '';
+      // Zoek de eerste link naar een artikel (geen Help:, Wikipedia:, etc.)
+      const matches = html.matchAll(/href="\/wiki\/([^":#]+)"/g);
+      for (const match of matches) {
+        const titel = decodeURIComponent(match[1]).replace(/_/g, ' ');
+        if (titel && titel !== 'Hoofdpagina' && titel.length > 3) {
+          return titel;
+        }
+      }
+      throw new Error('Geen uitgelicht artikel gevonden');
+    });
+  } catch (e) {
+    console.warn('NL uitgelicht mislukt:', e.message);
+    return null;
+  }
+}
+
+// Engels featured article van vandaag
+async function haalEnUitgelicht() {
+  try {
+    return await metRetry(async () => {
+      const nu = new Date();
+      const jaar = nu.getUTCFullYear();
+      const maand = String(nu.getUTCMonth() + 1).padStart(2, '0');
+      const dag = String(nu.getUTCDate()).padStart(2, '0');
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/feed/featured/${jaar}/${maand}/${dag}`);
+      if (!res.ok) throw new Error(`Status ${res.status}`);
+      const data = await res.json();
+      const titel = data?.tfa?.title;
+      if (!titel) throw new Error('Geen featured article');
+      return titel;
+    });
+  } catch (e) {
+    console.warn('EN uitgelicht mislukt:', e.message);
+    return null;
+  }
+}
+
+// ════════════════════════════════════════
 // ONDERWERP KIEZEN UIT CATEGORIE
 // ════════════════════════════════════════
 
 async function kiesOnderwerpUitCategorie(categorieId) {
+  // Uitgelichte artikelen
+  if (categorieId === 'nl_uitgelicht') {
+    return await haalNlUitgelicht();
+  }
+  if (categorieId === 'en_uitgelicht') {
+    return await haalEnUitgelicht();
+  }
+
+  // Willekeurig artikel uit een specifieke Wikipedia-categorie
   const categorieMap = {
-    'nl_uitgelicht': 'Hoofdpagina',
-    'en_uitgelicht': 'Hoofdpagina',
     'biologie':      'Biologie',
     'geschiedenis':  'Geschiedenis',
     'kunst':         'Kunst en cultuur',
@@ -91,12 +147,13 @@ async function kiesOnderwerpUitCategorie(categorieId) {
     'sport':         'Sport',
     'taal':          'Taalkunde',
     'wetenschap':    'Wetenschap',
-    'willekeurig':   'Willekeurig'
+    'willekeurig':   null
   };
 
-  const catNaam = categorieMap[categorieId] || 'Willekeurig';
+  const catNaam = categorieMap[categorieId] || null;
 
-  async function haalNlWillekeurig() {
+  // Als de categorie 'willekeurig' is of onbekend, gewoon een willekeurig NL artikel
+  if (!catNaam || catNaam === 'Willekeurig') {
     try {
       return await metRetry(async () => {
         const res = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=1&format=json&origin=*');
@@ -105,39 +162,26 @@ async function kiesOnderwerpUitCategorie(categorieId) {
         if (!data?.query?.random?.length) throw new Error('Geen resultaat');
         return data.query.random[0].title;
       });
-    } catch(e) {
-      console.warn('Wikipedia random blijft falen, val terug op hardcoded onderwerp.');
-      const fallbacks = [
-        'Klimaatverandering', 'Renaissance', 'Universum', 'Mensenrechten',
-        'Zwarte gaten', 'Evolutie', 'Romeinse Rijk', 'Microbiologie',
-        'Himalaya', 'Taalfilosofie', 'Franse Revolutie', 'Kunstmatige intelligentie',
-        'Pandemieën', 'Oude Griekenland', 'Aarde'
-      ];
-      return fallbacks[Math.floor(Math.random() * fallbacks.length)];
+    } catch (e) {
+      console.warn('Willekeurig artikel mislukt:', e.message);
+      return null;
     }
   }
 
-  async function haalTitelUitCategorie(catNaam) {
-    try {
-      return await metRetry(async () => {
-        const res = await fetch(`https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:${encodeURIComponent(catNaam)}&cmlimit=500&cmnamespace=0&cmtype=page&format=json&origin=*`);
-        if (!res.ok) throw new Error(`Status ${res.status}`);
-        const data = await res.json();
-        const leden = data?.query?.categorymembers || [];
-        if (!leden.length) throw new Error('Geen leden in categorie');
-        return leden[Math.floor(Math.random() * leden.length)].title;
-      });
-    } catch(e) {
-      console.warn(`Categorie "${catNaam}" blijft falen, val terug op willekeurig.`);
-      return await haalNlWillekeurig();
-    }
+  // Specifieke categorie: haal een willekeurig artikel uit die categorie
+  try {
+    return await metRetry(async () => {
+      const res = await fetch(`https://nl.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:${encodeURIComponent(catNaam)}&cmlimit=500&cmnamespace=0&cmtype=page&format=json&origin=*`);
+      if (!res.ok) throw new Error(`Status ${res.status}`);
+      const data = await res.json();
+      const leden = data?.query?.categorymembers || [];
+      if (!leden.length) throw new Error('Geen artikelen in deze categorie');
+      return leden[Math.floor(Math.random() * leden.length)].title;
+    });
+  } catch (e) {
+    console.warn(`Categorie "${catNaam}" mislukt:`, e.message);
+    return null;
   }
-
-  if (catNaam === 'Willekeurig' || catNaam === 'Hoofdpagina') {
-    return await haalNlWillekeurig();
-  }
-
-  return await haalTitelUitCategorie(catNaam);
 }
 
 // ════════════════════════════════════════
@@ -509,19 +553,37 @@ async function main() {
     }
   }
   
-  // 4. Start een nieuw leerpad
-  const categorieId = geselecteerdeCats[Math.floor(Math.random() * geselecteerdeCats.length)];
-  console.log(`Categorie gekozen: ${categorieId}`);
+  // Loop over geselecteerde categorieën in willekeurige volgorde tot er een onderwerp is
+  const geshuffeldeCats = [...geselecteerdeCats].sort(() => Math.random() - 0.5);
+  let onderwerp = null;
   
-  const onderwerp = await kiesOnderwerpUitCategorie(categorieId);
+  for (const catId of geshuffeldeCats) {
+    console.log(`Probeer categorie: ${catId}`);
+    onderwerp = await kiesOnderwerpUitCategorie(catId);
+    if (onderwerp) break;
+    console.log(`Categorie ${catId} leverde niets op, volgende...`);
+  }
+
+  // Als geen enkele categorie een onderwerp gaf, gebruik de hardcoded fallback
+  if (!onderwerp) {
+    console.warn('Geen van de geselecteerde categorieën leverde een onderwerp op. Gebruik hardcoded fallback.');
+    const fallbacks = [
+      'Klimaatverandering', 'Renaissance', 'Universum', 'Mensenrechten',
+      'Zwarte gaten', 'Evolutie', 'Romeinse Rijk', 'Microbiologie',
+      'Himalaya', 'Taalfilosofie', 'Franse Revolutie', 'Kunstmatige intelligentie',
+      'Pandemieën', 'Oude Griekenland', 'Aarde'
+    ];
+    onderwerp = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+  }
+  
   console.log(`Onderwerp gekozen: "${onderwerp}"`);
   
-  const padStruct = await maakPadStructuur(onderwerp, categorieId);
+  const padStruct = await maakPadStructuur(onderwerp, 'willekeurig');
   console.log(`Padstructuur ontvangen: ${padStruct.onderwerp} (${padStruct.aantalLessen} lessen)`);
   
   const padId = maakPadId(padStruct.onderwerp);
   
-  const nieuwPad = bouwActiefLeerpad(padStruct, padId, categorieId, '#82d4b0');
+  const nieuwPad = bouwActiefLeerpad(padStruct, padId, 'willekeurig', '#82d4b0');
   
   // Genereer Les 1
   const les1Titel = padStruct.lessen[0].titel;
