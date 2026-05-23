@@ -1,13 +1,15 @@
 {
   "geselecteerdeCategorieen": [
     "nl_uitgelicht",
+    "wetenschap",
+    "taal",
+    "religie",
+    "politiek",
+    "maatschappij",
+    "landen",
     "geschiedenis",
     "biologie",
-    "kunst",
-    "landen",
-    "wetenschap",
-    "religie",
-    "politiek"
+    "en_uitgelicht"
   ],
-  "gisterenArtikel": "Politiek café"
+  "gisterenArtikel": "Politiek cafÃ©"
 }
