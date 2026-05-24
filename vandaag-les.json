@@ -1,122 +1,224 @@
 {
-  "titel": "Politiek café",
+  "titel": "Victoria van het Verenigd Koninkrijk",
   "secties": [
     {
-      "titel": "Het Politiek Café: Waar Discussie Thuis Is",
-      "tekst": "Een politiek café is een bijeenkomst waar iedereen makkelijk kan aanschuiven, gericht op openbare discussie. Hier worden actuele politieke en maatschappelijke vraagstukken besproken. Dit gebeurt in een ontspannen setting, vaak in een café, een buurthuis of een cultureel centrum.\n\nHet belangrijkste doel is het bevorderen van politieke betrokkenheid. Daarnaast wil men het democratisch bewustzijn — het besef van de rechten en plichten als burger in een democratie — vergroten. Ook stimuleert het de dialoog — het uitwisselen van gedachten en standpunten — tussen burgers, politici en deskundigen.\n\nTijdens zo'n avond wisselen korte inleidingen en interviews elkaar af met panelgesprekken. Het publiek kan actief meedoen aan interactieve discussies. Deze opzet helpt bij politieke educatie en de vorming van de publieke mening.",
-      "kernpunt": "Na deze sectie begrijpt de lezer wat een politiek café inhoudt, waarom het wordt georganiseerd en hoe de avonden meestal verlopen.",
+      "titel": "Van Prinses tot Koningin: Een Onverwachte Troonsbestijging",
+      "tekst": "Alexandrina Victoria, geboren in 1819, groeide op als enig kind van prins Eduard August van Kent. Ze stond aanvankelijk vijfde in de lijn van troonopvolging, wat haar positie onzeker maakte. Haar jeugd kenmerkte zich door een moeizame relatie met haar moeder, de hertogin van Kent. Maar het lot nam een onverwachte wending.\n\nToen koning Willem IV in de vroege ochtend van 20 juni 1837 op 72-jarige leeftijd stierf zonder wettige kinderen, werd de achttienjarige Victoria gewekt met het nieuws dat zij de nieuwe koningin was van het Verenigd Koninkrijk. Dit gebeurde in een tijd waarin de monarchie in Groot-Brittannië al een constitutionele monarchie was; dat betekent dat de koning of koningin wel staatshoofd was, maar slechts beperkte politieke bevoegdheden had en vooral via de premier invloed kon uitoefenen. Een directe politieke rol was nauwelijks mogelijk.\n\nEen gevolg van deze troonsbestijging was de scheiding van het koninkrijk Hannover. Daar gold de Salische Wet — een oude regel die vrouwen uitsloot van troonopvolging. Daardoor werd Victoria's oom, Ernst Augustus, koning van Hannover, terwijl Victoria alleen de Britse kroon droeg. De jonge koningin, die haar nieuwe rol nog moest vinden, liet zich in de beginjaren sterk leiden door de ervaren eerste minister William Lamb, Lord Melbourne, van de Whig Party — destijds een van de twee grote politieke stromingen in Groot-Brittannië, vaak geassocieerd met liberale ideeën. Haar afhankelijkheid van Melbourne was zo groot dat sommigen haar zelfs 'Mrs. Melbourne' noemden. Deze vroege periode werd direct op de proef gesteld toen een conflict over de samenstelling van haar hofhouding, de zogenoemde Bedchamber Crisis, ervoor zorgde dat Melbourne kon terugkeren als premier, nadat de conservatieve Robert Peel weigerde een regering te vormen onder Victoria's voorwaarden. De koningin weigerde toen haar hofdames, die vaak familie waren van Whig-politici, te vervangen door vrouwen van Tories — de andere grote politieke partij, die doorgaans meer conservatieve standpunten innam. Victoria zag deze vrouwen als vriendinnen, niet als politieke benoemingen in een patronagesysteem, waarbij banen werden vergeven op basis van partijloyaliteit.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Victoria, ondanks haar jonge leeftijd en de beperkingen van een constitutionele monarchie, onverwacht koningin werd en direct te maken kreeg met de complexe politieke realiteit van haar tijd.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1819",
+          "gebeurtenis": "Geboorte van Alexandrina Victoria"
+        },
+        {
+          "jaar": "1837",
+          "gebeurtenis": "Troonsbestijging na de dood van Willem IV, scheiding van Hannover"
+        }
+      ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe draagt de organisatie van een politiek café bij aan het maatschappelijk debat?",
+          "vraag": "Hoe weerspiegelde Victoria's onverwachte troonsbestijging de aard van de Britse monarchie in haar tijd?",
           "opties": [
-            "Het biedt een platform voor openbare discussie, wat politieke betrokkenheid en democratisch besef bevordert.",
-            "Het is een informele manier om politici en burgers te laten socialiseren zonder diepgaande inhoudelijke gesprekken.",
-            "Het is primair bedoeld voor politieke educatie van jongeren, los van actuele vraagstukken.",
-            "Het verzamelt meningen van burgers om direct beleid te bepalen zonder verdere politieke processen."
+            "Het toonde de absolute macht van de vorst om opvolgers te kiezen.",
+            "Het benadrukte het erfelijkheidsbeginsel binnen een systeem met beperkte politieke bevoegdheden.",
+            "Het bewees dat de monarchie rechtstreeks de dagelijkse gang van zaken van de regering bepaalde.",
+            "Het demonstreerde dat de Salische Wet gold voor de Britse kroon, waardoor een mannelijke opvolger noodzakelijk was."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom werd Victoria's vroege regeerperiode direct gekenmerkt door politieke uitdagingen, ondanks de constitutionele aard van de monarchie?",
+          "antwoord": "Haar onervarenheid en sterke afhankelijkheid van premier Lord Melbourne, samen met conflicten zoals de Bedchamber Crisis, dwongen haar onmiddellijk om te navigeren door complexe politieke loyaliteiten en verwachtingen."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe beïnvloedde de Bedchamber Crisis de perceptie van Victoria's politieke onafhankelijkheid in haar vroege regeerperiode?",
+          "opties": [
+            "Het toonde haar vermogen om ministers te ontslaan zonder parlementaire goedkeuring.",
+            "Het onthulde haar persoonlijke voorkeur voor hofdames boven politieke benoemingen, wat haar kwetsbaarheid voor partijpolitiek onderstreepte.",
+            "Het bewees haar absolute controle over de samenstelling van de regering.",
+            "Het versterkte haar positie als een onpartijdige figuur boven de politiek."
+          ],
+          "correcteIndex": 1
+        }
+      ]
+    },
+    {
+      "titel": "Liefde, Familie en de Last van de Kroon",
+      "tekst": "In 1840 trouwde Victoria met haar neef, prins Albert van Saksen-Coburg en Gotha. De koningin was van hem gecharmeerd; ze beschreef hem in haar dagboek als 'buitengewoon knap' met 'grote blauwe ogen' en een 'zeer zoete mond'. Dit huwelijk was niet alleen een liefdesverbintenis, maar ook een strategische alliantie die de jonge koningin een belangrijke politieke adviseur verschafte, ter vervanging van de invloed die Lord Melbourne eerder op haar had. Hoewel Albert in het begin moeite had zijn plaats te vinden en zelfs enige wrijving ontstond over zijn actieve rol in het landsbestuur, ontwikkelde hun huwelijk zich tot een succesvolle samenwerking.\n\nHet koninklijke echtpaar kreeg negen kinderen. Victoria droeg de bloederziekte hemofilie, een erfelijke aandoening die de bloedstolling bemoeilijkt. Hierdoor leden verschillende van haar (vooral mannelijke) nakomelingen aan de ziekte, wat in sommige gevallen leidde tot een vroege dood. Desondanks haatte Victoria zwangerschappen, walgde ze van borstvoeding en vond ze pasgeboren baby's 'lelijk'. Gedurende haar vroege regeerperiode werd Victoria meerdere malen het doelwit van moordaanslagen. Zo probeerde Edward Oxford in 1840 tijdens haar eerste zwangerschap twee schoten op haar af te vuren, die haar beide misten. Later volgden nog aanslagen door John Francis en John William Bean. Als reactie hierop stelde prins Albert de Treason Act 1842 op, een wet die aanvallen op de monarch met gevaarlijke wapens bestrafte met gevangenisstraf en geseling, een poging om de veiligheid van de vorst te waarborgen en tegelijkertijd te voorkomen dat daders de doodstraf kregen voor minder ernstige vergrijpen.\n\nDeze periode van gezinsuitbreiding en persoonlijke bedreigingen viel samen met Victoria's eerste treinreis in 1842, van Slough naar Paddington. Ze reisde in een speciaal ontworpen wagon, begeleid door Albert en de ingenieur Isambard Kingdom Brunel. Zowel de koningin als de prins-gemaal vonden de snelheid van de trein echter te hoog en vreesden een ontsporing, wat illustreert hoe nieuw en soms beangstigend de technologische vooruitgang van die tijd kon zijn.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Victoria's persoonlijke leven, gekenmerkt door haar huwelijk met Albert, de geboorte van negen kinderen en de bedreigingen van moordaanslagen, zich ontvouwde te midden van de opkomst van nieuwe technologieën en de complexe eisen van haar koningschap.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1840",
+          "gebeurtenis": "Huwelijk met prins Albert; eerste moordaanslag door Edward Oxford"
+        },
+        {
+          "jaar": "1842",
+          "gebeurtenis": "Instelling van de Treason Act; Victoria's eerste treinreis"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Op welke manier beïnvloedde het huwelijk met prins Albert Victoria's koningschap, afgezien van haar persoonlijke geluk?",
+          "antwoord": "Albert werd een cruciale politieke raadgever, wat de invloed van Lord Melbourne verving en structurele maatregelen zoals de Treason Act 1842 voortbracht om de monarchie te beschermen."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe beïnvloedde de geboorte van haar vele kinderen haar regeerperiode, gezien haar persoonlijke afkeer van zwangerschap en pasgeborenen?",
+          "opties": [
+            "Haar afkeer leidde tot een vermindering van haar publieke optredens.",
+            "De verspreiding van hemofilie onder haar nakomelingen kreeg geen invloed op het koningschap.",
+            "Ondanks haar persoonlijke gevoelens zorgde haar grote gezin voor dynastieke stabiliteit en breidde het de invloed van de koninklijke familie uit over Europa.",
+            "De moordaanslagen waren een direct gevolg van haar vele zwangerschappen."
+          ],
+          "correcteIndex": 2
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe weerspiegelden de technologische ontwikkelingen, zoals de treinreis, de uitdagingen en vooruitgang tijdens Victoria's vroege regeerperiode?",
+          "antwoord": "Haar eerste treinreis symboliseerde de snelle technologische vooruitgang van het tijdperk, maar haar angst voor ontsporing toonde ook de onwennigheid en onzekerheid die deze veranderingen met zich meebrachten."
+        }
+      ]
+    },
+    {
+      "titel": "Het Victoriaanse Tijdperk: Morale Standaarden en Wereldwijde Macht",
+      "tekst": "Bij Victoria's aantreden was de Britse monarchie verre van populair, mede door de losbandige levensstijl van haar oom George IV. Victoria streefde naar een verbetering van deze reputatie door een leven te leiden dat zij zelf als onkreukbaar beschouwde, wat later de term 'Victoriaans' zou definiëren als een ingetogen levenshouding met uitermate preutse opvattingen. Dit morele kompas en haar sterke wil vormden de basis voor haar symbolische rol, hoewel ze soms ook de grenzen van haar constitutionele bevoegdheden overschreed door haar duidelijke voorkeur voor bepaalde ministers, zoals Benjamin Disraeli, en haar afkeer van anderen, zoals William Gladstone.\n\nHaar regeerperiode, het Victoriaanse tijdperk, viel samen met het hoogtepunt van de Industriële Revolutie. Deze periode bracht een stroomversnelling aan sociale, economische en technologische vooruitgang met zich mee. Denk hierbij aan de aanleg van spoorwegen, de opkomst van fabrieken en de groei van steden. Het was ook een tijd van een ongekende uitbreiding van het Britse Rijk, dat onder haar regering het grootste rijk uit de geschiedenis werd en gebieden omvatte op alle werelddelen. Victoria streefde naar een belangrijke rol voor Groot-Brittannië op mondiaal niveau.\n\nDe politieke dynamiek bleef echter uitdagend. Na het ontslag van Robert Peel in 1846, die de omstreden Graanwetten — wetten die de import van graan beperkten om de binnenlandse landbouw te beschermen — had afgeschaft, kwam John Russell aan de macht. Victoria was niet tevreden met zijn regering, met name door het gedrag van minister van Buitenlandse Zaken Henry John Temple, Lord Palmerston. Hij nam vaak beslissingen zonder overleg met het kabinet of de koningin. Pas nadat Palmerston in 1851 de staatsgreep — een plotselinge, onwettige machtsovername — van Lodewijk Napoleon Bonaparte in Frankrijk goedkeurde zonder de premier te raadplegen, werd hij ontslagen. Deze conflicten lieten zien hoe Victoria, ondanks haar symbolische rol, actief probeerde haar invloed te doen gelden binnen de politiek van haar tijd.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Victoria's persoonlijke morele waarden de reputatie van de monarchie herstelden en een tijdperk definieerden dat gekenmerkt werd door ongekende economische groei, technologische vooruitgang en de wereldwijde uitbreiding van het Britse Rijk, ondanks aanhoudende politieke spanningen.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1846",
+          "gebeurtenis": "Ontslag van Robert Peel na afschaffing Graanwetten"
+        },
+        {
+          "jaar": "1851",
+          "gebeurtenis": "Ontslag van Lord Palmerston"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe droegen Victoria's persoonlijke morele waarden bij aan het herstel van de monarchie en de vorming van het 'Victoriaanse' tijdperk?",
+          "antwoord": "Door een onkreukbaar leven te leiden, verloste ze de monarchie van haar eerdere losbandige reputatie, wat leidde tot een tijdperk dat gekenmerkt werd door ingetogenheid en preutse opvattingen."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom was het Victoriaanse tijdperk, ondanks de constitutionele beperkingen van de monarchie, een periode van ongekende Britse invloed en groei?",
+          "opties": [
+            "Victoria's directe politieke bemoeienis zorgde voor snelle besluitvorming en efficiëntie.",
+            "De Industriële Revolutie en de uitbreiding van het Britse Rijk vielen samen met haar lange regeerperiode, waardoor haar naam symbool stond voor deze ontwikkelingen.",
+            "De monarchie had volledige controle over de wereldhandel en koloniale expansie.",
+            "Politieke spanningen en conflicten, zoals die met Palmerston, stimuleerden de economische groei."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe probeerde Victoria, ondanks haar symbolische rol, haar invloed uit te oefenen op de politiek van haar tijd, zoals geïllustreerd door de conflicten met ministers?",
+          "antwoord": "Ze uitte duidelijke voorkeuren voor bepaalde ministers en haar afkeer van anderen, en greep in bij belangrijke beslissingen, zoals het ontslag van Lord Palmerston na zijn onafhankelijke diplomatieke acties."
+        }
+      ]
+    },
+    {
+      "titel": "De 'Weduwe van Windsor' en de Keizerin van Indië",
+      "tekst": "Op 14 december 1861 sloeg het noodlot toe: prins Albert stierf op 42-jarige leeftijd plotseling aan buiktyfus, waarschijnlijk als gevolg van de slechte sanitaire omstandigheden in Windsor Castle. Zijn dood was een verwoestende klap voor Victoria, die eerder dat jaar ook haar moeder had verloren. Ze trok zich terug uit het openbare leven en droeg de rest van haar leven rouwkleding, wat haar de bijnaam 'de weduwe van Windsor' opleverde. Haar isolement verminderde de populariteit van de monarchie en gaf zelfs de republikeinse beweging — een stroming die pleitte voor een staatsvorm zonder monarch — de wind in de zeilen. Toch bleef Victoria binnen haar familie de onbetwiste leider en bemoeide ze zich intensief met de huwelijken van haar kinderen en kleinkinderen, wat haar de bijnaam 'de grootmoeder van Europa' opleverde.\n\nNaarmate de tijd verstreek, herwon Victoria haar publieke rol. Op aandringen van Benjamin Disraeli aanvaardde ze in 1877 de titel 'keizerin van Indië', een eerbetoon voor de enorme gebiedsuitbreiding en vergroting van de Britse macht in de wereld. Hoewel ze Brits-Indië zelf nooit bezocht, nam ze twee Indische bedienden op in haar huishouding, waaronder Abdul Karim, die haar Urdu leerde en kipcurries voor haar kookte. Haar dagboeken getuigen van haar enthousiasme voor deze nieuwe culturele invloeden.\n\nDe vijftigste verjaardag van haar troonsbestijging, haar Gouden Jubileum in 1887, markeerde een keerpunt in haar populariteit. Een banket met vijftig Europese staatshoofden en vorsten, gevolgd door een optocht die 'zich uitstrekte tot de gezichtseinder', toonde een hernieuwde waardering voor de koningin. Tien jaar later, in 1897, vierde ze haar Diamanten Jubileum, dat op voorstel van minister van Koloniën Joseph Chamberlain in het gehele Britse Rijk werd gevierd. Victoria was toen al de langst regerende monarch in de Britse geschiedenis, en haar heerschappij was synoniem geworden met de wereldwijde invloed van Groot-Brittannië.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Victoria, na de tragische dood van Albert, zich uit haar diepe rouw herstelde en uitgroeide tot een krachtig symbool van het Britse Rijk, haar invloed uitbreidend als Keizerin van Indië en haar populariteit herwinnend tijdens haar jubilea.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1861",
+          "gebeurtenis": "Prins Albert sterft"
+        },
+        {
+          "jaar": "1877",
+          "gebeurtenis": "Aanvaarding van de titel 'Keizerin van Indië'"
+        },
+        {
+          "jaar": "1887",
+          "gebeurtenis": "Gouden Jubileum"
+        },
+        {
+          "jaar": "1897",
+          "gebeurtenis": "Diamanten Jubileum"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe slaagde Victoria erin haar populariteit te herwinnen en een krachtig symbool van het Britse Rijk te worden, ondanks een periode van diepe rouw en publieke afzondering?",
+          "opties": [
+            "Ze nam de titel 'keizerin van Indië' aan en vierde haar jubilea groots, wat de wereldwijde macht van Groot-Brittannië benadrukte.",
+            "Haar terugtrekking uit het openbare leven versterkte de mystiek rondom de monarchie.",
+            "Ze bezocht Brits-Indië persoonlijk om haar invloed te tonen.",
+            "De republikeinse beweging nam af omdat ze haar verdriet deelden."
           ],
           "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Beschrijf hoe de structuur van een politiek café-avond de actieve deelname van het publiek faciliteert.",
-          "antwoord": "De avonden zijn opgebouwd uit afwisselende inleidingen, interviews en panelgesprekken, waarbij het publiek wordt uitgenodigd om actief bij te dragen aan de interactieve uitwisseling van gedachten."
-        }
-      ]
-    },
-    {
-      "titel": "Van Salon naar Kroeg: De Geschiedenis van het Debat",
-      "tekst": "Het idee van een politiek café staat niet op zichzelf; het past binnen een lange Europese traditie van openbare debatcultuur. Al eeuwenlang speelden cafés en salons — deftige ontvangstkamers waar mensen samenkwamen om te praten over kunst, literatuur en politiek — een centrale rol in politieke en maatschappelijke discussies. Deze plekken waren broedplaatsen voor ideeën.\n\nIn Nederland kreeg het politiek café breder voet aan de grond vanaf het begin van de eenentwintigste eeuw. Dit kwam mede door initiatieven van maatschappelijke organisaties, culturele instellingen en samenwerkingsverbanden tussen journalisten en academici.\n\nIn die periode ontstonden in diverse steden regelmatig terugkerende debatavonden. Hier stonden actuele politieke gebeurtenissen centraal, net zoals men dat nu in de politieke cafés ziet.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat het politiek café een eigentijdse voortzetting is van een oude Europese debatcultuur en wanneer het in Nederland breder bekend werd.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "Vroege 21e eeuw",
-          "gebeurtenis": "Politiek café kreeg breder voet aan de grond in Nederland"
-        }
-      ],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Leg uit hoe het moderne politiek café een voortzetting is van een historische Europese traditie.",
-          "antwoord": "Het hedendaagse politieke café bouwt voort op de eeuwenoude gewoonte van openbare discussie in salons en kroegen, die voorheen dienden als plekken waar belangrijke maatschappelijke en politieke ideeën werden uitgewisseld."
+          "vraag": "Waarom kreeg Victoria de bijnaam 'de grootmoeder van Europa' en hoe demonstreerde dit haar invloed na Alberts dood?",
+          "antwoord": "Ze kreeg deze bijnaam omdat ze actief de huwelijken van haar kinderen en kleinkinderen arrangeerde, waardoor bijna alle Europese vorstenhuizen met elkaar werden verbonden en haar dynastieke invloed over het continent werd uitgebreid."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Wat was de voornaamste drijfveer voor de bredere opkomst van het politiek café in Nederland aan het begin van de 21e eeuw?",
+          "vraag": "Hoe droeg de titel 'keizerin van Indië' bij aan Victoria's rol als symbool van het Britse Rijk?",
           "opties": [
-            "Een nieuwe wetgeving die openbare debatbijeenkomsten verplicht stelde.",
-            "Het initiatief van diverse maatschappelijke en culturele partijen, alsook samenwerkingen tussen journalisten en academici.",
-            "Een plotselinge toename van politieke onrust die spontaan tot debat leidde.",
-            "Exclusief door promotiecampagnes van landelijke politieke partijen."
+            "Het markeerde een persoonlijke reis naar Indië, wat haar band met de kolonie versterkte.",
+            "Het symboliseerde de enorme territoriale expansie en de dominante positie van Groot-Brittannië op mondiaal niveau.",
+            "Het leidde tot een vermindering van de Britse invloed in andere delen van de wereld.",
+            "De titel werd alleen in Groot-Brittannië erkend en had geen internationale betekenis."
           ],
           "correcteIndex": 1
         }
       ]
     },
     {
-      "titel": "Wie Zetten de Deuren Open?",
-      "tekst": "Een breed scala aan 'actoren' — organisaties en personen die actief betrokken zijn — organiseert politieke cafés in Nederland. Hieronder vallen maatschappelijke organisaties, educatieve instellingen, culturele podia, journalistieke platforms en lokale politieke partijen. Deze partijen creëren ontmoetingsplekken.\n\nOp deze avonden kunnen burgers, politici, beleidsmakers en deskundigen met elkaar in gesprek gaan over de onderwerpen die op dat moment spelen in de samenleving. Lokale afdelingen van politieke partijen organiseren geregeld politieke cafés. Zij bespreken dan gemeentelijke vraagstukken en de lokale democratie. Hun doel is om inwoners actief te betrekken bij het politieke proces.\n\nD66 is een politieke partij die al sinds 1967 dit soort avonden organiseert. Ook organisaties die zich richten op burgerschapseducatie — het onderwijzen van burgers over hun rechten, plichten en de werking van de democratie — dragen hun steentje bij. Zij doen dit vaak in samenwerking met debatcentra, universiteiten en culturele instellingen. Al deze initiatieven vergroten de politieke participatie en versterken het democratisch bewustzijn.",
-      "kernpunt": "Na deze sectie begrijpt de lezer welke diverse organisaties politieke cafés opzetten en waarom zij dit doen, met als concreet doel de betrokkenheid van burgers te vergroten.",
+      "titel": "Een Einde van een Tijdperk: Victoria's Laatste Jaren en Nalatenschap",
+      "tekst": "Koningin Victoria stierf op 22 januari 1901, op 81-jarige leeftijd, in de armen van haar kleinzoon, keizer Wilhelm II van Duitsland. Op dat moment was ze de langst regerende Britse monarch ooit, met een regeerperiode van 63 jaar, zeven maanden en twee dagen. Haar dood betekende het einde van een tijdperk dat haar naam droeg en een diepgaande stempel had gedrukt op Groot-Brittannië en de rest van de wereld.\n\nOp haar verzoek werd ze begraven in het Frogmore House Mausoleum bij Windsor Castle, naast haar echtgenoot Albert. Victoria had een afkeer van zwarte begrafenissen; daarom was iedereen gekleed in het wit, en Londen werd in wit en paars gehuld als teken van rouw. Haar begrafenisstoet behoort tot de eerste die op film is vastgelegd, wat getuigt van de technologische vooruitgang die zij tijdens haar leven had meegemaakt. Als eerbetoon liet president William McKinley van de Verenigde Staten alle vlaggen halfstok hangen, een gebaar dat de internationale erkenning van Victoria's statuur onderstreepte.\n\nDe nalatenschap van Victoria strekte zich uit tot ver buiten de grenzen van Groot-Brittannië. Door de huwelijken van haar negen kinderen en tweeënveertig kleinkinderen waren bijna alle Europese vorstenhuizen met elkaar verbonden, waardoor ze de bijnaam 'de grootmoeder van Europa' kreeg. Haar naam leeft voort in talloze plaatsen over de hele wereld, van Canadese eilanden en Australische staten tot Afrikaanse meren en watervallen. Victoria was de laatste vorst van het Huis Hannover; haar zoon en opvolger, koning Eduard VII, behoorde tot het Huis Saksen-Coburg en Gotha, waarmee een nieuw hoofdstuk in de Britse monarchie begon. Haar regeerperiode, gekenmerkt door zowel persoonlijke tragedie als ongekende nationale bloei, heeft de wereld blijvend gevormd.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Victoria's dood het einde van een tijdperk markeerde en hoe haar lange regeerperiode een blijvende nalatenschap achterliet, zowel door haar invloed op de Europese monarchieën als door de wereldwijde geografische en culturele sporen van het Britse Rijk.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1967",
-          "gebeurtenis": "D66 start met het organiseren van debatavonden"
+          "jaar": "1901",
+          "gebeurtenis": "Overlijden van koningin Victoria"
         }
       ],
       "vragen": [
         {
+          "type": "flashcard",
+          "vraag": "Hoe markeerde Victoria's dood het einde van een tijdperk en wat was de blijvende impact op de Britse monarchie?",
+          "antwoord": "Haar overlijden sloot het Victoriaanse tijdperk af, een periode van ongekende nationale bloei. De monarchie ging verder onder haar zoon Eduard VII, waarmee het Huis Saksen-Coburg en Gotha begon, en haar begrafenis weerspiegelde de technologische en culturele veranderingen die zij had meegemaakt."
+        },
+        {
           "type": "multiplechoice",
-          "vraag": "Welke onderliggende motivatie drijft de diverse organisaties om politieke cafés te organiseren?",
+          "vraag": "Waarom wordt Victoria's nalatenschap beschouwd als wereldwijd en diepgaand, zelfs na haar dood?",
           "opties": [
-            "Zij willen voornamelijk nieuwe leden werven voor hun eigen organisatie of partij.",
-            "Het primaire doel is het vergroten van de burgerbetrokkenheid en het versterken van het democratisch besef.",
-            "Het is een manier om beleidsmakers direct te laten stemmen over nieuwe voorstellen.",
-            "Zij zien het als een verplichting vanuit de overheid om openbare debatten te faciliteren."
+            "Haar afkeer van zwarte begrafenissen leidde tot een nieuwe modetrend in Europa.",
+            "Door de huwelijken van haar nakomelingen waren bijna alle Europese vorstenhuizen met elkaar verbonden, en haar naam leeft voort in talloze geografische locaties wereldwijd.",
+            "De VS erkende haar statuur door vlaggen halfstok te hangen, wat haar invloed beperkte tot Amerika.",
+            "Haar zoon Eduard VII zette het Huis Hannover voort, wat stabiliteit garandeerde."
           ],
           "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Beschrijf hoe de verscheidenheid aan organisaties bijdraagt aan de organisatie en de doelen van politieke cafés.",
-          "antwoord": "Een breed scala aan maatschappelijke, educatieve, culturele en politieke groeperingen zet deze bijeenkomsten op, waardoor diverse perspectieven aan bod komen en een breder publiek wordt betrokken bij politieke discussie en burgerschapsvorming."
-        }
-      ]
-    },
-    {
-      "titel": "Van Wooncrisis tot Wereldpolitiek: De Agenda",
-      "tekst": "De onderwerpen die in politieke cafés aan bod komen, zijn altijd actueel. Ze weerspiegelen wat er leeft in de maatschappij en in de politiek. Denk aan lokale en landelijke verkiezingen, de aanpak van armoede, oplossingen voor de wooncrisis, klimaatverandering en duurzaamheid.\n\nOok internationale politiek, sociale ongelijkheid — het oneerlijk verdeeld zijn van kansen of middelen in de samenleving — en democratische vernieuwing staan regelmatig op de agenda. Door de combinatie van bijdragen van deskundigen en de open discussie met het publiek, bieden politieke cafés een plek voor verdieping. Ze stimuleren ook kritische reflectie op de ontwikkelingen die ons allen aangaan.",
-      "kernpunt": "Na deze sectie begrijpt de lezer welke brede en actuele thema's in een politiek café worden besproken en hoe deze bijdragen aan verdieping en kritische meningsvorming.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Leg uit waarom de onderwerpen die in politieke cafés worden behandeld altijd actueel van aard zijn.",
-          "antwoord": "De thema's van politieke cafés zijn altijd recent omdat ze een directe weerspiegeling vormen van de hedendaagse maatschappelijke en politieke ontwikkelingen en zorgen die leven onder de bevolking."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe bevorderen politieke cafés een diepgaandere blik en kritische denkwijze bij het publiek?",
-          "opties": [
-            "Door uitsluitend meningen van politieke leiders te presenteren zonder tegenspraak.",
-            "Door het publiek te voorzien van kant-en-klare oplossingen voor complexe vraagstukken.",
-            "Door deskundige inzichten te combineren met een open dialoog, wat aanzet tot reflectie op maatschappelijke kwesties.",
-            "Door alleen lokale onderwerpen te bespreken die direct van invloed zijn op het dagelijks leven."
-          ],
-          "correcteIndex": 2
+          "vraag": "Hoe toont de begrafenis van Victoria de technologische vooruitgang en haar persoonlijke voorkeuren?",
+          "antwoord": "Haar begrafenis was een van de eersten die op film werd vastgelegd, wat de technologische sprong van haar regeerperiode illustreert. Bovendien weerspiegelde de keuze voor witte en paarse rouwkleding haar persoonlijke afkeer van traditionele zwarte begrafenissen."
         }
       ]
     }
   ],
-  "categorie": "Politiek Café",
+  "categorie": "Koningin Victoria",
   "categorieKleur": "#7cb9e8",
-  "datum": "2026-05-23"
+  "datum": "2026-05-24"
 }
