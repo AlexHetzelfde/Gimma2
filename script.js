@@ -662,6 +662,9 @@ async function toonHomescreen() {
     lesBtn.setAttribute('data-tip', 'Er is nog geen leerpad. Dit wordt vannacht aangemaakt.');
     lesSub.textContent = 'Leerpad wordt voorbereid';
   }
+}
+
+async function startSmartSession() {
 
 async function startSmartSession() {
   const dueItems = await getDueItems();
