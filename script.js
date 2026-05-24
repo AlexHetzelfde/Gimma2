@@ -222,20 +222,33 @@ async function renderSidebar() {
   }
 
   inhoud.innerHTML += `<div class="sidebar-sectie-kop">Archief</div>`;
-if (archief.length === 0) {
-  inhoud.innerHTML += `<div style="padding:1rem;color:var(--muted);font-size:0.8rem;">Nog geen voltooide paden.</div>`;
-} else {
-  archief.forEach(pad => {
-    const redenLabel = pad.reden === 'voltooid' ? '✓ Voltooid' : '⏭ Overgeslagen';
-    inhoud.innerHTML += `
-      <div class="sidebar-pad-rij">
-        <span class="sidebar-pad-icoon" style="color:var(--goed)">●</span>
-        <div class="sidebar-pad-info">
-          <div class="sidebar-pad-naam">${pad.onderwerp}</div>
-          <div class="sidebar-pad-meta">${redenLabel} · ${pad.afgesloten || ''}</div>
-        </div>
-      </div>`;
-  });
+  if (archief.length === 0) {
+    inhoud.innerHTML += `<div style="padding:1rem;color:var(--muted);font-size:0.8rem;">Nog geen voltooide paden.</div>`;
+  } else {
+    archief.forEach(pad => {
+      const redenLabel = pad.reden === 'voltooid' ? '✓ Voltooid' : '⏭ Overgeslagen';
+      inhoud.innerHTML += `
+        <div class="sidebar-pad-rij">
+          <span class="sidebar-pad-icoon" style="color:var(--goed)">●</span>
+          <div class="sidebar-pad-info">
+            <div class="sidebar-pad-naam">${pad.onderwerp}</div>
+            <div class="sidebar-pad-meta">${redenLabel} · ${pad.afgesloten || ''}</div>
+          </div>
+        </div>`;
+    });
+  }
+}
+
+async function startSmartSession() {
+  const dueItems = await getDueItems();
+  if (dueItems.length > 0) {
+    smartActive = true;
+    srVervolgTekst = 'Doorgaan naar les →';
+    srCallback = null;
+    toonSRReview(dueItems);
+  } else {
+    await startHuidigeLes();
+  }
 }
 
 // ════════════════════════════════════════
@@ -663,8 +676,6 @@ async function toonHomescreen() {
     lesSub.textContent = 'Leerpad wordt voorbereid';
   }
 }
-
-async function startSmartSession() {
 
 async function startSmartSession() {
   const dueItems = await getDueItems();
