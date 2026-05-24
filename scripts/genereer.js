@@ -389,12 +389,13 @@ Invoer:
 ${JSON.stringify(ruweSecties, null, 2)}`;
 
   const verbeterdeSecties = await geminiMetRetry(reviewPrompt);
-  if (!verbeterdeSecties.secties?.length) {
-    console.warn('Review mislukt, gebruik originele versie');
-    var definitieveSecties = ruweSecties;
-  } else {
-    var definitieveSecties = verbeterdeSecties;
-  }
+  let definitieveSecties;
+if (!verbeterdeSecties.secties?.length) {
+  console.warn('Review mislukt, gebruik originele versie');
+  definitieveSecties = ruweSecties;
+} else {
+  definitieveSecties = verbeterdeSecties;
+}
 
   await new Promise(r => setTimeout(r, 1000));
 
@@ -495,31 +496,33 @@ async function main() {
   const geselecteerdeCats = config.geselecteerdeCategorieen || ['nl_uitgelicht'];
   
   // 2. Lees status.json
-  const status = await leesStatus();
-  if (status.padOvergeslagen) {
-    console.log('Pad was overgeslagen. Archiveer en start nieuw pad.');
-    // Zoek het actieve pad (mocht het nog bestaan) en archiveer
-    try {
-      const actiefPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
-      await archiveerPad(actiefPad.id, 'overgeslagen');
-    } catch (e) {
-      console.log('Geen actief pad gevonden om te archiveren.');
-    }
-    // Reset status
-    await schrijfStatus({ padOvergeslagen: false, overgeslageOp: null });
-    // Start nieuw pad
-    // (val door naar de code onderaan die een nieuw pad maakt)
+ // 2. Lees status.json
+const status = await leesStatus();
+let padWasOvergeslagen = false;
+
+if (status.padOvergeslagen) {
+  console.log('Pad was overgeslagen. Archiveer en start nieuw pad.');
+  padWasOvergeslagen = true; // Vlag zodat we het lokale bestand NIET opnieuw lezen
+  try {
+    const oudPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
+    if (oudPad.id) await archiveerPad(oudPad.id, 'overgeslagen');
+  } catch (e) {
+    console.log('Geen actief pad gevonden om te archiveren.');
   }
-  
-  // 3. Lees actief-leerpad.json
-  let actiefPad = null;
+  await schrijfStatus({ padOvergeslagen: false, overgeslageOp: null });
+  // Val door naar nieuw pad — lees het lokale bestand NIET opnieuw
+}
+
+// 3. Lees actief-leerpad.json (alleen als er geen overslaan-actie was)
+let actiefPad = null;
+if (!padWasOvergeslagen) {
   try {
     actiefPad = JSON.parse(await readFile('actief-leerpad.json', 'utf8'));
-    // Controleer of het bestand niet leeg is (door archivering)
     if (!actiefPad.id) actiefPad = null;
   } catch (e) {
     console.log('Geen actief leerpad gevonden.');
   }
+}
   
   if (actiefPad) {
     // Zoek de eerste geplande les
