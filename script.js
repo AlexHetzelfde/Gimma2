@@ -149,7 +149,27 @@ async function haalActiefLeerpad() {
 }
 
 async function haalArchiefOverzichten() {
-  return [];
+  try {
+    const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/archief`;
+    const res = await fetch(url);
+    if (!res.ok) return []; // Map bestaat nog niet
+
+    const bestanden = await res.json();
+    const overzichten = await Promise.all(
+      bestanden
+        .filter(b => b.name.endsWith('-overzicht.json'))
+        .map(async b => {
+          try { return await fetchJSON(rawURL(b.path)); }
+          catch (e) { return null; }
+        })
+    );
+    return overzichten
+      .filter(Boolean)
+      .sort((a, b) => (b.afgesloten || '').localeCompare(a.afgesloten || ''));
+  } catch (e) {
+    console.warn('Archief ophalen mislukt:', e);
+    return [];
+  }
 }
 
 async function haalLes(padId, lesNummer) {
@@ -202,9 +222,20 @@ async function renderSidebar() {
   }
 
   inhoud.innerHTML += `<div class="sidebar-sectie-kop">Archief</div>`;
-  if (archief.length === 0) {
-    inhoud.innerHTML += `<div style="padding:1rem;color:var(--muted);font-size:0.8rem;">Nog geen voltooide paden.</div>`;
-  }
+if (archief.length === 0) {
+  inhoud.innerHTML += `<div style="padding:1rem;color:var(--muted);font-size:0.8rem;">Nog geen voltooide paden.</div>`;
+} else {
+  archief.forEach(pad => {
+    const redenLabel = pad.reden === 'voltooid' ? '✓ Voltooid' : '⏭ Overgeslagen';
+    inhoud.innerHTML += `
+      <div class="sidebar-pad-rij">
+        <span class="sidebar-pad-icoon" style="color:var(--goed)">●</span>
+        <div class="sidebar-pad-info">
+          <div class="sidebar-pad-naam">${pad.onderwerp}</div>
+          <div class="sidebar-pad-meta">${redenLabel} · ${pad.afgesloten || ''}</div>
+        </div>
+      </div>`;
+  });
 }
 
 // ════════════════════════════════════════
@@ -216,35 +247,64 @@ async function toonLeerpadDetail(padId) {
   sluitSidebar();
   const actief = await haalActiefLeerpad();
   if (!actief || actief.id !== padId) return;
-  
+
   huidigBekekenPadId = padId;
-  const home = document.getElementById('homescreen');
-  home.innerHTML = `
-    <div style="padding:2rem; max-width:600px; margin:0 auto; width:100%;">
-      <h2 style="font-family:Lora;color:var(--text)">${actief.onderwerp}</h2>
-      <p style="color:var(--muted);margin-bottom:1.5rem;">${actief.aantalLessen} lessen · ${actief.categorieId} · gestart ${actief.aangemaakt}</p>
-      <div class="pad-les-lijst" id="pad-les-lijst"></div>
-      <button class="knop-secundair" onclick="toonHomescreen()" style="margin-top:1.5rem;">← Terug naar home</button>
-      <button class="knop-secundair" style="background:var(--fout);margin-top:0.5rem;" onclick="openOverslaanModal('${actief.id}','${actief.onderwerp}')">🔀 Dit onderwerp interesseert me niet</button>
-    </div>`;
-  
+
+  // Verberg homescreen, toon apart detailscherm (geen DOM-destructie meer)
+  document.getElementById('homescreen').classList.remove('zichtbaar');
+  document.getElementById('leerpad-detail-scherm').classList.add('zichtbaar');
+
+  const inhoud = document.getElementById('leerpad-detail-inhoud');
+  inhoud.innerHTML = `
+    <h2 style="font-family:Lora;color:var(--text);margin-bottom:0.4rem">${actief.onderwerp}</h2>
+    <p style="color:var(--muted);margin-bottom:1.5rem;font-size:0.88rem">
+      ${actief.aantalLessen} lessen · ${actief.categorieId} · gestart ${actief.aangemaakt}
+    </p>
+    <div class="pad-les-lijst" id="pad-les-lijst"></div>
+    <div style="display:flex;flex-direction:column;gap:0.5rem;margin-top:1.5rem"></div>`;
+
+  // Lessenlijst opbouwen via DOM (geen inline-onclick, veilig voor bijzondere tekens)
   const lijst = document.getElementById('pad-les-lijst');
   actief.lessen.forEach(les => {
     let icoon = '🔒';
-    if (les.status === 'beschikbaar') icoon = '▶';
     if (les.datumVoltooid) icoon = '✓';
-    const klikbaar = les.status === 'beschikbaar' ? `onclick="startLesVanLeerpad('${padId}',${les.nummer})" style="cursor:pointer;"` : '';
-    lijst.innerHTML += `
-      <div class="les-rij" ${klikbaar}>
-        <span style="font-size:1.2rem;width:2rem;">${icoon}</span>
-        <div>
-          <div style="font-weight:600;">Les ${les.nummer}: ${les.titel}</div>
-          <div style="font-size:0.8rem;color:var(--muted);">${les.status === 'gepland' ? 'Komt beschikbaar' : les.beschrijving || ''}</div>
-        </div>
+    else if (les.status === 'beschikbaar') icoon = '▶';
+
+    const klikbaar = les.status === 'beschikbaar' && !les.datumVoltooid;
+
+    const rij = document.createElement('div');
+    rij.className = 'les-rij' + (klikbaar ? ' les-rij-klikbaar' : '');
+    if (klikbaar) {
+      rij.addEventListener('click', () => startLesVanLeerpad(actief.id, les.nummer));
+    }
+    rij.innerHTML = `
+      <span class="les-rij-icoon">${icoon}</span>
+      <div>
+        <div class="les-rij-titel">Les ${les.nummer}: ${les.titel}</div>
+        <div class="les-rij-sub">${les.status === 'gepland' ? 'Komt beschikbaar' : les.beschrijving || ''}</div>
       </div>`;
+    lijst.appendChild(rij);
   });
-  
-  home.style.display = 'block';
+
+  // Knoppen onderaan — via DOM zodat aanhalingstekens in onderwerpnamen veilig zijn
+  const knoppen = inhoud.querySelector('div:last-child');
+  const terugKnop = document.createElement('button');
+  terugKnop.className = 'knop-secundair';
+  terugKnop.textContent = '← Terug naar home';
+  terugKnop.addEventListener('click', sluitLeerpadDetail);
+  knoppen.appendChild(terugKnop);
+
+  const overslaanKnop = document.createElement('button');
+  overslaanKnop.className = 'knop-secundair';
+  overslaanKnop.style.background = 'var(--fout)';
+  overslaanKnop.textContent = '🔀 Dit onderwerp interesseert me niet';
+  overslaanKnop.addEventListener('click', () => openOverslaanModal(actief.id, actief.onderwerp));
+  knoppen.appendChild(overslaanKnop);
+}
+
+function sluitLeerpadDetail() {
+  document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
+  toonHomescreen();
 }
 
 function openOverslaanModal(padId, naam) {
@@ -308,7 +368,8 @@ async function startLesVanLeerpad(padId, lesNummer) {
   huidigPadId = padId;
   huidigLesNummer = lesNummer;
   
-  document.getElementById('homescreen').style.display = 'none';
+  document.getElementById('homescreen').classList.remove('zichtbaar');
+  document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
   document.getElementById('les-scherm').classList.add('zichtbaar');
   
   setStatus('Les laden...', 20);
@@ -379,15 +440,22 @@ let huidigeCategorieKleur = '#ed5b36';
 let huidigeCategorieNaam  = '';
 
 function setLayout(modus) {
-  localStorage.setItem(LS_LAYOUT, modus);
+  // Schrijf naar beide — localStorage voor directe sync, IndexedDB als primaire opslag
+  try { localStorage.setItem(LS_LAYOUT, modus); } catch(e) {}
+  dbSet(LS_LAYOUT, modus).catch(() => {});
   document.body.classList.toggle('layout-telefoon', modus === 'telefoon');
   document.getElementById('knop-desktop').classList.toggle('actief', modus === 'desktop');
   document.getElementById('knop-telefoon').classList.toggle('actief', modus === 'telefoon');
 }
 
 function herstelLayout() {
-  const opgeslagen = localStorage.getItem(LS_LAYOUT) || 'desktop';
-  setLayout(opgeslagen);
+  // Lees synchroon uit localStorage voor directe render (geen flicker)
+  const lokaal = localStorage.getItem(LS_LAYOUT) || 'desktop';
+  setLayout(lokaal);
+  // Controleer ook IndexedDB (kan afwijken na migratie)
+  dbGet(LS_LAYOUT).then(val => {
+    if (val && val !== lokaal) setLayout(val);
+  }).catch(() => {});
 }
 
 // ════════════════════════════════════════
@@ -532,6 +600,7 @@ function sterktekleur(strength) {
 async function toonHomescreen() {
   pasCategorieKleurToe('#ed5b36');
   document.getElementById('key-scherm').classList.remove('zichtbaar');
+  document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
   document.getElementById('key-knop-header').style.display = 'flex';
   document.getElementById('homescreen').classList.add('zichtbaar');
 
@@ -593,10 +662,6 @@ async function toonHomescreen() {
     lesBtn.setAttribute('data-tip', 'Er is nog geen leerpad. Dit wordt vannacht aangemaakt.');
     lesSub.textContent = 'Leerpad wordt voorbereid';
   }
-
-  document.getElementById('cache-melding').style.display = 'none';
-  document.getElementById('categorie-chip').style.display = 'none';
-}
 
 async function startSmartSession() {
   const dueItems = await getDueItems();
@@ -1077,10 +1142,13 @@ async function herbeginLes() {
 }
 
 function logoKlikken() {
-  const inLes = document.getElementById('les-scherm').classList.contains('zichtbaar');
-  const inKlaar = document.getElementById('klaar-scherm').classList.contains('zichtbaar');
+  const inLes    = document.getElementById('les-scherm').classList.contains('zichtbaar');
+  const inKlaar  = document.getElementById('klaar-scherm').classList.contains('zichtbaar');
+  const inDetail = document.getElementById('leerpad-detail-scherm').classList.contains('zichtbaar');
   if (inLes || inKlaar) {
     toonTerugNaarHomeModal();
+  } else if (inDetail) {
+    sluitLeerpadDetail();
   }
 }
 
@@ -1102,6 +1170,7 @@ async function bevestigTerugNaarHome() {
   document.getElementById('les-voortgang-balk').style.width = '0%';
   lesData = null;
   inVraagModus = false;
+  document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
   await toonHomescreen();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -1663,6 +1732,7 @@ function toonKlaarSchermFinal() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
   slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
   markSessionDone();
+  markeerLesVoltooid(huidigPadId, huidigLesNummer); // fire-and-forget, niet await
 }
 
 function updateReaderCatBadge() {
@@ -1680,6 +1750,92 @@ function updateReaderCatBadge() {
 // Artikelkiezer (niet meer actief, maar voor de zekerheid netjes afgehandeld)
 async function akStartLes() {
   toonToast('De artikelkiezer is niet langer beschikbaar. Gebruik het leerpadsysteem.');
+}
+
+// ════════════════════════════════════════
+// FEEDBACK PICKER
+// ════════════════════════════════════════
+function toonFeedbackPicker(blok, vraagId, vraagTekst, correctAntwoord) {
+  // Voorkom dubbele toevoeging
+  if (blok.querySelector('.feedback-wrap')) return;
+
+  const wrap = document.createElement('div');
+  wrap.className = 'feedback-wrap';
+
+  const knop = document.createElement('button');
+  knop.className = 'feedback-duim-knop';
+  knop.innerHTML = '👎 Probleem melden';
+
+  const picker = document.createElement('div');
+  picker.className = 'feedback-picker';
+  picker.style.display = 'none';
+
+  const label = document.createElement('div');
+  label.className = 'feedback-picker-label';
+  label.textContent = 'Wat klopt er niet?';
+  picker.appendChild(label);
+
+  ['Vraag is onduidelijk', 'Antwoord klopt niet', 'Te makkelijk', 'Te moeilijk', 'Taalfout of typfout']
+    .forEach(optie => {
+      const btn = document.createElement('button');
+      btn.className = 'feedback-optie';
+      btn.textContent = optie;
+      btn.addEventListener('click', async () => {
+        await voegFeedbackToe({ vraagId, vraagTekst, correctAntwoord, probleem: optie });
+        knop.textContent = '✓ Bedankt voor je feedback';
+        knop.classList.add('feedback-verstuurd');
+        knop.disabled = true;
+        picker.style.display = 'none';
+      });
+      picker.appendChild(btn);
+    });
+
+  knop.addEventListener('click', () => {
+    picker.style.display = picker.style.display === 'none' ? 'block' : 'none';
+  });
+
+  wrap.appendChild(knop);
+  wrap.appendChild(picker);
+  blok.appendChild(wrap);
+}
+
+async function markeerLesVoltooid(padId, lesNummer) {
+  if (!padId || !lesNummer) return;
+  const token = await haalGithubToken();
+  if (!token) return; // Geen token → kan niet schrijven, stil overslaan
+
+  try {
+    const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/actief-leerpad.json`;
+    const headers = {
+      'Authorization': `token ${token}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    };
+
+    const getRes = await fetch(url, { headers });
+    if (!getRes.ok) return;
+    const getData = await getRes.json();
+
+    // GitHub geeft base64 met newlines — replace voor btoa-compatibiliteit
+    const pad = JSON.parse(atob(getData.content.replace(/\n/g, '')));
+    const les = pad.lessen.find(l => l.nummer === lesNummer);
+    if (!les) return;
+
+    les.datumVoltooid = lokaalDatum();
+
+    const putRes = await fetch(url, {
+      method: 'PUT',
+      headers,
+      body: JSON.stringify({
+        message: `Les ${lesNummer} van pad ${padId} voltooid`,
+        content: btoa(unescape(encodeURIComponent(JSON.stringify(pad, null, 2)))),
+        sha: getData.sha
+      })
+    });
+    if (!putRes.ok) console.warn('Kon les niet als voltooid markeren op GitHub');
+  } catch (e) {
+    console.warn('markeerLesVoltooid mislukt:', e);
+  }
 }
 
 // ════════════════════════════════════════
