@@ -439,13 +439,18 @@ function setStatus(tekst, voortgang) {
   document.getElementById('laadbalk').style.width = voortgang + '%';
   const shimmer = document.getElementById('laadbalk-shimmer');
   if (shimmer) shimmer.style.display = 'block';
+  const annuleer = document.getElementById('annuleer-laad-knop');
+  if (annuleer) annuleer.style.display = 'inline-block';
 }
 
 function verbergStatus() {
   document.getElementById('status-wrap').classList.remove('zichtbaar');
   const shimmer = document.getElementById('laadbalk-shimmer');
   if (shimmer) shimmer.style.display = 'none';
+  const annuleer = document.getElementById('annuleer-laad-knop');
+  if (annuleer) annuleer.style.display = 'none';
 }
+
 async function startHuidigeLes() {
   const actief = await haalActiefLeerpad();
   if (!actief) {
@@ -1142,24 +1147,20 @@ async function slaGithubTokenOpEnBevestig() {
     melding.textContent = 'Vul een geldig GitHub token in (begint met ghp_)';
     return;
   }
-  await slaGithubTokenOp(invoer);
-  document.getElementById('github-token-invoer').value = '';
-  document.getElementById('github-token-invoer').placeholder = 'ghp_••••••• (al opgeslagen)';
-  melding.style.color = 'var(--goed)';
-  melding.textContent = '✓ Token opgeslagen';
-}
-
-async function slaKeyOpViaInstellingen() {
-  const invoer = document.getElementById('key-invoer-instellingen').value.trim();
-  const fout = document.getElementById('key-fout-instellingen');
-  if (!invoer.startsWith('AIza') || invoer.length < 20) {
-    fout.textContent = 'Vul een geldige Gemini API key in (begint met AIza...)';
-    return;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/status.json`, {
+      headers: { 'Authorization': `token ${invoer}` }
+    });
+    if (!res.ok) throw new Error('Ongeldige token of geen toegang tot repo');
+    await slaGithubTokenOp(invoer);
+    document.getElementById('github-token-invoer').value = '';
+    document.getElementById('github-token-invoer').placeholder = 'ghp_••••••• (al opgeslagen)';
+    melding.style.color = 'var(--goed)';
+    melding.textContent = '✓ Token is geldig en opgeslagen';
+  } catch (e) {
+    melding.style.color = 'var(--fout)';
+    melding.textContent = 'Token ongeldig of geen toegang: ' + e.message;
   }
-  await slaKeyOp(invoer);
-  fout.textContent = '';
-  toonToast('✓ API key opgeslagen');
-  sluitInstellingenModal();
 }
 
 // ════════════════════════════════════════
@@ -1978,9 +1979,9 @@ function vulDatumIn() {
   }
   vulDatumIn();
   herstelLayout();
+    document.getElementById('hamburger-btn').style.display = 'block';
   const key = await haalKey();
   if (key) {
-    document.getElementById('hamburger-btn').style.display = 'block';
     document.getElementById('key-knop-header').style.display = 'flex';
     await toonHomescreen();
   } else {
