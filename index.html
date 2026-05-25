@@ -230,11 +230,13 @@
       </button>
 
       <button class="home-knop home-knop-les" id="knop-les-nieuw" onclick="startHuidigeLes()">
-        <span class="home-knop-icoon">📖</span>
-        <span class="home-knop-titel">Huidige les</span>
-        <span class="home-knop-sub" id="les-sub"></span>
-      </button>
-    </div>
+  <span class="home-knop-icoon">📖</span>
+  <span class="home-knop-titel">Huidige les</span>
+  <span class="home-knop-sub" id="les-sub"></span>
+  <div class="home-les-voortgang-wrap" id="home-les-voortgang" style="display:none">
+    <div class="home-les-voortgang-balk" id="home-les-voortgang-balk"></div>
+  </div>
+</button>
 
     <div id="fout-wrap"></div>
     <div id="status-wrap">
@@ -312,3 +314,18 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+.home-les-voortgang-wrap {
+  width: 100%;
+  height: 4px;
+  background: var(--bg3);
+  border-radius: 2px;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+.home-les-voortgang-balk {
+  height: 100%;
+  background: var(--les-kleur);
+  width: 0%;
+  transition: width 0.3s;
+}
