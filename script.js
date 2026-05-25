@@ -204,10 +204,7 @@ async function renderSidebar() {
   const actief = await haalActiefLeerpad();
   const archief = await haalArchiefOverzichten();
 
-  if (actief) {
-    const beschikbaar = actief.lessen.filter(l => l.status === 'beschikbaar').length;
-    const totaal = actief.aantalLessen;
-    const voortgangPct = Math.round((beschikbaar / totaal) * 100);
+  const beschikbaar = actief.lessen.filter(l => l.status ===
     
     inhoud.innerHTML += `
       <div class="sidebar-sectie-kop">Actief</div>
@@ -1046,6 +1043,11 @@ async function toonInstellingenModal() {
   document.getElementById('github-token-melding').textContent = '';
   document.getElementById('key-fout-instellingen').textContent = '';
 
+  const huidigeKey = await haalKey();
+const keyVeld = document.getElementById('key-invoer-instellingen');
+keyVeld.value = '';
+keyVeld.placeholder = huidigeKey ? 'AIza... (al opgeslagen)' : 'AIza...';
+  
   const grid = document.getElementById('categorie-tegels');
   grid.innerHTML = '';
   ALLE_CATEGORIEEN.forEach(cat => {
