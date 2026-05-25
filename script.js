@@ -251,6 +251,13 @@ async function startSmartSession() {
   }
 }
 
+function openOverslaanVanHome() {
+  const btn = document.getElementById('knop-overslaan');
+  const padId = btn.dataset.padId;
+  const naam = btn.dataset.padNaam;
+  if (padId) openOverslaanModal(padId, naam);
+}
+
 // ════════════════════════════════════════
 // LEERPAD DETAIL
 // ════════════════════════════════════════
@@ -307,7 +314,15 @@ async function toonLeerpadDetail(padId) {
   terugKnop.addEventListener('click', sluitLeerpadDetail);
   knoppen.appendChild(terugKnop);
 
-  const overslaanKnop = document.createElement('button');
+  const overslaanBtn = document.getElementById('knop-overslaan');
+if (actief) {
+  overslaanBtn.style.display = 'flex';
+  // Bewaar het pad-id voor gebruik bij klikken
+  overslaanBtn.dataset.padId = actief.id;
+  overslaanBtn.dataset.padNaam = actief.onderwerp;
+} else {
+  overslaanBtn.style.display = 'none';
+}
   overslaanKnop.className = 'knop-secundair';
   overslaanKnop.style.background = 'var(--fout)';
   overslaanKnop.textContent = '🔀 Dit onderwerp interesseert me niet';
