@@ -201,19 +201,20 @@ async function renderSidebar() {
   const inhoud = document.getElementById('sidebar-inhoud');
   inhoud.innerHTML = '';
 
+  const key = await haalKey();
+  if (!key) {
+    inhoud.innerHTML = '<div style="padding:1rem;color:var(--muted);font-size:0.85rem;text-align:center">Voer eerst een API key in om leerpaden te zien.</div>';
+    return;
+  }
+
   const actief = await haalActiefLeerpad();
   const archief = await haalArchiefOverzichten();
-  const overslaanBtn = document.getElementById('knop-overslaan');
-if (actief) {
-  overslaanBtn.style.display = 'flex';
-  overslaanBtn.dataset.padId = actief.id;
-  overslaanBtn.dataset.padNaam = actief.onderwerp;
-} else {
-  overslaanBtn.style.display = 'none';
-}
 
-  const beschikbaar = actief.lessen.filter(l => l.status ===
-    
+  if (actief) {
+    const beschikbaar = actief.lessen.filter(l => l.status === 'beschikbaar').length;
+    const totaal = actief.aantalLessen;
+    const voortgangPct = Math.round((beschikbaar / totaal) * 100);
+
     inhoud.innerHTML += `
       <div class="sidebar-sectie-kop">Actief</div>
       <div class="sidebar-pad-rij" onclick="toonLeerpadDetail('${actief.id}')">
@@ -275,7 +276,6 @@ async function toonLeerpadDetail(padId) {
 
   huidigBekekenPadId = padId;
 
-  // Verberg homescreen, toon apart detailscherm (geen DOM-destructie meer)
   document.getElementById('homescreen').classList.remove('zichtbaar');
   document.getElementById('leerpad-detail-scherm').classList.add('zichtbaar');
 
@@ -288,14 +288,13 @@ async function toonLeerpadDetail(padId) {
     <div class="pad-les-lijst" id="pad-les-lijst"></div>
     <div style="display:flex;flex-direction:column;gap:0.5rem;margin-top:1.5rem"></div>`;
 
-  // Lessenlijst opbouwen via DOM (geen inline-onclick, veilig voor bijzondere tekens)
   const lijst = document.getElementById('pad-les-lijst');
   actief.lessen.forEach(les => {
     let icoon = '🔒';
     if (les.datumVoltooid) icoon = '✓';
     else if (les.status === 'beschikbaar') icoon = '▶';
 
-    const klikbaar = les.status === 'beschikbaar' && !les.datumVoltooid;
+    const klikbaar = les.status === 'beschikbaar'; // voltooide lessen zijn ook aanklikbaar
 
     const rij = document.createElement('div');
     rij.className = 'les-rij' + (klikbaar ? ' les-rij-klikbaar' : '');
@@ -311,7 +310,6 @@ async function toonLeerpadDetail(padId) {
     lijst.appendChild(rij);
   });
 
-  // Knoppen onderaan — via DOM zodat aanhalingstekens in onderwerpnamen veilig zijn
   const knoppen = inhoud.querySelector('div:last-child');
   const terugKnop = document.createElement('button');
   terugKnop.className = 'knop-secundair';
@@ -319,15 +317,7 @@ async function toonLeerpadDetail(padId) {
   terugKnop.addEventListener('click', sluitLeerpadDetail);
   knoppen.appendChild(terugKnop);
 
-  const overslaanBtn = document.getElementById('knop-overslaan');
-if (actief) {
-  overslaanBtn.style.display = 'flex';
-  // Bewaar het pad-id voor gebruik bij klikken
-  overslaanBtn.dataset.padId = actief.id;
-  overslaanBtn.dataset.padNaam = actief.onderwerp;
-} else {
-  overslaanBtn.style.display = 'none';
-}
+  const overslaanKnop = document.createElement('button');
   overslaanKnop.className = 'knop-secundair';
   overslaanKnop.style.background = 'var(--fout)';
   overslaanKnop.textContent = '🔀 Dit onderwerp interesseert me niet';
@@ -694,7 +684,7 @@ async function toonHomescreen() {
   } else {
     smartBtn.disabled = false;
     smartBtn.removeAttribute('data-tip');
-    smartSub.textContent = `${dueItems.length} herhaling${dueItems.length>1?'en':''}`;
+    smartSub.textContent = dueItems.length ? `${dueItems.length} herhaling${dueItems.length>1?'en':''} – daarna les` : 'Je bent helemaal bij! 🎉';
   }
 
   // Vault Practice
@@ -707,7 +697,7 @@ async function toonHomescreen() {
   } else {
     vaultBtn.disabled = false;
     vaultBtn.removeAttribute('data-tip');
-    vaultSub.textContent = `${dueItems.length} vraag${dueItems.length>1?'en':''} klaar voor herhaling`;
+    vaultSub.textContent = dueItems.length ? `${dueItems.length} vraag${dueItems.length>1?'en':''} herhalen (geen les)` : 'Je kluis is leeg';
   }
 
   // Huidige les
@@ -731,6 +721,22 @@ async function toonHomescreen() {
     lesSub.textContent = 'Leerpad wordt voorbereid';
   }
 }
+
+  const overslaanBtn = document.getElementById('knop-overslaan');
+  if (actief) {
+    overslaanBtn.style.display = 'flex';
+    overslaanBtn.dataset.padId = actief.id;
+    overslaanBtn.dataset.padNaam = actief.onderwerp;
+
+    const beschikbaar = actief.lessen.filter(l => l.status === 'beschikbaar').length;
+    const totaal = actief.aantalLessen;
+    const pct = Math.round((beschikbaar / totaal) * 100);
+    document.getElementById('home-les-voortgang').style.display = 'block';
+    document.getElementById('home-les-voortgang-balk').style.width = pct + '%';
+  } else {
+    overslaanBtn.style.display = 'none';
+    document.getElementById('home-les-voortgang').style.display = 'none';
+  }
 
 async function startSmartSession() {
   const dueItems = await getDueItems();
@@ -1779,20 +1785,49 @@ function toonKlaarScherm() {
   toonKlaarSchermFinal();
 }
 
-function toonKlaarSchermFinal() {
+async function toonKlaarSchermFinal() {
   document.getElementById('les-scherm').classList.remove('zichtbaar');
   document.getElementById('shields-balk').style.display = 'none';
   document.getElementById('les-voortgang-balk').style.width = '100%';
   setTimeout(() => document.getElementById('les-voortgang').classList.add('vervaag'), 600);
+  
   const totaal = sessieAntwoorden.length;
   const goed = sessieAntwoorden.filter(a => a.goed).length;
   const pct = totaal > 0 ? Math.round((goed / totaal) * 100) : 0;
-  document.getElementById('klaar-stats').innerHTML = `Je beantwoordde <strong>${goed} van de ${totaal} vragen</strong> goed (${pct}%).<br/>De vragen komen de komende dagen terug via spaced repetition.`;
+  const statsHTML = `Je beantwoordde <strong>${goed} van de ${totaal} vragen</strong> goed (${pct}%).<br/>De vragen komen de komende dagen terug via spaced repetition.`;
+  
+  const volgendeles = await getVolgendeLes();
+  let extraKnop = '';
+  if (volgendeles) {
+    extraKnop = `<button class="knop-primair" style="margin-top:0.5rem" onclick="startVolgendeLes(${volgendeles.nummer})">Volgende les: ${volgendeles.titel} →</button>`;
+  }
+  
+  document.getElementById('klaar-scherm').innerHTML = `
+    <div class="klaar-icoon">🎓</div>
+    <div class="klaar-titel">Les voltooid!</div>
+    <div class="klaar-stats">${statsHTML}</div>
+    ${extraKnop}
+    <button class="knop-secundair" onclick="location.reload()">Terug naar begin</button>
+  `;
   document.getElementById('klaar-scherm').classList.add('zichtbaar');
   window.scrollTo({ top: 0, behavior: 'smooth' });
   slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
   markSessionDone();
-  markeerLesVoltooid(huidigPadId, huidigLesNummer); // fire-and-forget, niet await
+  markeerLesVoltooid(huidigPadId, huidigLesNummer);
+}
+
+async function getVolgendeLes() {
+  const actief = await haalActiefLeerpad();
+  if (!actief) return null;
+  const volgende = actief.lessen.find(l => l.nummer > huidigLesNummer && l.status === 'beschikbaar' && !l.datumVoltooid);
+  return volgende || null;
+}
+
+function startVolgendeLes(lesNummer) {
+  document.getElementById('klaar-scherm').classList.remove('zichtbaar');
+  if (huidigPadId && lesNummer) {
+    startLesVanLeerpad(huidigPadId, lesNummer);
+  }
 }
 
 function updateReaderCatBadge() {
@@ -1897,6 +1932,28 @@ async function markeerLesVoltooid(padId, lesNummer) {
     console.warn('markeerLesVoltooid mislukt:', e);
   }
 }
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const zichtbareModals = [
+      'key-modal', 'algemaakt-modal', 'terug-home-modal', 'overslaan-modal',
+      'instellingen-modal', 'stats-modal'
+    ];
+    for (const id of zichtbareModals) {
+      const el = document.getElementById(id);
+      if (el && el.classList.contains('zichtbaar')) {
+        if (id === 'instellingen-modal') sluitInstellingenModal();
+        else if (id === 'stats-modal') sluitStatsModal();
+        else if (id === 'key-modal') sluitKeyModal();
+        else if (id === 'algemaakt-modal') sluitAlGemaaktModal();
+        else if (id === 'terug-home-modal') sluitTerugNaarHomeModal();
+        else if (id === 'overslaan-modal') sluitOverslaanModal();
+        break;
+      }
+    }
+  }
+});
+
 
 // Vul datum in header (desktop)
 function vulDatumIn() {
