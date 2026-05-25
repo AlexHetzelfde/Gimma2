@@ -1970,6 +1970,10 @@ body.layout-telefoon .knop-flashcard-goed {
 /* ═══════════════════════════════════════
    HOME-KNOPPEN (Smart Session / Vault / Les)
 ═══════════════════════════════════════ */
+.home-knop-overslaan {
+  border-left: 4px solid var(--fout);
+}
+
 .home-knoppen-wrap {
   display: flex;
   flex-direction: column;
