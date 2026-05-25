@@ -380,26 +380,68 @@ let huidigLesNummer = null;
 async function startLesVanLeerpad(padId, lesNummer) {
   huidigPadId = padId;
   huidigLesNummer = lesNummer;
+
+  // Haal de lesstatus op uit actief pad
+  const actief = await haalActiefLeerpad();
+  const les = actief ? actief.lessen.find(l => l.nummer === lesNummer) : null;
+  const alVoltooid = les?.datumVoltooid;
+
+  if (alVoltooid) {
+    toonAlGemaaktModal(); // Bestaande modal
+    return;
+  }
+  
+  // Verwijder eventuele oude voortgang
+  await verwijderVoortgang();
   
   document.getElementById('homescreen').classList.remove('zichtbaar');
   document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
   document.getElementById('les-scherm').classList.add('zichtbaar');
   
   setStatus('Les laden...', 20);
-  const les = await haalLes(padId, lesNummer);
-  artikelTitel = les.titel;
-  lesData = { secties: les.secties };
-  huidigeCategorieKleur = les.categorieKleur || '#c8a96e';
-  huidigeCategorieNaam = les.categorie || '';
-  pasCategorieKleurToe(huidigeCategorieKleur);
+  try {
+    // ... rest zoals eerder
+
+async function startLesVanLeerpad(padId, lesNummer) {
+  huidigPadId = padId;
+  huidigLesNummer = lesNummer;
   
-  huidigeSectie = 0;
-  inVraagModus = false;
-  sessieAntwoorden = [];
-  vraagResultaten = {};
+  document.getElementById('homescreen').classList.remove('zichtbaar');
+  document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
+  document.getElementById('les-scherm').classList.add('zichtbaar');
   
-  await startLes();
-  verbergStatus();
+  setStatus('Les laden...', 20);
+  try {
+    const les = await haalLes(padId, lesNummer);
+    artikelTitel = les.titel;
+    lesData = { secties: les.secties };
+    huidigeCategorieKleur = les.categorieKleur || '#c8a96e';
+    huidigeCategorieNaam = les.categorie || '';
+    pasCategorieKleurToe(huidigeCategorieKleur);
+    
+    huidigeSectie = 0;
+    inVraagModus = false;
+    sessieAntwoorden = [];
+    vraagResultaten = {};
+    
+    await startLes();
+    verbergStatus();
+  } catch (e) {
+    verbergStatus();
+    toonToast('Kon les niet laden: ' + e.message);
+    // Terug naar home
+    document.getElementById('les-scherm').classList.remove('zichtbaar');
+    await toonHomescreen();
+  }
+}
+
+function setStatus(tekst, voortgang) {
+  document.getElementById('status-wrap').classList.add('zichtbaar');
+  document.getElementById('status-tekst').textContent = tekst;
+  document.getElementById('laadbalk').style.width = voortgang + '%';
+  // Shimmer tonen
+  const shimmer = document.getElementById('laadbalk-shimmer');
+  if (shimmer) shimmer.style.display = 'block';
 }
 
 async function startHuidigeLes() {
@@ -1200,6 +1242,8 @@ function setStatus(tekst, voortgang) {
 
 function verbergStatus() {
   document.getElementById('status-wrap').classList.remove('zichtbaar');
+  const shimmer = document.getElementById('laadbalk-shimmer');
+  if (shimmer) shimmer.style.display = 'none';
 }
 
 // ════════════════════════════════════════
@@ -1850,6 +1894,16 @@ async function markeerLesVoltooid(padId, lesNummer) {
   } catch (e) {
     console.warn('markeerLesVoltooid mislukt:', e);
   }
+}
+
+// Vul datum in header (desktop)
+function vulDatumIn() {
+  const nu = new Date();
+  const dagen = ['zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag'];
+  const maanden = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+  const tekst = `${dagen[nu.getDay()]} ${nu.getDate()} ${maanden[nu.getMonth()]} ${nu.getFullYear()}`;
+  const el = document.getElementById('header-datum');
+  if (el) el.textContent = tekst;
 }
 
 // ════════════════════════════════════════
