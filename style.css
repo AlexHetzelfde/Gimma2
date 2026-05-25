@@ -135,43 +135,6 @@ header {
   text-transform: uppercase;
 }
 
-body.layout-telefoon .datum { display: none; }
-
-#datum-mobiel-balk { display: none; }
-
-body.layout-telefoon #datum-mobiel-balk {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.4rem 1.5rem;
-  background: var(--bg-glass);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 79px;
-  z-index: 10;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-#datum-mobiel-balk .datum-mobiel-dot {
-  width: 5px; height: 5px;
-  border-radius: 50%;
-  background: var(--les-kleur);
-  flex-shrink: 0;
-  transition: background 0.4s;
-}
-
-#datum-mobiel-balk .datum-mobiel-tekst {
-  font-size: 0.7rem;
-  color: var(--muted);
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  font-weight: 500;
-  text-align: center;
-  line-height: 1;
-}
-
 /* ─── Layout toggle ─── */
 .layout-toggle {
   display: flex;
