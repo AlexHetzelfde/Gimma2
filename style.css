@@ -1107,8 +1107,8 @@ header {
   min-height: 1.2rem;
 }
 
-.feedback.goed { color: rgba(0,0,0,0.75); }
-.feedback.fout { color: rgba(0,0,0,0.75); }
+.feedback.goed { color: #1a1530; }
+.feedback.fout { color: #1a1530; }
 
 .open-invoer-wrap {
   display: flex;
