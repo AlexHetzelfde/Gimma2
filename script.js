@@ -203,6 +203,14 @@ async function renderSidebar() {
 
   const actief = await haalActiefLeerpad();
   const archief = await haalArchiefOverzichten();
+  const overslaanBtn = document.getElementById('knop-overslaan');
+if (actief) {
+  overslaanBtn.style.display = 'flex';
+  overslaanBtn.dataset.padId = actief.id;
+  overslaanBtn.dataset.padNaam = actief.onderwerp;
+} else {
+  overslaanBtn.style.display = 'none';
+}
 
   const beschikbaar = actief.lessen.filter(l => l.status ===
     
@@ -412,18 +420,6 @@ async function startLesVanLeerpad(padId, lesNummer) {
   
   setStatus('Les laden...', 20);
   try {
-    // ... rest zoals eerder
-
-async function startLesVanLeerpad(padId, lesNummer) {
-  huidigPadId = padId;
-  huidigLesNummer = lesNummer;
-  
-  document.getElementById('homescreen').classList.remove('zichtbaar');
-  document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
-  document.getElementById('les-scherm').classList.add('zichtbaar');
-  
-  setStatus('Les laden...', 20);
-  try {
     const les = await haalLes(padId, lesNummer);
     artikelTitel = les.titel;
     lesData = { secties: les.secties };
@@ -451,11 +447,15 @@ function setStatus(tekst, voortgang) {
   document.getElementById('status-wrap').classList.add('zichtbaar');
   document.getElementById('status-tekst').textContent = tekst;
   document.getElementById('laadbalk').style.width = voortgang + '%';
-  // Shimmer tonen
   const shimmer = document.getElementById('laadbalk-shimmer');
   if (shimmer) shimmer.style.display = 'block';
 }
 
+function verbergStatus() {
+  document.getElementById('status-wrap').classList.remove('zichtbaar');
+  const shimmer = document.getElementById('laadbalk-shimmer');
+  if (shimmer) shimmer.style.display = 'none';
+}
 async function startHuidigeLes() {
   const actief = await haalActiefLeerpad();
   if (!actief) {
@@ -666,6 +666,7 @@ function sterktekleur(strength) {
 // ════════════════════════════════════════
 async function toonHomescreen() {
   pasCategorieKleurToe('#ed5b36');
+  vulDatumIn();
   document.getElementById('key-scherm').classList.remove('zichtbaar');
   document.getElementById('leerpad-detail-scherm').classList.remove('zichtbaar');
   document.getElementById('key-knop-header').style.display = 'flex';
@@ -1247,22 +1248,6 @@ async function bevestigTerugNaarHome() {
   await toonHomescreen();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
-// ════════════════════════════════════════
-// STATUS / LAADBALK
-// ════════════════════════════════════════
-function setStatus(tekst, voortgang) {
-  document.getElementById('status-wrap').classList.add('zichtbaar');
-  document.getElementById('status-tekst').textContent = tekst;
-  document.getElementById('laadbalk').style.width = voortgang + '%';
-}
-
-function verbergStatus() {
-  document.getElementById('status-wrap').classList.remove('zichtbaar');
-  const shimmer = document.getElementById('laadbalk-shimmer');
-  if (shimmer) shimmer.style.display = 'none';
-}
-
 // ════════════════════════════════════════
 // LES FLOW
 // ════════════════════════════════════════
@@ -1934,6 +1919,7 @@ function vulDatumIn() {
     console.warn('IndexedDB niet beschikbaar', e);
     db = null;
   }
+  vulDatumIn();
   herstelLayout();
   const key = await haalKey();
   if (key) {
