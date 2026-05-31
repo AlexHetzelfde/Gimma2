@@ -719,7 +719,6 @@ async function toonHomescreen() {
       lesBtn.disabled = true;
       lesBtn.setAttribute('data-tip', 'Alle lessen zijn al gemaakt. Volgende les komt morgen.');
       lesSub.textContent = 'Wachten op volgende les...';
-    }
   } else {
     lesBtn.disabled = true;
     lesBtn.setAttribute('data-tip', 'Er is nog geen leerpad. Dit wordt vannacht aangemaakt.');
@@ -738,10 +737,11 @@ async function toonHomescreen() {
     const pct = Math.round((beschikbaar / totaal) * 100);
     document.getElementById('home-les-voortgang').style.display = 'block';
     document.getElementById('home-les-voortgang-balk').style.width = pct + '%';
-  } else {
+    } else {
     overslaanBtn.style.display = 'none';
     document.getElementById('home-les-voortgang').style.display = 'none';
   }
+}   // ← VOEG DEZE ACCOLADE TOE
 
 async function startSmartSession() {
   const dueItems = await getDueItems();
