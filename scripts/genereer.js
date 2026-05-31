@@ -492,7 +492,12 @@ async function main() {
   const vandaag = new Date().toISOString().slice(0, 10);
   
   // 1. Lees config.json
-  const config = JSON.parse(await readFile('config.json', 'utf8'));
+    let config;
+  try {
+    config = JSON.parse(await readFile('config.json', 'utf8'));
+  } catch(e) {
+    config = { geselecteerdeCategorieen: ['nl_uitgelicht'] };
+  }
   const geselecteerdeCats = config.geselecteerdeCategorieen || ['nl_uitgelicht'];
   
   // 2. Lees status.json
