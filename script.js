@@ -1362,6 +1362,7 @@ async function startLes() {
 }
 
 function toonSectie(index) {
+  alert("toonSectie index=" + index + " | lesData=" + (lesData ? "aanwezig" : "leeg") + " | secties=" + (lesData && lesData.secties ? lesData.secties.length : "geen"));
   huidigeSectie = index;
   huidigeVraag = 0;
   inVraagModus = false;
@@ -1385,6 +1386,7 @@ function toonSectie(index) {
 
   updateReaderCatBadge();
   vulSectieInhoud(index);
+  alert("Tekst element gevuld. Lijkt zichtbaar: " + document.getElementById('sectie-tekst').style.display + " | innerHTML lengte: " + document.getElementById('sectie-tekst').innerHTML.length);
   setLeesKaart(true);
   document.getElementById('sectie-tekst').style.display = 'block';
   document.getElementById('tijdlijn-wrap').style.display = (sectie.tijdlijn && sectie.tijdlijn.length) ? 'block' : 'none';
