@@ -1333,6 +1333,7 @@ function vulSectieInhoud(si) {
 }
 
 async function startLes() {
+  alert("startLes is aangeroepen");
   document.getElementById('homescreen').classList.remove('zichtbaar');
   pasCategorieKleurToe(huidigeCategorieKleur);
 
