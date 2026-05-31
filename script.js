@@ -1333,7 +1333,6 @@ function vulSectieInhoud(si) {
 }
 
 async function startLes() {
-  alert("startLes is aangeroepen");
   document.getElementById('homescreen').classList.remove('zichtbaar');
   pasCategorieKleurToe(huidigeCategorieKleur);
 
@@ -1344,22 +1343,10 @@ async function startLes() {
   sessieAntwoorden = [];
   inVraagModus = false;
 
-  const opgeslagen = await haalVoortgang();
-  if (opgeslagen && !opgeslagen.voltooid && opgeslagen.sectieIndex != null) {
-    vraagResultaten = opgeslagen.vraagResultaten || {};
-    huidigeSectie = opgeslagen.sectieIndex;
-    vulSectieInhoud(huidigeSectie);
-    if (opgeslagen.inVragen && opgeslagen.vraagIndex != null) {
-      toonVraag(opgeslagen.vraagIndex);
-    } else {
-      toonSectie(huidigeSectie);
-    }
-  } else {
-    vraagResultaten = {};
-    huidigeSectie = 0;
-    toonSectie(0);
-  }
-}
+  vraagResultaten = {};
+  huidigeSectie = 0;
+  toonSectie(0);
+ }
 
 function toonSectie(index) {
   alert("toonSectie index=" + index + " | lesData=" + (lesData ? "aanwezig" : "leeg") + " | secties=" + (lesData && lesData.secties ? lesData.secties.length : "geen"));
