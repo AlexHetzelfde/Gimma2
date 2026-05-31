@@ -1,15 +1,14 @@
 {
   "geselecteerdeCategorieen": [
     "nl_uitgelicht",
-    "wetenschap",
-    "taal",
-    "religie",
-    "politiek",
-    "maatschappij",
-    "landen",
-    "geschiedenis",
+    "en_uitgelicht",
     "biologie",
-    "en_uitgelicht"
+    "geschiedenis",
+    "kunst",
+    "landen",
+    "maatschappij",
+    "politiek",
+    "religie"
   ],
   "gisterenArtikel": "Victoria van het Verenigd Koninkrijk"
 }
