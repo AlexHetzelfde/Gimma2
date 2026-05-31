@@ -229,7 +229,7 @@
         <span class="home-knop-sub" id="vault-sub"></span>
       </button>
 
-      <button class="home-knop home-knop-les" id="knop-les-nieuw" onclick="startHuidigeLes()">
+      <button class="home-knop home-knop-les" id="knop-les-nieuw" onclick="(async function(){let a=await haalActiefLeerpad();if(a&&a.lessen){let l=a.lessen.find(l=>l.status==='beschikbaar'&&!l.datumVoltooid);if(l)await startLesVanLeerpad(a.id,l.nummer);else alert('Geen les beschikbaar');}else alert('Geen actief leerpad');})()">
   <span class="home-knop-icoon">📖</span>
   <span class="home-knop-titel">Huidige les</span>
   <span class="home-knop-sub" id="les-sub"></span>
