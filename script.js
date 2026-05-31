@@ -725,7 +725,6 @@ async function toonHomescreen() {
     lesBtn.setAttribute('data-tip', 'Er is nog geen leerpad. Dit wordt vannacht aangemaakt.');
     lesSub.textContent = 'Leerpad wordt voorbereid';
   }
-
   const overslaanBtn = document.getElementById('knop-overslaan');
   if (actief) {
     overslaanBtn.style.display = 'flex';
