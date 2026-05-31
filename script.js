@@ -1303,6 +1303,7 @@ function updateVoortgangsbalk() {
 function vulSectieInhoud(si) {
   const sectie = lesData.secties[si];
   const tekstEl = document.getElementById('sectie-tekst');
+  
   tekstEl.innerHTML = '';
 
   if (sectie.afbeelding && sectie.afbeeldingUrl) {
@@ -1349,7 +1350,6 @@ async function startLes() {
  }
 
 function toonSectie(index) {
-  alert("toonSectie index=" + index + " | lesData=" + (lesData ? "aanwezig" : "leeg") + " | secties=" + (lesData && lesData.secties ? lesData.secties.length : "geen"));
   huidigeSectie = index;
   huidigeVraag = 0;
   inVraagModus = false;
@@ -1373,9 +1373,20 @@ function toonSectie(index) {
 
   updateReaderCatBadge();
   vulSectieInhoud(index);
-  alert("Tekst element gevuld. Lijkt zichtbaar: " + document.getElementById('sectie-tekst').style.display + " | innerHTML lengte: " + document.getElementById('sectie-tekst').innerHTML.length);
-  setLeesKaart(true);
-  document.getElementById('sectie-tekst').style.display = 'block';
+
+  // ═══ FORCEER ZICHTBAARHEID ═══
+  const leesKaart = document.getElementById('lees-kaart');
+  leesKaart.style.display = 'block';
+  leesKaart.style.visibility = 'visible';
+  leesKaart.style.opacity = '1';
+
+  const tekstEl = document.getElementById('sectie-tekst');
+  tekstEl.style.display = 'block';
+  tekstEl.style.visibility = 'visible';
+  tekstEl.style.opacity = '1';
+  tekstEl.style.color = '#ffffff';
+  tekstEl.style.backgroundColor = '#262626';
+
   document.getElementById('tijdlijn-wrap').style.display = (sectie.tijdlijn && sectie.tijdlijn.length) ? 'block' : 'none';
   document.getElementById('knop-gelezen-wrap').style.display = 'block';
   const knopGelezen = document.querySelector('#knop-gelezen-wrap .knop-gelezen');
@@ -1387,7 +1398,6 @@ function toonSectie(index) {
   document.getElementById('knop-volgende').disabled = true;
   renderShields();
 }
-
 function toonVraag(vi) {
   huidigeVraag = vi;
   inVraagModus = true;
