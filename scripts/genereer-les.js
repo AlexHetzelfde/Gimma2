@@ -107,8 +107,10 @@ async function haalVolledigeTekst(titel, taal) {
   return { titel: page.title, tekst: page.extract || '' };
 }
 
-async function geminiCall(prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
+const GEMINI_MODELLEN = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+
+async function geminiCall(prompt, model = GEMINI_MODELLEN[0]) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`;
   const res  = await fetch(url, {
     method:  'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -129,18 +131,30 @@ async function geminiCall(prompt) {
 }
 
 async function geminiMetRetry(prompt) {
-  const wachttijden = [60000, 300000, 900000];
-  for (let i = 0; i <= wachttijden.length; i++) {
+  const pogingen = [
+    { wacht: 0,      model: GEMINI_MODELLEN[0] },
+    { wacht: 60000,  model: GEMINI_MODELLEN[0] },
+    { wacht: 120000, model: GEMINI_MODELLEN[1] },
+    { wacht: 180000, model: GEMINI_MODELLEN[1] },
+    { wacht: 300000, model: GEMINI_MODELLEN[2] },
+  ];
+
+  for (let i = 0; i < pogingen.length; i++) {
+    const { wacht, model } = pogingen[i];
     try {
-      return await geminiCall(prompt);
+      if (wacht > 0) {
+        console.log(`Wacht ${wacht / 1000}s, volgende poging met ${model}...`);
+        await new Promise(r => setTimeout(r, wacht));
+      }
+      console.log(`Poging ${i + 1}: ${model}`);
+      return await geminiCall(prompt, model);
     } catch(e) {
-      if (i === wachttijden.length) throw e;
-      console.log(`Poging ${i + 1} mislukt: ${e.message}. Wacht ${wachttijden[i] / 1000}s...`);
-      await new Promise(r => setTimeout(r, wachttijden[i]));
+      const is503 = e.message.includes('503') || e.message.toLowerCase().includes('high demand');
+      if (i === pogingen.length - 1 || !is503) throw e;
+      console.log(`Poging ${i + 1} mislukt: ${e.message}`);
     }
   }
 }
-
 function maakSectiePrompt(titel, tekst, taal) {
   const ingekorte    = tekst.length > MAX_TEKST ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]' : tekst;
   const bronTaalTekst = taal === 'nl'
