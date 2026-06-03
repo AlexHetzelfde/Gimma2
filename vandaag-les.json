@@ -1,223 +1,191 @@
 {
-  "titel": "Landing op Kreta",
+  "titel": "N.V. Nationale Borg-Maatschappij",
   "secties": [
     {
-      "titel": "Het Duitse Waagstuk boven Kreta: Operatie Mercurius",
-      "tekst": "In de vroege ochtend van 20 mei 1941 zette de Duitse strijdmacht een ongekende militaire operatie in gang: de landing op het Griekse eiland Kreta. Onder de codenaam Operatie Mercurius (Unternehmen Merkur) streefden de Duitsers ernaar dit strategisch gelegen eiland, dat de Britse marine uitstekende havenfaciliteiten bood en vanwaaruit Roemeense olievelden bereikbaar waren voor geallieerde bommenwerpers, te veroveren. Voor de asmogendheden was het elimineren van deze geallieerde basis cruciaal; het zou de zuidoostelijke flank stabiliseren, een noodzakelijke stap voor de aanstaande invasie van de Sovjet-Unie, Operatie Barbarossa.\n\nDe geallieerde verdediging, onder leiding van generaal-majoor Bernard Freyberg, commandant van de Nieuw-Zeelandse eenheden, bestond uit een bont gezelschap van 9.000 Griekse troepen en 39.000 man uit het Britse Gemenebest — een verbond van voormalige Britse koloniën. Velen van hen waren haastig geëvacueerd van het Griekse vasteland en kwamen aan zonder zware uitrusting, vaak zelfs zonder wapens. De pantsereenheden bestonden uit zestien verouderde Cruiser Mk I tanks, en de artillerie telde 85 kanonnen, veelal buitgemaakt Italiaans materiaal zonder richtapparatuur. Freyberg vroeg om evacuatie van de 10.000 onbewapende mannen, maar de strijd barstte los voordat dit kon gebeuren.\n\nOmdat de Britse marine de wateren rond Kreta beheerste, was een landing uit zee te riskant. Daarom koos Adolf Hitler, die op 25 april directief nummer 28 ondertekende, voor een luchtlanding. Het plan was om duizenden parachutisten en troepen in zweefvliegtuigen, ook wel Segelflugzeuge genoemd, in te zetten om sleutelposities zoals vliegvelden te veroveren. Zodra deze veilig waren, zouden voorraden en versterkingen worden ingevlogen. Het XI Fliegerkorps, een grote eenheid van de Duitse luchtmacht, de Luftwaffe, kreeg de verantwoordelijkheid voor deze operatie, die alle voorgaande luchtlandingen in omvang zou overtreffen. De geallieerden waren door inlichtingen, bekend als Ultra, die de Britten via ontcijferde Duitse berichten verkregen, gewaarschuwd voor de aanval. Freyberg wist dat een luchtlanding ophanden was en wilde de vliegvelden onbruikbaar maken, maar het Opperbevel voor het Midden-Oosten in Alexandrië dwong hem ze te behouden voor een mogelijke terugkeer van de Royal Air Force, de Britse luchtmacht. Dit bleek een fatale beslissing.",
-      "kernpunt": "De Duitse inval op Kreta, codenaam Operatie Mercurius, was een ongekend grootschalige luchtlandingsoperatie, gedreven door strategische belangen van beide zijden, waarbij de geallieerden door een cruciale inschattingsfout kwetsbaar bleken.",
+      "titel": "Een Oprichting Gebouwd op Vertrouwen",
+      "tekst": "In 1893 zag de N.V. Nationale Borg-Maatschappij, kortweg Nationale Borg, het levenslicht in Amsterdam. Het bedrijf begon met een duidelijke missie: het bieden van garanties en borgtochten. Een garantie is een schriftelijke belofte dat een partij aan haar verplichtingen zal voldoen, zelfs als ze dat zelf niet kan. Een borgtocht is een overeenkomst waarbij een derde partij, de borg, zich garant stelt voor de schuld van een ander.\n\nAanvankelijk stelde Nationale Borg zich garant voor de integriteit van ambtenaren, zodat de overheid zeker was van hun eerlijke handelen. Ook speelde het een rol bij de aanleg van nieuwe spoorwegen, door zich in te staan voor de Hollandsche IJzeren Spoorweg-Maatschappij. Het verzekerde zo de financiële zekerheid van deze projecten.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat Nationale Borg in 1893 is opgericht om via garanties en borgtochten financiële zekerheid te bieden aan diverse partijen, van ambtenaren tot spoorwegbouwers.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1941-04-25",
-          "gebeurtenis": "Adolf Hitler ondertekent directief nummer 28 voor de luchtlanding op Kreta."
-        },
-        {
-          "jaar": "1941-05-20",
-          "gebeurtenis": "Duitse strijdmacht start Operatie Mercurius met luchtlandingen op Kreta."
+          "jaar": "1893",
+          "gebeurtenis": "Oprichting N.V. Nationale Borg-Maatschappij in Amsterdam."
         }
       ],
       "vragen": [
         {
-          "type": "flashcard",
-          "vraag": "Waarom was de verovering van Kreta zo cruciaal voor de Duitse oorlogsstrategie in de lente van 1941?",
-          "antwoord": "Het elimineren van de geallieerde basis op Kreta stabiliseerde de zuidoostelijke flank, wat noodzakelijk was voor de aanstaande invasie van de Sovjet-Unie (Operatie Barbarossa), en het nam een Britse marinebasis weg die Roemeense olievelden bedreigde."
-        },
-        {
           "type": "multiplechoice",
-          "vraag": "Hoe droeg de beslissing van het geallieerde Opperbevel voor het Midden-Oosten bij aan de kwetsbaarheid van de verdediging op Kreta?",
+          "vraag": "Waarom werd Nationale Borg in 1893 opgericht?",
           "opties": [
-            "Zij negeerden de waarschuwingen van Ultra over een luchtlanding.",
-            "Zij dwongen generaal Freyberg om de vliegvelden intact te laten, waardoor de Duitsers deze konden gebruiken als landingsplaatsen.",
-            "Zij evacueerden te veel ongewapende troepen, wat de verdediging verzwakte.",
-            "Zij stuurden onvoldoende zware uitrusting en wapens naar het eiland."
+            "Om de handel in effecten op de Amsterdamse beurs te stimuleren.",
+            "Om financiële waarborgen te leveren via garanties en borgtochten aan diverse sectoren.",
+            "Om zich exclusief te richten op de bewaking van de financiële positie van ambtenaren.",
+            "Om een overheidsorgaan te worden voor de financiering van nationale infrastructuur."
           ],
           "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe droeg Nationale Borg in haar beginjaren bij aan het vergroten van maatschappelijk vertrouwen en de realisatie van grootschalige projecten?",
+          "antwoord": "Door financiële zekerheid te bieden voor de integriteit van ambtenaren en de betrouwbaarheid van spoorbouwprojecten, waardoor de overheid en investeerders gerustgesteld werden over de uitvoering."
         }
       ]
     },
     {
-      "titel": "De Eerste Schok: Bloedbad en Burgerverzet",
-      "tekst": "Toen de Duitse parachutisten om 08.00 uur op 20 mei neerdaalden bij Maleme en Chania, kleinere vliegvelden ter ondersteuning van het hoofdvliegveld bij Iraklion, werden zij met meedogenloos vuur ontvangen. De verdedigers van het Britse Gemenebest en Griekse troepen hakten het merendeel van de aanvallers in de pan. Duitse zweefvliegtuigen werden binnen seconden na de landing door mortiervuur geraakt, waarna de uitstappende Duitsers vrijwel tot de laatste man werden gedood. Elders landden echter enkele parachutisten op onjuiste posities; zij namen snel verdedigende stellingen in bij het Maleme-vliegveld en in de zogeheten 'gevangenenvallei' bij Canea, waar geallieerde eenheden hen probeerden te omsingelen en isoleren.\n\nOveral op het eiland mengde de Griekse bevolking zich, gewapend of ongewapend, met een onverwachte felheid in de strijd. Griekse politie en cadetten versloegen een landing bij Kissamos en belemmerden Duitse bewegingen bij Kolimbari en Paleochora. Een Duitse parachutist werd zelfs door een bejaarde Griek met zijn wandelstok doodgeslagen, een teken van de woede en het verzet. Veel Duitsers vonden de dood door mes of knots in de olijfbossen en dorpen. Na hun aanvankelijke schok reageerden de Duitsers met minstens evenveel geweld op de burgerbevolking.\n\nEen tweede Duitse aanvalsgolf arriveerde om 16.00 uur bij Rethimnon en Iraklion. Ook hier waren de verdedigers paraat en brachten de aanvallers zware verliezen toe. Bij het vallen van de avond hadden de Duitsers geen van hun hoofddoelen bereikt. Het risicovolle plan om op vier verschillende plaatsen aan te vallen, leek gefaald te hebben. Echter, bij Maleme slaagden de Duitsers erin de Nieuw-Zeelanders langzaam te verdringen van Heuvel 107, een strategische positie die uitzicht bood over het vliegveld. Dit kleine succes was cruciaal, al realiseerden de geallieerden zich dit pas later.",
-      "kernpunt": "De eerste uren van de Duitse luchtlanding werden gekenmerkt door zware verliezen voor de aanvallers, fel verzet van de lokale bevolking, maar ook door een onopgemerkte strategische winst voor de Duitsers bij het vliegveld Maleme.",
+      "titel": "Groei, Verhuizing en de Wereldwijde Sprong",
+      "tekst": "Na de oprichting in 1893 groeide Nationale Borg gestaag. De toename in activiteiten leidde ertoe dat het bedrijf in 1923 verhuisde naar een ruimere locatie aan de Keizersgracht in Amsterdam. Deze groei markeerde een periode van uitbreiding van haar diensten.\n\nNa de Tweede Wereldoorlog verbreedde Nationale Borg haar werkterrein. Het begon ook als herverzekeraar op te treden, wat betekent dat het risico's overnam van andere verzekeringsmaatschappijen. Deze nieuwe activiteit nam gaandeweg een steeds groter deel van de bedrijfsvoering in beslag.\n\nSinds de oprichting waren de aandelen van Nationale Borg verhandelbaar aan de Amsterdamse effectenbeurs, een plek waar kopers en verkopers samenkomen om effecten, zoals aandelen, te verhandelen. Door de jaren heen kwamen veel van deze aandelen in handen van Nederlandse banken en verzekeraars. Uiteindelijk leidde dit in 1991 tot een overname door Nationale-Nederlanden, waarna Nationale Borg kortstondig deel uitmaakte van de ING Groep.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Nationale Borg zich ontwikkelde van een lokaal bedrijf tot een speler op de herverzekeringsmarkt en hoe het tijdelijk onder de vleugels van een grote financiële groep terechtkwam.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1941-05-20",
-          "gebeurtenis": "Eerste Duitse parachutisten dalen neer bij Maleme en Chania (08:00 uur)."
+          "jaar": "1923",
+          "gebeurtenis": "Verhuizing naar een ruimere locatie aan de Keizersgracht in Amsterdam vanwege groei."
         },
         {
-          "jaar": "1941-05-20",
-          "gebeurtenis": "Tweede Duitse aanvalsgolf arriveert bij Rethimnon en Iraklion (16:00 uur)."
+          "jaar": "Na WOII",
+          "gebeurtenis": "Start met herverzekeringsactiviteiten, waarbij risico's van andere verzekeraars worden overgenomen."
+        },
+        {
+          "jaar": "1991",
+          "gebeurtenis": "Overname door Nationale-Nederlanden, waarna het kortstondig deel uitmaakte van de ING Groep."
         }
       ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Waarom leden de Duitse parachutisten tijdens de eerste aanvalsgolf zulke zware verliezen?",
+          "vraag": "Op welke manier breidde Nationale Borg haar diensten significant uit na de Tweede Wereldoorlog?",
           "opties": [
-            "De geallieerden waren volledig op de hoogte van de precieze landingslocaties en hadden deze zwaar versterkt.",
-            "De Duitse zweefvliegtuigen werden direct na landing onder mortiervuur genomen, waardoor de soldaten kwetsbaar waren.",
-            "Het gebrek aan ervaring met grootschalige luchtlandingen leidde tot desorganisatie en slechte coördinatie.",
-            "De geallieerde verdedigers beschikten over superieure wapens en zware uitrusting, wat een beslissend voordeel gaf."
+            "Het introduceerde particuliere spaarrekeningen en hypotheken.",
+            "Het begon met het overnemen van risico's van andere verzekeraars als herverzekeraar.",
+            "Het specialiseerde zich in het verzekeren van uitsluitend Nederlandse spoorwegmaatschappijen.",
+            "Het verkocht al haar aandelen om een liefdadigheidsinstelling te worden."
           ],
           "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Hoe beïnvloedde de onverwachte betrokkenheid van de Griekse burgerbevolking de Duitse aanval in de beginfase?",
-          "antwoord": "De lokale bevolking mengde zich, bewapend of ongewapend, met grote felheid in de strijd, wat leidde tot extra verliezen voor de Duitsers en hun bewegingen belemmerde, zoals bij Kissamos, Kolimbari en Paleochora."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe konden de Duitsers, ondanks hun aanvankelijke tegenslagen, toch een cruciale strategische stap zetten op de eerste dag?",
-          "opties": [
-            "Ze slaagden erin de geallieerde communicatie volledig te verstoren, waardoor coördinatie onmogelijk werd.",
-            "Ze veroverden ongemerkt Heuvel 107 bij Maleme, een positie die uitzicht bood over het vliegveld.",
-            "Ze ontvingen onmiddellijk versterkingen via de zee, wat de balans deed omslaan.",
-            "De geallieerde verdedigers raakten gedemoraliseerd door de intensiteit van de aanval en trokken zich terug."
-          ],
-          "correcteIndex": 1
+          "vraag": "Hoe kwam het dat Nationale Borg tijdelijk onderdeel werd van een grote financiële organisatie zoals de ING Groep?",
+          "antwoord": "Door de geleidelijke accumulatie van Nationale Borg-aandelen door Nederlandse banken en verzekeraars, wat in 1991 resulteerde in een overname door Nationale-Nederlanden."
         }
       ]
     },
     {
-      "titel": "Het Kantelpunt: De Val van Maleme en de Duitse Doorbraak",
-      "tekst": "De volgende morgen, op 21 mei, bleek dat de Nieuw-Zeelandse infanterie zich per vergissing had teruggetrokken van Heuvel 107, de strategische heuvel bij het vliegveld van Maleme. Hoewel hun artillerie het gebied bleef bestoken, gaf deze terugtrekking de Duitsers de controle over het vliegveld. Dit was het kantelpunt van de hele operatie. Die avond landden Junkers Ju 52-transporttoestellen met eenheden van de 5e Duitse Bergdivisie, die direct na het landen hun posities innamen. Veel toestellen werden door artillerievuur geraakt en het vliegveld raakte bezaaid met kapotte vliegtuigen. Desondanks slaagden de Duitsers erin om in de daaropvolgende dagen 14.000 man bergjagers op het eiland te brengen.\n\nHet geallieerde commando op Kreta realiseerde zich nu dat Maleme een sleutelgebied was geworden voor het behoud van het eiland. In de nacht van 21 op 22 mei organiseerden zij een tegenaanval met twee Nieuw-Zeelandse bataljons. De vrees voor een landing vanuit zee, die een aantal eenheden weerhield van deelname, bleek ongegrond: een sterke aanwezigheid van de Royal Navy maakte een zeelanding onmogelijk. Maar het bericht hierover bereikte de geallieerde bevelhebbers te laat om alle eenheden vrij te maken voor de tegenaanval. De nachtelijke aanval mislukte. De oorspronkelijke parachutisten hadden zich ingegraven en de nieuw gelande bergtroepen bleken moeilijk uit hun posities te verdrijven. Het vliegveld kon niet worden heroverd.\n\nVanaf dit moment waren de geallieerden gedwongen zich terug te trekken naar de oostelijke kant van het eiland, om niet door de oprukkende Duitse troepen te worden afgesneden. De Duitsers probeerden vanuit hun bruggenhoofd, de veroverde landingszone, uit te breken. Na hevige bombardementen door duikbommenwerpers, die met hun steile duikvluchten en sirenes een angstaanjagend geluid produceerden, slaagden zij hierin.",
-      "kernpunt": "Een misverstand leidde tot de val van het strategisch gelegen Maleme-vliegveld, waardoor Duitse versterkingen konden landen en de geallieerde tegenaanval mislukte, met een gedwongen terugtocht als gevolg.",
+      "titel": "Terug naar Zelfstandigheid en Specialisatie",
+      "tekst": "Het verblijf onder de vlag van ING Groep was van relatief korte duur. In 2007 verkocht ING haar aandelen in Nationale Borg aan twee investeringsmaatschappijen, HAL Investments en Egeria, waardoor het bedrijf opnieuw zelfstandig werd. Deze stap gaf Nationale Borg de gelegenheid om haar eigen koers te varen.\n\nVier jaar later, in 2011, volgde een belangrijke organisatorische scheiding. De garantieactiviteiten en de herverzekeringsactiviteiten werden formeel van elkaar losgekoppeld. Alle herverzekeringszaken werden ondergebracht bij een aparte dochteronderneming, Nationale Borg Reinsurance N.V., gevestigd in Willemstad, Curaçao.\n\nDeze structuurverandering stelde Nationale Borg in staat zich nog scherper te richten op haar kernactiviteiten. De financiële draagkracht van Nationale Borg wordt sinds 2006 erkend met een A-rating van kredietbeoordelaar Standard & Poor's. Een A-rating geeft aan dat een bedrijf een sterke financiële positie heeft en goed in staat is aan zijn verplichtingen te voldoen.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat Nationale Borg weer zelfstandig werd, haar activiteiten verder specialiseerde door de herverzekeringstak af te splitsen naar een dochteronderneming op Curaçao, en dat haar financiële stabiliteit door een A-rating wordt bevestigd.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1941-05-21",
-          "gebeurtenis": "Nieuw-Zeelandse infanterie trekt zich terug van Heuvel 107, waardoor Duitsers controle krijgen over het Maleme-vliegveld."
+          "jaar": "2006",
+          "gebeurtenis": "Nationale Borg ontvangt een A-rating van kredietbeoordelaar Standard & Poor's."
         },
         {
-          "jaar": "1941-05-21",
-          "gebeurtenis": "Junkers Ju 52-transporttoestellen landen met eenheden van de 5e Duitse Bergdivisie (avond)."
+          "jaar": "2007",
+          "gebeurtenis": "ING verkoopt haar aandelen aan HAL Investments en Egeria, waarmee Nationale Borg weer zelfstandig wordt."
         },
         {
-          "jaar": "1941-05-22",
-          "gebeurtenis": "Geallieerde tegenaanval op Maleme mislukt (nacht van 21 op 22 mei)."
+          "jaar": "2011",
+          "gebeurtenis": "Formele splitsing van garantie- en herverzekeringsactiviteiten; herverzekeringstak wordt ondergebracht bij Nationale Borg Reinsurance N.V. op Curaçao."
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe kon de onopzettelijke terugtrekking van de Nieuw-Zeelandse infanterie van Heuvel 107 zo'n doorslaggevende impact hebben op de strijd?",
-          "antwoord": "Deze terugtrekking gaf de Duitsers controle over het vliegveld van Maleme, waardoor ze cruciale versterkingen, zoals de 5e Bergdivisie, konden aanvliegen, wat de geallieerde positie onhoudbaar maakte."
+          "vraag": "Waarom koos Nationale Borg ervoor om haar herverzekeringsactiviteiten onder te brengen in een afzonderlijke dochteronderneming op Curaçao?",
+          "antwoord": "Om een scherpere focus op specifieke kernactiviteiten te bewerkstelligen en een verdere specialisatie binnen de organisatie te realiseren."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom slaagde de geallieerde tegenaanval op Maleme, ondanks de bekendheid met het belang van het vliegveld, niet?",
+          "vraag": "Hoe draagt de A-rating van Standard & Poor's bij aan het begrip van de financiële gezondheid van Nationale Borg?",
           "opties": [
-            "De Royal Navy was niet in staat om de nodige zeesteun te leveren, waardoor de aanval vanuit zee uitbleef.",
-            "Een deel van de troepen werd ten onrechte achtergehouden uit vrees voor een zeelanding, en de Duitse verdediging was al te sterk.",
-            "De Duitsers hadden al te veel artillerie en tanks ingevlogen, waardoor ze een overweldigende vuurkracht hadden.",
-            "De geallieerde troepen waren uitgeput en gedemoraliseerd na de zware gevechten van de voorgaande dag."
+            "Het geeft aan dat de onderneming een sterke financiële basis heeft en betrouwbaar is in het nakomen van haar verplichtingen.",
+            "Het betekent dat Nationale Borg geen externe audits meer nodig heeft.",
+            "Het bevestigt dat het bedrijf de grootste speler is in de Nederlandse borgstellingsmarkt.",
+            "Het garandeert toekomstige winstgevendheid en snelle groei van het bedrijf."
           ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         }
       ]
     },
     {
-      "titel": "De Bittere Evacuatie: Een Erecodex op Zee",
-      "tekst": "Het opperbevel in Londen constateerde dat de situatie op Kreta hopeloos was en besloot tot een grootschalige aftocht vanuit Sfakia, een plaats aan de zuidkust. Gedurende de volgende vier nachten, van 28 tot 31 mei, werden 16.000 man met schepen naar Egypte afgevoerd. Een kleiner aantal manschappen werd vanuit Iraklion geëvacueerd. Deze schepen werden echter onderweg door de Luftwaffe, de Duitse luchtmacht, aangevallen en leden zware verliezen. Op 1 juni gaven de overblijvende 5.000 verdedigers van Sfakia zich over, hoewel velen de heuvels en bergen invluchtten en van daaruit jarenlang verzet zouden blijven plegen tegen de Duitse bezetter.\n\nDe evacuatie was een hachelijke onderneming, maar de toewijding van de Royal Navy, de Britse marine, was onwrikbaar. De bevelhebber van de Mediterrane vloot, admiraal Cunningham, legde de erecode van de marine vast met de woorden: “De marine kan het leger niet laten zitten.” Toen legergeneraals hun zorgen uitten over het aantal schepen dat hij zou kunnen verliezen, antwoordde hij: “Het kost drie jaar om een schip te bouwen, het kost drie eeuwen om een traditie op te bouwen.” Deze woorden onderstrepen de vastberadenheid om de troepen te redden, ongeacht de kosten.\n\nDe emoties onder de terugtrekkende soldaten waren hoog. Majoor Alistair Hamilton, een compagniescommandant van de Black Watch, had verklaard: “De Black Watch verlaat Kreta wanneer de sneeuw berg Ida verlaat.” De majoor zelf verliet het eiland nooit meer; hij werd gedood door een mortiergranaat. Zijn mannen kregen opdracht in te schepen en volgden dit met grote tegenzin op. Zij hadden het gevoel hun Griekse bondgenoten in de steek te laten. Hoewel hun zware uitrusting werd vernietigd, gaven vele mannen hun munitie over aan de Kretenzers die achterbleven om hun eiland te verdedigen, een laatste daad van solidariteit.",
-      "kernpunt": "De geallieerde terugtocht van Kreta was een chaotische en gevaarlijke operatie, waarbij de Britse marine ondanks zware verliezen een erecode hoog hield, terwijl achtergebleven soldaten en burgers zich voorbereidden op verder verzet.",
+      "titel": "De Kracht van Gedeelde Risico's",
+      "tekst": "Nationale Borg Reinsurance N.V., de dochteronderneming op Curaçao, speelt een sleutelrol in de activiteiten van de groep. Het bedrijf is sinds 1946 actief als herverzekeraar, zowel op contractbasis — via vooraf overeengekomen afspraken — als facultatief, wat betekent dat het per individueel geval besluit risico's over te nemen. Het bedient verzekeraars wereldwijd.\n\nAnders dan de moedermaatschappij houdt Nationale Borg Reinsurance zich niet alleen bezig met garantiezaken, maar ook met krediet- en politiek risicoverzekeringen. Kredietrisicoverzekeringen beschermen tegen het niet betalen van openstaande facturen, terwijl politiek risicoverzekeringen dekking bieden tegen verliezen door politieke onrust of overheidsingrijpen in andere landen. In 2012 droeg deze herverzekeringstak maar liefst 70% bij aan de totale omzet van de Nationale Borg groep, wat de strategische waarde van deze afsplitsing onderstreept.\n\nDe soliditeit, ofwel de financiële degelijkheid, van Nationale Borg wordt niet alleen gewaarborgd door een voldoende eigen vermogen, maar ook door een samenwerking met een panel van zestien herverzekeraars. Door risico’s te delen met deze partners, spreidt Nationale Borg haar blootstelling. Veertien van deze zestien herverzekeraars beschikken zelf over een A-rating of hoger, wat de stabiliteit van deze samenwerking verder versterkt.",
+      "kernpunt": "Na deze sectie begrijpt de lezer de omvang en het belang van de herverzekeringsactiviteiten van Nationale Borg Reinsurance, inclusief de specifieke risico's die het dekt, en hoe de groep haar eigen financiële stabiliteit waarborgt door risico's te spreiden over een netwerk van hoogwaardige herverzekeraars.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1941-05-28",
-          "gebeurtenis": "Start van de evacuatie van geallieerde troepen vanuit Sfakia."
+          "jaar": "1946",
+          "gebeurtenis": "Nationale Borg Reinsurance N.V. is actief als herverzekeraar."
         },
         {
-          "jaar": "1941-05-31",
-          "gebeurtenis": "Einde van de grootschalige evacuatie vanuit Sfakia (16.000 man afgevoerd)."
-        },
-        {
-          "jaar": "1941-06-01",
-          "gebeurtenis": "Overgave van de overblijvende 5.000 verdedigers van Sfakia."
+          "jaar": "2012",
+          "gebeurtenis": "Herverzekeringstak draagt 70% bij aan de totale omzet van de Nationale Borg groep."
         }
       ],
       "vragen": [
         {
-          "type": "flashcard",
-          "vraag": "Hoe demonstreerde admiraal Cunningham de onwrikbare toewijding van de Royal Navy tijdens de evacuatie van Kreta?",
-          "antwoord": "Hij verklaarde dat de marine het leger niet in de steek kon laten, en dat het opbouwen van een traditie belangrijker was dan het verlies van schepen, waarmee hij de prioriteit legde bij het redden van de troepen."
-        },
-        {
           "type": "multiplechoice",
-          "vraag": "Hoe uitten de geallieerde soldaten hun ongemak en solidariteit met de Kretenzische bevolking tijdens de evacuatie?",
+          "vraag": "Hoe illustreert de dochteronderneming Nationale Borg Reinsurance N.V. het belang van gediversifieerde risicobereidheid binnen de groep?",
           "opties": [
-            "Velen weigerden te evacueren en bleven achter om te vechten.",
-            "Ze vernietigden hun zware uitrusting en gaven munitie aan de Kretenzers die achterbleven.",
-            "Ze probeerden de evacuatie te vertragen om meer Kretenzische burgers mee te nemen.",
-            "Ze organiseerden een laatste tegenaanval om de Duitse opmars te vertragen en zo meer tijd te winnen voor de evacuatie."
+            "Door exclusief te focussen op de traditionele garantiezaken van de moedermaatschappij.",
+            "Door een aanzienlijk deel van de totale omzet te genereren en een breed scala aan risico's, zoals krediet- en politieke risico's, te dekken.",
+            "Door alle risico's volledig zelf te dragen zonder tussenkomst van externe partners.",
+            "Door uitsluitend op contractbasis te werken en geen facultatieve herverzekering aan te bieden."
           ],
           "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Op welke wijze verstevigt Nationale Borg haar financiële zekerheid, naast het aanhouden van voldoende eigen vermogen?",
+          "antwoord": "Door risico's proactief te spreiden over een uitgebreid netwerk van zestien herverzekeraars, waarvan de meerderheid zelf over een hoge kredietwaardigheidsbeoordeling beschikt."
         }
       ]
     },
     {
-      "titel": "Een Kostbare Overwinning met Lange Nasleep",
-      "tekst": "De verovering van Kreta was voor de Duitsers een succes, maar de prijs was hoog. De zware verliezen onder de Duitse parachutisten, de tweede maal na de mislukte luchtlanding bij Den Haag in 1940, deden Hitler besluiten om dit type operatie nooit meer op deze wijze in te zetten. Dit betekende dat een potentieel effectief wapen niet werd ingezet in Rusland tijdens Operatie Barbarossa, mede door de slechte communicatie in het Rode Leger. Ook de voorbereidingen voor de inname van het vestingeiland Malta, Operatie Hercules, werden gestopt. Dit terwijl de inname van Malta en het Britse protectoraat Egypte in de eerste opzet belangrijke doelen van de bezetting van Kreta waren geweest.\n\nDe geallieerden waren daarentegen onder de indruk van de effectiviteit van de parachutisten. Winston Churchill gaf bevel tot de opbouw van de Britse 1e Luchtlandingsdivisie. Britse en Amerikaanse luchtlandingsoperaties zouden later plaatsvinden tijdens de landing op Sicilië, de landing in Normandië en in Nederland tijdens de grote luchtlanding van Operatie Market Garden. Op Kreta zelf ontstond een zeer actief gewapend verzet, dat op zijn hoogtepunt 50.000 man troepen van de asmogendheden op het eiland vasthield. Het verzet bleef actief tot de bevrijding in 1945.\n\nDe Duitse verliezen werden officieel op 6.200 man geschat, waarvan 3.714 doden. Echter, de oorlogsbegraafplaats bij Maleme telt al 4.500 graven, en geallieerde soldaten beweerden alleen al op de vijfde dag 900 Duitsers bij Rethimnon en 1.250 bij Iraklion te hebben begraven. Het is daarom aannemelijk dat de Duitse verliezen aanzienlijk hoger waren, mogelijk oplopend tot 15.000 à 22.000 man. De geallieerden verloren 3.500 soldaten, 1.751 doden, en 12.254 Commonwealth-manschappen en 5.255 Grieken werden krijgsgevangen genomen. De marine betreurde 1.828 doden.\n\nTijdens de Duitse bezetting die volgde, werden vele duizenden Kretenzische mannen, vrouwen en kinderen vermoord als represaille — vergeldingsacties — voor het aanhoudende verzet. Op 2 juni 1941 schoten Duitse soldaten bij wijze van represaille een onbekend aantal mannelijke inwoners van Kondomari neer. In de gemeente Viannos werden op 14 september 1943 zo'n 500 inwoners, meest vrouwen en kinderen, neergeschoten. In mei 1944 omsingelden Duitse eenheden de Joodse wijk van Chania. Vluchtende inwoners werden neergeschoten; de overigen werden met een schip naar Griekenland afgevoerd, dat onderweg door een Britse duikboot tot zinken werd gebracht. Slechts vier leden van de Joodse gemeenschap overleefden de oorlog. De Duitse generaals Bruno Bräuer en Friedrich Wilhelm Müller, verantwoordelijk voor oorlogsmisdaden op Kreta, werden na de oorlog uitgeleverd aan Griekenland en in 1947 geëxecuteerd. Een Kretenzische bron schat het aantal Kretenzische burgers dat door Duitse acties werd gedood op 6.593 mannen, 1.113 vrouwen en 869 kinderen, een sombere erfenis van een bloedige strijd.",
-      "kernpunt": "Hoewel Kreta werd veroverd, eisten de Duitse verliezen een strategische tol die de toekomst van luchtlandingsoperaties voor de Wehrmacht bepaalde, terwijl de geallieerden juist de waarde ervan inzagen, en de bezetting een spoor van wreedheden en diepgeworteld verzet achterliet.",
+      "titel": "Een Nieuwe Amerikaanse Eigenaar",
+      "tekst": "De onafhankelijkheid die Nationale Borg in 2007 herwon, duurde tot 2015. In augustus van dat jaar kwamen de toenmalige aandeelhouders, HAL Investments en Egeria, overeen hun belangen in Nationale Borg te verkopen. Elk bezaten zij 46,7% van de aandelen.\n\nDe koper was het Amerikaanse bedrijf AmTrust Financial Services. Voor de totale overname van 100% van de aandelen ontvingen de verkopende partijen gezamenlijk 154 miljoen euro. Ook het management van Nationale Borg tekende de overeenkomst, waarmee AmTrust de volledige zeggenschap over het bedrijf kreeg. De verkoop werd op 31 mei 2016 formeel afgerond, wat een nieuw hoofdstuk inluidde voor Nationale Borg onder Amerikaanse leiding.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat Nationale Borg in 2016 volledig werd overgenomen door het Amerikaanse AmTrust Financial Services, waarmee de periode van Nederlandse investeringsmaatschappijen als eigenaren werd afgesloten.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1940",
-          "gebeurtenis": "Mislukte Duitse luchtlanding bij Den Haag (eerste keer hoge verliezen)."
+          "jaar": "2007",
+          "gebeurtenis": "Nationale Borg werd zelfstandig onder Nederlandse investeringsmaatschappijen."
         },
         {
-          "jaar": "1941-06-02",
-          "gebeurtenis": "Duitse soldaten schieten mannelijke inwoners van Kondomari neer als represaille."
+          "jaar": "2015",
+          "gebeurtenis": "HAL Investments en Egeria komen overeen hun aandelen in Nationale Borg te verkopen aan AmTrust Financial Services."
         },
         {
-          "jaar": "1943-09-14",
-          "gebeurtenis": "Ongeveer 500 inwoners van Viannos, meest vrouwen en kinderen, neergeschoten."
-        },
-        {
-          "jaar": "1944-05",
-          "gebeurtenis": "Duitse eenheden omsingelen de Joodse wijk van Chania; inwoners worden afgevoerd en komen om."
-        },
-        {
-          "jaar": "1945",
-          "gebeurtenis": "Bevrijding van Kreta."
-        },
-        {
-          "jaar": "1947",
-          "gebeurtenis": "Duitse generaals Bruno Bräuer en Friedrich Wilhelm Müller geëxecuteerd in Griekenland."
+          "jaar": "2016",
+          "gebeurtenis": "Verkoop van Nationale Borg aan het Amerikaanse AmTrust Financial Services wordt formeel afgerond."
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe veranderden de zware verliezen tijdens de verovering van Kreta de Duitse benadering van grootschalige luchtlandingsoperaties?",
-          "antwoord": "De hoge kosten in manschappen deden Hitler besluiten dit type operatie, zoals Operatie Mercurius, niet meer op deze schaal in te zetten, wat leidde tot het schrappen van plannen voor Malta en het niet inzetten van parachutisten in Rusland."
+          "vraag": "Hoe kwam de periode van Nederlandse investeringsmaatschappijen als eigenaren van Nationale Borg in 2016 ten einde?",
+          "antwoord": "Door de verkoop van de aandelen van HAL Investments en Egeria aan het Amerikaanse AmTrust Financial Services, waarmee dit bedrijf de volledige zeggenschap overnam."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom kan de Duitse 'overwinning' op Kreta paradoxaal genoeg worden gezien als een strategische tegenslag voor de Wehrmacht, terwijl de geallieerden er juist voordeel uit haalden?",
+          "vraag": "Waarom markeerde de overname door AmTrust Financial Services in 2016 een nieuw tijdperk voor Nationale Borg?",
           "opties": [
-            "De Duitsers verloren te veel materieel dat essentieel was voor Operatie Barbarossa, terwijl de geallieerden buitgemaakte Duitse wapens bestudeerden.",
-            "De zware verliezen ontmoedigden Hitler om toekomstige grootschalige luchtlandingsoperaties uit te voeren, terwijl de geallieerden de effectiviteit ervan inzagen en hun eigen luchtlandingsdivisies opbouwden.",
-            "De bezetting van Kreta bond te veel Duitse troepen die elders harder nodig waren, terwijl de geallieerden hun troepen konden terugtrekken.",
-            "De propaganda-impact van de overwinning was minimaal, terwijl de geallieerden de Duitse wreedheden konden uitbuiten voor moreel."
+            "Het betekende een terugkeer naar de oorspronkelijke oprichtingsmissie van 1893.",
+            "Het bedrijf werd weer volledig onafhankelijk en opereerde zonder externe aandeelhouders.",
+            "De eigendom ging over van Nederlandse investeringsmaatschappijen naar een Amerikaans bedrijf, wat een verandering in leiding en strategie impliceerde.",
+            "Nationale Borg fuseerde met een andere Nederlandse verzekeraar om een grotere nationale speler te worden."
           ],
-          "correcteIndex": 1
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Hoe uitte het Kretenzische verzet zich na de Duitse verovering en welke tragische gevolgen had dit voor de lokale bevolking?",
-          "antwoord": "Een zeer actief gewapend verzet bond tienduizenden Asmogendheden-troepen, wat leidde tot wrede Duitse represaille-acties waarbij duizenden Kretenzische mannen, vrouwen en kinderen werden vermoord, zoals in Kondomari en Viannos, en de Joodse gemeenschap werd uitgeroeid."
+          "correcteIndex": 2
         }
       ]
     }
   ],
-  "categorie": "Slag om Kreta",
-  "categorieKleur": "#e07b6a",
-  "datum": "2026-06-01"
+  "categorie": "Nationale Borg",
+  "categorieKleur": "#82d4b0",
+  "datum": "2026-06-03"
 }
