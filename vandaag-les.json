@@ -1,164 +1,86 @@
 {
-  "titel": "Marina Abramović",
+  "titel": "Geschiedenis",
   "secties": [
     {
-      "titel": "Het Lichaam als Medium: De Grensverkenningen van Marina Abramović",
-      "tekst": "Marina Abramović, geboren in 1946 in Belgrado, is een Servische kunstenares die haar eigen lichaam inzet om de grenzen van fysieke en mentale uithouding te verkennen. Ze is een pionier in de performancekunst — een kunstvorm waarbij de kunstenaar het eigen lichaam als medium gebruikt, vaak door middel van live acties en interacties met het publiek, in plaats van het creëren van statische objecten.\n\nHaar vroege werk begon met geluidsexperimenten, maar al snel werden haar performances steeds intenser en veeleisender. Ze zocht de confrontatie met pijn, uitputting en zelfs gevaar. Een sprekend voorbeeld is ‘Rhythm 0’ uit 1974, waarbij Abramović zichzelf zes uur lang ter beschikking stelde van het publiek. Zeventig voorwerpen, waaronder een roos, honing, scharen en een geladen pistool, lagen op een tafel. Bezoekers mochten haar met deze objecten behandelen zoals zij wilden.\n\nDe performance escaleerde: haar kleren werden afgeknipt, haar huid bewerkt met scherpe voorwerpen en een geladen pistool werd in haar hand gedrukt. Abramović bleef roerloos staan. Deze ervaring bevestigde haar overtuiging dat mensen door confrontatie met het onbekende zichzelf openstellen. Ze hoopte haar publiek 'door die opening te duwen', door de confrontatie met menselijke instincten en kwetsbaarheid bloot te leggen.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Marina Abramović een performancekunstenaar is die haar eigen lichaam inzet om fysieke en mentale grenzen te verkennen, vaak door confrontatie met ongemak en publieksparticipatie.",
+      "titel": "De Tijd Ontrafeld: Wat is Geschiedenis?",
+      "tekst": "Geschiedenis is meer dan enkel een verzameling oude verhalen. Het is in de eerste plaats een vakwetenschap – een academische discipline – die het verleden bestudeert door gebeurtenissen chronologisch te ordenen. Dat wil zeggen: ze plaatst feiten en ontwikkelingen in de juiste tijdsvolgorde, van vroeger naar nu.\n\nHistorici baseren zich daarbij op kritisch onderzoek van bronnen, om zo een betrouwbaar beeld te vormen van wat geweest is. De schriftelijke neerslag van al dat werk, door de eeuwen heen en in diverse culturen, noemen we geschiedschrijving of historiografie. Deze geschiedschrijving omvat niet alleen de wetenschappelijke analyses, maar ook de verhalen die mensen over het verleden vertelden. Een geschiedenis kan immers ook een verhaal zijn, met personages, handelingen en een duidelijke tijdlijn. Of die personages nu echt hebben bestaan, of verzonnen zijn, verandert niets aan het principe van het verhaal zelf. De kern blijft het begrijpen en doorgeven van wat zich heeft afgespeeld.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat geschiedenis zowel een academische discipline is die kritisch het verleden ordent, als de verhalen die daaruit voortkomen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1946",
-          "gebeurtenis": "Geboren in Belgrado"
-        },
-        {
-          "jaar": "1974",
-          "gebeurtenis": "Performance ‘Rhythm 0’"
-        }
-      ],
+      "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe zocht Marina Abramović met 'Rhythm 0' de confrontatie met het publiek op om menselijke instincten bloot te leggen?",
+          "vraag": "Waarom is geschiedenis meer dan alleen een verzameling verhalen over het verleden?",
           "opties": [
-            "Door het publiek te dwingen passief toe te kijken en haar pijn te observeren.",
-            "Door zichzelf als een object te presenteren en het publiek de controle te geven over zeventig voorwerpen, waaronder gevaarlijke.",
-            "Door alleen gevaarlijke objecten aan te bieden en de reactie van het publiek te filmen.",
-            "Door fysieke pijn te vermijden en zich te richten op mentale uitputting van de toeschouwers."
+            "Het is een systematische studie van gebeurtenissen, waarbij bronnen kritisch worden geanalyseerd om een betrouwbaar beeld te vormen.",
+            "Het omvat uitsluitend de verhalen die mensen vertellen, ongeacht hun feitelijke onderbouwing.",
+            "Historici richten zich alleen op mondelinge overleveringen om het verleden te begrijpen en vast te leggen.",
+            "Het primaire doel is om het verleden te herschrijven en aan te passen aan moderne interpretaties."
           ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom is het gebruik van haar eigen lichaam essentieel voor Marina Abramović's verkenning van fysieke en mentale grenzen?",
-          "antwoord": "Het stelt haar in staat om door persoonlijke ervaringen de extremen van uithoudingsvermogen en kwetsbaarheid te testen, waardoor ze diepgaande interacties met het publiek kan creëren en hen kan uitnodigen tot zelfreflectie."
+          "vraag": "Hoe zorgt de academische discipline van geschiedenis voor een betrouwbaar beeld van het verleden, ondanks de verhalende elementen?",
+          "antwoord": "Door middel van kritisch bronnenonderzoek en het chronologisch ordenen van feiten en ontwikkelingen, wat leidt tot een gestructureerde en onderbouwde reconstructie van gebeurtenissen."
         }
       ]
     },
     {
-      "titel": "De Symbiose van Liefde en Pijn: Abramović en Ulay",
-      "tekst": "Van 1976 tot 1988 deelde Abramović niet alleen haar leven, maar ook haar kunst met de Duitse kunstenaar Ulay. Hun samenwerking kenmerkte zich door een diepgaande verkenning van lichamelijke en mentale uithouding, waarbij de grenzen van hun relatie en hun fysieke capaciteiten constant werden getest. Ze beschouwden hun lichamen als sculpturen in beweging, onderworpen aan extreme omstandigheden.\n\nEen voorbeeld van hun intense verbinding is de performance ‘Breathing In - Breathing Out’ uit 1977. Op het eerste gezicht leek het een intieme zoen, maar de realiteit was veel harder. Hun neuzen waren afgesloten met sigarettenfilters, waardoor ze negentien minuten lang elkaars adem moesten inademen. Deze handeling bracht hen tot het punt van verstikking, een letterlijke uitwisseling van leven en kwetsbaarheid.\n\nIn de serie ‘Nightsea Crossing’ zaten ze urenlang, zonder eten of drinken, aan weerszijden van een lange tafel, op verschillende plaatsen ter wereld. Deze performances vroegen een enorme discipline en mentale kracht, waarbij stilte en aanwezigheid centraal stonden. Hun samenwerking eindigde in 1988 met een symbolische daad: ze liepen elk vanaf een uiteinde van de Chinese Muur en ontmoetten elkaar na drie maanden halverwege voor een definitief afscheid.",
-      "kernpunt": "Na deze sectie begrijpt de lezer hoe Abramović en Ulay in hun gezamenlijke performances de grenzen van lichamelijke en mentale uithouding verkenden, waarbij hun persoonlijke relatie en artistieke visie samenvloeiden in veeleisende fysieke handelingen.",
+      "titel": "Speurwerk in het Verleden: De Gereedschapskist van de Historicus",
+      "tekst": "Om het verleden te reconstrueren, gebruiken historici een breed scala aan bronnen. Dit zijn alle tastbare of overgeleverde sporen die informatie over vroegere tijden bevatten. Denk aan geschreven documenten, zoals oude oorkonden of dagboeken, maar ook aan mondelinge overleveringen, zoals interviews met ooggetuigen.\n\nDaarnaast zijn er materiële bronnen: voorwerpen, gebouwen of landschappen die ons iets vertellen over hoe mensen leefden. Voor de periode vóór het schrift, die we de prehistorie noemen en die het grootste deel van onze geschiedenis omvat, zijn we volledig afhankelijk van deze materiële sporen. Hier komt de archeologie te hulp – de wetenschap die door middel van opgravingen de overblijfselen van oude culturen bestudeert. Zij brengen verdwenen nederzettingen of gebruiksvoorwerpen aan het licht. Maar ook voor geschreven bronnen zijn gespecialiseerde kennis onmisbaar. Paleografie, bijvoorbeeld, is de studie van oude handschriften. Deze discipline stelt historici in staat om verweerde teksten te ontcijferen, waardoor stemmen uit het verleden opnieuw hoorbaar worden. Zonder deze gereedschappen en de kennis om ze te hanteren, blijft een groot deel van de geschiedenis verborgen.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe historici, met behulp van diverse bronnen en gespecialiseerde hulpwetenschappen, het verleden reconstrueren.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1976-1988",
-          "gebeurtenis": "Samenwerking met Ulay"
-        },
-        {
-          "jaar": "1977",
-          "gebeurtenis": "Performance ‘Breathing In - Breathing Out’"
-        },
-        {
-          "jaar": "1988",
-          "gebeurtenis": "Einde samenwerking met performance op de Chinese Muur"
-        }
-      ],
+      "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe demonstreerde de performance 'Breathing In - Breathing Out' de diepgaande verbinding en de grenzen van uithoudingsvermogen tussen Abramović en Ulay?",
-          "antwoord": "Door elkaars adem in te ademen tot het punt van verstikking, symboliseerden zij een extreme uitwisseling van levenskracht en kwetsbaarheid, wat hun persoonlijke en artistieke symbiose benadrukte."
+          "vraag": "Hoe dragen de diverse soorten bronnen en gespecialiseerde hulpwetenschappen bij aan een volledige reconstructie van het verleden door historici?",
+          "antwoord": "Geschreven, mondelinge en materiële bronnen bieden unieke inzichten, terwijl disciplines zoals archeologie en paleografie historici in staat stellen sporen uit de prehistorie te interpreteren en oude geschriften te ontcijferen, wat zorgt voor een breder en dieper begrip."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom was de Chinese Muur wandeling een passend einde voor de samenwerking tussen Abramović en Ulay?",
+          "vraag": "Waarom is gespecialiseerde kennis van hulpwetenschappen, zoals paleografie, onmisbaar voor historici bij het werken met bronnen?",
           "opties": [
-            "Het was een grootschalige manier om hun geografische afstand en uiteenlopende artistieke richtingen te symboliseren.",
-            "Het bood een symbolisch pad om hun persoonlijke en artistieke reis te beëindigen door een gezamenlijke, doch gescheiden, fysieke beproeving.",
-            "Ze wilden een record vestigen voor de langste performance en zo hun nalatenschap verankeren.",
-            "Het was een manier om publieke aandacht te vragen voor hun breuk en de commerciële waarde ervan te vergroten."
-          ],
-          "correcteIndex": 1
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Hoe vloeiden de persoonlijke relatie en artistieke visie van Abramović en Ulay samen in hun gezamenlijke werken?",
-          "antwoord": "Hun intieme band vormde de basis voor performances waarin ze elkaars fysieke en mentale grenzen opzochten, waardoor hun interacties, zoals het delen van adem of langdurige stilte, zowel relationele als kunstzinnige uitdrukkingen werden."
-        }
-      ]
-    },
-    {
-      "titel": "De Kracht van Stilte: 'The Artist is Present'",
-      "tekst": "In 2010 wijdde het Museum of Modern Art (MoMA) in New York een retrospectief aan Abramović, getiteld ‘Marina Abramović: The Artist is Present’. Een retrospectief is een overzichtstentoonstelling die het werk van een kunstenaar over een langere periode toont. Deze tentoonstelling was de eerste in het MoMA die volledig gericht was op performancekunst en trok meer dan 850.000 bezoekers, wat de brede aantrekkingskracht van haar werk onderstreepte.\n\nAls onderdeel van deze tentoonstelling voerde Abramović een nieuwe performance uit met dezelfde titel. Gedurende de drie maanden dat de tentoonstelling liep, zat de kunstenares 736 uur en 30 minuten lang in stilte op een stoel in het atrium van het museum. Bezoekers konden tegenover haar plaatsnemen en haar zo lang als zij wilden in stilte in de ogen kijken. Deze directe, ongemaskerde confrontatie met de kunstenaar creëerde een diepgaande en vaak emotionele verbinding.\n\nEen van de meest aangrijpende momenten vond plaats toen Ulay, onverwacht, op de eerste dag van de performance tegenover Abramović plaatsnam. Dit resulteerde in een zichtbaar emotionele hereniging, die werd gevolgd door luid applaus van het publiek. In totaal maakte Abramović oogcontact met ruim 1500 mensen, wier portretten werden vastgelegd door fotograaf Marco Anelli. Deze performance toonde de kracht van aanwezigheid en stilte als middel voor diepmenselijke interactie.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Abramović in haar latere werk, zoals 'The Artist is Present', haar fysieke aanwezigheid en stilte inzet om een diepe, persoonlijke verbinding met het publiek tot stand te brengen, wat resulteerde in een breed gewaardeerde en emotioneel geladen ervaring.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "2010",
-          "gebeurtenis": "Retrospectief en performance ‘The Artist is Present’ in MoMA"
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe creëerde Marina Abramović met 'The Artist is Present' een diepgaande, persoonlijke band met de museumbezoekers?",
-          "opties": [
-            "Door interactieve installaties waarbij bezoekers actief konden deelnemen aan haar kunstwerken.",
-            "Door bezoekers de gelegenheid te bieden om in stilte oogcontact met haar te maken gedurende lange periodes, wat leidde tot directe emotionele uitwisselingen.",
-            "Door persoonlijke verhalen te delen met elke bezoeker en hen zo een exclusieve ervaring te bieden.",
-            "Door een spectaculaire lichtshow te combineren met haar aanwezigheid, wat een overweldigende visuele ervaring opleverde."
-          ],
-          "correcteIndex": 1
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Waarom was de onverwachte verschijning van Ulay tijdens 'The Artist is Present' zo emotioneel en veelzeggend?",
-          "antwoord": "Het markeerde een onverwachte hereniging van twee kunstenaars die een intensieve persoonlijke en artistieke geschiedenis deelden, wat de kwetsbaarheid en de diepte van menselijke verbindingen binnen de performancekunst benadrukte."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe droeg 'The Artist is Present' bij aan de brede waardering van Marina Abramović's werk?",
-          "opties": [
-            "Door een uitgebreide collectie van haar eerdere sculpturen te tonen, wat haar veelzijdigheid benadrukte.",
-            "Door performancekunst toegankelijk te maken voor een groot en divers publiek en de emotionele impact ervan direct te laten ervaren.",
-            "Door de controverse rond haar werk te vergroten, wat leidde tot meer media-aandacht.",
-            "Door alleen nieuwe, onbekende werken te presenteren, wat de verwachtingen van het publiek doorbrak."
+            "Om de bronnen te kunnen conserveren en beschermen tegen verval voor toekomstige generaties.",
+            "Zonder deze kennis kunnen historici verweerde teksten niet lezen of materiële sporen uit de prehistorie niet interpreteren, waardoor cruciale informatie ontoegankelijk blijft.",
+            "Het stelt historici in staat om, indien nodig, zelf ontbrekende historische documenten te creëren.",
+            "Om de politieke correctheid van historische bronnen te evalueren en te bepalen welke bruikbaar zijn."
           ],
           "correcteIndex": 1
         }
       ]
     },
     {
-      "titel": "Nalatenschap en Conflict: De Complexe Zijde van Performancekunst",
-      "tekst": "De intense en vaak collaboratieve aard van performancekunst bracht Abramović niet alleen artistiek succes, maar ook complexe juridische uitdagingen. In september 2016 oordeelde een Amsterdamse rechter dat ze haar voormalige partner Ulay ruim 350.000 euro moest betalen. Dit aanzienlijke bedrag was een gevolg van het feit dat Abramović Ulays auteursrechten — het exclusieve recht van de maker van een werk om dit openbaar te maken en te verveelvoudigen — niet zou hebben gerespecteerd bij commerciële samenwerkingen, waaronder die met Adidas.\n\nDit conflict onderstreepte de unieke kwetsbaarheid van performancekunst, waarbij het auteurschap en de eigendom van vluchtige, gedeelde ervaringen moeilijk vast te leggen zijn. De uitspraak toonde aan dat zelfs in de avant-garde kunstwereld, waar conventies vaak worden doorbroken, de zakelijke realiteit van rechten en vergoedingen een rol speelt.\n\nNaast deze juridische strijd heeft Abramović ook getracht een blijvende nalatenschap voor performancekunst te creëren. Ze wilde het Marina Abramović Institute oprichten als archief en broedplaats voor nieuwe performancekunstenaars. Hoewel dit project in 2017 door hoge kosten als fysiek instituut werd stopgezet, is het concept voortgezet als een reizend instituut. Dit laat zien dat Abramović niet alleen grenzen verlegt met haar eigen lichaam, maar ook streeft naar de verankering en toekomst van performancekunst als legitieme kunstvorm.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat de intense aard van performancekunst, vooral bij langdurige samenwerkingen, kan leiden tot complexe juridische geschillen over auteursrechten, en dat Abramović streeft naar een blijvende erfenis voor dit genre ondanks praktische uitdagingen.",
+      "titel": "Tijdvakken en Verhalen: De Structuur van het Verleden",
+      "tekst": "Het verleden is een onmetelijk, complex geheel. Om deze uitgestrekte tijdlijn behapbaar te maken, passen historici periodisering toe. Dit is het verdelen van de geschiedenis in grotere tijdvakken, elk met kenmerkende eigenschappen. Zo wordt het mogelijk om structuur aan te brengen, grote ontwikkelingen te volgen en gebeurtenissen in hun context te plaatsen.\n\nIn Nederland werkt het onderwijs bijvoorbeeld met tien vaste tijdvakken. Van 'jagers en boeren' tot 'televisie en computer', elk tijdvak beslaat een specifieke periode en draagt een naam die een belangrijke ontwikkeling of kenmerk samenvat. Deze gestructureerde benadering stelt leerlingen in staat om de geschiedenis in fasen te leren begrijpen. Ze krijgen de geschiedenis driemaal aangeboden, met toenemende diepgang: op de basisschool, in de onderbouw en in de bovenbouw van het middelbaar onderwijs. Het doel is niet alleen kennisoverdracht, maar ook het aanleren van historische vaardigheden. Zo leren ze niet alleen wát er gebeurde in het verleden, maar ook hoe die gebeurtenissen het heden hebben gevormd, en hoe we daar zelf over kunnen nadenken.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat geschiedenis, ondanks haar complexiteit, gestructureerd wordt in tijdvakken om het verleden overzichtelijk te maken en te onderwijzen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "2016",
-          "gebeurtenis": "Amsterdamse rechter oordeelt in zaak Ulay tegen Abramović"
-        },
-        {
-          "jaar": "2017",
-          "gebeurtenis": "Fysiek Marina Abramović Institute stopgezet, concept voortgezet als reizend instituut"
-        }
-      ],
+      "tijdlijn": [],
       "vragen": [
         {
-          "type": "flashcard",
-          "vraag": "Waarom zijn auteursrechten en eigendom bij collaboratieve performancekunst, zoals die van Abramović en Ulay, zo complex en vatbaar voor juridische conflicten?",
-          "antwoord": "Omdat de werken vaak vluchtig en gedeeld zijn, is het moeilijk om de individuele bijdragen en rechten van de makers eenduidig vast te leggen en te vergoeden, vooral bij commerciële exploitatie achteraf."
-        },
-        {
           "type": "multiplechoice",
-          "vraag": "Hoe probeert Marina Abramović de nalatenschap van performancekunst te waarborgen, ondanks de uitdagingen van haar vluchtige aard?",
+          "vraag": "Hoe helpt de indeling van geschiedenis in tijdvakken, ook wel periodisering genoemd, om de complexiteit van het verleden te beheren en te begrijpen?",
           "opties": [
-            "Door al haar performances vast te leggen in traditionele schilderijen en deze te verkopen aan musea.",
-            "Door een reizend instituut op te richten dat dient als archief en broedplaats voor nieuwe performancekunstenaars, waarmee ze de toekomst van het genre veiligstelt.",
-            "Door alle toekomstige performancekunstenaars te verbieden om haar werk te kopiëren of te interpreteren.",
-            "Door zich volledig te richten op commerciële projecten om financiering te werven voor de bouw van een fysiek instituut."
+            "Het vereenvoudigt de geschiedenis door minder belangrijke gebeurtenissen weg te laten die niet binnen een tijdvak passen.",
+            "Door de geschiedenis in beheersbare segmenten te verdelen, kunnen grote ontwikkelingen en contexten beter worden gevolgd en onderwezen.",
+            "Periodisering dient voornamelijk om de nadruk te leggen op de meest recente historische gebeurtenissen en hun impact.",
+            "Het creëert een competitief element tussen verschillende tijdvakken, wat de interesse van studenten vergroot."
           ],
           "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Naast het overzichtelijk maken van het verleden, hoe draagt de gestructureerde aanpak met tijdvakken bij aan een dieper begrip van geschiedenis in het onderwijs?",
+          "antwoord": "Het stelt leerlingen in staat de geschiedenis in fasen met toenemende diepgang te bestuderen, waardoor ze niet alleen feitelijke kennis opdoen, maar ook historische vaardigheden ontwikkelen om na te denken over hoe gebeurtenissen in het verleden het heden hebben gevormd."
         }
       ]
     }
   ],
-  "categorie": "Performancekunst",
+  "categorie": "Geschiedenis",
   "categorieKleur": "#82d4b0",
-  "datum": "2026-06-04"
+  "datum": "2026-06-06"
 }
