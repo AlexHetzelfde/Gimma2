@@ -93,9 +93,19 @@ async function haalNlCategorie(categorieNaam, zoekterm) {
 }
 
 async function haalNlWillekeurig() {
-  const res  = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=1&format=json&origin=*');
-  const data = await res.json();
-  return data?.query?.random?.[0]?.title;
+  try {
+    const res = await fetch('https://nl.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=1&format=json&origin=*');
+    if (!res.ok) throw new Error(`Wikipedia gaf status ${res.status} terug`);
+    const contentType = res.headers.get('content-type') || '';
+    if (!contentType.includes('json')) throw new Error('Wikipedia stuurde geen JSON terug — mogelijk rate limit');
+    const data = await res.json();
+    const titel = data?.query?.random?.[0]?.title;
+    if (!titel) throw new Error('Geen artikeltitel in Wikipedia-response');
+    return titel;
+  } catch (e) {
+    console.error('haalNlWillekeurig mislukt:', e.message);
+    throw e;
+  }
 }
 
 async function haalVolledigeTekst(titel, taal) {
@@ -156,43 +166,45 @@ async function geminiMetRetry(prompt) {
   }
 }
 function maakSectiePrompt(titel, tekst, taal) {
-  const ingekorte    = tekst.length > MAX_TEKST ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]' : tekst;
+  const ingekorte = tekst.length > MAX_TEKST ? tekst.slice(0, MAX_TEKST) + '\n\n[tekst ingekort]' : tekst;
   const bronTaalTekst = taal === 'nl'
     ? 'De brontekst is in het Nederlands.'
-    : 'De brontekst is in het Engels. Schrijf ALLE output uitsluitend in correct Nederlands. Vertaal en herschrijf; kopieer nooit Engelse zinnen.';
-  return `Je bent redacteur bij NRC. Jouw enige taak: schrijf een heldere, boeiende les over "${titel}" in goed Nederlands proza.
+    : 'De brontekst is in het Engels. Schrijf ALLE output in correct Nederlands. Vertaal volledig — kopieer nooit Engelse woorden of zinnen.';
+
+  return `Je schrijft een les over "${titel}" voor een Nederlandse lezer. Schrijf zoals je tegen een slimme vriend praat: helder, direct, geen onnodig jargon.
 
 TAAL: ${bronTaalTekst}
 
-SCHRIJFREGELS — elk van deze regels is verplicht:
+GOEDE ZIN: "Napoleon verloor bij Waterloo omdat zijn leger uitgeput was en de Pruisen op het verkeerde moment arriveerden."
+SLECHTE ZIN: "De militaire campagne resulteerde in een decisieve nederlaag ten gevolge van een convergentie van ongunstige factoren."
 
-1. DOORLOPEND VERHAAL: De les vertelt één verhaal. Elke sectie bouwt voort op de vorige. Stel jezelf na elke sectie de vraag: wat weet de lezer nu dat hij daarvoor nog niet wist? Als het antwoord "niets nieuws" is, herschrijf dan.
-
-2. BEGRIPPEN UITLEGGEN: Elk vaktaalbegrip of moeilijk woord wordt uitgelegd op het moment dat je het introduceert — in dezelfde of de volgende zin. Schrijf niet "de devotie rond de heilige", maar "de devotie — het actief vereren van een heilige via gebeden, processies en pelgrimstochten —". Geen enkel begrip mag onverklaard blijven.
-
-3. VERBODEN WOORDEN: Gebruik nooit: indrukwekkend, meesterlijk, iconisch, verfijnd, bijzonder, opmerkelijk, fascinerend, uniek, spectaculair, enorm belangrijk. Als je wil zeggen dat iets belangrijk is: leg uit waaróm. Als je wil zeggen dat iets mooi is: beschrijf wat je ziet.
-
-4. CONCREET EN CAUSAAL: Schrijf niet "de materialen waren van hoge kwaliteit". Schrijf wát de materialen waren en wat dat betekende voor wie ze gebruikte of zag. Elk oordeel heeft een onderbouwing.
-
-5. ZINSVARIATIE: Wissel korte zinnen (5–10 woorden) bewust af met langere. Een korte zin na een lange geeft nadruk. Gebruik dat.
-
-6. SELECTEER: Je hoeft niet alles uit de brontekst te verwerken. Kies wat het verhaal vooruithelpt. Drie alinea's die goed samenhangen zijn beter dan zes die los van elkaar staan.
+VERPLICHTE REGELS:
+1. KORTE ZINNEN: gemiddeld maximaal 18 woorden per zin. Wissel een korte zin (5-10 woorden) bewust af met een langere.
+2. BEGRIPPEN UITLEGGEN: elk moeilijk woord direct erna uitleggen. Niet "de constitutie", maar "de grondwet — het document dat de rechten van burgers vastlegt".
+3. VERBODEN WOORDEN: nooit gebruiken: indrukwekkend, meesterlijk, iconisch, bijzonder, opmerkelijk, fascinerend, uniek, spectaculair, enorm belangrijk, interessant.
+4. CONCREET: zeg niet dát iets belangrijk was, maar waaróm. Niet "dit had grote gevolgen", maar wat die gevolgen precies waren.
+5. SELECTEER: kies de drie tot vijf interessantste punten uit het artikel. Niet alles hoeft erin.
+6. GEEN ANGLICISMEN: schrijf "gebruiken" niet "usages", "onderzoek" niet "research", "gegevens" niet "data".
 
 STRUCTUUR:
-- Minimaal 3, maximaal 6 secties
-- Elke sectie heeft een pakkende titel
-- Elke sectie heeft een "kernpunt": één heldere zin die samenvat wat de lezer na deze sectie begrijpt — niet wát er staat, maar wát het inzicht is
+- Minimaal 3, maximaal 5 secties
+- Elke sectie heeft een pakkende Nederlandse titel
+- Elke sectie heeft een kernpunt: één zin die zegt wat de lezer nu begrijpt
 
-GEEF JE ANTWOORD UITSLUITEND ALS GELDIGE JSON — geen uitleg, geen markdown, geen backticks.
+GEEF JE ANTWOORD UITSLUITEND ALS GELDIGE JSON — geen uitleg, geen markdown, geen backticks:
 
 {
   "secties": [
     {
-      "titel": "Pakkende sectietitel",
+      "titel": "Sectietitel",
       "tekst": "Lopende tekst in alinea's, gescheiden door \\n\\n.",
       "kernpunt": "Na deze sectie begrijpt de lezer dat..."
     }
   ]
+}
+
+ARTIKELTEKST:
+${ingekorte}`;
 }
 
 ARTIKELTEKST:
