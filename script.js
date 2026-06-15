@@ -2636,6 +2636,10 @@ async function toonKlaarSchermFinal() {
     De vragen komen de komende dagen terug via spaced repetition.`;
 
   document.getElementById('klaar-scherm').classList.add('zichtbaar');
+  const wikiLink = document.getElementById('wiki-link');
+if (wikiLink && artikelTitel) {
+  wikiLink.href = `https://nl.wikipedia.org/wiki/${encodeURIComponent(artikelTitel.replace(/ /g, '_'))}`;
+}
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
   await slaVoortgangOp({ sectieIndex: lesData.secties.length - 1, voltooid: true, titel: artikelTitel });
