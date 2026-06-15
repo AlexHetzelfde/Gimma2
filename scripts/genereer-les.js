@@ -107,7 +107,7 @@ async function haalVolledigeTekst(titel, taal) {
   return { titel: page.title, tekst: page.extract || '' };
 }
 
-const GEMINI_MODELLEN = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+const GEMINI_MODELLEN = ['gemini-2.5-pro', 'gemini-2.5-flash', 'gemini-2.0-flash'];
 
 async function geminiCall(prompt, model = GEMINI_MODELLEN[0]) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`;
