@@ -1561,7 +1561,7 @@ async function haalAfbeeldingen(titel, taal = 'en') {
 // ════════════════════════════════════════
 
 async function geminiCall(key, prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${key}`;
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
