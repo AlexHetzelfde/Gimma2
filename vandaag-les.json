@@ -1,86 +1,251 @@
 {
-  "titel": "Non-paper",
+  "titel": "Cedric Howell",
   "secties": [
     {
-      "titel": "De stille voorbode van beleid: wat is een non-paper?",
-      "tekst": "Stel u voor: de wereldleiders zitten aan tafel, de spanning is voelbaar. Er liggen complexe vraagstukken die niemand direct officieel wil adresseren. Precies daar, in de coulissen van de internationale diplomatie, speelt de non-paper zijn rol. Een non-paper is een onofficieel document, een soort concepttekst, dat dient als discussiestuk om ideeën voor toekomstig beleid te verkennen. Het is een vrije notitie, of in het Frans een 'note libre', die de weg effent voor serieuze gesprekken.\n\nDe term zelf klinkt bijna als een grap: 'niet op papier'. Toch verscheen een non-paper in het tijdperk vóór het internet altijd wel degelijk op fysiek papier. Deze tegenstrijdigheid, een paradox, benadrukt de informele aard van het document. In diplomatieke kringen spreekt men soms ook van een aide-mémoire, letterlijk een 'hulpje voor het geheugen'. Zo'n geheugensteuntje helpt onderhandelaars de hoofdlijnen van een voorstel helder voor ogen te houden, zonder dat er direct concrete verplichtingen aan vastzitten.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat een non-paper een informeel werkdocument is, bedoeld voor verkenning van beleidsideeën, en dat de naam ervan een historische tegenstrijdigheid omvat.",
+      "titel": "De Jonge Droom van een Vlieger",
+      "tekst": "Cedric Ernest Howell, geboren in 1896 in Adelaide, Zuid-Australië, groeide op als zoon van een accountant. Al vroeg toonde hij aanleg voor techniek en discipline. Hij volgde zijn opleiding aan de Melbourne Church of England Grammar School, waar hij actief was binnen de cadetteneenheid. Een cadetteneenheid is een militaire trainingsgroep voor jongeren, gericht op het aanleren van basisvaardigheden en leiderschap.\n\nNa het afronden van zijn middelbare school in 1913 vond Howell werk als technisch tekenaar, een beroep waarbij nauwkeurige tekeningen voor machines of constructies worden gemaakt. In 1914 bekleedde hij reeds de rang van tweede luitenant bij een onderdeel van de burgermilitie, de 49e (Prahran) Cadettenbataljon. Toen in augustus 1914 de Eerste Wereldoorlog uitbrak, probeerde Howell zich direct aan te melden voor het nieuw opgerichte Australische Keizerlijke Leger. Zijn aanvraag werd echter geweigerd. Howell liet zich hierdoor niet ontmoedigen. Het jaar daarop legde hij zijn officiersrang bij de burgermilitie neer en diende een nieuwe aanvraag in. Op 1 januari 1916 werd hij alsnog geaccepteerd voor actieve dienst.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat Cedric Howell al op jonge leeftijd een sterke drang voelde om dienst te doen en ondanks tegenslag zijn doel nastreefde.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1896",
+          "gebeurtenis": "Geboren in Adelaide, Zuid-Australië."
+        },
+        {
+          "jaar": "1913",
+          "gebeurtenis": "Afronding middelbare school aan de Melbourne Church of England Grammar School."
+        },
+        {
+          "jaar": "1914",
+          "gebeurtenis": "Bekleedde de rang van tweede luitenant bij de 49e (Prahran) Cadettenbataljon. Eerste aanvraag voor Australische Keizerlijke Leger geweigerd."
+        },
+        {
+          "jaar": "1915",
+          "gebeurtenis": "Legde officiersrang bij burgermilitie neer en diende nieuwe aanvraag in."
+        },
+        {
+          "jaar": "1916",
+          "gebeurtenis": "Op 1 januari geaccepteerd voor actieve dienst."
+        }
+      ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe draagt de aard van een non-paper bij aan het verkennen van nieuwe beleidsrichtingen?",
+          "vraag": "Hoe droegen Howells vroege ervaringen bij aan zijn sterke motivatie om militair dienst te doen?",
           "opties": [
-            "Het biedt een officiële structuur voor bindende overeenkomsten.",
-            "Het maakt het mogelijk om ideeën te bespreken zonder directe formele verplichtingen.",
-            "Het garandeert onmiddellijke implementatie van voorgestelde plannen.",
-            "Het documenteert definitieve besluiten van wereldleiders."
+            "Zijn werk als technisch tekenaar gaf hem inzicht in militaire strategieën.",
+            "Zijn opleiding aan de Melbourne Church of England Grammar School en activiteit in de cadetteneenheid ontwikkelden zijn discipline en leiderschap.",
+            "Zijn familie moedigde hem sterk aan om een militaire carrière te volgen.",
+            "De weigering van zijn eerste aanvraag motiveerde hem extra om zijn vaardigheden als scherpschutter te ontwikkelen."
           ],
           "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom is de benaming 'non-paper' paradoxaal, gezien de historische context van het document?",
-          "antwoord": "De term 'non-paper' duidt op het informele karakter, maar historisch gezien bestond zo'n document fysiek op papier, wat de ironie van de naam benadrukt."
+          "vraag": "Waarom bleef Cedric Howell volharden in zijn streven om zich aan te melden voor het Australische Keizerlijke Leger, ondanks een initiële afwijzing?",
+          "antwoord": "Howell had al op jonge leeftijd een sterke drang om dienst te doen, wat bleek uit zijn activiteit in de cadetteneenheid en zijn rang als tweede luitenant. De eerste afwijzing ontmoedigde hem niet; hij legde zijn officiersrang neer en diende een jaar later opnieuw een aanvraag in, wat uiteindelijk leidde tot zijn acceptatie."
         }
       ]
     },
     {
-      "titel": "De kracht van vrijblijvendheid: geen handtekening, geen verplichting",
-      "tekst": "Wat maakt een non-paper zo bruikbaar voor diplomaten en politici? Het antwoord ligt in zijn fundamentele vrijblijvendheid. Een non-paper mist elke juridische status; u kunt er geen rechten aan ontlenen, en de indiener kan er niet aan worden gehouden. Dit betekent dat er geen handtekeningen onder staan. Het ontbreken van deze officiële bekrachtiging maakt het document juridisch niet-bindend.\n\nDeze informele status biedt een ongekende flexibiliteit. Partijen kunnen ideeën op tafel leggen en standpunten uitwisselen zonder het risico te lopen direct vast te zitten aan een voorstel dat later onhaalbaar blijkt. Het stelt hen in staat om te onderhandelen over gevoelige kwesties. Een non-paper kan zelfs intern worden gebruikt, bijvoorbeeld binnen een ministerie, om verschillende gezichtspunten tegen elkaar af te wegen voordat men met een definitief standpunt naar buiten treedt. Het is een veilige ruimte voor exploratie.",
-      "kernpunt": "De lezer begrijpt dat de informele aard van een non-paper cruciaal is, omdat het partijen in staat stelt ideeën te verkennen en standpunten aan te passen zonder zich vast te leggen of juridische gevolgen te riskeren.",
+      "titel": "Van Loopgraaf naar Cockpit",
+      "tekst": "Vanwege zijn leeftijd kwam Howell bij zijn aanmelding niet in aanmerking voor een officiersfunctie en begon hij zijn militaire carrière als gewoon soldaat. Hij werd in maart 1916 ingedeeld bij het 14e Bataljon en scheepte in richting Frankrijk. Daar werd hij in mei overgeplaatst naar het 46e Bataljon, waar hij al snel werd bevorderd tot korporaal. Een korporaal is een onderofficiersrang, hoger dan soldaat maar lager dan sergeant. Tijdens de gevechten aan de Somme, een belangrijke frontlinie in Frankrijk, werd hij tijdelijk sergeant, om vervolgens in augustus weer de lagere rang van korporaal te krijgen.\n\nHowell bleek een uitstekende schutter en kreeg een opleiding tot scherpschutter, een soldaat die gespecialiseerd is in het van grote afstand uitschakelen van vijandelijke doelen. Deze vaardigheden waren van levensbelang aan het front. In november 1916 diende zich een nieuwe kans aan: Howell was een van de tweehonderd Australiërs die werden geselecteerd voor een overstap naar het Royal Flying Corps, de Britse luchtmacht van die tijd, om een vliegopleiding te volgen. Hij werd naar het Verenigd Koninkrijk gestuurd voor zijn initiële instructie. Na het succesvol afronden van zijn pilotenopleiding werd hij in maart 1917 ontslagen uit het Australische leger en aangesteld als officier in het Royal Flying Corps. Een maand later werd zijn rang definitief.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Howell, na een periode als infanterist en scherpschutter, de overstap maakte naar de luchtmacht en daar de basis legde voor zijn carrière als piloot.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
+      "tijdlijn": [
         {
-          "type": "flashcard",
-          "vraag": "Hoe stelt de juridisch niet-bindende status van een non-paper diplomaten in staat om effectiever te onderhandelen over gevoelige onderwerpen?",
-          "antwoord": "Zonder juridische verplichtingen kunnen onderhandelaars vrijelijk conceptvoorstellen uitwisselen en standpunten wijzigen zonder angst voor directe repercussies of het vastzitten aan onhaalbare plannen."
+          "jaar": "1916",
+          "gebeurtenis": "Maart: Ingedeeld bij het 14e Bataljon en scheepte in richting Frankrijk."
         },
         {
+          "jaar": "1916",
+          "gebeurtenis": "Mei: Overgeplaatst naar het 46e Bataljon, bevorderd tot korporaal."
+        },
+        {
+          "jaar": "1916",
+          "gebeurtenis": "Augustus: Tijdelijk sergeant, daarna weer korporaal."
+        },
+        {
+          "jaar": "1916",
+          "gebeurtenis": "November: Geselecteerd voor het Royal Flying Corps en gestuurd naar het Verenigd Koninkrijk voor vliegopleiding."
+        },
+        {
+          "jaar": "1917",
+          "gebeurtenis": "Maart: Ontslagen uit het Australische leger en aangesteld als officier in het Royal Flying Corps."
+        },
+        {
+          "jaar": "1917",
+          "gebeurtenis": "April: Zijn rang in het Royal Flying Corps werd definitief."
+        }
+      ],
+      "vragen": [
+        {
           "type": "multiplechoice",
-          "vraag": "Waarom is het ontbreken van handtekeningen onder een non-paper essentieel voor zijn functie?",
+          "vraag": "Welke omstandigheid speelde een cruciale rol in Howells succesvolle overstap van grondtroepen naar de luchtmacht?",
           "opties": [
-            "Het maakt het document exclusief voor interne overheidscommunicatie.",
-            "Het zorgt ervoor dat de inhoud van het document onveranderlijk is.",
-            "Het voorkomt dat partijen juridische claims kunnen indienen op basis van de tekst.",
-            "Het symboliseert de definitieve goedkeuring van alle betrokken partijen."
+            "Zijn promotie tot sergeant gaf hem de autoriteit om een overplaatsing aan te vragen.",
+            "Zijn uitzonderlijke vaardigheden als scherpschutter werden erkend en geacht waardevoller te zijn in de lucht.",
+            "Een mogelijkheid om over te stappen naar het Royal Flying Corps opende zich, waarvoor hij werd geselecteerd.",
+            "Hij raakte gewond aan het front en werd daarom overgeplaatst naar een minder fysiek veeleisende rol."
           ],
           "correcteIndex": 2
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Beschrijf het pad dat Cedric Howell aflegde van infanterist tot piloot in het Royal Flying Corps.",
+          "antwoord": "Howell begon zijn militaire loopbaan als gewoon soldaat, werd vervolgens korporaal en tijdelijk sergeant, en specialiseerde zich als scherpschutter. In november 1916 werd hij geselecteerd voor het Royal Flying Corps, waarvoor hij een vliegopleiding in het Verenigd Koninkrijk volgde en in maart 1917 als officier werd aangesteld."
         }
       ]
     },
     {
-      "titel": "Strategisch stilzwijgen: de non-paper als proefballon",
-      "tekst": "De bron van een non-paper blijft vaak vertrouwelijk, of zelfs geheel onbekend. Deze anonimiteit geeft diplomaten en politici de mogelijkheid zich te onthouden van openlijk commentaar. Ze kunnen een voorstel laten circuleren zonder dat hun regering er officieel aan verbonden is. Dit maakt het makkelijker om standpunten te wijzigen zonder gezichtsverlies, zonder dat een partij publiekelijk moet toegeven dat hun eerdere voorstel niet voldeed.\n\nEen non-paper wordt zelden officieel openbaar gemaakt. Maar dat betekent niet dat het document altijd geheim blijft. Soms wordt zo'n tekst bewust naar de pers gelekt. Dit fenomeen noemen we een proefballonnetje: het dient om voorafgaand aan officiële publicatie alvast de publieke reacties te testen.\n\nNeem bijvoorbeeld het voorstel voor een Europees noodfonds tijdens de COVID-19-crisis. Dit document werd weliswaar via parlement en internet verspreid, maar de afzender bleef anoniem. Zo kon men de reacties peilen op een gevoelig onderwerp, zonder dat een specifieke lidstaat direct verantwoordelijk kon worden gehouden voor de inhoud. Het is een subtiele, maar effectieve manier om de publieke opinie te navigeren.",
-      "kernpunt": "De lezer begrijpt dat de anonimiteit en vertrouwelijkheid van een non-paper strategisch worden ingezet om gevoelige onderwerpen te bespreken, reacties te peilen, en de weg vrij te maken voor toekomstig, officieel beleid.",
+      "titel": "De Lucht boven Italië: Een Ster Vliegt Op",
+      "tekst": "In oktober 1917 werd Howell uitgezonden naar het 45e Squadron van het Royal Flying Corps in Frankrijk, waar hij de Sopwith Camel vloog. Dit was een eenzits jachtvliegtuig, bekend om zijn wendbaarheid in luchtgevechten. Zijn dienst aan het Westelijk Front was kort, want eind december verplaatste zijn squadron zich naar het Italiaanse theater. Boven Italië was Howell zowel betrokken bij luchtgevechten als bij grondaanvallen, waarbij hij bijvoorbeeld vijandelijke transporten in de Alpen vernietigde.\n\nIn de eerste helft van 1918 voerde Howell diverse aanvallen uit op gronddoelen, waaronder een elektriciteitscentrale. Vanaf een hoogte van dertig meter wist hij met grote precisie drie directe treffers te plaatsen met zijn bommen. Hij was in deze periode ook actief in luchtgevechten tegen vijandelijke vliegtuigen en bereikte al vroeg in het jaar de status van 'vliegende aas'. Een vliegende aas is een gevechtspiloot die vijf of meer vijandelijke vliegtuigen heeft neergeschoten.\n\nTijdens een patrouille in mei onderschepte Howell met twee squadronleden twaalf vijandelijke vliegtuigen. In de daaropvolgende strijd voerde hij een gedurfde aanval uit, waarbij hij persoonlijk drie vliegtuigen vernietigde en een vierde onbestuurbaar maakte, ondanks herhaalde storingen in zijn twee machinegeweren. Voor zijn 'opvallende moed en plichtsbesef' bij grondaanvallen en het vernietigen van zeven vijandelijke vliegtuigen, ontving Howell het Military Cross. Dit is een Britse militaire onderscheiding voor moed in de strijd.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat Howell in Italië uitgroeide tot een gevierd gevechtspiloot, die zowel in luchtgevechten als bij grondaanvallen grote moed toonde en daarvoor het Military Cross ontving.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1917",
+          "gebeurtenis": "Oktober: Uitgezonden naar het 45e Squadron van het Royal Flying Corps in Frankrijk."
+        },
+        {
+          "jaar": "1917",
+          "gebeurtenis": "Eind december: Squadron verplaatst naar het Italiaanse theater."
+        },
+        {
+          "jaar": "1918",
+          "gebeurtenis": "Eerste helft: Voerde diverse grondaanvallen uit en bereikte de status van 'vliegende aas'."
+        },
+        {
+          "jaar": "1918",
+          "gebeurtenis": "Mei: Schoot in een luchtgevecht drie vijandelijke vliegtuigen neer en maakte een vierde onbestuurbaar. Ontving het Military Cross."
+        }
+      ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe faciliteert de anonimiteit van de bron van een non-paper het testen van controversiële ideeën in de publieke arena?",
+          "vraag": "Waarom was Howells inzet boven Italië zo cruciaal voor zijn reputatie als gevierd gevechtspiloot?",
           "opties": [
-            "Het garandeert dat de pers de inhoud van het document niet kan publiceren.",
-            "Het stelt een entiteit in staat om publieke reacties te meten zonder direct de verantwoordelijkheid te dragen voor het voorstel.",
-            "Het zorgt ervoor dat de inhoud van het non-paper onmiddellijk officieel beleid wordt.",
-            "Het verplicht alle betrokken partijen om het voorstel direct te accepteren."
+            "Zijn vermogen om vijandelijke schepen op zee te vernietigen was ongeëvenaard.",
+            "Hij toonde uitzonderlijke precisie bij grondaanvallen en behaalde meerdere luchtgevechtsoverwinningen, zelfs met technische problemen.",
+            "Hij was de eerste piloot die de Sopwith Camel succesvol inzette in gevechten.",
+            "Zijn leiderschap in het organiseren van grootschalige luchtoperaties was van strategisch belang."
           ],
           "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom is het van belang dat de afzender van een non-paper vertrouwelijk kan blijven bij het voorbereiden van toekomstig officieel beleid?",
-          "antwoord": "Door de afzender anoniem te houden, kunnen partijen flexibel blijven in hun standpunten en deze aanpassen op basis van feedback, zonder dat dit leidt tot reputatieschade voordat een definitieve beleidslijn wordt vastgesteld."
+          "vraag": "Hoe demonstreerde Howell zijn moed en plichtsbesef boven Italië, leidend tot de toekenning van het Military Cross?",
+          "antwoord": "Howell voerde moedige grondaanvallen uit, waarbij hij met precisie vijandelijke transporten en een elektriciteitscentrale vernietigde. Zijn plichtsbesef bleek ook uit een luchtgevecht waarin hij, ondanks storingen in zijn machinegeweren, persoonlijk drie vijandelijke vliegtuigen vernietigde en een vierde onbestuurbaar maakte."
+        }
+      ]
+    },
+    {
+      "titel": "Een Legendarische Reeks van Overwinningen",
+      "tekst": "Met zijn promotie tot tijdelijk kapitein in juni 1918 leidde Howell een formatie van drie vliegtuigen op patrouille. Ze kwamen zes Oostenrijkse verkenningsvliegtuigen tegen en Howell schoot er twee neer. Later die maand, tijdens een soortgelijke missie, onderschepte zijn groep negen vijandelijke machines; Howell werd gecrediteerd met de vernietiging van twee daarvan. Voor zijn prestaties in juni, waarbij hij vijf vijandelijke vliegtuigen uitschakelde, werd hij beloond met het Distinguished Flying Cross, een militaire onderscheiding voor moed en toewijding tijdens vliegoperaties.\n\nOp 12 juli 1918, in gezelschap van luitenant Alan Rice-Oxley, nam Howell het op tegen een formatie van tien tot vijftien vijandelijke vliegtuigen. In het daaropvolgende luchtgevecht, een 'dogfight' waarbij vliegtuigen dicht bij elkaar manoeuvreerden om elkaar te beschieten, vernietigde Howell vier van de vijandelijke machines en dwong een vijfde onbestuurbaar naar beneden. Twee dagen later schoot hij nog een vliegtuig neer, dat in geallieerd gebied neerstortte. Op 15 juli leidde hij drie Camels in een aanval op zestien verkenningsvliegtuigen, waarbij hij er twee vernietigde.\n\nDeze laatste twee overwinningen brachten zijn totaal op negentien bevestigde luchtgevechten, waaronder vijftien vernietigde vliegtuigen. Dit maakte hem de op één na succesvolste vliegende aas van zijn squadron. Na tien maanden actieve dienst in de cockpit werd Howell eind juli teruggeplaatst naar het Verenigd Koninkrijk, waar hij de rest van de oorlog doorbracht als vlieginstructeur. Voor zijn 'onderscheidende en moedige diensten' in Italië, en met name voor het vernietigen van acht vliegtuigen in een periode van vier dagen in juli, ontving Howell de Distinguished Service Order. Dit is een hoge militaire onderscheiding, toegekend voor verdienstelijk leiderschap tijdens gevechtsoperaties.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Howell in juli 1918 een reeks uitzonderlijke luchtgevechten leverde, waardoor hij een van de meest succesvolle gevechtspiloten werd en de Distinguished Service Order ontving voor zijn moed en leiderschap.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1918",
+          "gebeurtenis": "Juni: Promotie tot tijdelijk kapitein. Schoot twee vijandelijke verkenningsvliegtuigen neer en later nog twee. Ontving het Distinguished Flying Cross."
+        },
+        {
+          "jaar": "1918",
+          "gebeurtenis": "12 juli: Vernietigde vier vijandelijke vliegtuigen en dwong een vijfde onbestuurbaar naar beneden in een luchtgevecht."
+        },
+        {
+          "jaar": "1918",
+          "gebeurtenis": "14 juli: Schoot nog een vliegtuig neer dat in geallieerd gebied neerstortte."
+        },
+        {
+          "jaar": "1918",
+          "gebeurtenis": "15 juli: Leidde een aanval op zestien verkenningsvliegtuigen, waarbij hij er twee vernietigde."
+        },
+        {
+          "jaar": "1918",
+          "gebeurtenis": "Eind juli: Teruggeplaatst naar het Verenigd Koninkrijk als vlieginstructeur. Ontving de Distinguished Service Order."
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Welke specifieke prestaties leidden tot de toekenning van de Distinguished Service Order aan Howell?",
+          "opties": [
+            "Zijn totale aantal neergeschoten vliegtuigen maakte hem de absoluut meest succesvolle aas van zijn squadron.",
+            "De onderscheiding werd toegekend voor zijn strategische planning van grootschalige luchtoperaties.",
+            "Hij ontving de onderscheiding voor het vernietigen van acht vliegtuigen in een periode van vier dagen in juli, wat zijn moed en leiderschap benadrukte.",
+            "Het was een algemene erkenning voor zijn hele carrière als vlieginstructeur na de gevechten."
+          ],
+          "correcteIndex": 2
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe droeg Howells indrukwekkende reeks overwinningen in juli 1918 bij aan zijn status als een van de meest succesvolle gevechtspiloten?",
+          "antwoord": "In juli 1918 vernietigde Howell in meerdere luchtgevechten vier vijandelijke vliegtuigen in één confrontatie, nog een vliegtuig twee dagen later, en twee vliegtuigen tijdens een andere aanval. Deze prestaties brachten zijn totaal op negentien bevestigde overwinningen, waardoor hij de op één na succesvolste vliegende aas van zijn squadron werd."
+        }
+      ]
+    },
+    {
+      "titel": "De Laatste Vlucht: Een Race tegen het Noodlot",
+      "tekst": "Na de oorlog, op 13 december 1918, woonde Howell een investituurceremonie bij in Buckingham Palace. Tijdens deze officiële plechtigheid ontving hij uit handen van Koning George V persoonlijk zijn Distinguished Service Order en Military Cross, een erkenning van zijn moed en toewijding. Op 31 juli 1919 werd hij ontslagen uit de Royal Air Force.\n\nDat jaar loofde de Australische regering een geldbedrag van tienduizend pond uit voor de eerste vlieger die in dertig dagen een Brits vliegtuig van Engeland naar Australië zou vliegen. Op 15 augustus benaderde de Britse vliegtuigfabrikant Martinsyde Howell om deel te nemen aan deze prestigieuze race. Howell accepteerde de uitdaging. Hij zou vliegen in een Martinsyde Type A Mk.I, aangedreven door een Rolls-Royce motor, en werd vergezeld door luitenant George Henry Fraser, een ervaren navigator en ingenieur. Een navigator is iemand die de koers van een schip of vliegtuig bepaalt en volgt.\n\nHowell en Fraser stegen op 4 december 1919 op vanaf Hounslow Heath Aerodrome, een vliegveld in Engeland. Al snel stuitten ze op slecht weer en moesten ze diezelfde dag noodgedwongen landen in Dijon, Frankrijk. Na verdere stops in Pisa en Napels vertrokken ze op 10 december vanuit Taranto. Ze waren van plan naar Afrika te vliegen, maar slechte weersomstandigheden dwongen hen om koers te wijzigen naar Kreta. Die avond, rond acht uur, werd hun Martinsyde gezien boven St George's Bay bij Corfu. Om onbekende redenen probeerden Howell en Fraser een noodlanding uit te voeren bij Corfu. Ze bereikten de kust echter niet en stortten neer in zee. Omwonenden hoorden die nacht hulpgeroep vanuit het water, maar redding was in de ruwe omstandigheden niet mogelijk. Zowel Howell als Fraser verdronken.\n\nHowells lichaam spoelde later aan en werd naar Australië teruggebracht voor een begrafenis met volledige militaire eer. Zijn weduwe, ouders en zus waren aanwezig bij de ceremonie in april 1920. Een gebrandschilderd raam, gewijd aan de nagedachtenis van Howell, werd in 1923 onthuld in een kerk in Middle Park en later verplaatst naar een andere kerk, zodat zijn verhaal en moed niet vergeten zouden worden.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat Howell na de oorlog zijn ambitie voortzette in de luchtvaart, maar tragisch om het leven kwam tijdens een avontuurlijke langeafstandsvlucht, waarna hij met militaire eer werd begraven en op blijvende wijze werd herdacht.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1918",
+          "gebeurtenis": "13 december: Woonde investituurceremonie bij in Buckingham Palace en ontving persoonlijk de Distinguished Service Order en Military Cross."
+        },
+        {
+          "jaar": "1919",
+          "gebeurtenis": "31 juli: Ontslagen uit de Royal Air Force."
+        },
+        {
+          "jaar": "1919",
+          "gebeurtenis": "15 augustus: Benaderd door Martinsyde om deel te nemen aan de race van Engeland naar Australië."
+        },
+        {
+          "jaar": "1919",
+          "gebeurtenis": "4 december: Opstijgen vanaf Hounslow Heath Aerodrome. Noodlanding in Dijon, Frankrijk."
+        },
+        {
+          "jaar": "1919",
+          "gebeurtenis": "10 december: Vertrokken vanuit Taranto, koerswijziging naar Kreta. Stortte neer in zee bij Corfu, Howell en Fraser verdronken."
+        },
+        {
+          "jaar": "1920",
+          "gebeurtenis": "April: Howells lichaam werd in Australië begraven met volledige militaire eer."
+        },
+        {
+          "jaar": "1923",
+          "gebeurtenis": "Een gebrandschilderd raam, gewijd aan de nagedachtenis van Howell, werd onthuld."
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Welke omstandigheden leidden tot de tragische dood van Howell tijdens zijn poging om van Engeland naar Australië te vliegen?",
+          "opties": [
+            "Het vliegtuig had een mechanisch defect dat al voor de start bekend was.",
+            "Howell en Fraser kwamen om het leven door een noodlottige noodlanding in zee nabij Corfu, veroorzaakt door onbekende omstandigheden en slecht weer.",
+            "Ze werden aangevallen door piraten boven de Middellandse Zee.",
+            "Ze verdwaalden en raakten zonder brandstof boven een onbewoond eiland."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe toonde Cedric Howell na de oorlog zijn voortdurende ambitie en avontuurlijke geest in de luchtvaart?",
+          "antwoord": "Na de oorlog zette Howell zijn ambitie voort door de uitdaging aan te gaan om als eerste een Brits vliegtuig van Engeland naar Australië te vliegen voor een geldprijs. Deze prestigieuze en gevaarlijke langeafstandsvlucht benadrukte zijn blijvende passie en avontuurlijke aard in de luchtvaart."
         }
       ]
     }
   ],
-  "categorie": "Non-paper",
-  "categorieKleur": "#82d4b0",
-  "datum": "2026-06-16"
+  "categorie": "Cedric Howell",
+  "categorieKleur": "#7cb9e8",
+  "datum": "2026-06-17"
 }
