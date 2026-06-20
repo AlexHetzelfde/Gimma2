@@ -1,150 +1,149 @@
 {
-  "titel": "Geschiedenispolitiek",
+  "titel": "Lijst van religies en spirituele tradities",
   "secties": [
     {
-      "titel": "Het verleden vormgeven: wat is geschiedenispolitiek?",
-      "tekst": "Geschiedenispolitiek, ook wel herinneringspolitiek genoemd, is de bewuste uitoefening van politieke invloed op de studie, de interpretatie en het al dan niet benadrukken van gebeurtenissen uit het verleden. Deze sturing gebeurt niet alleen via formele besluiten, zoals wetten of onderwijscurricula, maar ook door de manier waarop politici zich uiten in toespraken en geschriften. Zelfs officiële herdenkingen en monumenten spelen een rol in dit proces.\n\nOp deze manier kan het beleid actief bepalen hoe de geschiedenis in het collectief geheugen – de gezamenlijke herinneringen en verhalen die een groep mensen deelt – wordt geschreven en doorgegeven. Traditioneel wordt politieke sturing van de geschiedschrijving vaak geassocieerd met totalitaire regimes. Dit zijn overheden die alle aspecten van het openbare en privéleven controleren, en die via propaganda – het verspreiden van geselecteerde informatie om de publieke opinie te beïnvloeden – een specifieke versie van het verleden opleggen. Hun doel is dan om concurrerende perspectieven uit te bannen.\n\nDeze 'autoritaire geschiedenispolitiek' staat in theorie tegenover een 'democratische herinneringscultuur', waarin ruimte is voor meerdere perspectieven. Toch was het verleden ook in vroegmodern Europa al een belangrijke bron van autoriteit en legitimiteit voor heersers. Bovendien kan geschiedenispolitiek officieel beleid zijn om in het reine te komen met een omstreden verleden, zoals Duitsland deed na de Tweede Wereldoorlog om de misdaden van het naziregime te erkennen. Dit toont aan dat de invloed op het verleden veel breder is dan alleen autoritaire controle.",
-      "kernpunt": "De lezer begrijpt dat geschiedenispolitiek een bewuste poging is om via diverse middelen het collectieve beeld van het verleden te sturen, niet alleen in autoritaire regimes.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe onderscheidt geschiedenispolitiek zich van simpele geschiedschrijving, gezien de diverse middelen die ingezet worden om het verleden te sturen?",
-          "opties": [
-            "Het omvat niet alleen formele besluiten, maar ook culturele uitingen en herdenkingen, en is zowel in democratische als autoritaire contexten relevant.",
-            "Het is uitsluitend een methode die totalitaire regimes gebruiken om propaganda te verspreiden en het publieke geheugen te manipuleren.",
-            "Het richt zich primair op het onderwijscurriculum om een uniforme nationale identiteit te creëren, los van politieke toespraken of monumenten.",
-            "Het is een spontane ontwikkeling van collectieve herinneringen, zonder bewuste politieke invloed op de interpretatie van gebeurtenissen."
-          ],
-          "correcteIndex": 0
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Waarom is het een misvatting om geschiedenispolitiek uitsluitend te associëren met totalitaire regimes?",
-          "antwoord": "Deze invloed strekt verder, omdat ook democratische landen en landen die met een omstreden verleden willen omgaan, actief sturing geven aan de interpretatie van het verleden, bijvoorbeeld ter erkenning van historische misdaden."
-        }
-      ]
-    },
-    {
-      "titel": "Het verleden als wapen: autoritaire sturing en nationale eenheid",
-      "tekst": "Wanneer overheden de geschiedenis actief manipuleren, dient het verleden vaak als een krachtig instrument om de eigen macht te legitimeren en nationale eenheid te smeden. In China bijvoorbeeld, waar de geschiedschrijving van oudsher nauw verbonden is met de heersende elite, riep de overheid in 2021 het publiek op om uitingen van 'historisch nihilisme' te rapporteren. Met deze term wordt elke publieke twijfel of scepsis bedoeld, vooral op sociale media, over de officiële versie van de Chinese Communistische Partij van gebeurtenissen uit het verleden. Dit beleid toont een actieve poging om een eenduidige, door de staat goedgekeurde geschiedenis af te dwingen.\n\nOok in Rusland speelde het verleden een cruciale rol. De legitimiteit van het communistische regime was lange tijd gebaseerd op een specifieke, stalinistische opvatting van de geschiedenis. Tijdens de perestrojka – een periode van politieke en economische hervormingen in de Sovjet-Unie van 1985 tot 1990 – werd die visie radicaal ondermijnd. Na de val van het communisme leek de geschiedenis haar aantrekkingskracht als bindmiddel te verliezen. Maar onder het presidentschap van Vladimir Poetin veranderde dit. Vanuit de overheid werd de 'verdediging' van het nationale verleden tegen 'ontkenners' opnieuw beschouwd als de basis van nationale samenhorigheid. In 2000 werd zelfs het volkslied van de Sovjet-Unie, met een aangepaste tekst, in ere hersteld. Dit symboliseerde de terugkeer naar een historisch narratief dat de nationale trots en eenheid moest versterken.",
-      "kernpunt": "De lezer doorziet dat regimes historische narratieven kunnen manipuleren en afdwingen om hun macht te legitimeren en nationale eenheid te smeden.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "2021",
-          "gebeurtenis": "Chinese overheid roept op tot rapporteren van 'historisch nihilisme'."
-        },
-        {
-          "jaar": "1985-1990",
-          "gebeurtenis": "Perestrojka-periode in de Sovjet-Unie."
-        },
-        {
-          "jaar": "2000",
-          "gebeurtenis": "Volkslied van de Sovjet-Unie, met aangepaste tekst, in ere hersteld in Rusland."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe zetten autoritaire regimes historische narratieven in om hun machtspositie te versterken en de samenhang binnen de natie te bevorderen?",
-          "antwoord": "Ze dwingen een staatserkende versie van het verleden af en bestrijden afwijkende interpretaties, om zo een fundament te leggen voor hun legitimiteit en een gevoel van collectieve trots en verbondenheid te creëren."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Waarom beschouwt de Chinese overheid 'historisch nihilisme' als een bedreiging en roept het op tot rapportage van dergelijke uitingen?",
-          "opties": [
-            "Het ondermijnt de officiële staatsversie van de geschiedenis, wat de legitimiteit van de regerende partij en de nationale eenheid zou kunnen aantasten.",
-            "Het stimuleert academische debatten die de historische feiten nauwkeuriger kunnen vaststellen.",
-            "Het is een poging om buitenlandse invloeden op de Chinese cultuur te elimineren en traditionele waarden te herstellen.",
-            "Het bevordert een meer kritische en diverse interpretatie van het verleden, wat de democratisering van de geschiedschrijving ten goede komt."
-          ],
-          "correcteIndex": 0
-        }
-      ]
-    },
-    {
-      "titel": "Het verleden als wond: de moeizame weg naar erkenning",
-      "tekst": "Geschiedenispolitiek kan ook een essentiële rol spelen in het verwerken van nationale trauma's. In Duitsland introduceerde bondskanselier Helmut Kohl eind jaren tachtig de term 'Geschichtspolitik' tijdens de Historikerstreit – een intens debat onder historici over de aard en de herdenking van het nazi-verleden. Dit debat was gericht op het vinden van een manier om met de gruwelijkheden uit de eigen geschiedenis om te gaan. In een beroemde toespraak in 1985 noemde bondspresident Richard von Weizsäcker de Duitse capitulatie in 1945 geen nederlaag, maar een bevrijding van de nazidictatuur. Dit gaf een nieuwe, positieve draai aan een pijnlijk moment. Later stelde bondspresident Roman Herzog, op de eerste officiële herdenkingsdag voor slachtoffers van het nationaalsocialisme in 1996, dat 'herinnering ons kracht geeft, omdat het ons helpt te behoeden tegen dwalingen'. Hoewel bondskanselier Gerhard Schröder later nuanceerde dat Duitsers 'vooruit moeten kijken, zonder het verleden te vergeten', tonen nationale monumenten zoals het Holocaustmonument in Berlijn aan dat Duitsland actief blijft worstelen met zijn verleden.\n\nNiet overal verliep dit proces even soepel. In Spanje begon men pas in het begin van de 21e eeuw in het reine te komen met de gevolgen van de burgeroorlog en de dictatuur van Franco. In 2007 kwam de Ley de Memoria Histórica – de Wet op de historische herinnering – tot stand, die de slachtoffers van de burgeroorlog in eer moest herstellen. De uitvoering ervan werd echter bemoeilijkt door politieke tegenstanders, wat aantoont hoe diep de verdeeldheid over het verleden kan zijn.\n\nEen ander voorbeeld van een moeizaam proces komt uit Uruguay, dat van 1973 tot 1985 een harde dictatuur kende. Honderden Uruguayanen verdwenen spoorloos. Ondanks de verwoestende invloed van deze episode op het land, promootte de elite van 1985 tot 2000 een officieel beleid van ontkenning en straffeloosheid. Elk publiek debat werd verboden, in naam van de 'verzoening'. Dit illustreert dat het actief vermijden van confrontatie met het verleden ook een vorm van geschiedenispolitiek is, met verstrekkende gevolgen.",
-      "kernpunt": "De lezer begrijpt dat geschiedenispolitiek ook een instrument kan zijn om nationale trauma's te verwerken, al kan dit proces gepaard gaan met politieke spanningen of zelfs bewuste ontkenning.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1980s",
-          "gebeurtenis": "Helmut Kohl introduceert 'Geschichtspolitik' tijdens de Historikerstreit in Duitsland."
-        },
-        {
-          "jaar": "1985",
-          "gebeurtenis": "Bondspresident Richard von Weizsäcker noemt Duitse capitulatie 'bevrijding'."
-        },
-        {
-          "jaar": "1996",
-          "gebeurtenis": "Bondspresident Roman Herzog spreekt op eerste officiële herdenkingsdag voor slachtoffers van nationaalsocialisme."
-        },
-        {
-          "jaar": "2007",
-          "gebeurtenis": "Invoering van de 'Ley de Memoria Histórica' in Spanje."
-        },
-        {
-          "jaar": "1973-1985",
-          "gebeurtenis": "Dictatuur in Uruguay."
-        },
-        {
-          "jaar": "1985-2000",
-          "gebeurtenis": "Officieel beleid van ontkenning en straffeloosheid in Uruguay."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe kan geschiedenispolitiek bijdragen aan de verwerking van nationale trauma's, en welke obstakels kunnen hierbij optreden?",
-          "opties": [
-            "Het biedt een kader voor officiële erkenning van leed en schuld, maar kan gehinderd worden door politieke verdeeldheid of een beleid van bewuste vermijding van het verleden.",
-            "Het garandeert een snelle en consensusgerichte aanpak van het verleden, zonder noemenswaardige politieke weerstand.",
-            "Het richt zich uitsluitend op het positief herinterpreteren van pijnlijke gebeurtenissen om nationale trots te herstellen, zonder aandacht voor slachtoffers.",
-            "Het zorgt ervoor dat alle historische feiten direct worden geaccepteerd en dat er geen ruimte meer is voor debat of herinterpretatie."
-          ],
-          "correcteIndex": 0
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Waarom kan het beleid van ontkenning en straffeloosheid in Uruguay na de dictatuur eveneens worden gezien als een vorm van geschiedenispolitiek?",
-          "antwoord": "Het actief vermijden van publiek debat en confrontatie met een pijnlijk verleden is een bewuste sturing van het collectieve geheugen, met als doel een specifieke interpretatie – of het gebrek daaraan – van die periode af te dwingen."
-        }
-      ]
-    },
-    {
-      "titel": "De strijd om de woorden: koloniale erfenis en identiteit",
-      "tekst": "De interpretatie van het verleden leidt vaak tot felle maatschappelijke debatten, vooral wanneer het gaat om nationale identiteit en historische onrechtvaardigheid. In Australië woedt een permanent debat, bekend als de 'History Wars', over de Britse kolonisatie van het continent en de ontwikkeling van de hedendaagse samenleving. Deze discussie spitst zich toe op de impact van de kolonisatie op de oorspronkelijke bewoners, de Aborigines en Straat Torres-eilanders. De discussie kreeg een semi-officieel karakter met de publicatie van de 'Indigenous Terminology' door de Universiteit van New South Wales. Hierin werd voorgesteld om termen als 'settlement' – wat 'nederzetting' betekent en een vreedzame aankomst suggereert – te vervangen door 'colonisation' of 'occupation', die de gewelddadige overname benadrukken. Ook 'de Aborigines hebben 40.000 jaar in Australië gewoond' zou moeten worden vervangen door '…sinds het begin der tijden', om hun eigen ervaring te weerspiegelen. Deze nieuwe terminologie werd in de conservatieve pers afgewezen als 'al te politiek correct', wat de diepte van de controverse toont over hoe taal het verleden vormgeeft.\n\nOok in België is in de 21e eeuw een beweging merkbaar om de Belgische koloniale geschiedenis te herschrijven. Dit mondde uit in een breed debat over de Belgische excuses aan Congo voor de wandaden uit het koloniale tijdperk. Deze discussies laten zien hoe de geschiedenispolitiek niet alleen gaat over wat er feitelijk is gebeurd, maar ook over welke woorden we kiezen om het te beschrijven, welke groepen worden erkend, en hoe het verleden de huidige identiteit en verantwoordelijkheden van een natie beïnvloedt.",
-      "kernpunt": "De lezer herkent dat geschiedenispolitiek zich manifesteert in felle debatten over de interpretatie van een gedeeld verleden, waarbij zelfs de keuze van woorden diepe politieke implicaties heeft voor nationale identiteit en erkenning van onrecht.",
+      "titel": "De Kaart van het Geloof: Een Labyrinth aan Tradities",
+      "tekst": "De lijst van religies en spirituele tradities die voor ons ligt, is meer dan een opsomming; het is een poging tot ordening van een onmetelijke diversiteit aan menselijke zingeving. Het toont hoe mensen door de eeuwen heen betekenis hebben gevonden, maar ook hoe complex het is om deze zoektochten te categoriseren. Dit systeem, met zijn 'filtersysteem', kiest voor een eenduidige plaatsing: een traditie komt in de eerst mogelijke categorie op de lijst, zelfs als meerdere indelingen denkbaar zijn. Dit benadrukt dat elke classificatie een specifiek perspectief weerspiegelt, een momentopname in een voortdurend bewegend landschap van geloof.\n\nDeze aanpak voorkomt dubbele vermeldingen, maar laat ook zien dat de grenzen tussen tradities vaak poreus zijn. De schijnbare vastigheid van een lijst verhult de dynamiek van geloof, waarin ideeën en praktijken voortdurend evolueren en elkaar beïnvloeden. De pure omvang van de genoemde stromingen en hun vertakkingen, van eeuwenoude overtuigingen tot recente bewegingen, daagt ons uit om verder te kijken dan simpele etiketten.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat religieuze en spirituele tradities een immense en dynamische verscheidenheid kennen, waarbij elke poging tot ordening een specifieke invalshoek weerspiegelt.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe beïnvloedt de keuze van specifieke woorden, zoals in het Australische debat over 'settlement' versus 'colonisation', de geschiedenispolitiek en de nationale identiteit?",
-          "antwoord": "De woordkeuze bepaalt welke interpretatie van het verleden dominant wordt, erkent of ontkent het leed van bepaalde groepen, en definieert daarmee de aard van de historische gebeurtenis en de huidige nationale verantwoordelijkheden."
+          "vraag": "Hoe benadrukt het 'filtersysteem' van deze lijst, waarbij een traditie in de eerst mogelijke categorie wordt geplaatst, dat elke classificatie een specifiek perspectief weerspiegelt?",
+          "antwoord": "Het systeem dwingt een enkele toewijzing af, zelfs als een traditie in meerdere groepen zou kunnen passen, wat aantoont dat de gekozen classificatieregels de resulterende indeling en daarmee het gezichtspunt bepalen."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom leiden debatten over koloniale erfenissen, zoals in Australië en België, tot zulke felle maatschappelijke spanningen?",
+          "vraag": "Waarom is het categoriseren van religieuze en spirituele tradities een complexe opgave, ondanks pogingen tot ordening?",
           "opties": [
-            "Ze raken aan fundamentele vragen over de nationale identiteit, historische verantwoordelijkheid en de erkenning van onrecht, wat diepgaande emotionele en politieke gevolgen heeft.",
-            "Ze zijn uitsluitend gericht op het corrigeren van feitelijke onjuistheden in historische verslagen, zonder bredere maatschappelijke impact.",
-            "De discussies worden voornamelijk gevoerd door academici en hebben weinig invloed op de publieke opinie of politieke besluitvorming.",
-            "Het gaat vooral om het vaststellen van een definitieve en onbetwistbare versie van het verleden die door iedereen geaccepteerd moet worden."
+            "Omdat de grenzen tussen tradities vaak vervagen en hun dynamiek constante evolutie vertoont.",
+            "Omdat er te veel religies bestaan om ze allemaal een unieke plaats te geven in een lijst.",
+            "Omdat de meeste tradities weigeren zich te laten indelen in een vast systeem.",
+            "Omdat de historische oorsprong van veel geloven onbekend is, wat indeling bemoeilijkt."
           ],
           "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe draagt de aanpak van dit classificatiesysteem, dat dubbele vermeldingen voorkomt, tegelijkertijd bij aan het inzicht in de complexiteit van religieuze indeling?",
+          "antwoord": "Door elke traditie strikt aan de eerste passende categorie toe te wijzen, wordt herhaling vermeden, maar wordt ook duidelijk dat tradities vaak in meerdere groepen passen, wat de subjectiviteit van elke indeling onderstreept."
+        }
+      ]
+    },
+    {
+      "titel": "Wortels in het Oosten: Van Dharma tot Verlichting",
+      "tekst": "Vanuit het historische India ontsproten de dharmische religies, levensbeschouwingen die de basis legden voor een rijk scala aan spirituele paden. Het hindoeïsme, bijvoorbeeld, kent een diepe gelaagdheid en is vaak panentheïstisch — het geloof dat God zowel in de schepping aanwezig is als deze overstijgt. Binnen het hindoeïsme zien we diverse stromingen, zoals het Shaivisme, dat zich richt op de verering van Shiva, en het Vaishnavisme, dat zich kenmerkt door een persoonlijk godsbeeld en devotionele praktijken; een actieve verering, vaak van een persoonlijke godheid, middels gebeden en rituelen.\n\nHet boeddhisme, ontstaan uit de leringen van Siddhartha Gautama, ontwikkelde zich eveneens tot een veelheid aan scholen. Het Theravada, de 'School der Ouderen', hecht aan de oudste leringen en monastieke discipline. Het Mahayana, het 'Grote Voertuig', ontstond later en legt nadruk op compassie en het universele potentieel voor verlichting. Een verdere ontwikkeling is het Vajrayana, het 'Diamanten Voertuig', dat tantrische praktijken omvat; een geheel van esoterische oefeningen en rituelen gericht op snelle spirituele bevrijding en het bereiken van goddelijke staten. Deze vertakkingen illustreren hoe fundamentele inzichten op verschillende manieren kunnen worden beleefd en geïnterpreteerd.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe vanuit het historische India diverse levensbeschouwingen ontstonden die, ondanks hun gemeenschappelijke wortels, uiteenlopende paden bewandelen in hun zoektocht naar inzicht en verlossing.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe komt het dat dharmische religies, afkomstig uit India, ondanks hun gemeenschappelijke oorsprong zo'n verscheidenheid aan spirituele paden kennen?",
+          "opties": [
+            "Door verschillende interpretaties van fundamentele inzichten en de ontwikkeling van unieke praktijken, zoals in het Theravada, Mahayana en Vajrayana.",
+            "Omdat elke stroming een compleet ander pantheon van goden en godinnen aanbidt, los van de oorspronkelijke leer.",
+            "De invloed van westerse filosofieën heeft geleid tot een diversificatie van de oorspronkelijke Indiase leer.",
+            "Omdat er geen centrale autoriteit was die de leer uniform hield, waardoor elke regio zijn eigen versie ontwikkelde."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom heeft het boeddhisme zich ontwikkeld tot diverse scholen zoals Theravada, Mahayana en Vajrayana?",
+          "antwoord": "Deze scholen ontstonden door uiteenlopende interpretaties van de leringen van Siddhartha Gautama, waarbij de ene zich richt op oudere leringen en monastieke discipline, de andere op universele compassie, en weer een andere op esoterische praktijken."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe demonstreert het hindoeïsme de diversiteit binnen dharmische religies, zelfs met een gemeenschappelijke oorsprong?",
+          "opties": [
+            "Door het geloof in één enkele godheid die alle aspecten van het universum omvat, wat een uniforme praktijk garandeert.",
+            "Het is een strikt monotheïstische religie die geen ruimte biedt voor verschillende interpretaties van het goddelijke.",
+            "Door de aanwezigheid van diverse stromingen zoals Shaivisme en Vaishnavisme, die zich richten op verschillende godheden en devotionele praktijken.",
+            "Het hindoeïsme heeft geen diverse paden; het is een monolithisch geloofssysteem zonder interne vertakkingen."
+          ],
+          "correcteIndex": 2
+        }
+      ]
+    },
+    {
+      "titel": "Eén God, Vele Stemmen: De Abrahamitische Erfenis",
+      "tekst": "De Abrahamitische religies verenigen zich in het monotheïsme — het geloof in één God — en erkennen Abraham als aartsvader; een grondlegger of voorvader van hun religieuze traditie. Toch vertellen ook zij een verhaal van diepe vertakkingen en uiteenlopende interpretaties. Het jodendom kent bijvoorbeeld het Rabbijns jodendom, de stroming die de mondelinge wet, vastgelegd in de Talmoed, als gezaghebbend beschouwt, naast niet-rabbijnse vormen zoals het Karaïtisch jodendom dat de Talmoed verwerpt.\n\nDe islam splitste zich na onenigheid over de opvolging van Mohammed in het Soennisme, de grootste stroming die de tradities van de profeet volgt, en het Sjiisme, dat de afstammelingen van Ali als rechtmatige opvolgers beschouwt. Binnen de islam vinden we ook het Soefisme, de mystieke stroming gericht op directe ervaring van God door rituelen en meditatie. Het christendom, dat ontstond uit het jodendom, kende eveneens grote schisma's, zoals de scheiding tussen het Rooms-katholicisme en de Oosterse Orthodoxie, en later de Reformatie die leidde tot het Protestantisme. Veel van deze stromingen verschillen in hun interpretatie van de triniteitsleer; het theologische concept dat God bestaat uit drie personen: de Vader, de Zoon en de Heilige Geest. Deze voorbeelden tonen dat een gedeelde oorsprong niet leidt tot een uniforme praktijk, maar tot een rijkdom aan spirituele expressies.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe de Abrahamitische religies, allen gebaseerd op het geloof in één God en de figuur van Abraham als aartsvader, zich door de eeuwen heen hebben vertakt in diverse stromingen, elk met eigen interpretaties en praktijken.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe heeft de gedeelde oorsprong van Abrahamitische religies geleid tot een grote verscheidenheid aan stromingen en interpretaties?",
+          "antwoord": "Hoewel ze een gemeenschappelijke aartsvader en monotheïstisch geloof delen, hebben onenigheid over leiderschap, verschillende interpretaties van heilige teksten en theologische concepten zoals de triniteitsleer geleid tot diepgaande vertakkingen."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom splitste de islam zich in soennisme en sjiisme?",
+          "opties": [
+            "Wegens fundamentele theologische meningsverschillen over de aard van God en Zijn openbaring.",
+            "Door onenigheid over de rechtmatige opvolging van de profeet Mohammed na zijn dood.",
+            "Als gevolg van geografische isolatie die leidde tot onafhankelijke ontwikkeling van doctrines.",
+            "Door de invloed van andere religies die een dualistisch godsbeeld introduceerden."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe illustreert het christendom, ondanks zijn monotheïstische basis, de diepgaande vertakkingen binnen Abrahamitische religies?",
+          "antwoord": "Het christendom toont dit door belangrijke scheidingen zoals die tussen Rooms-katholicisme en Oosterse Orthodoxie, en later de Reformatie die het Protestantisme voortbracht, vaak gebaseerd op uiteenlopende interpretaties van de triniteitsleer."
+        }
+      ]
+    },
+    {
+      "titel": "Voorbij de Grote Verhalen: Nieuwe Wegen en Oude Wortels",
+      "tekst": "Naast de wereldreligies bestaan er talloze andere vormen van zingeving die de reikwijdte van de menselijke spiritualiteit verder uitdiepen. Endemische religies, bijvoorbeeld, zijn lokale, vaak mondeling overgeleverde geloofssystemen van inheemse volkeren, die vaak kenmerken van animisme vertonen; het geloof dat alles in de natuur, inclusief objecten, planten en dieren, een ziel of geest bezit. Deze tradities zijn diep geworteld in specifieke culturen en omgevingen.\n\nDaartegenover staan de niet-geopenbaarde levensbeschouwingen, filosofieën die niet voortkomen uit een goddelijke openbaring, maar gebaseerd zijn op menselijke rede en waarneming. Hieronder valt het humanisme, een levensbeschouwing die de menselijke waardigheid en ethiek centraal stelt, los van religieuze dogma's. Het toont een zoektocht naar betekenis die volledig binnen het aardse en menselijke domein plaatsvindt. In recentere tijden zien we de opkomst van nieuwe religieuze bewegingen (NRM's); geloofssystemen die na circa 1850 zijn ontstaan en vaak een beperkt aantal volgelingen hebben, als reactie op moderne maatschappelijke veranderingen en een voortdurende behoefte aan spirituele vernieuwing. Deze diverse uitingen onderstrepen de constante menselijke drang om de wereld te begrijpen en een plaats te vinden in het grotere geheel.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat de zoektocht naar zingeving zich ook manifesteert in endemische tradities, filosofische levensbeschouwingen zonder goddelijke openbaring, en voortdurend nieuwe bewegingen die inspelen op veranderende behoeften.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "circa 1850",
+          "gebeurtenis": "Opkomst van nieuwe religieuze bewegingen (NRM's)"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe dragen endemische religies, humanisme en nieuwe religieuze bewegingen samen bij aan de menselijke zoektocht naar zingeving?",
+          "opties": [
+            "Ze bieden allemaal een uniform, wereldwijd geaccepteerd antwoord op existentiële vragen, ongeacht culturele context.",
+            "Ze tonen dat zingeving zowel gevonden kan worden in lokale, natuurgerichte overtuigingen, in rede en ethiek, als in moderne reacties op maatschappelijke veranderingen.",
+            "Ze bewijzen dat alleen openbaringsreligies in staat zijn om diepgaande spirituele behoeften te vervullen.",
+            "Deze tradities zijn allemaal gebaseerd op een goddelijke openbaring, maar verschillen in hun interpretatie ervan."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom worden niet-geopenbaarde levensbeschouwingen zoals het humanisme onderscheiden van religies met goddelijke openbaring?",
+          "antwoord": "Omdat ze hun betekenis en ethiek baseren op menselijke rede, observatie en waardigheid, in plaats van op bovennatuurlijke onthullingen of dogma's."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe ontstaan nieuwe religieuze bewegingen (NRM's) en wat is hun functie in de moderne tijd?",
+          "opties": [
+            "Ze ontstaan uitsluitend uit oude, vergeten religieuze teksten die herontdekt worden.",
+            "Ze zijn vaak een reactie op moderne maatschappelijke veranderingen en een voortdurende behoefte aan spirituele vernieuwing.",
+            "NRM's worden opgericht door overheden om de religieuze diversiteit te beperken.",
+            "Ze zijn per definitie seculier en hebben geen spirituele of religieuze componenten."
+          ],
+          "correcteIndex": 1
         }
       ]
     }
   ],
-  "categorie": "Geschiedenispolitiek",
-  "categorieKleur": "#82d4b0",
-  "datum": "2026-06-19"
+  "categorie": "Wereldreligies",
+  "categorieKleur": "#c9a0dc",
+  "datum": "2026-06-20"
 }
