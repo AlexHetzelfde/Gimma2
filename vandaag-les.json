@@ -1,176 +1,148 @@
 {
-  "titel": "Stoomtramweg-Maatschappij Oostelijk Groningen",
+  "titel": "Ideologie",
   "secties": [
     {
-      "titel": "Een netwerk voor het vergeten oosten",
-      "tekst": "In 1905 keek Dirk Bos, Tweede Kamerlid en voorman van de Vrijzinnig Democratische Bond, met zorg naar Oost-Groningen. Hij constateerde in de Winschoter Courant dat een nieuwe spoorlijn van de Noordoosterlocaalspoorweg-Maatschappij (NOLS) dit deel van de provincie links liet liggen. Bos stelde daarop een oplossing voor: een net van stoomtramwegen. Dit waren spoorlijnen waarover stoomtrams reden, vaak langs de openbare weg, bedoeld om mensen en goederen lokaal te vervoeren. Zijn doel was helder: de bevolking \"in beweging brengen.\"\n\nZijn oproep vond gehoor. Provinciale en gemeentelijke politici, industriëlen en landbouwers kwamen bijeen in Winschoten. Dit leidde in 1906 tot de installatie van een commissie, onder voorzitterschap van Bos zelf, die plannen ontwikkelde voor betere verbindingen. Een jaar later werden aandelen en obligaties uitgegeven voor de op te richten maatschappij. Gemeenten en de provincie namen hiervan het grootste deel voor hun rekening, wat de publieke steun voor dit initiatief aantoonde.\n\nDe nieuwe maatschappij, opgericht op 12 juni 1912 als de N.V. Stoomtramweg-Maatschappij Oostelijk Groningen (OG), koos voor een spoorwijdte van 1067 millimeter. Deze maat, ook wel kaapspoor genoemd, was smaller dan het normale spoor van 1435 millimeter en werd vaak gebruikt voor tramlijnen om kosten te besparen en bochten krapper te kunnen nemen. Het hoofdkantoor kwam in Winschoten, en de eerste plannen richtten zich op een lijn van Winschoten naar Ter Apel. OG nam ook bestaande paardentramlijnen over, zoals die tussen Winschoten en Bellingwolde, om een breder netwerk te vormen.",
-      "kernpunt": "De Stoomtramweg-Maatschappij Oostelijk Groningen ontstond uit de politieke en maatschappelijke wil om een economisch achtergebleven regio te ontsluiten met een eigen tramnetwerk.",
+      "titel": "De geboorte van een wetenschap: De droom van Destutt de Tracy",
+      "tekst": "Het woord 'ideologie' klinkt ons vandaag de dag bekend in de oren. We associëren het vaak met politieke partijen of diepgewortelde overtuigingen. Maar de term begon zijn leven in 1796, in het Frankrijk van de Verlichting, als een ambitieus wetenschappelijk project.\n\nAntoine-Louis-Claude Destutt de Tracy, een filosoof, introduceerde 'ideologie' als de 'wetenschap van ideeën'. Hij geloofde dat er een nieuwe discipline nodig was die de aard, de evolutie en het ontstaan van menselijke gedachten zou ontrafelen. Dit moest de basis vormen voor alle andere wetenschappen, de 'koningin' die inzicht gaf in de 'wetmatigheden van het denken'. Zijn grote werk, *Eléments d’idéologie*, legde de fundamenten voor deze wetenschap en paste haar principes toe op uiteenlopende gebieden als logica, moraliteit en economie.\n\nDestutt de Tracy was echter meer dan een neutrale wetenschapper; hij was een vurig pleitbezorger van vrijhandel, mensenrechten en een beperking van de macht van de overheid. Zijn 'wetenschap' was dus ook een politieke beweging. Aanvankelijk steunde Napoleon Bonaparte, de toenmalige Franse leider, de ideologen, omdat zij zijn regime een wetenschappelijke legitimatie konden bieden. Maar toen de ideologen kritiek begonnen te uiten op Napoleons beleid, keerde het tij. Na een mislukte staatsgreep, waarbij enkele ideologen betrokken waren, begon Napoleon de term 'idéologue' te gebruiken als een scheldwoord. Voor hem waren ideologen naïeve idealisten, die zich lieten leiden door abstracte theorieën en wars waren van de praktische realiteit. Deze negatieve betekenis verspreidde zich vervolgens over heel Europa en kleurde het begrip voor lange tijd.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat het begrip 'ideologie' begon als een wetenschappelijke ambitie om ideeën te doorgronden, maar al snel een negatieve bijklank kreeg door politieke inmenging van Napoleon Bonaparte.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1905",
-          "gebeurtenis": "Dirk Bos constateert dat Oost-Groningen wordt genegeerd door een nieuwe spoorlijn en stelt een net van stoomtramwegen voor."
-        },
-        {
-          "jaar": "1906",
-          "gebeurtenis": "Installatie van een commissie, onder voorzitterschap van Dirk Bos, voor plannen voor betere verbindingen."
-        },
-        {
-          "jaar": "1907",
-          "gebeurtenis": "Uitgifte van aandelen en obligaties voor de op te richten maatschappij, grotendeels gekocht door gemeenten en de provincie."
-        },
-        {
-          "jaar": "1912",
-          "gebeurtenis": "Oprichting van de N.V. Stoomtramweg-Maatschappij Oostelijk Groningen (OG) op 12 juni."
+          "jaar": "1796",
+          "gebeurtenis": "Introductie van de term 'ideologie' door Destutt de Tracy"
         }
       ],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe droeg de politieke en maatschappelijke betrokkenheid bij aan de oprichting van de Stoomtramweg-Maatschappij Oostelijk Groningen?",
+          "vraag": "Hoe heeft de politieke context van het Franse keizerrijk bijgedragen aan de negatieve perceptie van de term 'ideologie' in Europa?",
           "opties": [
-            "Dirk Bos' oproep leidde tot brede steun van lokale overheden en belanghebbenden, wat resulteerde in de financiering en organisatie van het tramnetwerk.",
-            "De maatschappij werd opgericht door private investeerders die de economische potentie van de regio zagen, zonder overheidsbemoeienis.",
-            "Het initiatief kwam van de NOLS, die besloot een lokaal netwerk aan te leggen na kritiek van Dirk Bos.",
-            "De oprichting was een direct gevolg van een overheidsbesluit om alle achtergebleven regio's van Nederland te voorzien van stoomtramwegen."
+            "Napoleon Bonaparte gebruikte 'ideoloog' als een scheldwoord, omdat de aanhangers van de ideologie kritiek hadden op zijn beleid en hij hen als naïef beschouwde.",
+            "Destutt de Tracy's theorieën waren te abstract en onpraktisch, waardoor het volk de term al snel als nutteloos ging zien.",
+            "De ideologen probeerden Napoleon omver te werpen, wat leidde tot een algemeen wantrouwen tegen elke vorm van georganiseerd denken.",
+            "De wetenschappelijke benadering van ideeën was in strijd met de religieuze opvattingen van die tijd, wat resulteerde in maatschappelijke afkeuring."
           ],
           "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Waarom koos de Stoomtramweg-Maatschappij Oostelijk Groningen voor een spoorwijdte van 1067 millimeter (kaapspoor), en hoe paste dit bij het doel van de maatschappij?",
-          "antwoord": "Deze smallere spoorwijdte werd gekozen om kosten te besparen bij de aanleg en om krapper bochten te kunnen nemen. Dit paste bij het doel om een lokaal, efficiënt en betaalbaar netwerk te creëren dat de economisch achtergebleven regio kon ontsluiten."
+          "vraag": "Hoe stelde Destutt de Tracy zich de rol van 'ideologie' voor als een nieuwe wetenschappelijke discipline?",
+          "antwoord": "Hij zag het als de fundamentele wetenschap die de aard, ontwikkeling en oorsprong van menselijke gedachten zou blootleggen, dienend als basis voor alle andere wetenschappelijke disciplines."
         }
       ]
     },
     {
-      "titel": "Het netwerk krijgt vorm, ondanks tegenslag",
-      "tekst": "De ambitieuze plannen voor de Stoomtramweg-Maatschappij Oostelijk Groningen stuitten direct op onverwachte hindernissen. In 1914 brak de Eerste Wereldoorlog uit, wat de aanleg van de lijnen aanzienlijk vertraagde en de kosten deed stijgen. Ook de aanschaf van trams en rijtuigen werd hierdoor een uitdaging. Toch reed in 1915 de eerste tram op de lijn tussen Winschoten en Ter Apel. Deze route volgde de Ruiten Aa en het Veelerdiep, door dorpen als Sellingen en Vlagtwedde, om uiteindelijk in Winschoten te eindigen. Daar verrezen een groot emplacement, een complex van sporen en wissels waar trams konden rangeren en wachten, en een tramhaven voor de overslag van goederen.\n\nDe maatschappij breidde het netwerk gestaag uit. De paardentramlijn naar Bellingwolde werd in 1917 omgebouwd en verzwaard voor stoomtrams, waarna de oude rails een nieuw leven kregen bij de tramlijn Amsterdam - Sloten. In 1919 volgde de lijn van Winschoten naar Delfzijl, die een reeks dorpen langs de kust verbond, waaronder Woldendorp en Farmsum. In Delfzijl, waar het havenspoor een bredere spoorwijdte had, gebruikte OG zogenaamde rolwagens. Dit waren speciale onderstellen waarop de smallere tramwagons konden worden geplaatst om over het bredere spoor te rijden.\n\nVoor het onderhoud van de tramlijnen was veel zand nodig. Daarom exploiteerde de OG een eigen zandgat bij Veele en verhandelde het ook zand. Deze praktische aanpak was noodzakelijk om de infrastructuur in stand te houden. Niet alle uitbreidingsplannen waren echter succesvol; de poging om de paardentramlijn van de Eerste Groninger Tramway-Maatschappij (EGTM) geschikt te maken voor stoomtrams mislukte, wat de OG uiteindelijk een aanzienlijk verlies opleverde.",
-      "kernpunt": "Ondanks de belemmeringen van de Eerste Wereldoorlog en technische uitdagingen wist de OG een uitgebreid tramnetwerk in Oost-Groningen aan te leggen, compleet met eigen faciliteiten voor onderhoud en overslag.",
+      "titel": "Klassenstrijd en de rechtvaardiging van ongelijkheid: Marx's blik op ideologie",
+      "tekst": "De negatieve connotatie die Napoleon aan 'ideologie' gaf, vond weerklank bij een andere invloedrijke denker: Karl Marx. Hoewel Marx de werken van Destutt de Tracy kende, nam hij waarschijnlijk Napoleons denigrerende gebruik van de term over. Voor Marx was ideologie geen neutrale wetenschap, maar een krachtig instrument in de maatschappelijke klassenstrijd.\n\nMarx analyseerde de samenleving als een strijdtoneel tussen verschillende economische groepen, of sociale klassen. De twee belangrijkste waren de bourgeoisie, de bezitters van de productiemiddelen — zoals fabrieken en grond — en het proletariaat, de werkende klasse die hun arbeid moest verkopen om te overleven. Volgens Marx werden de arbeiders in deze relatie structureel benadeeld en uitgebuit. De bourgeoisie, de heersende klasse, verspreidde denksystemen die de ongelijke en uitbuitende relaties tussen de klassen goedpraatten. Deze denksystemen noemde Marx 'ideologieën'.\n\nEen ideologie, in Marx's ogen, diende dus om de spanningen in een maatschappij te verhullen en de bestaande machtsverhoudingen te legitimeren. Het was een vorm van vals bewustzijn, dat het proletariaat ervan weerhield in opstand te komen tegen hun economische achterstelling. Deze visie verankerde 'ideologie' stevig in de context van maatschappelijke macht en ongelijkheid, ver verwijderd van Destutt de Tracy's oorspronkelijke wetenschappelijke aspiraties.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe Karl Marx het begrip 'ideologie' gebruikte om te verklaren hoe machtige groepen hun positie rechtvaardigen en sociale ongelijkheid in stand houden door theorieën te verspreiden die de uitbuiting verhullen.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe verklaarde Karl Marx dat ideologieën bijdragen aan het voortbestaan van sociale ongelijkheid binnen een samenleving?",
+          "antwoord": "Marx stelde dat ideologieën denksystemen zijn die door de heersende klasse worden verspreid om de ongelijke en uitbuitende relaties tussen sociale klassen te verhullen en te legitimeren, waardoor de bestaande machtsverhoudingen in stand blijven."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom beschouwde Marx ideologie als een vorm van 'vals bewustzijn' voor de werkende klasse?",
+          "opties": [
+            "Het verhinderde het proletariaat om de ware aard van hun economische uitbuiting te doorgronden en zich daartegen te verzetten.",
+            "Het was een wetenschappelijke theorie die de werkelijkheid niet correct weergaf, in tegenstelling tot zijn eigen analyse.",
+            "De ideologieën waren te complex voor de arbeiders om te begrijpen, wat leidde tot verwarring.",
+            "Het was een bewuste misleiding door de bourgeoisie om het proletariaat te indoctrineren met leugens."
+          ],
+          "correcteIndex": 0
+        }
+      ]
+    },
+    {
+      "titel": "Van instrument tot lens: Ideologie in het marxisme en daarbuiten",
+      "tekst": "Marx's ideeën over ideologie vormden de basis voor het marxisme, een politieke traditie die in de twintigste eeuw een diepgaande invloed had. Binnen deze stroming bleef het concept van ideologie een centrale rol spelen, maar het kreeg ook nieuwe nuanceringen. Het werd niet langer uitsluitend gezien als een instrument van onderdrukking, maar ook als een leidraad voor revolutionair handelen of een mechanisme voor maatschappelijke beheersing.\n\nVladimir Lenin, de eerste leider van de Sovjet-Unie, definieerde ideologie bijvoorbeeld als het denksysteem dat de revolutionaire actie van een sociaaleconomische groep vormgeeft. Hij geloofde dat eerdere revoluties mislukten omdat het proletariaat, de werkende klasse, geen duidelijke ideologie had. Daarom pleitte hij voor een voorhoedepartij, bestaande uit intellectuelen, die een coherente ideologie aan het proletariaat zou opleggen om de revolutie te sturen.\n\nLater verdiepte de Franse filosoof Louis Althusser de analyse van hoe systemen van dominantie, zoals het kapitalisme, zichzelf in stand houden. Hij onderscheidde een repressief staatsapparaat — instituties als het leger en de politie die mensen met dwang in het gareel houden — van een ideologisch staatsapparaat. Dit ideologische apparaat omvat instituties zoals scholen, kerken en de media, die via overtuiging en het verspreiden van ideeën de macht in handen houden. Ideologie was voor Althusser dus een denksysteem dat mensen door middel van instemming en geloof in het gareel houdt, veel breder dan alleen economische rechtvaardiging.\n\nEen andere belangrijke marxist, de Italiaanse denker Antonio Gramsci, introduceerde het concept van 'hegemonie'. Hegemonie verwijst naar een theorie of een set waarden die cultureel door vrijwel iedereen als waar of vanzelfsprekend wordt aangenomen. Het ontstaat niet bewust, maar groeit organisch wanneer mensen langdurig onder een bepaalde machtsstructuur leven. Een ideologie was voor Gramsci een denksysteem dat actief streeft naar dominantie en deel wil uitmaken van die hegemonie. Opvallend is dat deze denkers de term 'ideologie' niet langer uitsluitend negatief gebruikten, maar ook als een neutraler begrip om politieke tradities en groepen te analyseren.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat ideologie binnen het marxisme evolueerde van een instrument van onderdrukking naar een complex begrip dat zowel de revolutionaire drijfveer als de onbewuste mechanismen van machtsuitoefening verklaart via instituties en maatschappelijke consensus.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe heeft Vladimir Lenins interpretatie het begrip 'ideologie' binnen het marxisme uitgebreid ten opzichte van Marx's oorspronkelijke focus?",
+          "opties": [
+            "Lenin benadrukte dat ideologieën essentieel zijn als leidraad voor georganiseerde revolutionaire actie van een sociale groep.",
+            "Hij zag ideologieën primair als een instrument om de bestaande repressieve staatsapparaten te versterken en te legitimeren.",
+            "Volgens Lenin was ideologie een spontaan fenomeen dat organisch groeide vanuit de werkende klasse zonder externe sturing.",
+            "Lenin betoogde dat ideologieën alleen effectief waren als ze volledig losgekoppeld waren van economische belangen en klassenstrijd."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe hebben de concepten van het 'ideologisch staatsapparaat' van Althusser en 'hegemonie' van Gramsci het inzicht in de werking van ideologie verdiept?",
+          "antwoord": "Deze concepten laten zien dat ideologie niet alleen economische uitbuiting verhult, maar ook via maatschappelijke instituties (zoals scholen en media) en culturele consensus (algemeen aanvaarde waarden) onbewust instemming en geloof creëert om machtsstructuren in stand te houden."
+        }
+      ]
+    },
+    {
+      "titel": "De ideologieën van de moderne politiek: Na de Tweede Wereldoorlog",
+      "tekst": "Voor de Tweede Wereldoorlog werd de term 'ideologie' zelden gebruikt in de politicologie. Het woord bleef te sterk verbonden met de negatieve lading die Napoleon eraan gaf, of met de specifieke analyse van Marx. Na 1945 veranderde dit echter drastisch, mede door twee grote politieke ontwikkelingen: de opkomst van de Sovjet-Unie met het communisme en de verspreiding van het fascisme in Europa.\n\nDeze ontwikkelingen schokten het geloof dat democratisering automatisch samenging met burgerrechten en een vrije markteconomie. De wereld werd gepolariseerd, en politieke partijen begonnen zichzelf steeds duidelijker te definiëren aan de hand van een partijprogramma. Begrippen als socialisme, liberalisme, conservatisme en nationalisme werden belangrijker. In deze nieuwe context begon 'ideologie' te verwijzen naar concrete manieren om een samenleving te organiseren, en verloor het zijn uitsluitend negatieve bijklank.\n\nDe Koude Oorlog versterkte dit nog verder. 'Ideologie' werd een gangbare term om politieke doctrines aan te duiden. Denkers als Hannah Arendt en Daniel Bell analyseerden de gevaren van totalitaire ideologieën. Arendt stelde in haar werk over fascisme en communisme dat ideologieën bouwplannen voor de samenleving zijn, die politieke actoren motiveren tot handelen. Wanneer deze bouwplannen te strikt worden toegepast, gaat dit ten koste van de vrijheid van de bevolking; iedere ideologie draagt zo een kiem van totalitarisme in zich. Daniel Bell betoogde in *The End of Ideology* dat de Holocaust en de Koude Oorlog hadden aangetoond dat de grote ideologieën van de negentiende eeuw gefaald hadden, omdat aanhangers de wereld te veel vanuit hun eigen theorieën bekeken.\n\nParadoxaal genoeg legitimeerden deze kritische analyses het concept 'ideologie' in de politicologie. De term kreeg een meer neutrale, analytische betekenis: een theorie om een samenleving te structureren, aangehangen door een groep mensen die zich vaak politiek organiseren in een partij. Tegenwoordig worden ideologische posities zelfs vaak weergegeven op een assenstelsel, waardoor politicologen politiek denken en handelen wiskundig kunnen benaderen.",
+      "kernpunt": "Na deze sectie begrijpt de lezer hoe 'ideologie' na de Tweede Wereldoorlog een neutrale, analytische term werd binnen de politieke wetenschappen om verschillende politieke denkrichtingen en hun maatschappelijke blauwdrukken te beschrijven, ondanks kritieken op de gevaren van dogmatisch ideologisch denken.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1914",
-          "gebeurtenis": "Uitbraak van de Eerste Wereldoorlog, wat leidde tot vertragingen en kostenstijgingen bij de aanleg."
-        },
-        {
-          "jaar": "1915",
-          "gebeurtenis": "De eerste tram rijdt op de lijn tussen Winschoten en Ter Apel."
-        },
-        {
-          "jaar": "1917",
-          "gebeurtenis": "De paardentramlijn naar Bellingwolde wordt omgebouwd en verzwaard voor stoomtrams."
-        },
-        {
-          "jaar": "1919",
-          "gebeurtenis": "De lijn van Winschoten naar Delfzijl wordt geopend."
+          "jaar": "1945",
+          "gebeurtenis": "Verandering in het gebruik van 'ideologie' na de Tweede Wereldoorlog"
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe beïnvloedde de Eerste Wereldoorlog de ontwikkeling van het tramnetwerk van de OG, en welke veerkracht toonde de maatschappij desondanks?",
-          "antwoord": "De oorlog vertraagde de aanleg aanzienlijk en verhoogde de kosten voor materialen en materieel. Ondanks deze tegenslagen wist de OG toch de eerste lijn in 1915 te openen en het netwerk in de jaren daarna gestaag uit te breiden."
+          "vraag": "Hoe heeft de naoorlogse politieke context, met name na 1945, de status van 'ideologie' binnen de politicologie getransformeerd?",
+          "antwoord": "Door de opkomst van totalitaire systemen zoals communisme en fascisme werd 'ideologie' een neutrale, analytische term om de verschillende politieke denkrichtingen en hun maatschappelijke 'bouwplannen' te beschrijven, los van de eerdere negatieve connotaties."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom waren rolwagens nodig voor de tramlijn naar Delfzijl, en wat zegt dit over de aanpak van de OG bij technische uitdagingen?",
+          "vraag": "Waarom droegen de kritische analyses van denkers zoals Hannah Arendt en Daniel Bell paradoxaal genoeg bij aan de legitimering van 'ideologie' als concept in de politicologie?",
           "opties": [
-            "Rolwagens waren nodig omdat de tramlijnen van de OG te zwaar waren voor het reguliere spoor in Delfzijl.",
-            "Het havenspoor in Delfzijl had een bredere spoorwijdte, waardoor rolwagens werden ingezet om de smallere OG-wagons toch te kunnen verplaatsen, wat duidt op een praktische oplossing voor incompatibiliteit.",
-            "Rolwagens werden gebruikt om de tramwagons over water te vervoeren naar andere havens, wat de flexibiliteit van de OG benadrukte.",
-            "De OG gebruikte rolwagens om kosten te besparen op de aanleg van een volledig nieuw spoor met de juiste breedte in Delfzijl."
+            "Hun werk toonde aan dat ideologieën, hoewel potentieel gevaarlijk, onmisbaar waren voor het begrijpen en categoriseren van politieke systemen en motieven.",
+            "Zij beweerden dat alle ideologieën uiteindelijk zouden verdwijnen, waardoor de term bruikbaar werd om historische fenomenen te beschrijven.",
+            "Hun kritiek was zo vernietigend dat het woord 'ideologie' zijn negatieve lading volledig verloor, waardoor het neutraal werd.",
+            "Zij pleitten voor de ontwikkeling van nieuwe, veilige ideologieën die geen totalitaire trekken zouden vertonen."
           ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         }
       ]
     },
     {
-      "titel": "De opkomst en de bijnaam 'Ol' Graitje'",
-      "tekst": "Na de aanleg bereikte het vervoer per stoomtram in 1924 een hoogtepunt. De financiële realiteit was echter minder rooskleurig. Door de gestegen kosten na de Eerste Wereldoorlog was de exploitatie van de tramlijnen vrijwel nooit winstgevend. Alleen in het oorlogsjaar 1943 boekte de OG een positief resultaat. Na 1924 zette de neergang in. De tramlijnen, vaak enkelspoor en langs de kant van de weg aangelegd, lieten geen hoge snelheden toe. Dit gaf de OG-tram de bijnaam \"Ol’ Graitje\", Gronings voor \"Ouwe Grietje\", wat duidde op haar trage voortgang.\n\nHet materieel, inclusief de in 1922-1923 aangeschafte Linke-Hofmann locomotieven, bleek ook niet ideaal. Deze locomotieven waren te zwaar voor het lichte spoor en de vele bochten van het OG-netwerk, waardoor ze regelmatig defect raakten en de dienstregeling verstoorden. De vierassige rijtuigen van Beijnes hadden weliswaar goede rijeigenschappen bij hogere snelheden, maar die konden op de hobbelige baan niet benut worden.\n\nIn 1931 begon de OG met de aanschaf van autobussen. Dit bleek een keerpunt. In 1936 werd al het reguliere personenvervoer per bus verzorgd. De personentram reed alleen nog voor speciale gelegenheden, zoals excursies naar het Dierenpark Emmen of boottochten naar Borkum vanuit Delfzijl. Tijdens de Tweede Wereldoorlog beleefde het personenvervoer per stoomtram een onverwachte opleving. Veel bussen werden door de Duitse bezetter gevorderd en er was een tekort aan brandstof. Omdat steenkool volop beschikbaar was, kregen de stoomtrams een tijdelijke nieuwe rol. Na de bevrijding bleek deze opleving echter van korte duur. De OG, die altijd al een wat ambtelijke en weinig flexibele organisatie was geweest, kon zich niet snel genoeg aanpassen aan de veranderende tijden.",
-      "kernpunt": "De OG-trams, bijgenaamd 'Ol' Graitje' vanwege hun trage voortgang, kampten met structurele onrendabiliteit en operationele beperkingen, wat leidde tot de geleidelijke vervanging door autobussen en een uiteindelijke neergang.",
+      "titel": "Een veelstemmig begrip: De gelaagde betekenissen van ideologie",
+      "tekst": "De reis van het begrip 'ideologie' door de geschiedenis heeft geresulteerd in een complex web van betekenissen. Wat begon als een wetenschappelijke droom, veranderde in een politiek wapen en evolueerde vervolgens tot een breed analytisch instrument. Deze verschillende interpretaties bestaan vaak naast elkaar, waardoor de term gelaagd en soms verwarrend is.\n\nZo is er nog steeds de oorspronkelijke betekenis van Destutt de Tracy: de 'wetenschap van het ontstaan, de verandering en de aard van ideeën'. Deze definitie wordt echter zelden meer gebruikt. De visie van Karl Marx, waarin ideologie een denksysteem is dat de onderdrukking van de werkende klasse rechtvaardigt, is daarentegen nog steeds gangbaar onder marxisten. Daarnaast kennen we de betekenis die na de Tweede Wereldoorlog populair werd in de politieke wetenschappen: het geheel van gedeelde opvattingen, doelen en belangen die gearticuleerd worden binnen een breder wereldbeeld of een theorie over het goede leven. Dit is de definitie die we vaak associëren met politieke tradities en partijen, herkenbaar aan het achtervoegsel '-isme', zoals liberalisme of socialisme.\n\nEen andere gangbare, meer analytische invulling is het plaatsen van ideologische posities op een assenstelsel. Dit stelt onderzoekers in staat om politieke opvattingen te kwantificeren en de afstand tussen standpunten te meten. Michael Freeden, een vooraanstaand ideologieonderzoeker, vat dit samen door te stellen dat ideologieën geen statisch geheel vormen, maar een dynamische reeks concepten die in de tijd veranderen. Hij onderscheidt kernconcepten, die essentieel zijn voor een ideologie, van margeconcepten, die minder bepalend zijn.\n\nDeze veelheid aan definities toont aan dat 'ideologie' geen vastomlijnd begrip is, maar een levend concept dat zich aanpast aan de context waarin het wordt gebruikt. Het blijft een krachtig instrument om te begrijpen hoe mensen de wereld interpreteren, hoe zij maatschappelijke structuren legitimeren of bekritiseren, en hoe zij politiek handelen.",
+      "kernpunt": "Na deze sectie begrijpt de lezer dat 'ideologie' door de geschiedenis heen verschillende, soms tegenstrijdige, betekenissen heeft gekregen, waardoor het een gelaagd en dynamisch begrip is dat zowel specifieke politieke overtuigingen als bredere maatschappelijke denkkaders omvat.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1924",
-          "gebeurtenis": "Het vervoer per stoomtram bereikt een hoogtepunt."
-        },
-        {
-          "jaar": "1931",
-          "gebeurtenis": "De OG begint met de aanschaf van autobussen."
-        },
-        {
-          "jaar": "1936",
-          "gebeurtenis": "Al het reguliere personenvervoer wordt per bus verzorgd."
-        },
-        {
-          "jaar": "1943",
-          "gebeurtenis": "Het enige oorlogsjaar waarin de OG een positief financieel resultaat boekt."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe droegen de operationele kenmerken van het OG-tramnetwerk bij aan de bijnaam 'Ol' Graitje' en de structurele onrendabiliteit van de maatschappij?",
-          "antwoord": "Het netwerk bestond voornamelijk uit enkelspoor langs de openbare weg, wat hoge snelheden verhinderde en de trams traag maakte, vandaar de bijnaam. Deze lage efficiëntie, samen met te zware locomotieven voor het lichte spoor en hoge kosten na de Eerste Wereldoorlog, zorgde ervoor dat de exploitatie zelden winstgevend was."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Waarom besloot de OG in 1931 autobussen aan te schaffen en uiteindelijk het reguliere personenvervoer volledig over te schakelen op bussen?",
-          "opties": [
-            "De OG wilde moderniseren en was verplicht om autobussen te gebruiken van de overheid.",
-            "De stoomtrams waren te langzaam, onrendabel en kampten met technische problemen, waardoor bussen een efficiënter en flexibeler alternatief boden voor personenvervoer.",
-            "Er was een overschot aan steenkool, waardoor de exploitatie van stoomtrams onbetaalbaar werd vergeleken met benzinebussen.",
-            "De reizigers vroegen expliciet om bussen omdat ze de nostalgie van de stoomtram beu waren."
-          ],
-          "correcteIndex": 1
-        }
-      ]
-    },
-    {
-      "titel": "Het definitieve einde en een tastbare herinnering",
-      "tekst": "Het tijdelijke herstel van de stoomtram tijdens de oorlog kon het onafwendbare einde van de OG niet keren. In 1948 kreeg de Stoomtramweg-Maatschappij Oostelijk Groningen geen concessie meer. Een concessie is een vergunning van de overheid om een openbare dienst, in dit geval buslijnen, te mogen exploiteren. Zonder deze vergunning moesten de diensten op 12 mei van dat jaar worden stopgezet. Het merendeel van de lijnen werd overgenomen door de GADO te Hoogezand, een dochteronderneming van de Nederlandse Spoorwegen. Een kleiner, noordelijk traject ging naar de particuliere busonderneming DAM.\n\nNa het stopzetten van de diensten ging de onderneming in liquidatie, een proces waarbij de bezittingen van een bedrijf worden verkocht en de schulden worden afgelost, om uiteindelijk het bedrijf te beëindigen. Dit proces duurde tot 1953. De trams verdwenen echter niet direct van het Groningse landschap. Tot 1950 bleven ze zand vervoeren van de eigen zandwinning bij Veele naar Winschoten, bestemd voor de aanleg van de toenmalige Rijksweg 42. Dit was de laatste, utilitaire functie van de eens zo ambitieuze stoomtrammaatschappij.\n\nVandaag de dag herinneren enkele stukken materieel aan de geschiedenis van de OG. Goederenwagen E 102 en rijtuig 27 bevinden zich in de verzameling van de Museumstoomtram Hoorn - Medemblik. De goederenwagen is nog bedrijfsvaardig, wat betekent dat hij nog kan rijden en functioneren. Rijtuig 27 is dat niet meer. Andere wagens, de E 81 en E 93, zijn bewaard gebleven bij Kleinbaan Service B.V. in Winschoten, de stad waar het allemaal begon. Deze overblijfselen zijn stille getuigen van een tijd waarin de stoomtram Oost-Groningen in beweging bracht.",
-      "kernpunt": "De OG kwam definitief tot een einde in 1948 door het verlies van de busconcessie, maar haar legacy leeft voort in enkele bewaard gebleven wagons die herinneren aan haar rol in de ontsluiting van Oost-Groningen.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1948",
-          "gebeurtenis": "De Stoomtramweg-Maatschappij Oostelijk Groningen krijgt geen busconcessie meer, wat leidt tot het stopzetten van diensten op 12 mei."
-        },
-        {
-          "jaar": "1950",
-          "gebeurtenis": "Trams vervoeren voor de laatste keer zand van Veele naar Winschoten voor de aanleg van de Rijksweg 42."
-        },
-        {
-          "jaar": "1953",
-          "gebeurtenis": "Het liquidatieproces van de onderneming wordt afgerond."
-        }
-      ],
+      "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe leidde het verlies van de busconcessie in 1948 tot het definitieve einde van de Stoomtramweg-Maatschappij Oostelijk Groningen?",
+          "vraag": "Hoe manifesteert de gelaagde aard van 'ideologie' zich in de hedendaagse toepassing van het begrip?",
           "opties": [
-            "Zonder de concessie mocht de OG geen trams meer exploiteren, wat de sluiting van alle tramlijnen veroorzaakte.",
-            "Het verlies van de concessie betekende dat de OG haar belangrijkste inkomstenbron, het openbaar busvervoer, kwijtraakte, waardoor de maatschappij gedwongen werd haar activiteiten te staken en in liquidatie te gaan.",
-            "De overheid nam alle bezittingen van de OG over nadat de concessie was ingetrokken, waardoor de maatschappij ophield te bestaan.",
-            "Het verlies van de concessie was slechts een formaliteit; de OG was al failliet door de oorlogsschade en kon daarom geen nieuwe vergunning krijgen."
+            "Het wordt tegelijkertijd gebruikt als een wetenschap van ideeën, een rechtvaardiging voor onderdrukking, en een neutrale beschrijving van politieke denkrichtingen.",
+            "Alle eerdere betekenissen zijn inmiddels vervangen door één dominante, universeel aanvaarde definitie in de politicologie.",
+            "De term wordt alleen nog gebruikt in de context van de Koude Oorlog en totalitaire regimes.",
+            "De dynamiek van het begrip betekent dat het vandaag de dag geen enkele specifieke betekenis meer heeft en willekeurig wordt toegepast."
           ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Op welke manier blijft de nalatenschap van de OG vandaag de dag nog tastbaar, en wat vertelt dit over haar historische betekenis?",
-          "antwoord": "De nalatenschap blijft tastbaar door de conservatie van enkele wagons, zoals goederenwagen E 102 en rijtuig 27 bij de Museumstoomtram Hoorn - Medemblik, en wagens E 81 en E 93 bij Kleinbaan Service B.V. Deze overblijfselen dienen als herinnering aan de essentiële rol die de OG speelde in het ontsluiten van Oost-Groningen."
+          "vraag": "Waarom is het moeilijk om een eenduidige, statische definitie van 'ideologie' te formuleren?",
+          "antwoord": "Het begrip heeft door de geschiedenis heen diverse, soms conflicterende interpretaties gekend, variërend van een wetenschappelijke ambitie tot een politiek wapen en een analytisch instrument, waardoor het zich voortdurend aanpast aan de context waarin het wordt gebruikt."
         }
       ]
     }
   ],
-  "categorie": "OG Trammaatschappij",
-  "categorieKleur": "#82d4b0",
-  "datum": "2026-06-22"
+  "categorie": "Ideologie",
+  "categorieKleur": "#7cb9e8",
+  "datum": "2026-06-25"
 }
