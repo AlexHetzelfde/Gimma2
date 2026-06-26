@@ -1,148 +1,117 @@
 {
-  "titel": "Ideologie",
+  "titel": "Geografie van Tsjechië",
   "secties": [
     {
-      "titel": "De geboorte van een wetenschap: De droom van Destutt de Tracy",
-      "tekst": "Het woord 'ideologie' klinkt ons vandaag de dag bekend in de oren. We associëren het vaak met politieke partijen of diepgewortelde overtuigingen. Maar de term begon zijn leven in 1796, in het Frankrijk van de Verlichting, als een ambitieus wetenschappelijk project.\n\nAntoine-Louis-Claude Destutt de Tracy, een filosoof, introduceerde 'ideologie' als de 'wetenschap van ideeën'. Hij geloofde dat er een nieuwe discipline nodig was die de aard, de evolutie en het ontstaan van menselijke gedachten zou ontrafelen. Dit moest de basis vormen voor alle andere wetenschappen, de 'koningin' die inzicht gaf in de 'wetmatigheden van het denken'. Zijn grote werk, *Eléments d’idéologie*, legde de fundamenten voor deze wetenschap en paste haar principes toe op uiteenlopende gebieden als logica, moraliteit en economie.\n\nDestutt de Tracy was echter meer dan een neutrale wetenschapper; hij was een vurig pleitbezorger van vrijhandel, mensenrechten en een beperking van de macht van de overheid. Zijn 'wetenschap' was dus ook een politieke beweging. Aanvankelijk steunde Napoleon Bonaparte, de toenmalige Franse leider, de ideologen, omdat zij zijn regime een wetenschappelijke legitimatie konden bieden. Maar toen de ideologen kritiek begonnen te uiten op Napoleons beleid, keerde het tij. Na een mislukte staatsgreep, waarbij enkele ideologen betrokken waren, begon Napoleon de term 'idéologue' te gebruiken als een scheldwoord. Voor hem waren ideologen naïeve idealisten, die zich lieten leiden door abstracte theorieën en wars waren van de praktische realiteit. Deze negatieve betekenis verspreidde zich vervolgens over heel Europa en kleurde het begrip voor lange tijd.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat het begrip 'ideologie' begon als een wetenschappelijke ambitie om ideeën te doorgronden, maar al snel een negatieve bijklank kreeg door politieke inmenging van Napoleon Bonaparte.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1796",
-          "gebeurtenis": "Introductie van de term 'ideologie' door Destutt de Tracy"
-        }
-      ],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe heeft de politieke context van het Franse keizerrijk bijgedragen aan de negatieve perceptie van de term 'ideologie' in Europa?",
-          "opties": [
-            "Napoleon Bonaparte gebruikte 'ideoloog' als een scheldwoord, omdat de aanhangers van de ideologie kritiek hadden op zijn beleid en hij hen als naïef beschouwde.",
-            "Destutt de Tracy's theorieën waren te abstract en onpraktisch, waardoor het volk de term al snel als nutteloos ging zien.",
-            "De ideologen probeerden Napoleon omver te werpen, wat leidde tot een algemeen wantrouwen tegen elke vorm van georganiseerd denken.",
-            "De wetenschappelijke benadering van ideeën was in strijd met de religieuze opvattingen van die tijd, wat resulteerde in maatschappelijke afkeuring."
-          ],
-          "correcteIndex": 0
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Hoe stelde Destutt de Tracy zich de rol van 'ideologie' voor als een nieuwe wetenschappelijke discipline?",
-          "antwoord": "Hij zag het als de fundamentele wetenschap die de aard, ontwikkeling en oorsprong van menselijke gedachten zou blootleggen, dienend als basis voor alle andere wetenschappelijke disciplines."
-        }
-      ]
-    },
-    {
-      "titel": "Klassenstrijd en de rechtvaardiging van ongelijkheid: Marx's blik op ideologie",
-      "tekst": "De negatieve connotatie die Napoleon aan 'ideologie' gaf, vond weerklank bij een andere invloedrijke denker: Karl Marx. Hoewel Marx de werken van Destutt de Tracy kende, nam hij waarschijnlijk Napoleons denigrerende gebruik van de term over. Voor Marx was ideologie geen neutrale wetenschap, maar een krachtig instrument in de maatschappelijke klassenstrijd.\n\nMarx analyseerde de samenleving als een strijdtoneel tussen verschillende economische groepen, of sociale klassen. De twee belangrijkste waren de bourgeoisie, de bezitters van de productiemiddelen — zoals fabrieken en grond — en het proletariaat, de werkende klasse die hun arbeid moest verkopen om te overleven. Volgens Marx werden de arbeiders in deze relatie structureel benadeeld en uitgebuit. De bourgeoisie, de heersende klasse, verspreidde denksystemen die de ongelijke en uitbuitende relaties tussen de klassen goedpraatten. Deze denksystemen noemde Marx 'ideologieën'.\n\nEen ideologie, in Marx's ogen, diende dus om de spanningen in een maatschappij te verhullen en de bestaande machtsverhoudingen te legitimeren. Het was een vorm van vals bewustzijn, dat het proletariaat ervan weerhield in opstand te komen tegen hun economische achterstelling. Deze visie verankerde 'ideologie' stevig in de context van maatschappelijke macht en ongelijkheid, ver verwijderd van Destutt de Tracy's oorspronkelijke wetenschappelijke aspiraties.",
-      "kernpunt": "Na deze sectie begrijpt de lezer hoe Karl Marx het begrip 'ideologie' gebruikte om te verklaren hoe machtige groepen hun positie rechtvaardigen en sociale ongelijkheid in stand houden door theorieën te verspreiden die de uitbuiting verhullen.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe verklaarde Karl Marx dat ideologieën bijdragen aan het voortbestaan van sociale ongelijkheid binnen een samenleving?",
-          "antwoord": "Marx stelde dat ideologieën denksystemen zijn die door de heersende klasse worden verspreid om de ongelijke en uitbuitende relaties tussen sociale klassen te verhullen en te legitimeren, waardoor de bestaande machtsverhoudingen in stand blijven."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Waarom beschouwde Marx ideologie als een vorm van 'vals bewustzijn' voor de werkende klasse?",
-          "opties": [
-            "Het verhinderde het proletariaat om de ware aard van hun economische uitbuiting te doorgronden en zich daartegen te verzetten.",
-            "Het was een wetenschappelijke theorie die de werkelijkheid niet correct weergaf, in tegenstelling tot zijn eigen analyse.",
-            "De ideologieën waren te complex voor de arbeiders om te begrijpen, wat leidde tot verwarring.",
-            "Het was een bewuste misleiding door de bourgeoisie om het proletariaat te indoctrineren met leugens."
-          ],
-          "correcteIndex": 0
-        }
-      ]
-    },
-    {
-      "titel": "Van instrument tot lens: Ideologie in het marxisme en daarbuiten",
-      "tekst": "Marx's ideeën over ideologie vormden de basis voor het marxisme, een politieke traditie die in de twintigste eeuw een diepgaande invloed had. Binnen deze stroming bleef het concept van ideologie een centrale rol spelen, maar het kreeg ook nieuwe nuanceringen. Het werd niet langer uitsluitend gezien als een instrument van onderdrukking, maar ook als een leidraad voor revolutionair handelen of een mechanisme voor maatschappelijke beheersing.\n\nVladimir Lenin, de eerste leider van de Sovjet-Unie, definieerde ideologie bijvoorbeeld als het denksysteem dat de revolutionaire actie van een sociaaleconomische groep vormgeeft. Hij geloofde dat eerdere revoluties mislukten omdat het proletariaat, de werkende klasse, geen duidelijke ideologie had. Daarom pleitte hij voor een voorhoedepartij, bestaande uit intellectuelen, die een coherente ideologie aan het proletariaat zou opleggen om de revolutie te sturen.\n\nLater verdiepte de Franse filosoof Louis Althusser de analyse van hoe systemen van dominantie, zoals het kapitalisme, zichzelf in stand houden. Hij onderscheidde een repressief staatsapparaat — instituties als het leger en de politie die mensen met dwang in het gareel houden — van een ideologisch staatsapparaat. Dit ideologische apparaat omvat instituties zoals scholen, kerken en de media, die via overtuiging en het verspreiden van ideeën de macht in handen houden. Ideologie was voor Althusser dus een denksysteem dat mensen door middel van instemming en geloof in het gareel houdt, veel breder dan alleen economische rechtvaardiging.\n\nEen andere belangrijke marxist, de Italiaanse denker Antonio Gramsci, introduceerde het concept van 'hegemonie'. Hegemonie verwijst naar een theorie of een set waarden die cultureel door vrijwel iedereen als waar of vanzelfsprekend wordt aangenomen. Het ontstaat niet bewust, maar groeit organisch wanneer mensen langdurig onder een bepaalde machtsstructuur leven. Een ideologie was voor Gramsci een denksysteem dat actief streeft naar dominantie en deel wil uitmaken van die hegemonie. Opvallend is dat deze denkers de term 'ideologie' niet langer uitsluitend negatief gebruikten, maar ook als een neutraler begrip om politieke tradities en groepen te analyseren.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat ideologie binnen het marxisme evolueerde van een instrument van onderdrukking naar een complex begrip dat zowel de revolutionaire drijfveer als de onbewuste mechanismen van machtsuitoefening verklaart via instituties en maatschappelijke consensus.",
+      "titel": "Een Land Omzoomd door Bergen",
+      "tekst": "Tsjechië ligt, als een landinwaartse natie — dat wil zeggen, volledig door land omgeven en zonder directe toegang tot de zee — diep verankerd in Centraal-Europa. De grenzen worden grotendeels gevormd door natuurlijke barrières: gebergten die het land een natuurlijke omwalling geven. Langs de zuidwestgrens strekt zich het Bohemer Woud uit, terwijl in het noordwesten het Ertsgebergte ligt. In het noorden bepalen de Sudeten, met daarin het Reuzengebergte, de scheiding met Polen. De oostgrens, tussen Moravië en Slowakije, volgt de Karpaten, specifiek de Beskiden en Witte Karpaten. Alleen de zuidgrens met Oostenrijk wordt voornamelijk gemarkeerd door een rivier, de Thaya.\n\nDeze bergketens omsluiten drie historische deelregio’s die de identiteit van Tsjechië bepalen: Bohemen in het westen, Moravië in het oosten en het kleinere Tsjechisch Silezië in het noordoosten. Centraal op de grens van Bohemen en Moravië ligt de Boheems-Moravische Hoogvlakte, een glooiend landschap dat de overgang tussen deze twee grotere gebieden markeert. Deze geografische omkadering heeft de ontwikkeling van het land door de eeuwen heen mede vormgegeven. Het bood een zekere bescherming, maar maakte het ook afhankelijk van verbindingen over land.",
+      "kernpunt": "De lezer begrijpt dat Tsjechië een door bergen omzoomd land in Centraal-Europa is, opgedeeld in drie historische regio's, wat de geografische identiteit vormt.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe heeft Vladimir Lenins interpretatie het begrip 'ideologie' binnen het marxisme uitgebreid ten opzichte van Marx's oorspronkelijke focus?",
+          "vraag": "Hoe dragen de natuurlijke bergbarrières van Tsjechië bij aan de vorming van zijn geografische en historische identiteit?",
           "opties": [
-            "Lenin benadrukte dat ideologieën essentieel zijn als leidraad voor georganiseerde revolutionaire actie van een sociale groep.",
-            "Hij zag ideologieën primair als een instrument om de bestaande repressieve staatsapparaten te versterken en te legitimeren.",
-            "Volgens Lenin was ideologie een spontaan fenomeen dat organisch groeide vanuit de werkende klasse zonder externe sturing.",
-            "Lenin betoogde dat ideologieën alleen effectief waren als ze volledig losgekoppeld waren van economische belangen en klassenstrijd."
+            "Ze bieden bescherming en bepalen de grenzen van de drie historische regio's.",
+            "Ze vergemakkelijken de handel en zorgen voor open verbindingen met buurlanden.",
+            "Ze creëren een uniforme cultuur en voorkomen regionale verschillen.",
+            "Ze zorgen voor een directe toegang tot de zee, wat de handel stimuleert."
           ],
           "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Hoe hebben de concepten van het 'ideologisch staatsapparaat' van Althusser en 'hegemonie' van Gramsci het inzicht in de werking van ideologie verdiept?",
-          "antwoord": "Deze concepten laten zien dat ideologie niet alleen economische uitbuiting verhult, maar ook via maatschappelijke instituties (zoals scholen en media) en culturele consensus (algemeen aanvaarde waarden) onbewust instemming en geloof creëert om machtsstructuren in stand te houden."
+          "vraag": "Waarom is de geografische omkadering van Tsjechië, met zijn bergketens en historische regio's, essentieel voor het begrijpen van de nationale identiteit?",
+          "antwoord": "De omliggende bergketens hebben door de eeuwen heen een natuurlijke bescherming geboden en de grenzen van de drie distinctieve historische deelregio's (Bohemen, Moravië, Tsjechisch Silezië) afgebakend, waardoor de unieke culturele en historische ontwikkeling van elk gebied is beïnvloed en de nationale identiteit is gevormd."
         }
       ]
     },
     {
-      "titel": "De ideologieën van de moderne politiek: Na de Tweede Wereldoorlog",
-      "tekst": "Voor de Tweede Wereldoorlog werd de term 'ideologie' zelden gebruikt in de politicologie. Het woord bleef te sterk verbonden met de negatieve lading die Napoleon eraan gaf, of met de specifieke analyse van Marx. Na 1945 veranderde dit echter drastisch, mede door twee grote politieke ontwikkelingen: de opkomst van de Sovjet-Unie met het communisme en de verspreiding van het fascisme in Europa.\n\nDeze ontwikkelingen schokten het geloof dat democratisering automatisch samenging met burgerrechten en een vrije markteconomie. De wereld werd gepolariseerd, en politieke partijen begonnen zichzelf steeds duidelijker te definiëren aan de hand van een partijprogramma. Begrippen als socialisme, liberalisme, conservatisme en nationalisme werden belangrijker. In deze nieuwe context begon 'ideologie' te verwijzen naar concrete manieren om een samenleving te organiseren, en verloor het zijn uitsluitend negatieve bijklank.\n\nDe Koude Oorlog versterkte dit nog verder. 'Ideologie' werd een gangbare term om politieke doctrines aan te duiden. Denkers als Hannah Arendt en Daniel Bell analyseerden de gevaren van totalitaire ideologieën. Arendt stelde in haar werk over fascisme en communisme dat ideologieën bouwplannen voor de samenleving zijn, die politieke actoren motiveren tot handelen. Wanneer deze bouwplannen te strikt worden toegepast, gaat dit ten koste van de vrijheid van de bevolking; iedere ideologie draagt zo een kiem van totalitarisme in zich. Daniel Bell betoogde in *The End of Ideology* dat de Holocaust en de Koude Oorlog hadden aangetoond dat de grote ideologieën van de negentiende eeuw gefaald hadden, omdat aanhangers de wereld te veel vanuit hun eigen theorieën bekeken.\n\nParadoxaal genoeg legitimeerden deze kritische analyses het concept 'ideologie' in de politicologie. De term kreeg een meer neutrale, analytische betekenis: een theorie om een samenleving te structureren, aangehangen door een groep mensen die zich vaak politiek organiseren in een partij. Tegenwoordig worden ideologische posities zelfs vaak weergegeven op een assenstelsel, waardoor politicologen politiek denken en handelen wiskundig kunnen benaderen.",
-      "kernpunt": "Na deze sectie begrijpt de lezer hoe 'ideologie' na de Tweede Wereldoorlog een neutrale, analytische term werd binnen de politieke wetenschappen om verschillende politieke denkrichtingen en hun maatschappelijke blauwdrukken te beschrijven, ondanks kritieken op de gevaren van dogmatisch ideologisch denken.",
+      "titel": "Waar Rivieren Drie Zeeën Voeden",
+      "tekst": "Ondanks de landinwaartse ligging functioneert Tsjechië als een hydrologisch knooppunt. Een aantal grote rivieren ontspringt hier; hun wateren vinden uiteindelijk een weg naar drie verschillende Europese zeeën. De Elbe, bijvoorbeeld, begint haar reis in het Reuzengebergte en stroomt via Duitsland naar de Noordzee. De Moldau, de langste rivier van Tsjechië, verzamelt water van zijrivieren — kleinere waterlopen die uitmonden in een grotere rivier — zoals de Berounka en Sázava, voordat zij bij Mělník in de Elbe uitmondt. Haar stroomgebied — het totale oppervlak waarbinnen al het water naar één rivier stroomt — beslaat een groot deel van Bohemen.\n\nIn Moravië ontspringt de Morava, die zuidwaarts stroomt en uiteindelijk bij het drielandenpunt met Oostenrijk en Slowakije de Thaya opneemt. Het water van de Morava bereikt via de Donau de Zwarte Zee. Ten slotte vindt de Oder, die eveneens in Moravië ontspringt, haar weg naar het noorden en mondt uit in de Oostzee. Deze verdeling van stroomgebieden betekent dat de regen die op de Tsjechische bergen valt, bijdraagt aan de waterhuishouding van een groot deel van Europa. Het laagste punt van het land, Hřensko op 115 meter hoogte, markeert precies de plek waar de Elbe Tsjechië verlaat, als een poort naar de zee.",
+      "kernpunt": "De lezer leert hoe de Tsjechische rivieren, ondanks de landinwaartse ligging, het land verbinden met drie verschillende Europese zeeën, wat de hydrologische betekenis van de regio benadrukt.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe kan Tsjechië, ondanks zijn ligging ver van de kust, een cruciaal hydrologisch knooppunt zijn voor Europa?",
+          "antwoord": "Belangrijke rivieren zoals de Elbe, Morava en Oder ontspringen in Tsjechië en voeren hun water af naar respectievelijk de Noordzee, Zwarte Zee en Oostzee, waardoor het land een centrale rol speelt in de waterhuishouding van een groot deel van het continent."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Waarom is de verdeling van de Tsjechische stroomgebieden over drie verschillende Europese zeeën van grote betekenis voor de regio?",
+          "opties": [
+            "Het zorgt voor een directe toegang tot de zee voor de scheepvaart en handel.",
+            "Het benadrukt de centrale ligging van het land als een bron van water voor een breed Europees gebied.",
+            "Het garandeert dat alle delen van Tsjechië een gematigd zeeklimaat hebben.",
+            "Het voorkomt overstromingen door het water snel naar de oceanen te leiden."
+          ],
+          "correcteIndex": 1
+        }
+      ]
+    },
+    {
+      "titel": "Het Klimaat: Van Dal tot Bergtop",
+      "tekst": "De geografische ligging van Tsjechië, ver van de invloed van oceanen en omgeven door bergen, bepaalt een Midden-Europees klimaat met een steeds sterker continentaal karakter — een klimaat met grote temperatuurverschillen tussen zomer en winter — naarmate men oostwaarts reist. In de beschutte dalen van Bohemen valt doorgaans weinig neerslag, zo'n 450 tot 650 millimeter per jaar. Hier overheerst een stabieler weerpatroon.\n\nHogerop in de bergen, waar de Sneeuwkop met 1.602 meter het hoogste punt van Tsjechië vormt, is het klimaat aanzienlijk anders. Hier valt met 1000 tot 2000 millimeter veel meer regen en sneeuw. De winters zijn er lang en koud, met temperaturen die in januari tot min 6°C kunnen dalen, en de sneeuw blijft vaak tot ver in de lente liggen. Deze smeltende sneeuw zorgt ervoor dat rivieren in het voorjaar hun maximale waterpeil bereiken. De zomers kunnen in de lager gelegen steden, zoals Praag, temperaturen boven de 30 graden Celsius kennen, terwijl de berggebieden dan een mildere 11 graden Celsius ervaren. De temperatuurverschillen tussen dal en bergtop zijn dus aanzienlijk, en bepalen sterk de leefomstandigheden en de natuurlijke omgeving.",
+      "kernpunt": "De lezer begrijpt dat Tsjechië een Midden-Europees klimaat kent dat varieert van stabiel in de dalen tot winters met veel sneeuw in de bergen, beïnvloed door de oost-west ligging en hoogteverschillen.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe beïnvloeden de geografische kenmerken van Tsjechië de variatie in zijn Midden-Europese klimaat?",
+          "opties": [
+            "De nabijheid van de oceanen zorgt voor milde, vochtige winters in alle regio's.",
+            "De omringende bergen en de oost-west ligging creëren aanzienlijke temperatuur- en neerslagverschillen tussen dalen en bergtoppen.",
+            "Een uniform landschap resulteert in een gelijkmatig klimaat met weinig seizoensgebonden verschillen.",
+            "De grote rivieren brengen warm zeewater landinwaarts, wat de winters verzacht."
+          ],
+          "correcteIndex": 1
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom ervaren de berggebieden van Tsjechië, zoals rond de Sneeuwkop, significant andere weersomstandigheden dan de lager gelegen dalen?",
+          "antwoord": "De grotere hoogte in de bergen leidt tot lagere temperaturen en aanzienlijk meer neerslag (regen en sneeuw), wat resulteert in lange, koude winters en een langdurige sneeuwbedekking, in tegenstelling tot de stabielere en drogere omstandigheden in de beschutte dalen."
+        }
+      ]
+    },
+    {
+      "titel": "Praag: Hart van een Bestuurlijke Mozaïek",
+      "tekst": "Binnen deze natuurlijke kaders heeft Tsjechië een bestuurlijke indeling die het dagelijks leven organiseert. Het land is bestuurlijk verdeeld in veertien regio's, lokaal 'kraj' genoemd, die op hun beurt weer zijn onderverdeeld in gemeenten. Tussen deze lagen bestaan de districten, of 'okresy', die hoewel officieel afgeschaft in 2003, nog steeds een rol spelen in de gebiedsindeling en het lokale bestuur.\n\nDe hoofdstad Praag neemt hierin een bijzondere positie in. Als grootste stad van Tsjechië, met meer dan een miljoen inwoners, is Praag de enige stad die tegelijkertijd fungeert als gemeente, district én regio. De stad is niet ingedeeld in reguliere gemeenten, maar in 22 administratieve districten — beheersgebieden die de meeste taken van gemeenten uitvoeren — en 57 gemeentelijke districten. Deze structuur weerspiegelt de centrale rol van Praag als politiek, economisch en cultureel centrum. Naast Praag kent Tsjechië nog andere grote steden zoals Brno, Pilsen, Ostrava, Hradec Králové en Liberec, die elk hun eigen regionale betekenis hebben in het landschap dat wordt gevormd door bergen, rivieren en een gevarieerd klimaat.",
+      "kernpunt": "De lezer ziet hoe Tsjechië bestuurlijk is ingedeeld in regio's en gemeenten, waarbij de hoofdstad Praag een unieke en centrale positie inneemt als zowel een stad als een autonome bestuurlijke eenheid.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1945",
-          "gebeurtenis": "Verandering in het gebruik van 'ideologie' na de Tweede Wereldoorlog"
+          "jaar": "2003",
+          "gebeurtenis": "Districten ('okresy') officieel afgeschaft, maar spelen nog een rol in gebiedsindeling en lokaal bestuur."
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe heeft de naoorlogse politieke context, met name na 1945, de status van 'ideologie' binnen de politicologie getransformeerd?",
-          "antwoord": "Door de opkomst van totalitaire systemen zoals communisme en fascisme werd 'ideologie' een neutrale, analytische term om de verschillende politieke denkrichtingen en hun maatschappelijke 'bouwplannen' te beschrijven, los van de eerdere negatieve connotaties."
+          "vraag": "Hoe weerspiegelt de unieke bestuurlijke structuur van Praag de centrale rol die de stad inneemt binnen Tsjechië?",
+          "antwoord": "Praag fungeert tegelijkertijd als gemeente, district en regio, wat zijn status als politiek, economisch en cultureel middelpunt van het land benadrukt en een efficiënte organisatie van zijn omvangrijke bevolking en functies mogelijk maakt."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom droegen de kritische analyses van denkers zoals Hannah Arendt en Daniel Bell paradoxaal genoeg bij aan de legitimering van 'ideologie' als concept in de politicologie?",
+          "vraag": "Waarom is de bestuurlijke indeling van Tsjechië in 'kraj' (regio's) en gemeenten, met de bijzondere positie van Praag, belangrijk voor het functioneren van het land?",
           "opties": [
-            "Hun werk toonde aan dat ideologieën, hoewel potentieel gevaarlijk, onmisbaar waren voor het begrijpen en categoriseren van politieke systemen en motieven.",
-            "Zij beweerden dat alle ideologieën uiteindelijk zouden verdwijnen, waardoor de term bruikbaar werd om historische fenomenen te beschrijven.",
-            "Hun kritiek was zo vernietigend dat het woord 'ideologie' zijn negatieve lading volledig verloor, waardoor het neutraal werd.",
-            "Zij pleitten voor de ontwikkeling van nieuwe, veilige ideologieën die geen totalitaire trekken zouden vertonen."
+            "Het zorgt voor een strikte centralisatie van alle beslissingen in Praag, zonder regionale autonomie.",
+            "Het creëert een uniforme, niet-hiërarchische structuur die overal hetzelfde is.",
+            "Het organiseert het dagelijks leven door taken te verdelen over verschillende bestuurslagen, waarbij Praag als hoofdstad een autonome, multifunctionele eenheid vormt.",
+            "Het heeft als hoofddoel de historische deelregio's volledig af te schaffen en te vervangen door nieuwe indelingen."
           ],
-          "correcteIndex": 0
-        }
-      ]
-    },
-    {
-      "titel": "Een veelstemmig begrip: De gelaagde betekenissen van ideologie",
-      "tekst": "De reis van het begrip 'ideologie' door de geschiedenis heeft geresulteerd in een complex web van betekenissen. Wat begon als een wetenschappelijke droom, veranderde in een politiek wapen en evolueerde vervolgens tot een breed analytisch instrument. Deze verschillende interpretaties bestaan vaak naast elkaar, waardoor de term gelaagd en soms verwarrend is.\n\nZo is er nog steeds de oorspronkelijke betekenis van Destutt de Tracy: de 'wetenschap van het ontstaan, de verandering en de aard van ideeën'. Deze definitie wordt echter zelden meer gebruikt. De visie van Karl Marx, waarin ideologie een denksysteem is dat de onderdrukking van de werkende klasse rechtvaardigt, is daarentegen nog steeds gangbaar onder marxisten. Daarnaast kennen we de betekenis die na de Tweede Wereldoorlog populair werd in de politieke wetenschappen: het geheel van gedeelde opvattingen, doelen en belangen die gearticuleerd worden binnen een breder wereldbeeld of een theorie over het goede leven. Dit is de definitie die we vaak associëren met politieke tradities en partijen, herkenbaar aan het achtervoegsel '-isme', zoals liberalisme of socialisme.\n\nEen andere gangbare, meer analytische invulling is het plaatsen van ideologische posities op een assenstelsel. Dit stelt onderzoekers in staat om politieke opvattingen te kwantificeren en de afstand tussen standpunten te meten. Michael Freeden, een vooraanstaand ideologieonderzoeker, vat dit samen door te stellen dat ideologieën geen statisch geheel vormen, maar een dynamische reeks concepten die in de tijd veranderen. Hij onderscheidt kernconcepten, die essentieel zijn voor een ideologie, van margeconcepten, die minder bepalend zijn.\n\nDeze veelheid aan definities toont aan dat 'ideologie' geen vastomlijnd begrip is, maar een levend concept dat zich aanpast aan de context waarin het wordt gebruikt. Het blijft een krachtig instrument om te begrijpen hoe mensen de wereld interpreteren, hoe zij maatschappelijke structuren legitimeren of bekritiseren, en hoe zij politiek handelen.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat 'ideologie' door de geschiedenis heen verschillende, soms tegenstrijdige, betekenissen heeft gekregen, waardoor het een gelaagd en dynamisch begrip is dat zowel specifieke politieke overtuigingen als bredere maatschappelijke denkkaders omvat.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
-        {
-          "type": "multiplechoice",
-          "vraag": "Hoe manifesteert de gelaagde aard van 'ideologie' zich in de hedendaagse toepassing van het begrip?",
-          "opties": [
-            "Het wordt tegelijkertijd gebruikt als een wetenschap van ideeën, een rechtvaardiging voor onderdrukking, en een neutrale beschrijving van politieke denkrichtingen.",
-            "Alle eerdere betekenissen zijn inmiddels vervangen door één dominante, universeel aanvaarde definitie in de politicologie.",
-            "De term wordt alleen nog gebruikt in de context van de Koude Oorlog en totalitaire regimes.",
-            "De dynamiek van het begrip betekent dat het vandaag de dag geen enkele specifieke betekenis meer heeft en willekeurig wordt toegepast."
-          ],
-          "correcteIndex": 0
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Waarom is het moeilijk om een eenduidige, statische definitie van 'ideologie' te formuleren?",
-          "antwoord": "Het begrip heeft door de geschiedenis heen diverse, soms conflicterende interpretaties gekend, variërend van een wetenschappelijke ambitie tot een politiek wapen en een analytisch instrument, waardoor het zich voortdurend aanpast aan de context waarin het wordt gebruikt."
+          "correcteIndex": 2
         }
       ]
     }
   ],
-  "categorie": "Ideologie",
-  "categorieKleur": "#7cb9e8",
-  "datum": "2026-06-25"
+  "categorie": "Geografie Tsjechië",
+  "categorieKleur": "#82d4b0",
+  "datum": "2026-06-26"
 }
