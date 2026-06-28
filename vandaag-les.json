@@ -1,112 +1,134 @@
 {
-  "titel": "Nautilussen",
+  "titel": "Gardameer",
   "secties": [
     {
-      "titel": "Een Oeroud Zeil in de Diepte",
-      "tekst": "De nautilus, een naam afgeleid van het Oudgriekse woord ναυτίλος (nautilos) dat 'zeevaarder' betekent, is een weekdier dat behoort tot de inktvissen (Cephalopoda). Deze groep weekdieren omvat ook octopussen en pijlinktvissen, maar de nautilus onderscheidt zich door zijn spiraalvormige, uitwendige schelp. Terwijl de meeste inktvissen hun schelp in de loop van miljoenen jaren verloren, heeft de nautilus zijn huis behouden.\n\nVan de duizenden fossiele soorten die ooit de oceanen bevolkten, zijn er vandaag de dag slechts zes moderne soorten overgebleven. Deze dieren zijn miljoenen jaren lang vrijwel onveranderd gebleven in hun morfologie – hun uiterlijke lichaamsbouw. Wetenschappers noemen de nautilus daarom wel een 'levend fossiel'.\n\nDe nautilus leeft uitsluitend in de warmere, tropische wateren van de zuidwestelijke Grote Oceaan en de oostelijke Indische Oceaan. Overdag schuilt het dier in de diepte, tot wel 400 meter onder het wateroppervlak. Zodra de nacht valt, stijgt het langzaam op naar ondiepere delen, vaak bij koraalriffen dicht langs de kust, om op zoek te gaan naar voedsel.",
-      "kernpunt": "De nautilus is een oeroude inktvis met een kenmerkende uitwendige schelp, die miljoenen jaren onveranderd is gebleven en 's nachts vanuit de diepte naar ondieper water zwemt om te foerageren.",
+      "titel": "Het Azuurblauwe Hart van Italië",
+      "tekst": "Het Gardameer, in het Italiaans Lago di Garda, strekt zich uit over 369,98 vierkante kilometer en is daarmee het grootste meer van Italië. De oevers liggen verspreid over drie regio’s: Lombardije, Trentino-Zuid-Tirol en Veneto. Het water heeft een diepblauwe kleur, omzoomd door bloeiende oleanders, geurende citroenbomen en statige cipressen, wat een levendig contrast vormt met de omgeving.\n\nIn zijn vorm is het meer duidelijk verdeeld. Het noordelijke gedeelte is smal en wordt ingeklemd tussen steile bergwanden, waardoor het doet denken aan een Scandinavisch fjord – een diepe, langgerekte inham in het landschap, vaak met steile wanden. Naar het zuiden toe opent het meer zich tot een breed bekken. Hier snijdt het schiereiland van Sirmione diep in het water, een opvallend kenmerk van deze bredere zuidkant.",
+      "kernpunt": "De lezer begrijpt de omvang, de geografische ligging en de tweedeling in het landschap van het Gardameer.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Waarom wordt de nautilus door wetenschappers aangeduid als een 'levend fossiel'?",
+          "vraag": "Hoe draagt de geografische tweedeling van het Gardameer bij aan de unieke landschappelijke ervaring voor bezoekers?",
           "opties": [
-            "Omdat zijn uiterlijke vorm gedurende miljoenen jaren nauwelijks is veranderd.",
-            "Vanwege zijn vermogen om extreem diep in de oceaan te overleven.",
-            "Door de unieke manier waarop hij zijn schelp gebruikt voor navigatie.",
-            "Omdat hij afstamt van de allereerste weekdieren die ooit leefden."
+            "Het smalle, fjordachtige noorden met steile bergwanden contrasteert sterk met het brede, open zuiden met kenmerken zoals het schiereiland van Sirmione.",
+            "De gehele vorm van het meer is uniform en biedt overal dezelfde landschappelijke kenmerken, waardoor het een consistent beeld heeft.",
+            "Het noordelijke deel is breed en open, terwijl het zuidelijke deel juist smal en diep tussen de bergen ligt.",
+            "De diepte van het meer is overal hetzelfde, wat resulteert in een gelijkmatige verspreiding van de flora en fauna langs de oevers."
           ],
           "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Hoe reflecteert het dagelijkse patroon van de nautilus zijn voedselzoekgedrag?",
-          "antwoord": "Het weekdier schuilt overdag in diepere wateren en stijgt 's nachts op naar ondiepere, kustnabije gebieden, vaak bij koraalriffen, om daar naar voedsel te speuren."
+          "vraag": "Waarom wordt het Gardameer, gezien zijn omvang en ligging, beschouwd als een belangrijk geografisch en regionaal verbindend element in Noord-Italië?",
+          "antwoord": "Het is het grootste meer van Italië en strekt zich uit over drie diverse regio's (Lombardije, Trentino-Zuid-Tirol en Veneto), wat het een centrale positie geeft in het landschap en een schakel vormt tussen verschillende Italiaanse gebieden."
         }
       ]
     },
     {
-      "titel": "De Schelp: Een Natuurlijke Duikboot",
-      "tekst": "De spiraalvormige schelp van de nautilus is niet zomaar een huis; het is een complex instrument voor overleving. De schelp is planspiraal, wat betekent dat de windingen – de opeenvolgende delen van de spiraal – in één vlak liggen en elkaar geheel overlappen, een vorm die convoluut wordt genoemd. Dit onderscheidt hem van de huizen van veel slakken, die een duidelijke boven- en onderkant hebben en taps toelopen.\n\nBinnenin de schelp bevinden zich ongeveer 35 gesloten kamers, het fragmocoon genaamd, die het dier eerder als woonkamer heeft gebruikt. Deze kamers zijn van elkaar gescheiden door dunne, holle tussenschotten, de septa, die net als de rest van de schelp zijn opgebouwd uit parelmoer, een iriserende, stevige laag. De nautilus groeit continu en heeft een steeds grotere woonkamer nodig, dus vormt het iedere twee weken een nieuw septum en verhuist het naar de volgende, ruimere kamer. De naad waar een septum aan de schelpwand vastzit, wordt de sutuurlijn genoemd.\n\nDoor al deze kamers loopt een dunne, doorbloede buis: de sifo. Deze sifo is omhuld door trechtervormige septale kragen en poreuze verbindingsringen die water doorlaten. De sifo reguleert de gas- en wateruitwisseling in de kamers achter de woonkamer. Door water uit de kamers te pompen – een langzaam proces dat weken kan duren – en gas af te geven, wordt de schelp lichter en stijgt de nautilus op. Om te dalen, absorbeert de sifo water in de voorste kamers, die dan als ballasttanks dienen. Dit nauwkeurige systeem stelt de nautilus in staat om als een natuurlijke duikboot te navigeren, van de diepe bodem tot dicht bij het oppervlak.",
-      "kernpunt": "De nautilusschelp is een ingenieus systeem van gas- en watergevulde kamers, verbonden door een buis, waarmee het dier zijn drijfvermogen nauwkeurig reguleert en zich beschermt.",
+      "titel": "De IJzige Hand die het Meer Vormde",
+      "tekst": "De diepe ligging en de opvallende vorm van het Gardameer zijn het directe gevolg van een periode die geologen het Quartair noemen. Dit is de meest recente geologische periode, gekenmerkt door afwisselende ijstijden en interglaciale periodes – warmere tussenfasen in een ijstijd. Tijdens de ijstijden groeiden niet alleen de ijskappen op de polen, maar ook de gletsjers in de berggebieden van Europa.\n\nEen van deze gletsjers schoof met een enorme kracht door het landschap. In de buurt van Riva del Garda schuurde deze ijsmassa een kloof uit tot een U-dal, een dal met een typische U-vormige doorsnede, gevormd door de schurende werking van een gletsjer. Toen de gletsjer verder naar het zuiden bewoog, begon deze door de hogere temperaturen af te smelten. Bij dit schuifproces werd een stuwwal gevormd, een heuvelrug die ontstaat wanneer een gletsjer puin en sediment voor zich uit duwt en afzet. Deze stuwwal vormde een natuurlijke barrière. Het smeltwater vulde vervolgens het door de gletsjer uitgeschuurde gebied achter deze stuwwal. Zo kreeg het Gardameer zijn uiteindelijke vorm.",
+      "kernpunt": "De lezer begrijpt dat het Gardameer zijn huidige vorm en ligging dankt aan de geologische processen van gletsjers tijdens de ijstijden.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Beschrijf hoe de nautilus zijn positie in de waterkolom aanpast met behulp van zijn schelp.",
-          "antwoord": "Door water uit de kamers in de schelp te verwijderen via de sifo en gas af te geven, wordt de schelp lichter, waardoor het dier stijgt. Om te zakken, absorbeert de sifo juist water, wat als ballast dient."
+          "vraag": "Hoe hebben gletsjers tijdens het Quartair de specifieke U-vormige vallei en de zuidelijke stuwwal van het Gardameer gevormd?",
+          "antwoord": "Een gletsjer schuurde met enorme kracht een U-dal uit in het noorden. Naar het zuiden toe smolt de gletsjer af en liet een stuwwal achter van puin en sediment. Het smeltwater vulde vervolgens het uitgeholde gebied achter deze natuurlijke barrière, waardoor het meer zijn vorm kreeg."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom is de interne structuur van de nautilusschelp, met zijn kamers en sifo, cruciaal voor zijn manier van leven?",
+          "vraag": "Waarom kan de huidige diepe ligging en de onderscheidende vorm van het Gardameer direct worden toegeschreven aan geologische processen uit het Quartair?",
           "opties": [
-            "Het maakt een precieze controle van het drijfvermogen mogelijk en biedt fysieke bescherming.",
-            "Het dient voornamelijk als opslagplaats voor voedsel en reserve-energie.",
-            "De kamers fungeren als broedkamers voor de jonge nautilussen.",
-            "Het zorgt voor een constante temperatuurregeling in het lichaam van het dier."
+            "Vulkanische uitbarstingen in deze periode hebben de contouren van het meer bepaald.",
+            "Grote aardverschuivingen tijdens het Quartair zorgden voor de verdieping van de waterbekkens.",
+            "Het landschap is gevormd door de abrasieve werking van gletsjers die dalen uitschuurden en stuwwallen afzetten, die vervolgens met smeltwater werden gevuld.",
+            "De menselijke aanleg van dammen en kanalen in die tijd heeft de watermassa zijn huidige omvang en diepte gegeven."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 2
         }
       ]
     },
     {
-      "titel": "Zintuigen, Beweging en Verdediging",
-      "tekst": "De nautilus heeft een lichaam dat is aangepast aan zijn leven in de diepte. Rond zijn mond bevinden zich tientallen tentakels, soms wel 47 paar, die circumoraal zijn geplaatst – dat wil zeggen in kransen rond de mondopening. Anders dan de tentakels van octopussen en pijlinktvissen, missen die van de nautilus zuignappen of haken. In plaats daarvan zijn de uiteinden, de cirri, voorzien van kleverige ringvormige richels. Deze cirri trekken zich terug in een verdikte schede wanneer ze niet in gebruik zijn en kunnen worden uitgestulpt om voedsel op te sporen en vast te houden. Mannetjes hebben zelfs speciale 'copulatie-tentakels', de spadix, voor de voortplanting.\n\nDe ogen van de nautilus zijn eenvoudig van bouw, vergelijkbaar met een camera obscura, en worden bekeroog genoemd. Ze hebben geen lens of glasachtig lichaam, waardoor ze alleen grove lichtverschuivingen kunnen waarnemen. Het dier kan zijn omgeving niet scherp zien en vertrouwt op zijn tentakels om voedsel op te sporen en de omgeving af te tasten. Met twee scherpe, hoornachtige kaken, die doen denken aan een papegaaiensnavel, en een radula – een mondapparaat met kleine stekeltjes dat als een rasp werkt – vermaalt de nautilus zijn prooi.\n\nBoven de schelpopening bevindt zich een dikke, leerachtige kap, de hoed. Deze steekt normaal naar voren, maar kan bij gevaar naar beneden klappen om de kop en tentakels te beschermen, als een schild. De schelp zelf draagt bij aan de verdediging met zijn opvallende kleurstelling: een witte onderzijde die wegvalt tegen het lichte wateroppervlak voor vijanden die van onderen komen, en bruine dwarsstrepen op de bovenzijde die het lichaam 'breken' tegen de rimpelingen van het water, wat zeevogels misleidt.",
-      "kernpunt": "De nautilus navigeert door zijn leefomgeving met behulp van vele tasttentakels, eenvoudige ogen en een raspende mond, terwijl zijn schelpkleuren en een beschermende hoed dienen als verdediging.",
+      "titel": "Waar Bergen en Water Samenkomen: Kusten en Stromen",
+      "tekst": "De ijzige hand die het meer vormde, liet een landschap achter van scherpe contrasten. De oostkant van het meer wordt gedomineerd door de Monte Baldo. Deze bergketen biedt met zijn steile kalksteenhellingen een afwisselend beeld tot aan de oever: weelderige weiden, dichte bossen en kale rotswanden wisselen elkaar af, onderbroken door olijfgaarden, wijngaarden en verspreide huizen. Ook de westkust, tussen Riva en Gargnano, bestaat uit steile rotsen die soms loodrecht uit het meer oprijzen. Hier steken hoog boven het water scherpe bergtoppen uit. Deze rotswanden worden doorsneden door nauwe valleien, zoals de vallei van de Ledro.\n\nHeel anders is het zuiden van het meer. Hier ontbreken de steile rotswanden. De oever is vanaf Gargnano aan de westkant over het algemeen vlak, met uitzondering van de Rots van Manerba. Vanaf hier tot Desenzano en Peschiera is de bodem van het meer vlak en loopt de oever geleidelijk af.\n\nHet water in dit landschap wordt gevoed door diverse rivieren. De Sarca is de voornaamste, die in het uiterste noorden bij Arco en Riva uitmondt. Deze rivier voert sediment – afzettingsmateriaal zoals zand en grind – mee, dat in de loop der tijd vlakke stukken land heeft afgezet. Tientallen kleinere rivieren stromen eveneens het meer in, vooral vanuit het noorden en westen. De Mincio is de enige rivier die het Gardameer verlaat. Bij Peschiera stroomt deze rivier naar het zuiden om uiteindelijk in de Po uit te monden, waarmee het Gardameer verbonden wordt met een groter stroomgebied.",
+      "kernpunt": "De lezer ziet hoe de in- en uitstromende rivieren, samen met de omringende geologie, zorgen voor een grote variatie in de kustlandschappen van het meer.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [],
       "vragen": [
         {
           "type": "multiplechoice",
-          "vraag": "Hoe slaagt de nautilus erin zijn omgeving te verkennen en prooien te vinden, gezien zijn beperkte gezichtsvermogen?",
+          "vraag": "Hoe beïnvloedt de omringende geologie de variatie in de kustlandschappen van het Gardameer?",
           "opties": [
-            "Het dier maakt voornamelijk gebruik van zijn talrijke, kleverige tastorganen om te voelen en te ruiken.",
-            "Het navigeert door geluidsgolven uit te zenden en de echo's te interpreteren.",
-            "De primitieve ogen zijn verrassend scherp in het donker.",
-            "Het volgt de geursporen van andere zeedieren op grote afstand."
+            "De gehele kustlijn is uniform vlak door grootschalige sedimentafzetting vanuit alle rivieren.",
+            "Steile rotswanden en bergketens zoals de Monte Baldo domineren de oost- en westkust, terwijl het zuiden gekenmerkt wordt door een vlakker, geleidelijk aflopend landschap.",
+            "Vulkanische activiteit heeft overal scherpe kliffen gecreëerd, waardoor de kustlijn overal hetzelfde ruige karakter heeft.",
+            "De kustlijn wordt uitsluitend gevormd door menselijke aanpassingen voor toerisme, waardoor natuurlijke variatie ontbreekt."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 1
         },
         {
           "type": "flashcard",
-          "vraag": "Leg uit hoe de uiterlijke kenmerken van de nautilus bijdragen aan zijn zelfverdediging.",
-          "antwoord": "De nautilus beschermt zichzelf door een leerachtige kap die over de kop en tastorganen kan klappen bij gevaar, en door de camouflage van zijn schelpkleuren: een lichte onderkant voor verhulling van onderaf en gestreepte bovenzijde voor visuele verstoring van bovenaf."
+          "vraag": "Waarom zijn de in- en uitstromende rivieren, zoals de Sarca en de Mincio, essentieel voor zowel de waterhuishouding als de landschapsvorming rondom het Gardameer?",
+          "antwoord": "De Sarca voert sediment aan dat vlakke stukken land in het noorden creëert, terwijl de Mincio de enige uitstroom is die het meer verbindt met de Po en zo cruciaal is voor de waterbalans en de hydrologische verbinding met een groter stroomgebied."
         }
       ]
     },
     {
-      "titel": "Een Langzaam Bestaan in de Diepte",
-      "tekst": "De nautilus is geen snelle jager; zijn snelheid bedraagt slechts 0,5 tot 1 kilometer per uur. Het dier beweegt zich voornamelijk achterwaarts door een krachtige waterstraal uit zijn hyponoom te persen, een gespierd orgaan dat ook essentieel is voor de ademhaling. Water wordt via spleten aan de zijkant van de schelp opgezogen, langs de vier kieuwen geleid om zuurstof te onttrekken, en vervolgens naar buiten geperst. Deze straalaandrijving is niet uiterst efficiënt, maar de nautilus heeft ook weinig energie nodig. Door zijn dieet van aas en langzame prooien zoals krabben verbruikt hij aanzienlijk minder energie dan snellere inktvissen die hun prooi achtervolgen. De nautilus kan zelfs tot een maand zonder eten, dankzij een grote krop – een uitgerekt deel van de slokdarm – waarin voedsel tijdelijk wordt opgeslagen.\n\nEen aanpassing die bijdraagt aan zijn overleving is het vermogen van de nautilus om lang te overleven in water met een zeer laag zuurstofgehalte, een toestand die hypoxie wordt genoemd. Wanneer het zuurstofgehalte daalt, vertraagt het dier zijn hartslag, metabolisme en ademhaling. Dit vermogen heeft mogelijk bijgedragen aan zijn overleving, terwijl veel van zijn uitgestorven verwanten, zoals ammonieten, hier niet tegen bestand waren.\n\nHoewel de nautilus zich goed kan aanpassen aan verschillende dieptes, is er een grens. Bij dieptes beneden 500 meter kan de waterdruk zo groot worden dat de schelp volstroomt met water. Op 800 meter of meer kan de schelp zelfs imploderen. Ondanks deze gevaren en vijanden zoals octopussen en grote roofvissen, navigeert de nautilus zijn wereld met een unieke combinatie van oeroude bouw en gespecialiseerde overlevingsstrategieën.",
-      "kernpunt": "De nautilus overleeft in zijn diepe, zuurstofarme habitat dankzij een zuinig metabolisme, trage voortbeweging door straalaandrijving, en het vermogen om de waterdruk tot op zekere hoogte te weerstaan, ondanks de dreiging van roofdieren.",
+      "titel": "Het Meer als Levensader: Gebruik en Behoud",
+      "tekst": "Het Gardameer is meer dan alleen een landschappelijk element; het functioneert als een vitaal spaarbekken voor de landbouwgronden in de Povlakte. Een spaarbekken is een waterreservoir dat wordt gebruikt om water op te slaan voor later gebruik, in dit geval voor de bevloeiing – het kunstmatig irrigeren – van akkers en gewassen in een uitgestrekt landbouwgebied. Deze functie maakt het meer onmisbaar voor de voedselproductie in Noord-Italië.\n\nDe waterstand van het meer schommelt, wat directe gevolgen heeft voor deze bevloeiing. In juli 2005 werd de laagste waterstand ooit gemeten, wat leidde tot aanzienlijke problemen voor de boeren. Drie jaar later, in juli 2008, stond het water juist extreem hoog. Recenter, in februari 2023, was de waterstand al 60 centimeter lager dan de normale situatie voor die tijd van het jaar, wat opnieuw zorg baarde over de watervoorziening.\n\nDeze afhankelijkheid van het meer benadrukt het belang van een gezonde waterkwaliteit. In de jaren zeventig en tachtig van de vorige eeuw raakte het Gardameer ernstig vervuild door industriële lozingen en afval van het groeiende toerisme. Dit vormde een directe bedreiging voor het toerisme zelf, een belangrijke bron van inkomsten voor de gemeenschappen rondom het meer. Grootschalige milieumaatregelen zijn sindsdien doorgevoerd. Hierdoor is het water nu aanmerkelijk schoner en gezonder geworden, wat zowel de natuur als de economie ten goede komt.",
+      "kernpunt": "De lezer begrijpt de cruciale rol van het Gardameer als waterreservoir voor landbouw en de noodzaak van milieubeheer om de natuurlijke staat en de toeristische waarde te behouden.",
       "afbeelding": null,
       "afbeeldingUrl": null,
-      "tijdlijn": [],
+      "tijdlijn": [
+        {
+          "jaar": "1970-1980",
+          "gebeurtenis": "Ernstige vervuiling door industriële lozingen en afval van toerisme."
+        },
+        {
+          "jaar": "2005",
+          "gebeurtenis": "Laagste waterstand ooit gemeten, leidde tot problemen voor boeren."
+        },
+        {
+          "jaar": "2008",
+          "gebeurtenis": "Extreem hoge waterstand gemeten."
+        },
+        {
+          "jaar": "2023",
+          "gebeurtenis": "Waterstand 60 cm lager dan normaal in februari, zorg over watervoorziening."
+        }
+      ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe stelt de combinatie van zijn lage energiebehoefte en specifieke voortbewegingsmethode de nautilus in staat om te gedijen in zijn leefomgeving?",
-          "antwoord": "Zijn zuinige stofwisseling en dieet van aas verminderen de energiebehoefte aanzienlijk, terwijl de trage straalaandrijving, hoewel niet snel, voldoende is voor zijn jachtgedrag en verplaatsing in de diepte, waar zuurstof schaars kan zijn."
+          "vraag": "Waarom is het Gardameer van vitaal belang als waterreservoir voor de landbouw in de Povlakte, en welke gevolgen hebben schommelingen in de waterstand voor deze functie?",
+          "antwoord": "Het meer dient als een essentieel spaarbekken voor de bevloeiing van de akkers in de Povlakte. Significante schommelingen in het waterpeil beïnvloeden direct de beschikbaarheid van irrigatiewater, wat grote gevolgen kan hebben voor de voedselproductie en de boeren in de regio."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Welke aanpassingen hebben de nautilus geholpen om te overleven in omstandigheden waar veel van zijn verwante soorten het niet redden?",
+          "vraag": "Hoe heeft het Gardameer zijn waterkwaliteit verbeterd na periodes van ernstige vervuiling, en waarom was deze verbetering cruciaal?",
           "opties": [
-            "Het vermogen om langdurig te leven in water met een lage zuurstofconcentratie en een zekere weerstand tegen hoge waterdruk.",
-            "Zijn uitzonderlijk snelle reactievermogen en krachtige verdedigingsmechanismen tegen roofdieren.",
-            "Een dieet dat bestaat uit de meest voedzame organismen diep in de oceaan.",
-            "Het bezit van speciale organen die licht produceren om prooien aan te trekken in het donker."
+            "De natuurlijke stroming van het water heeft de vervuiling vanzelf weggespoeld, zonder menselijke interventie.",
+            "Een afname van zowel het toerisme als de industrie in de regio heeft automatisch geleid tot schoner water.",
+            "Grootschalige milieumaatregelen zijn doorgevoerd om de vervuiling tegen te gaan, wat essentieel was voor het behoud van de natuur, het toerisme en de economische waarde van het meer.",
+            "Alle afvalwater werd omgeleid naar andere, minder belangrijke wateren, waardoor het meer zelf schoon bleef."
           ],
-          "correcteIndex": 0
+          "correcteIndex": 2
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom is een gezonde waterkwaliteit en een adequaat waterpeil in het Gardameer van cruciaal belang voor de lokale economie en de natuurlijke omgeving?",
+          "antwoord": "Een goede waterkwaliteit is essentieel voor de toeristische sector, die een belangrijke inkomstenbron is, en voor het behoud van het aquatische ecosysteem. Een stabiel en voldoende waterpeil is daarnaast noodzakelijk voor de irrigatie van de landbouwgronden, wat de voedselproductie ondersteunt."
         }
       ]
     }
   ],
-  "categorie": "Nautilus",
-  "categorieKleur": "#7cb9e8",
-  "datum": "2026-06-27"
+  "categorie": "Gardameer",
+  "categorieKleur": "#82d4b0",
+  "datum": "2026-06-28"
 }
