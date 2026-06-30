@@ -1,161 +1,225 @@
 {
-  "titel": "Wimbledon (tennistoernooi)",
+  "titel": "Calgary Flames",
   "secties": [
     {
-      "titel": "De Eerste Slag: Een Kapotte Ponyroller en een Nieuw Toernooi",
-      "tekst": "In 1877 vond het allereerste tennistoernooi op Wimbledon plaats, toen nog bekend als de 'Lawn Tennis Championships'. De aanleiding was prozaïscher dan men zou verwachten van een evenement dat uitgroeide tot een van de vier grandslamtoernooien — de grootste en meest prestigieuze tennistoernooien ter wereld. De All England Lawn Tennis and Croquet Club (AELTC), de organiserende privéclub in de Londense buitenwijk Wimbledon, had tien pond nodig om de kapotte wals voor het onderhoud van de grasbanen te repareren.\n\nVoor vijf pence kocht men een toegangskaartje voor de finale, die ongeveer tweehonderd toeschouwers trok. Het toernooi was een puur Engelse aangelegenheid, enkel voor mannen. Spencer Gore schreef geschiedenis als de eerste winnaar. Vanaf dit bescheiden begin, met een praktisch financieel doel, legde Wimbledon de basis voor zijn lange traditie als het oudste tennistoernooi ter wereld.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Wimbledon begon als een klein, lokaal evenement met een pragmatisch doel, dat uitgroeide tot een van de vier belangrijkste tennistoernooien ter wereld.",
+      "titel": "Van Atlanta's As tot Calgary's Vlammen",
+      "tekst": "De Calgary Flames, een professioneel ijshockeyteam uit Calgary, Alberta, Canada, zijn een vaste waarde in de National Hockey League (NHL). De NHL is de hoogste professionele ijshockeycompetitie in Noord-Amerika. Ze spelen in de Pacific Division, onderdeel van de Western Conference, één van de twee conferenties waarin de teams zijn verdeeld. Voordat de Flames arriveerden, kende Calgary al twee andere professionele ijshockeyteams: de Calgary Tigers van 1921 tot 1927 en de Calgary Cowboys van 1975 tot 1977.\n\nDe geschiedenis van de Flames begint echter niet in Calgary, maar in Atlanta. In 1972 kreeg de stad Atlanta een NHL-team, als onderdeel van een strategie om te voorkomen dat de concurrerende World Hockey Association (WHA) daar voet aan de grond zou krijgen. De toenmalige eigenaar, Tom Cousins, koos de naam \"Flames\" – oftewel Vlammen – als eerbetoon aan de brand die de stad Atlanta bijna verwoestte tijdens de Amerikaanse Burgeroorlog, aangestoken door de troepen van generaal William Tecumseh Sherman. Acht seizoenen lang speelden de Atlanta Flames in de playoffs, de beslissende eindronde na de reguliere competitie, maar echt succes bleef uit.\n\nIn 1980 stond Cousins onder financiële druk en moest hij de club verkopen. De interesse vanuit Atlanta was gering, waarna de Canadese ondernemer Nelson Skalbania de club kocht en naar Calgary verhuisde. Skalbania behield de naam \"Flames\", omdat hij vond dat deze goed paste bij Calgary, een stad die floreerde dankzij de olie-industrie. Het logo, een vlammende 'A', werd vervangen door een vlammende 'C', passend bij de nieuwe thuisstad. De verhuizing bleek een gouden zet. De inwoners van Calgary omarmden de Flames direct: ze verkochten 10.000 seizoens- en halve-seizoenskaarten voor een arena, de Stampede Corral, die slechts 7.000 zitplaatsen telde. Dit toonde de grote betrokkenheid van de fans.",
+      "kernpunt": "De lezer begrijpt hoe de club, geboren uit een poging om een concurrerende bond voor te blijven en vernoemd naar een historische brand, zijn thuis vond in Calgary en daar direct een warme ontvangst kreeg, wat de basis legde voor hun identiteit.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1877",
-          "gebeurtenis": "Allereerste tennistoernooi op Wimbledon, toen de 'Lawn Tennis Championships'."
+          "jaar": "1972",
+          "gebeurtenis": "Atlanta krijgt een NHL-team, de 'Flames', vernoemd naar de brand tijdens de Amerikaanse Burgeroorlog."
+        },
+        {
+          "jaar": "1980",
+          "gebeurtenis": "De Atlanta Flames worden verkocht en verhuisd naar Calgary, behouden de naam en krijgen een nieuw logo."
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe droegen de financiële problemen in Atlanta en de visie van de nieuwe eigenaar bij aan de succesvolle vestiging van de Flames in Calgary?",
+          "opties": [
+            "De eigenaar behield de naam 'Flames' vanwege de olie-industrie, en de stad omarmde het team met ongekende kaartverkoop, wat de band versterkte.",
+            "De club verhuisde om een nieuwe concurrerende bond voor te zijn, en de naam 'Flames' werd gekozen als eerbetoon aan een lokale brand in Calgary.",
+            "Calgary had al een rijke ijshockeygeschiedenis met succesvolle teams, waardoor de Flames automatisch populair werden.",
+            "De verhuizing was puur financieel gedreven; de fans in Calgary waren al bekend met het team en kochten massaal kaarten."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom werd de naam 'Flames' gekozen voor het team en hoe bleef deze naam relevant na de verhuizing naar Calgary?",
+          "antwoord": "De naam werd oorspronkelijk gekozen in Atlanta als herinnering aan de brand tijdens de Amerikaanse Burgeroorlog. Na de verplaatsing naar Calgary bleef de naam behouden omdat de nieuwe eigenaar de 'vlammen' passend vond bij de bloeiende olie-industrie van de stad."
+        }
+      ]
+    },
+    {
+      "titel": "De Jaren van Glorie en de Strijd om Alberta",
+      "tekst": "De vroege jaren in Calgary brachten direct succes. Al in hun eerste seizoen (1980-1981) haalden de Flames de halve finales van de playoffs, een prestatie die de verwachtingen overtrof. Dit vroege hoogtepunt bleek echter moeilijk te herhalen. General manager Cliff Fletcher, de sportief directeur die verantwoordelijk is voor de samenstelling van het team, begon aan een zorgvuldige wederopbouw. Hij haalde nieuwe talenten binnen, waaronder de Zweedse aanvaller Hakan Loob, en was een van de eersten die spelers uit de Sovjet-Unie aantrok, zoals de getalenteerde Sergei Makarov. Deze strategische keuzes legden de basis voor een periode van grote successen.\n\nVanaf het midden van de jaren tachtig werden de Flames een constante factor in de top van de competitie. Ze stonden echter voor een grote uitdaging: de Edmonton Oilers. Deze rivalen uit dezelfde provincie, Alberta, domineerden de NHL in die tijd. De playoff-structuur zorgde ervoor dat de Flames en Oilers elkaar vaak al in vroege rondes tegenkwamen, wat de weg naar de Stanley Cup – de kampioensbeker van de NHL – bemoeilijkte. Deze strijd tussen de twee clubs staat bekend als de \"Battle of Alberta\", een intense rivaliteit die het ijshockey in de regio bepaalde.\n\nIn 1986 bereikten de Flames voor het eerst de Stanley Cup Finals, de finale van de playoffs, na een zenuwslopende serie tegen de Oilers die in zeven wedstrijden werd beslist. De beslissende goal kwam op onverwachte wijze tot stand: een mislukte poging van een Oilers-speler om de puck weg te werken, ketste via de doelman in eigen doel. Hoewel de Flames de finale verloren van de Montreal Canadiens, toonde dit aan dat ze tot de absolute top behoorden. Het team zette deze lijn voort en won in 1988 en 1989 de Presidents' Trophy, een prijs voor het team met de meeste punten in de reguliere competitie.\n\nHet hoogtepunt kwam in het seizoen 1988-1989. Onder leiding van coach Terry Crisp en met sleutelspelers als verdediger Al MacInnis, die werd uitgeroepen tot meest waardevolle speler van de playoffs (Conn Smythe Trophy), en aanvoerder Lanny McDonald, versloegen de Flames opnieuw de Montreal Canadiens in de Stanley Cup Finals. Het was hun eerste en tot op heden enige Stanley Cup. Een bijzonder detail: mede-eigenaar Sonia Scurfield werd de eerste Canadese vrouw wier naam op de beker werd gegraveerd. Dit betekende het absolute hoogtepunt van een gouden periode voor de club.",
+      "kernpunt": "De lezer begrijpt dat de Flames, na een periode van snelle groei en ondanks een intense rivaliteit met de Edmonton Oilers, in de late jaren '80 uitgroeiden tot een topteam en een Stanley Cup wonnen, wat een blijvende erfenis creëerde en de club stevig op de kaart zette.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1980-1981",
+          "gebeurtenis": "Flames bereiken de halve finales van de playoffs in hun eerste seizoen in Calgary."
+        },
+        {
+          "jaar": "1986",
+          "gebeurtenis": "Flames bereiken voor het eerst de Stanley Cup Finals, maar verliezen van de Montreal Canadiens."
+        },
+        {
+          "jaar": "1988",
+          "gebeurtenis": "Flames winnen de Presidents' Trophy voor het team met de meeste punten in de reguliere competitie."
+        },
+        {
+          "jaar": "1989",
+          "gebeurtenis": "Flames winnen opnieuw de Presidents' Trophy en veroveren hun eerste en enige Stanley Cup."
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Waarom werd in 1877 het allereerste tennistoernooi op Wimbledon georganiseerd?",
-          "antwoord": "Het toernooi werd opgezet om geld in te zamelen voor de reparatie van een kapotte wals, essentieel voor het onderhoud van de grasbanen van de club."
+          "vraag": "Hoe is het de Calgary Flames gelukt om in de jaren '80 uit te groeien tot een kampioensteam, ondanks de uitdagingen van een sterke provinciale rivaal?",
+          "antwoord": "De club bouwde strategisch aan een sterk team door talenten als Hakan Loob en Sergei Makarov aan te trekken. Hoewel de Edmonton Oilers een dominante rivaal waren, overwon Calgary deze hindernis uiteindelijk en won het de Stanley Cup in 1989."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Hoe heeft Wimbledon zich ontwikkeld van een bescheiden lokaal evenement tot een van de meest prestigieuze tennistoernooien ter wereld?",
+          "vraag": "Waarom was de 'Battle of Alberta' cruciaal voor de ontwikkeling van de Flames tot een topteam in de jaren '80?",
           "opties": [
-            "Het begon met een pragmatisch financieel doel en bouwde voort op zijn status als het oudste toernooi, wat leidde tot erkenning als grandslam.",
-            "De vroege invoering van gelijke prijzengelden voor mannen en vrouwen trok internationale topatleten aan.",
-            "Het toernooi werd direct opgericht met de ambitie om een van de vier grandslams te zijn, door grote investeringen.",
-            "De unieke focus op gravelbanen trok een gespecialiseerd publiek en sponsoren aan."
+            "De intense confrontaties met de Oilers dwongen de Flames om hun spel voortdurend te verbeteren en zich te bewijzen tegen de beste.",
+            "De rivaliteit zorgde voor financiële stabiliteit, waardoor de Flames meer topspelers konden aantrekken dan de Oilers.",
+            "Door de Oilers te verslaan in 1986 kregen de Flames automatisch toegang tot de Stanley Cup Finals.",
+            "De strijd met de Oilers leidde ertoe dat de Flames hun focus verlegden van de Stanley Cup naar het winnen van de Presidents' Trophy."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Hoe droeg de overwinning van de Stanley Cup in 1989 bij aan de blijvende identiteit en erfenis van de club?",
+          "antwoord": "Het winnen van de Stanley Cup zette de club definitief op de kaart als een topteam, creëerde een legendarische status en gaf de fans een onvergetelijke triomf die de basis vormde voor de clubcultuur en trots."
+        }
+      ]
+    },
+    {
+      "titel": "Jarome Iginla: Het Boegbeeld en de Rode Mijl",
+      "tekst": "Na de gloriejaren volgde een periode waarin de Flames moeite hadden om consistent te presteren. Hoewel ze nog wel playoffs haalden, strandden ze vaak in de eerste ronde. Een belangrijke speler die de club door deze uitdagende tijd loodste, was Jarome Iginla. Hij kwam in 1996 naar Calgary en zou uitgroeien tot het gezicht van de franchise, de club en de bijbehorende organisatie. Iginla werd de franchiseleider in gespeelde wedstrijden, gescoorde doelpunten en punten, en won tweemaal de Maurice \"Rocket\" Richard Trophy als de topscorer van de NHL. Hij was een aanvaller met een krachtig schot en een ongeëvenaarde inzet, wat hem geliefd maakte bij de fans.\n\nIn 2004 beleefden de Flames, na zeven jaar de playoffs te hebben gemist, een onverwachte opleving. Onder leiding van Iginla en met doelman Miikka Kiprusoff, die in dat seizoen een sleutelrol speelde, baanden ze zich een weg naar de Stanley Cup Finals. Ze versloegen op hun pad drie divisiekampioenen, een uitzonderlijke prestatie. De finale tegen de Tampa Bay Lightning was een thriller die over zeven wedstrijden ging. In de zesde wedstrijd, die de Flames thuis speelden, ontstond een omstreden moment: een mogelijke winnende goal van Martin Gelinas werd niet toegekend door de scheidsrechters, hoewel herhalingen later twijfel zaaiden. De Lightning won die wedstrijd in overtime, de verlenging na de reguliere speeltijd, en pakte uiteindelijk de beker in wedstrijd zeven.\n\nOndanks deze teleurstelling leidde de playoff-run van 2004 tot een ongekende uitbarsting van fanatisme in Calgary. De 17th Avenue SW, een uitgaansgebied dicht bij de Scotiabank Saddledome, de thuisarena van de Flames, transformeerde in de \"Red Mile\". Tienduizenden fans, gekleed in rode shirts met het vlammende 'C'-logo van de Flames, verzamelden zich op straat om de wedstrijden te volgen en de overwinningen te vieren. Deze massale bijeenkomsten, die tot wel 60.000 mensen trokken tijdens de finales, stonden bekend om hun vreedzame en feestelijke karakter. Het toonde de diepe verbondenheid tussen de club en zijn supporters. Dit fenomeen versterkte ook de traditie van de \"C of Red\", waarbij fans massaal rood dragen om hun team te steunen, een gewoonte die al in de jaren tachtig ontstond als reactie op de Edmonton Oilers.",
+      "kernpunt": "De lezer begrijpt hoe Jarome Iginla uitgroeide tot de centrale figuur van de Flames, die de club in 2004 bijna naar een tweede Stanley Cup leidde, en hoe dit, ondanks een controversieel verlies, leidde tot een unieke en massale uiting van fanliefde in de stad, bekend als de \"Red Mile\".",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1996",
+          "gebeurtenis": "Jarome Iginla komt naar Calgary en groeit uit tot het gezicht van de franchise."
+        },
+        {
+          "jaar": "2004",
+          "gebeurtenis": "Flames bereiken de Stanley Cup Finals na zeven jaar afwezigheid in de playoffs, wat leidt tot de 'Red Mile'."
+        }
+      ],
+      "vragen": [
+        {
+          "type": "flashcard",
+          "vraag": "Hoe heeft Jarome Iginla de Flames in 2004 bijna naar een tweede Stanley Cup geleid en waarom was zijn invloed zo bepalend?",
+          "antwoord": "Iginla was de onbetwiste leider en topscorer van het team, met een krachtig schot en ongeëvenaarde inzet. Zijn prestaties, samen met die van doelman Miikka Kiprusoff, inspireerden de Flames tot een verrassende run naar de finale, waar ze pas in de zevende wedstrijd verloren."
+        },
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe ontstond de 'Red Mile' als een unieke uiting van fanliefde en wat was de impact ervan op de band tussen de Flames en de stad?",
+          "opties": [
+            "De 'Red Mile' was een spontane massale bijeenkomst van tienduizenden fans op 17th Avenue SW tijdens de playoff-run van 2004, die de diepe verbondenheid tussen de club en zijn supporters aantoonde.",
+            "Het was een georganiseerd evenement om geld in te zamelen voor de club na het verlies van de Stanley Cup in 2004.",
+            "De 'Red Mile' was een protest tegen de beslissing van de scheidsrechters in de zesde wedstrijd van de finale.",
+            "Deze traditie begon al in de jaren '80 als reactie op de Edmonton Oilers en was een jaarlijks terugkerend fenomeen ongeacht de prestaties van de Flames."
           ],
           "correcteIndex": 0
         }
       ]
     },
     {
-      "titel": "Gras, Wit en Strenge Regels: De Essentie van Wimbledon",
-      "tekst": "Wimbledon onderscheidt zich tot op de dag van vandaag door zijn vasthoudendheid aan tradities. Het is het enige grandslamtoernooi dat volledig op grasbanen wordt gespeeld, wat een snelle en onvoorspelbare speelstijl bevordert. Een van de meest in het oog springende regels is de verplichting voor spelers om volledig in witte kleding te verschijnen. Deze strikte eis zorgde er zelfs voor dat tennisser Andre Agassi jarenlang weigerde deel te nemen.\n\nHet conservatieve karakter van Wimbledon blijkt ook uit de trage adoptie van moderne aanpassingen. Pas in 2007 trok Wimbledon, samen met Roland Garros, het prijzengeld voor mannen en vrouwen gelijk, lang nadat de US Open dit al in 1973 had gedaan. Ballenmeisjes verschenen pas in 1977 op de banen, en tot en met 2021 werd er traditioneel niet gespeeld op de ‘Middle Sunday’ — de eerste zondag van het toernooi. Deze gebruiken, vaak langer gehandhaafd dan bij andere toernooien, geven Wimbledon zijn specifieke, herkenbare identiteit.",
-      "kernpunt": "Na deze sectie begrijpt de lezer hoe Wimbledon zich onderscheidt door zijn trouw aan tradities, zoals het gras als speelondergrond en de strikte kledingvoorschriften, wat tegelijkertijd zijn conservatieve karakter benadrukt.",
+      "titel": "Een Constant Veranderende Vlam: Wederopbouw en Onrust",
+      "tekst": "Na het tijdperk van Jarome Iginla, die in 2013 na zeventien seizoenen werd geruild, betraden de Flames een nieuwe fase. Iginla's vertrek markeerde het einde van een tijdperk en liet een leegte achter die moeilijk te vullen was. De club miste de playoffs, de eindronde om de Stanley Cup, vier opeenvolgende jaren, wat de noodzaak van vernieuwing onderstreepte. In de jaren die volgden, probeerde de organisatie een nieuw fundament te leggen met jonge talenten als Sean Monahan en Johnny Gaudreau, spelers die via de NHL Entry Draft – het jaarlijkse proces waarin teams rechten op jonge amateurspelers verwerven – werden geselecteerd.\n\nDeze nieuwe kern van spelers bracht de Flames in 2015 en 2017 weer naar de playoffs, wat de hoop op hernieuwd succes deed opleven. De resultaten bleven echter wisselvallig. Na een divisietitel in 2019, een overwinning in hun competitiegroep, volgde een reeks teleurstellingen. De club worstelde met consistentie en doorbraken in de playoffs bleven uit. Interne veranderingen waren ook aan de orde: in 2019 moest coach Bill Peters aftreden na beschuldigingen van racisme en fysiek geweld, wat de club in een mediastorm deed belanden.\n\nDe zomer van 2022 bracht een golf van ingrijpende veranderingen. Twee van de meest productieve spelers, Johnny Gaudreau en Matthew Tkachuk, verlieten de club. Gaudreau, een zogenaamde 'unrestricted free agent' – een speler die na afloop van zijn contract vrij is om te tekenen bij elk team – tekende bij een andere club. Tkachuk, een 'restricted free agent' – een speler wiens rechten nog bij de club liggen, maar die kan onderhandelen met andere teams – gaf aan geen langdurig contract te willen tekenen in Calgary. General manager Brad Treliving reageerde snel door Tkachuk te ruilen voor Jonathan Huberdeau en MacKenzie Weegar, en wist ook Nazem Kadri vast te leggen. Deze wisselingen, hoewel ze de Flames twee topspelers kostten, werden door velen gezien als slimme zetten om de selectie te versterken en de club opnieuw tot een serieuze kandidaat voor de Stanley Cup te maken.\n\nOndanks de hoge verwachtingen slaagden de Flames er niet in om de playoffs te halen in het seizoen 2022-2023. Dit leidde tot het vertrek van general manager Treliving en een verdere reeks personele wisselingen, waaronder de aanstelling van Craig Conroy als nieuwe general manager en Ryan Huska als hoofdcoach. De club bleef verder bouwen aan een nieuwe identiteit, waarbij langstzittende speler Mikael Backlund in 2023 het aanvoerderschap op zich nam. De jaren na Iginla kenmerken zich door een voortdurende zoektocht naar stabiliteit en succes, met frequente wijzigingen in zowel de spelersgroep als het management.",
+      "kernpunt": "De lezer begrijpt dat de Flames na het tijdperk van hun grootste ster een periode van grote veranderingen en onzekerheid doormaakten, waarbij de club voortdurend zoekt naar een nieuwe balans en succes op het ijs, gekenmerkt door belangrijke spelerswissels en managementveranderingen.",
       "afbeelding": null,
       "afbeeldingUrl": null,
       "tijdlijn": [
         {
-          "jaar": "1973",
-          "gebeurtenis": "US Open trekt prijzengeld voor mannen en vrouwen gelijk."
-        },
-        {
-          "jaar": "1977",
-          "gebeurtenis": "Ballenmeisjes verschijnen voor het eerst op de banen."
-        },
-        {
-          "jaar": "2007",
-          "gebeurtenis": "Wimbledon en Roland Garros trekken prijzengeld voor mannen en vrouwen gelijk."
-        },
-        {
-          "jaar": "2021",
-          "gebeurtenis": "Laatste jaar dat er traditioneel niet werd gespeeld op de ‘Middle Sunday’."
-        }
-      ],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe illustreert Wimbledon's vasthoudendheid aan tradities, zoals het spelen op gras en de witte kleding, het conservatieve karakter van het toernooi?",
-          "antwoord": "De strikte handhaving van deze gebruiken, vaak langer dan bij andere grote toernooien, en de late adoptie van moderniseringen zoals gelijke prijzengelden, onderstrepen de diepgewortelde conservatieve identiteit van Wimbledon."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Waarom is de verplichting voor tennissers om volledig in witte kleding te verschijnen zo kenmerkend voor Wimbledon?",
-          "opties": [
-            "Het symboliseert de moderne en vooruitstrevende aard van het toernooi.",
-            "Deze eis is een voorbeeld van de diepgewortelde tradities die Wimbledon onderscheiden van andere grandslams.",
-            "Witte kleding zorgt voor een betere zichtbaarheid van de bal op de groene grasbanen.",
-            "Het is een recente aanpassing om de sponsorinkomsten te maximaliseren."
-          ],
-          "correcteIndex": 1
-        },
-        {
-          "type": "flashcard",
-          "vraag": "Hoe draagt de unieke keuze voor grasbanen bij aan de specifieke speelstijl en identiteit van Wimbledon?",
-          "antwoord": "Gras als ondergrond bevordert een snelle en onvoorspelbare speelstijl, wat een onderscheidend element is dat Wimbledon uniek maakt onder de grandslamtoernooien."
-        }
-      ]
-    },
-    {
-      "titel": "Van Openlucht naar Overdekt: Groei en Modernisering",
-      "tekst": "Ondanks de diepgewortelde tradities heeft Wimbledon zich door de jaren heen aangepast aan de eisen van een groeiend publiek en de moderne tennissport. In 1922 verhuisde het toernooi van Worple Road naar Church Road, waar een groter complex verrees met ruimte voor 14.000 toeschouwers. Deze stap was cruciaal voor de verdere groei van het evenement.\n\nDe onvoorspelbare Engelse weersomstandigheden leidden tot belangrijke innovaties. In 2009 werd een verschuifbaar dak geïnstalleerd boven het Centre Court, waardoor wedstrijden bij regen of invallende duisternis konden doorgaan. Tien jaar later, in 2019, volgde Court No. 1 met een soortgelijke constructie. Deze daken, voorzien van verlichting, zorgen ervoor dat cruciale partijen niet meer onderbroken hoeven te worden. Daarnaast werd in 2007 het Hawk-Eyesysteem — een elektronisch systeem dat met camera’s de balbanen volgt om te bepalen of een bal in of uit is — ingevoerd op de hoofdbanen, wat de nauwkeurigheid van lijnrechtersbeslissingen vergrootte. Deze aanpassingen tonen aan dat Wimbledon, hoewel traditiegetrouw, niet stilstaat in zijn ontwikkeling.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Wimbledon, ondanks zijn diepgewortelde tradities, voortdurend investeert in modernisering en uitbreiding om zijn status als toonaangevend toernooi te behouden en de ervaring voor spelers en publiek te verbeteren.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [
-        {
-          "jaar": "1922",
-          "gebeurtenis": "Verhuizing van het toernooi van Worple Road naar Church Road, met een groter complex."
-        },
-        {
-          "jaar": "2007",
-          "gebeurtenis": "Het Hawk-Eyesysteem wordt ingevoerd op de hoofdbanen."
-        },
-        {
-          "jaar": "2009",
-          "gebeurtenis": "Een verschuifbaar dak wordt geïnstalleerd boven het Centre Court."
+          "jaar": "2013",
+          "gebeurtenis": "Jarome Iginla wordt geruild, wat het einde van een tijdperk markeert."
         },
         {
           "jaar": "2019",
-          "gebeurtenis": "Court No. 1 wordt voorzien van een verschuifbaar dak."
+          "gebeurtenis": "Flames winnen een divisietitel; coach Bill Peters treedt af na beschuldigingen."
+        },
+        {
+          "jaar": "2022",
+          "gebeurtenis": "Belangrijke spelers Johnny Gaudreau en Matthew Tkachuk verlaten de club; Jonathan Huberdeau, MacKenzie Weegar en Nazem Kadri worden aangetrokken."
+        },
+        {
+          "jaar": "2022-2023",
+          "gebeurtenis": "Flames missen de playoffs, wat leidt tot het vertrek van General Manager Brad Treliving en de aanstelling van Craig Conroy en Ryan Huska."
+        },
+        {
+          "jaar": "2023",
+          "gebeurtenis": "Mikael Backlund neemt het aanvoerderschap op zich."
+        }
+      ],
+      "vragen": [
+        {
+          "type": "multiplechoice",
+          "vraag": "Hoe probeerden de Flames na het vertrek van Jarome Iginla een nieuwe balans en succes te vinden, en welke uitdagingen kwamen ze daarbij tegen?",
+          "opties": [
+            "De club zette in op jonge talenten via de draft en voerde ingrijpende spelers- en managementwisselingen door, maar worstelde met consistentie en doorbraken in de playoffs.",
+            "Ze behielden de kern van het team van Iginla's tijd en probeerden zo voort te bouwen op eerdere successen, wat leidde tot onmiddellijke stabiliteit.",
+            "De club concentreerde zich voornamelijk op financiële herstructurering en liet de sportieve prestaties tijdelijk varen.",
+            "Door de aanstelling van een nieuwe coach en general manager in 2013 werd direct een periode van onafgebroken succes ingeluid."
+          ],
+          "correcteIndex": 0
+        },
+        {
+          "type": "flashcard",
+          "vraag": "Waarom leidde de zomer van 2022 tot zulke significante veranderingen in de spelersgroep van de Flames en hoe probeerde het management hierop te reageren?",
+          "antwoord": "Twee topspelers, Gaudreau en Tkachuk, besloten de club te verlaten. Het management reageerde door Tkachuk te ruilen voor nieuwe talenten als Huberdeau en Weegar, en ook Kadri aan te trekken, in een poging de selectie te versterken en competitief te blijven."
+        }
+      ]
+    },
+    {
+      "titel": "Meer dan IJshockey: De Vlammen in de Gemeenschap",
+      "tekst": "De Calgary Flames zijn meer dan alleen een ijshockeyteam; ze zijn diep verweven met de gemeenschap van Calgary. De club zet zich actief in voor maatschappelijke doelen via de Flames Foundation, een non-profitorganisatie die al meer dan 32 miljoen dollar heeft gedoneerd aan goede doelen in Zuid-Alberta. Zo hebben de Flames, samen met de Rotary Club, geholpen bij de financiering van de eerste kinderhospice in Alberta, een gespecialiseerde instelling voor palliatieve zorg voor kinderen. Ook zijn ze een nauwe partner van het Alberta Children's Hospital en de Gordon Townsend School, waar ze deelnemen aan evenementen zoals de Wheelchair Hockey Challenge.\n\nDe betrokkenheid van de fans is een kenmerk van de Flames-cultuur. De traditie van de \"C of Red\" – waarbij fans massaal rode truien dragen – ontstond al in 1986 tijdens de playoffs tegen de Edmonton Oilers. Als reactie op de 'Hat Trick Fever'-petten van de Oilers-fans, besloten de Flames-supporters rood te dragen, wat uitgroeide tot een symbool van eenheid. Deze traditie bereikte een hoogtepunt tijdens de Stanley Cup Finals van 2004, toen de verkoop van de rode thuistruien zo groot was dat de fabrikant de productie van andere teamtruien stopzette om aan de vraag te voldoen.\n\nTijdens diezelfde playoff-run van 2004 ontstond ook de \"Red Mile\". Tienduizenden fans verzamelden zich op de 17th Avenue SW om de wedstrijden te kijken en de overwinningen te vieren. Deze spontane feesten, die tot wel 60.000 mensen trokken, werden breed uitgemeten in de Noord-Amerikaanse media vanwege hun vreedzame karakter, ondanks de enorme mensenmassa. Hoewel de politie in 2006 aanvankelijk probeerde de bijeenkomsten tegen te gaan, werd na overleg met de burgemeester besloten de \"Red Mile\" toe te staan, zij het met een zerotolerancebeleid voor openbare dronkenschap en naaktheid.\n\nZelfs de mascotte van de Flames, Harvey the Hound, heeft een verhaal dat de club en zijn humoristische kant belicht. Harvey, de allereerste mascotte in de NHL, werd in 1983 gecreëerd en is een geliefde figuur. In 2003, tijdens een wedstrijd tegen de Edmonton Oilers, trok de coach van de Oilers, Craig MacTavish, Harveys tong uit zijn mond, omdat de mascotte zijn team te veel zou afleiden. Dit incident leidde tot een ludieke reactie van andere NHL-mascottes, die tijdens de All-Star Game van 2003 hun eigen tongen uitstaken. Dit soort verhalen draagt bij aan de rijke cultuur die de Calgary Flames omringt.",
+      "kernpunt": "De lezer begrijpt dat de Calgary Flames diep verankerd zijn in de gemeenschap, niet alleen als sportclub maar ook als maatschappelijke kracht, met tradities en initiatieven die de band met de fans en de stad versterken en bijdragen aan een unieke clubcultuur.",
+      "afbeelding": null,
+      "afbeeldingUrl": null,
+      "tijdlijn": [
+        {
+          "jaar": "1983",
+          "gebeurtenis": "Harvey the Hound, de eerste mascotte in de NHL, wordt gecreëerd."
+        },
+        {
+          "jaar": "1986",
+          "gebeurtenis": "De traditie van de 'C of Red' ontstaat tijdens de playoffs tegen de Edmonton Oilers."
+        },
+        {
+          "jaar": "2003",
+          "gebeurtenis": "Incident met Harvey the Hound tijdens een wedstrijd tegen de Edmonton Oilers."
+        },
+        {
+          "jaar": "2004",
+          "gebeurtenis": "De 'Red Mile' ontstaat tijdens de Stanley Cup Finals."
+        },
+        {
+          "jaar": "2006",
+          "gebeurtenis": "Politie besluit de 'Red Mile' toe te staan met een zerotolerancebeleid voor openbare dronkenschap en naaktheid."
         }
       ],
       "vragen": [
         {
           "type": "flashcard",
-          "vraag": "Hoe heeft Wimbledon, ondanks zijn diepgewortelde tradities, zijn status als toonaangevend toernooi weten te behouden door modernisering?",
-          "antwoord": "Door te investeren in aanpassingen zoals de verhuizing naar een groter complex, de installatie van verschuifbare daken en de invoering van het Hawk-Eyesysteem, heeft Wimbledon de toernooibeleving en functionaliteit verbeterd zonder de kernwaarden te verliezen."
+          "vraag": "Hoe dragen de Calgary Flames bij aan de gemeenschap van Calgary, verder dan hun rol als ijshockeyteam?",
+          "antwoord": "Via de Flames Foundation doneren ze miljoenen aan goede doelen in Zuid-Alberta, ondersteunen ze kinderhospices en ziekenhuizen, en nemen ze deel aan evenementen die de lokale bevolking ten goede komen."
         },
         {
           "type": "multiplechoice",
-          "vraag": "Waarom heeft Wimbledon geïnvesteerd in verschuifbare daken voor de belangrijkste banen?",
+          "vraag": "Waarom zijn de 'C of Red' en de 'Red Mile' zulke belangrijke tradities die de unieke clubcultuur van de Flames en hun verbondenheid met de stad benadrukken?",
           "opties": [
-            "Om de energiekosten te verlagen door minder afhankelijk te zijn van natuurlijk licht.",
-            "Om de wedstrijden te kunnen laten doorgaan bij onvoorspelbaar Engels weer of invallende duisternis, wat de continuïteit garandeert.",
-            "Om de akoestiek te verbeteren en zo een intensere sfeer voor de toeschouwers te creëren.",
-            "Om de speelsnelheid van de grasbanen te verhogen door een constante temperatuur te handhaven."
+            "Beide tradities zijn spontane uitingen van fanloyaliteit en eenheid, ontstaan in reactie op belangrijke playoff-momenten, die de diepe band tussen de supporters en het team symboliseren.",
+            "De 'C of Red' en 'Red Mile' zijn marketingcampagnes van de club om meer tickets te verkopen en de media-aandacht te vergroten.",
+            "Ze zijn ontstaan als protest tegen beslissingen van de NHL en de scheidsrechters, waardoor de fans zich verenigden.",
+            "Deze tradities zijn voornamelijk gericht op het intimideren van tegenstanders en hebben weinig te maken met de lokale gemeenschap."
           ],
-          "correcteIndex": 1
-        }
-      ]
-    },
-    {
-      "titel": "Aardbeien, Adelaars en Toegankelijkheid: De Cultuur Rondom het Gras",
-      "tekst": "Wimbledon is meer dan alleen tennis; het is een cultureel fenomeen met eigen gebruiken en symbolen. De combinatie van aardbeien met slagroom is een vast onderdeel van de beleving. Elk jaar wordt zo'n 38 ton, of 1,9 miljoen, handgeplukte aardbeien geserveerd, geleverd door Hugh Lowe Farms, een familiebedrijf dat al meer dan 25 jaar partner is van het toernooi.\n\nEen minder bekend, maar evenzeer gewaardeerd onderdeel van de organisatie is Rufus the Hawk, een Harris’ buizerd. Hij patrouilleert elke ochtend van vijf tot acht uur om duiven te verjagen. Deze vogels zijn namelijk op zoek naar graszaad en etensresten, en konden voorheen wedstrijden verstoren. Rufus is inmiddels zelf een beroemdheid, compleet met eigen sociale media-accounts en een toegangspas waarop ‘Bird Scarer’ als functie staat vermeld.\n\nDe organisatie streeft naar toegankelijkheid voor een breed publiek. Naast tickets voor de ‘show courts’ — de belangrijkste speelbanen — kunnen bezoekers een ‘Ground Pass’ kopen. Deze geeft toegang tot het tennispark en de buitenbanen, en biedt de mogelijkheid om wedstrijden op de hoofdbanen te volgen via een groot televisiescherm op de Aorangi Terrace, beter bekend als ‘Henman Hill’ of ‘Murray Mound’. Hier komen duizenden fans samen om de actie te beleven. De meeste tickets worden via een ‘Public Ballot’ — een openbare loting — vergeven, wat ervoor zorgt dat niet alleen de meest welgestelden toegang krijgen tot dit toernooi.",
-      "kernpunt": "Na deze sectie begrijpt de lezer dat Wimbledon een rijke cultuur kent die zich uit in specifieke tradities rond eten en dierlijke assistenten, en dat het toernooi, ondanks zijn exclusieve uitstraling, bewust probeert toegankelijk te blijven voor een breed publiek via diverse ticketopties.",
-      "afbeelding": null,
-      "afbeeldingUrl": null,
-      "tijdlijn": [],
-      "vragen": [
-        {
-          "type": "flashcard",
-          "vraag": "Hoe creëert Wimbledon een unieke culturele ervaring die verder gaat dan alleen de tenniswedstrijden?",
-          "antwoord": "Door iconische tradities zoals het serveren van aardbeien met slagroom en het inzetten van Rufus the Hawk voor duivenverjaging, ontwikkelt het toernooi een eigen, herkenbare sfeer en beleving."
-        },
-        {
-          "type": "multiplechoice",
-          "vraag": "Waarom kiest Wimbledon ervoor om de meeste tickets via een 'Public Ballot' te verloten?",
-          "opties": [
-            "Om de exclusiviteit van het toernooi te vergroten door tickets schaars te maken.",
-            "Om ervoor te zorgen dat een breed publiek, en niet alleen de welgestelden, de kans krijgt om het toernooi te bezoeken.",
-            "Omdat dit de meest efficiënte manier is om de massale vraag naar tickets te beheren.",
-            "Om de opkomst van internationale bezoekers te stimuleren."
-          ],
-          "correcteIndex": 1
+          "correcteIndex": 0
         },
         {
           "type": "flashcard",
-          "vraag": "Op welke manieren maakt Wimbledon, ondanks zijn prestigieuze uitstraling, het toernooi toegankelijk voor een divers publiek?",
-          "antwoord": "Naast de ticketloting via de 'Public Ballot', biedt het toernooi 'Ground Passes' en de mogelijkheid om wedstrijden op grote schermen te volgen op de Aorangi Terrace, waardoor een bredere groep fans de sfeer kan proeven en deel kan nemen."
+          "vraag": "Hoe illustreert het verhaal van mascotte Harvey the Hound de humoristische kant en de unieke cultuur van de Flames-organisatie?",
+          "antwoord": "Harvey was de eerste NHL-mascotte en het incident waarbij zijn tong werd uitgetrokken door een Oilers-coach leidde tot een ludieke reactie van andere mascottes, wat de speelse en unieke aspecten van de clubcultuur benadrukt."
         }
       ]
     }
   ],
-  "categorie": "Wimbledon Tennis",
-  "categorieKleur": "#7cb9e8",
-  "datum": "2026-06-29"
+  "categorie": "Calgary Flames Historie",
+  "categorieKleur": "#82d4b0",
+  "datum": "2026-06-30"
 }
